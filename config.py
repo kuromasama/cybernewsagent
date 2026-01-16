@@ -22,8 +22,8 @@ RSS_FEEDS = [
     "https://threatpost.com/feed/",                     # 威脅情報
     "https://www.darkreading.com/rss.xml",              # 企業資安
     "https://feeds.feedburner.com/securityweek",        # 資安週報
+    "https://krebsonsecurity.com/feed/",                # ✅ 新增：Krebs 很優質且好抓
 ]
-
 # ================= 檔案路徑設定 =================
 # 記錄已處理過的連結，避免重複發文
 PROCESSED_FILE = "data/processed_urls.txt"
