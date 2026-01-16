@@ -1,26 +1,19 @@
-# main.py
 import feedparser
-import os
 import time
-from datetime import datetime
-from dotenv import load_dotenv
+import os
+# 🔥 修正: 從 config 匯入設定，讓程式碼更乾淨
+from config import RSS_FEEDS, PROCESSED_FILE
 from scraper import fetch_full_content
 from ai_analyst import generate_deep_dive
-from publisher import save_to_hugo # 假設我們之後寫這個
-
-load_dotenv()
-
-# 資安 RSS 列表 (建議選高質量的)
-RSS_FEEDS = [
-    "https://feeds.feedburner.com/TheHackersNews",
-    "https://www.bleepingcomputer.com/feed/",
-    "https://threatpost.com/feed/"
-]
-
-PROCESSED_FILE = "data/processed_urls.txt"
+from publisher import save_to_jekyll 
 
 def load_processed():
-    if not os.path.exists(PROCESSED_FILE): return set()
+    # 確保 data 資料夾存在
+    os.makedirs(os.path.dirname(PROCESSED_FILE), exist_ok=True)
+    
+    if not os.path.exists(PROCESSED_FILE): 
+        return set()
+    
     with open(PROCESSED_FILE, "r") as f:
         return set(line.strip() for line in f)
 
@@ -32,11 +25,17 @@ def main():
     processed_urls = load_processed()
     print(f"📂 已處理過的文章數：{len(processed_urls)}")
 
+    # 從 config.py 讀取 RSS 列表
     for feed_url in RSS_FEEDS:
         print(f"📡 正在掃描 RSS: {feed_url}")
-        feed = feedparser.parse(feed_url)
+        try:
+            feed = feedparser.parse(feed_url)
+        except Exception as e:
+            print(f"   ❌ RSS 讀取錯誤: {e}")
+            continue
 
-        for entry in feed.entries[:3]: # 每次每個 RSS 只抓最新 3 篇，避免 API 爆量
+        # 每次只抓最新 2 篇 (避免一次跑太久被 GitHub 砍掉)
+        for entry in feed.entries[:2]: 
             link = entry.link
             title = entry.title
             
@@ -46,33 +45,29 @@ def main():
             
             print(f"⚡ 發現新文章：{title}")
             
-            # 2. 爬蟲：抓取全文 (關鍵步驟！)
+            # 2. 爬蟲：抓取全文
             full_text = fetch_full_content(link)
             if not full_text:
                 print("   ⚠️ 無法抓取內文，跳過。")
                 continue
             
-            # 3. AI：深度分析
+            # 3. AI：深度分析 (這裡會自動切換 Gemini / Groq)
             article_content = generate_deep_dive(title, full_text, link)
             if not article_content:
                 continue
 
-            # 4. 發佈 (存成 Markdown)
-            # 這裡我們先簡單存檔，之後接 GitHub Pages
-            filename = f"docs/_posts/{datetime.now().strftime('%Y-%m-%d')}-{title.replace(' ', '-').replace('/', '')}.md"
-            os.makedirs(os.path.dirname(filename), exist_ok=True)
+            # 4. 發佈 (自動存檔 + 插入被動收入廣告)
+            save_path = save_to_jekyll(
+                title=title,
+                content=article_content,
+                category="security"
+            )
             
-            with open(filename, "w", encoding="utf-8") as f:
-                # 加上 Jekyll/Hugo 需要的 Front Matter
-                f.write(f"---\ntitle: \"{title}\"\ndate: {datetime.now().isoformat()}\n---\n\n")
-                f.write(article_content)
-                
-            print(f"✅ 文章已生成：{filename}")
-            
-            # 5. 記錄並冷卻
-            save_processed(link)
-            print("⏳ 冷卻 30 秒以防 API 限制...")
-            time.sleep(30)
+            if save_path:
+                # 5. 記錄並冷卻
+                save_processed(link)
+                print("⏳ 冷卻 10 秒以防 API 限制...")
+                time.sleep(10)
 
 if __name__ == "__main__":
     main()
