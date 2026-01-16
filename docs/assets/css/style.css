@@ -1,0 +1,373 @@
+/* * Cyber News Agent - Terminal Theme 
+ * Author: AI Assistant
+ */
+
+:root {
+    --bg-color: #050505;
+    --terminal-black: #0d1117;
+    --neon-green: #00ff41;
+    --dim-green: #008f11;
+    --neon-cyan: #00f3ff;
+    --neon-pink: #ff003c;
+    --text-color: #e0e0e0;
+    --font-stack: 'Share Tech Mono', monospace;
+    --scanline-color: rgba(0, 0, 0, 0.5);
+    --glass-border: 1px solid rgba(0, 255, 65, 0.3);
+}
+
+/* --- Global Reset & Basics --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-stack);
+    line-height: 1.6;
+    font-size: 18px;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+a {
+    color: var(--neon-cyan);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: var(--bg-color);
+    background-color: var(--neon-cyan);
+    box-shadow: 0 0 10px var(--neon-cyan);
+}
+
+/* --- CRT Scanlines Effect --- */
+.scanlines {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0) 50%,
+        rgba(0, 0, 0, 0.2) 50%,
+        rgba(0, 0, 0, 0.2)
+    );
+    background-size: 100% 4px;
+    pointer-events: none;
+    z-index: 999;
+    opacity: 0.6;
+}
+
+/* Flicker Animation for extra realism */
+@keyframes flicker {
+    0% { opacity: 0.97; }
+    5% { opacity: 0.95; }
+    10% { opacity: 0.9; }
+    15% { opacity: 0.95; }
+    20% { opacity: 0.99; }
+    50% { opacity: 0.95; }
+    100% { opacity: 0.98; }
+}
+
+.terminal-wrapper {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    animation: flicker 0.15s infinite;
+}
+
+/* --- Header & Glitch Effect --- */
+.site-header {
+    border-bottom: 2px solid var(--neon-green);
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.site-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--neon-green);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px var(--dim-green);
+    position: relative;
+}
+
+.site-title:hover {
+    background: none;
+    color: var(--neon-green);
+    box-shadow: none;
+}
+
+/* Glitch Animation */
+.glitch-wrapper {
+    position: relative;
+}
+
+.glitch::before, .glitch::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+}
+
+.glitch::before {
+    left: 2px;
+    text-shadow: -2px 0 var(--neon-pink);
+    clip: rect(24px, 550px, 90px, 0);
+    animation: glitch-anim-2 3s infinite linear alternate-reverse;
+}
+
+.glitch::after {
+    left: -2px;
+    text-shadow: -2px 0 var(--neon-cyan);
+    clip: rect(85px, 550px, 140px, 0);
+    animation: glitch-anim 2.5s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-anim {
+    0% { clip: rect(10px, 9999px, 30px, 0); }
+    20% { clip: rect(50px, 9999px, 80px, 0); }
+    40% { clip: rect(20px, 9999px, 60px, 0); }
+    60% { clip: rect(80px, 9999px, 100px, 0); }
+    80% { clip: rect(10px, 9999px, 40px, 0); }
+    100% { clip: rect(60px, 9999px, 90px, 0); }
+}
+
+@keyframes glitch-anim-2 {
+    0% { clip: rect(60px, 9999px, 90px, 0); }
+    20% { clip: rect(10px, 9999px, 40px, 0); }
+    40% { clip: rect(50px, 9999px, 80px, 0); }
+    60% { clip: rect(20px, 9999px, 60px, 0); }
+    80% { clip: rect(70px, 9999px, 100px, 0); }
+    100% { clip: rect(30px, 9999px, 50px, 0); }
+}
+
+.system-status {
+    font-size: 0.9rem;
+    color: var(--neon-cyan);
+}
+
+.status-light {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: var(--neon-green);
+    border-radius: 50%;
+    margin-right: 5px;
+    box-shadow: 0 0 10px var(--neon-green);
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+}
+
+/* --- Navigation --- */
+.site-nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    border: 1px solid transparent;
+    padding: 2px 5px;
+}
+
+.nav-link:hover {
+    border-color: var(--neon-cyan);
+    background: transparent;
+    color: var(--neon-cyan);
+    box-shadow: 0 0 15px var(--neon-cyan) inset;
+    text-shadow: 0 0 5px var(--neon-cyan);
+}
+
+/* --- Main Content --- */
+.content-container {
+    flex: 1;
+}
+
+.command-line {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed #333;
+    padding-bottom: 10px;
+}
+
+.prompt {
+    color: var(--neon-pink);
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--neon-green);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+h1.page-heading {
+    text-shadow: 0 0 5px var(--neon-green);
+}
+
+.terminal-output p {
+    margin-bottom: 1.5rem;
+    color: #ccc;
+}
+
+/* --- "Card" Design for Lists (Intelligence Cards) --- */
+/* Usage: Wrap your list items in a div or ul with these styles 
+   This automatically styles default Jekyll post lists if using <ul>
+*/
+ul.post-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.post-list li, 
+.card {
+    background: rgba(13, 17, 23, 0.8);
+    border: 1px solid var(--dim-green);
+    border-left: 5px solid var(--neon-green);
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+    transition: all 0.3s ease;
+    clip-path: polygon(
+        0 0, 
+        100% 0, 
+        100% calc(100% - 20px), 
+        calc(100% - 20px) 100%, 
+        0 100%
+    );
+}
+
+ul.post-list li:hover,
+.card:hover {
+    border-color: var(--neon-cyan);
+    border-left-color: var(--neon-cyan);
+    box-shadow: 0 0 20px rgba(0, 243, 255, 0.2);
+    transform: translateX(5px);
+}
+
+ul.post-list li h3 a,
+.card h3 a {
+    color: var(--neon-green);
+    font-size: 1.5rem;
+}
+
+ul.post-list li h3 a:hover,
+.card h3 a:hover {
+    background: none;
+    color: var(--neon-cyan);
+    box-shadow: none;
+    text-shadow: 0 0 8px var(--neon-cyan);
+}
+
+.post-meta {
+    font-size: 0.85rem;
+    color: #666;
+    display: block;
+    margin-bottom: 10px;
+    font-family: monospace;
+}
+
+/* --- Code Blocks --- */
+pre, code {
+    font-family: 'Fira Code', 'Roboto Mono', monospace;
+    background-color: #111;
+    color: var(--neon-cyan);
+    border: 1px solid #333;
+    border-radius: 3px;
+}
+
+pre {
+    padding: 15px;
+    overflow-x: auto;
+    margin-bottom: 20px;
+    box-shadow: inset 0 0 10px #000;
+}
+
+code {
+    padding: 2px 5px;
+}
+
+blockquote {
+    border-left: 4px solid var(--neon-pink);
+    padding-left: 15px;
+    margin-left: 0;
+    font-style: italic;
+    color: #888;
+}
+
+/* --- Footer --- */
+.site-footer {
+    margin-top: 50px;
+    border-top: 2px solid var(--neon-green);
+    padding-top: 20px;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #555;
+}
+
+.ai-credit {
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+.neon-pink {
+    color: var(--neon-pink);
+    text-shadow: 0 0 5px var(--neon-pink);
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 768px) {
+    .site-title {
+        font-size: 1.8rem;
+    }
+    
+    .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .system-status {
+        margin-top: 10px;
+    }
+    
+    .command-line {
+        flex-direction: column;
+    }
+    
+    .prompt {
+        margin-bottom: 5px;
+    }
+}
