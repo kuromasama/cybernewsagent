@@ -26,21 +26,30 @@ GROQ_MODEL = 'llama-3.3-70b-versatile'
 # ]
 # ================= RSS 訂閱列表 =================
 RSS_FEEDS = [
+    # --- 🟢 第一梯隊：即時新聞 (廣度) ---
     # --- 國際頂級資安媒體 ---
-    "https://feeds.feedburner.com/TheHackersNews",      # 必讀：更新快，廣度夠
-    "https://www.bleepingcomputer.com/feed/",           # 必讀：技術細節非常多
+    "https://feeds.feedburner.com/TheHackersNews",      # 必讀：更新快
+    "https://www.bleepingcomputer.com/feed/",           # 必讀：技術細節多
     "https://krebsonsecurity.com/feed/",                # 深度調查報導
     
-    # --- 官方與政府情報 (硬核藍隊資料) ---
-    "https://www.cisa.gov/uscert/ncas/alerts.xml",      # 美國 CISA 警報 (最權威來源)
+    # --- 🔵 第二梯隊：官方警報 (藍隊 IOCs 來源) ---
+    "https://www.cisa.gov/uscert/ncas/alerts.xml",      # 美國 CISA (最權威)
+    "https://www.twcert.org.tw/tw/rss-cp-104-1.xml",   # 台灣 TWCERT (在地化)
+
+    # --- 🔴 第三梯隊：深度技術與威脅獵捕 (紅隊/逆向來源) ---
+    # 這些來源文章較長，是 AI 發揮深度分析的最佳戰場
+    "https://googleprojectzero.blogspot.com/feeds/posts/default", # Google 0-day 研究 (極硬核)
+    "https://redcanary.com/feed/",                      # Red Canary (偵測規則寫得最好)
+    "https://www.mandiant.com/resources/blog/rss.xml",  # Mandiant (APT 攻擊鏈分析)
     
-    # --- 中文在地觀點 ---
-    "https://www.ithome.com.tw/rss",                    # 台灣 iThome (增加在地相關性)
-    
+    # --- 🟠 第四梯隊：在地觀點 ---
+    "https://www.ithome.com.tw/rss",                    # iThome 資安新聞
+
     # --- 暫時關閉 (防火牆太嚴格，容易 403) ---
     # "https://www.darkreading.com/rss.xml",
     # "https://feeds.feedburner.com/securityweek",
 ]
+
 # ================= 檔案路徑設定 =================
 # 記錄已處理過的連結，避免重複發文
 PROCESSED_FILE = "data/processed_urls.txt"
