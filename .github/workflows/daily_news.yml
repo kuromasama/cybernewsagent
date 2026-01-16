@@ -37,18 +37,17 @@ jobs:
           git config --global user.name "CyberNewsBot"
           git config --global user.email "bot@github.com"
           
-          # 1. 嘗試加入新文章 (如果有的話)
-          # 使用 '|| true' 讓這行指令就算失敗也不會讓整個 Action 停下來
-          git add docs/_posts/*.md || true
-          git add data/processed_urls.txt || true
+          # 1. 嘗試加入新文章 (忽略錯誤訊息)
+          # 使用 2>/dev/null 隱藏 "沒有檔案" 的報錯
+          git add docs/_posts/*.md 2>/dev/null || true
+          git add data/processed_urls.txt 2>/dev/null || true
           
           # 2. 檢查 Git 狀態
-          # 如果沒有東西被 add (staged)，git diff --staged --quiet 會回傳 0 (true)
           if git diff --staged --quiet; then
-            print("🚫 沒有新文章生成，跳過 Commit 步驟。")
+            echo "🚫 沒有新文章生成，跳過 Commit 步驟。" 
             exit 0
           else
-            print("✅ 發現新文章，正在推送到 GitHub...")
+            echo "✅ 發現新文章，正在推送到 GitHub..."
             git commit -m "📝 AI 自動發佈資安報告 $(date +'%Y-%m-%d %H:%M')"
             git push
           fi
