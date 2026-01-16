@@ -1,4 +1,5 @@
 import os
+import re
 from datetime import datetime
 
 def save_to_jekyll(title, content, category="security", output_dir="docs/_posts"):
@@ -32,6 +33,24 @@ def save_to_jekyll(title, content, category="security", output_dir="docs/_posts"
     
     # 3. 組合內容 (Jekyll Front Matter + 正文 + 廣告區塊)
     # 注意：title 兩邊要有引號，避免標題中有冒號導致格式錯誤
+    # ----------------------------------------------------
+    # 🧹 自動排版修復器 (Magic Auto-Formatter)
+    # ----------------------------------------------------
+    
+    # 1. 修復 Code Block: 如果 ``` 沒有換行，強制補上兩個換行
+    # 將 "文字: ```" 變成 "文字:\n\n```"
+    content = re.sub(r'([^\n])\s*```', r'\1\n\n```', content)
+    
+    # 2. 修復 Code Block 結尾: 確保 ``` 結尾後也有換行
+    content = re.sub(r'```([^\n])', r'```\n\1', content)
+
+    # 3. 修復表格: 如果表格標題列 (|...|) 前面沒有空行，強制補上
+    # 偵測到 "| 標題 |" 且前面不是換行時，插入換行
+    content = re.sub(r'([^\n])\n(\|.*\|.*\|)', r'\1\n\n\2', content)
+    
+    # ----------------------------------------------------
+
+    # 3. 組合內容 (Jekyll Front Matter + 正文)
     full_content = f"""---
 layout: post
 title:  "{title}"
