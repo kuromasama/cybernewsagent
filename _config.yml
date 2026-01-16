@@ -7,3 +7,5 @@ baseurl: "/cybernewsagent"
 permalink: /:year/:month/:day/:title/
 plugins:
   - jekyll-feed
+plugins:
+  - jekyll-sitemap
