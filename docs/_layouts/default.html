@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title | default: "Cyber News Agent" }}</title>
+    
+    <!-- Google Fonts: Share Tech Mono for that Hacker Terminal vibe -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="{{ '/cybernewsagent/assets/css/style.css' | relative_url }}">
+    <!-- SEO Description -->
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+</head>
+<body>
+
+    <!-- CRT Scanline Effect Overlay -->
+    <div class="scanlines"></div>
+    
+    <div class="terminal-wrapper">
+        <!-- Header Section -->
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="site-title glitch-wrapper" href="{{ '/' | relative_url }}">
+                    <span class="glitch" data-text="CYBER_NEWS_AGENT">CYBER_NEWS_AGENT</span>
+                </a>
+                <div class="system-status">
+                    <span class="status-light"></span> SYSTEM: ONLINE
+                </div>
+            </div>
+            
+            <!-- Simple Navigation (Optional) -->
+            <nav class="site-nav">
+                <a href="{{ '/' | relative_url }}" class="nav-link">[ HOME ]</a>
+                <a href="{{ '/about' | relative_url }}" class="nav-link">[ ABOUT ]</a>
+            </nav>
+        </header>
+
+        <!-- Main Content Section -->
+        <main class="page-content" aria-label="Content">
+            <div class="content-container">
+                <!-- If the page has a title, show it as a command input -->
+                {% if page.title %}
+                <div class="command-line">
+                    <span class="prompt">root@agent:~#</span> <h1 class="page-heading">{{ page.title }}</h1>
+                </div>
+                {% endif %}
+                
+                <!-- Jekyll Content Injection -->
+                <article class="terminal-output">
+                    {{ content }}
+                </article>
+            </div>
+        </main>
+
+        <!-- Footer Section -->
+        <footer class="site-footer">
+            <div class="footer-inner">
+                <p>&copy; {{ site.time | date: '%Y' }} {{ site.title | default: "Cyber News Agent" }}. All protocols secure.</p>
+                <p class="ai-credit">POWERED BY <span class="neon-pink">AI</span> // MODEL: GEMINI</p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
