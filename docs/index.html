@@ -1,0 +1,37 @@
+---
+layout: default
+title: DASHBOARD // 戰情中心
+---
+
+<div class="terminal-output" style="margin-bottom: 40px;">
+    <p>> Initializing Cyber News Agent v2.0...</p>
+    <p>> Connecting to Global Threat Feeds... <span style="color: var(--neon-green)">[CONNECTED]</span></p>
+    <p>> AI Model: <span style="color: var(--neon-cyan)">GEMINI-3-FLASH</span> loaded.</p>
+    <p>> System Status: <span class="blink">MONITORING</span></p>
+</div>
+
+<h2 style="border-bottom: 1px dashed var(--dim-green); padding-bottom: 10px; margin-bottom: 20px;">
+    > LATEST_INTELLIGENCE_LOGS
+</h2>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <span class="post-meta">
+        <span style="color: var(--neon-pink)">[ALERT]</span> 
+        {{ post.date | date: "%Y-%m-%d" }} :: DETECTED
+      </span>
+      
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title }}
+        </a>
+      </h3>
+      
+      <p style="font-size: 0.9rem; color: #888; margin-top: 10px;">
+        {{ post.excerpt | strip_html | truncatewords: 30 }} 
+        <a href="{{ post.url | relative_url }}" style="font-size: 0.8rem;">[READ_FULL_REPORT]</a>
+      </p>
+    </li>
+  {% endfor %}
+</ul>
