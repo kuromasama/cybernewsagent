@@ -1,2 +1,5 @@
 https://thehackernews.com/2026/01/five-malicious-chrome-extensions.html
 https://thehackernews.com/2026/01/your-digital-footprint-can-lead-right.html
+https://thehackernews.com/2026/01/gootloader-malware-uses-5001000.html
+https://www.bleepingcomputer.com/news/security/china-linked-hackers-exploited-sitecore-zero-day-for-initial-access/
+https://www.bleepingcomputer.com/news/mobile/verizon-starts-issuing-20-credits-after-nationwide-outage/
