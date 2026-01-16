@@ -1,0 +1,6 @@
+title: 資安戰情室
+description: AI 驅動的每日資安威脅情報與紅藍隊演練
+theme: jekyll-theme-minimal # 您可以之後換成其他主題
+permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-feed

@@ -3,3 +3,4 @@ feedparser
 requests
 trafilatura
 python-dotenv
+groq

@@ -1,0 +1,44 @@
+name: 🛡️ Cyber News Auto-Publisher
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # 每 6 小時執行一次 (UTC 時間)
+  workflow_dispatch:      # 允許手動點擊按鈕觸發
+
+permissions:
+  contents: write         # 給予寫入權限 (為了把文章 Push 回去)
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run Cyber News Agent
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python main.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "CyberNewsBot"
+          git config --global user.email "bot@github.com"
+          
+          # 把生成的文章和已處理清單加入 Git
+          git add website/_posts/*.md
+          git add data/processed_urls.txt
+          
+          # 檢查有沒有新東西，有的話就 Commit
+          git diff --quiet && git diff --staged --quiet || (git commit -m "📝 AI 自動發佈資安報告 $(date +'%Y-%m-%d %H:%M')" && git push)

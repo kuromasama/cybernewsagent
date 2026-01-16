@@ -59,7 +59,7 @@ def main():
 
             # 4. 發佈 (存成 Markdown)
             # 這裡我們先簡單存檔，之後接 GitHub Pages
-            filename = f"website/_posts/{datetime.now().strftime('%Y-%m-%d')}-{title.replace(' ', '-').replace('/', '')}.md"
+            filename = f"docs/_posts/{datetime.now().strftime('%Y-%m-%d')}-{title.replace(' ', '-').replace('/', '')}.md"
             os.makedirs(os.path.dirname(filename), exist_ok=True)
             
             with open(filename, "w", encoding="utf-8") as f:
