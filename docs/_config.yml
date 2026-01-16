@@ -1,0 +1,10 @@
+title: 資安戰情室
+description: AI 驅動的每日資安威脅情報與紅藍隊演練
+
+# 🔥 關鍵設定 (請務必加上這兩行)
+url: "https://kuromasama.github.io"
+baseurl: "/cybernewsagent"
+permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
