@@ -371,3 +371,43 @@ blockquote {
         margin-bottom: 5px;
     }
 }
+/* --- Tables (Data Grids) --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: rgba(13, 17, 23, 0.6);
+    border: 1px solid var(--dim-green);
+    font-size: 0.9rem;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+/* 表頭設計 */
+th {
+    background-color: rgba(0, 255, 65, 0.1);
+    color: var(--neon-green);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid var(--neon-green);
+}
+
+/* 滑鼠滑過某一列時發光 */
+tr:hover {
+    background-color: rgba(0, 243, 255, 0.05);
+    box-shadow: inset 0 0 10px rgba(0, 243, 255, 0.1);
+}
+
+/* 偶數列稍微變暗，增加閱讀性 */
+tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+/* 手機版讓表格可以左右滑動 */
+.table-wrapper {
+    overflow-x: auto;
+}
