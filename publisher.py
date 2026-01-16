@@ -4,53 +4,53 @@ from datetime import datetime
 
 def save_to_jekyll(title, content, category="security", output_dir="docs/_posts"):
     """
-    將內容轉換為 Jekyll/GitHub Pages 格式的 Markdown
+    將內容轉換為 Jekyll Markdown，並自動修復常見的 AI 格式錯誤
     """
     # 1. 準備時間與檔名
     today = datetime.now()
     date_str = today.strftime("%Y-%m-%d")
-    # Jekyll 需要這種時間格式：YYYY-MM-DD HH:MM:SS +0800
     time_str = today.strftime("%Y-%m-%d %H:%M:%S +0000") 
     
-    # 處理檔名 (去除不合法字元)
     safe_title = title.replace(" ", "-").replace("/", "-").replace(":", "").replace("?", "")
     filename = f"{date_str}-{safe_title}.md"
     filepath = os.path.join(output_dir, filename)
     
-    # 2. 插入被動收入 (暫時關閉)
-    affiliate_block = ""
+    # ==========================================
+    # 🧹 Auto-Formatter (自動排版修復引擎)
+    # ==========================================
     
-    # ⬇️ 這裡我先幫您註解掉了，等申請到連結後，把下面這幾行的 '#' 拿掉即可
-    # if category == "security":
-    #     affiliate_block = """
-    # \n
-    # ---
-    # ### 🔒 資安專家推薦
-    # * **NordVPN**：保護您的網路足跡，防止駭客追蹤。[👉 點此查看優惠](您的連結)
-    # * **Ledger 冷錢包**：保護加密資產的最佳實體錢包。[👉 了解更多](您的連結)
-    # ---
-    # """
-    
-    # 3. 組合內容 (Jekyll Front Matter + 正文 + 廣告區塊)
-    # 注意：title 兩邊要有引號，避免標題中有冒號導致格式錯誤
-    # ----------------------------------------------------
-    # 🧹 自動排版修復器 (Magic Auto-Formatter)
-    # ----------------------------------------------------
-    
-    # 1. 修復 Code Block: 如果 ``` 沒有換行，強制補上兩個換行
-    # 將 "文字: ```" 變成 "文字:\n\n```"
-    content = re.sub(r'([^\n])\s*```', r'\1\n\n```', content)
-    
-    # 2. 修復 Code Block 結尾: 確保 ``` 結尾後也有換行
-    content = re.sub(r'```([^\n])', r'```\n\1', content)
-
-    # 3. 修復表格: 如果表格標題列 (|...|) 前面沒有空行，強制補上
-    # 偵測到 "| 標題 |" 且前面不是換行時，插入換行
+    # 1. 【表格修復】確保表格標題列 (|...|) 前面有兩個換行
+    # 說明：Jekyll 規定表格前必須有空行，否則會變亂碼
     content = re.sub(r'([^\n])\n(\|.*\|.*\|)', r'\1\n\n\2', content)
-    
-    # ----------------------------------------------------
 
-    # 3. 組合內容 (Jekyll Front Matter + 正文)
+    # 2. 【Code Block 前置修復】確保 ``` 前面有換行
+    # 避免文字跟程式碼黏在同一行
+    content = re.sub(r'([^\n])\s*```', r'\1\n\n```', content)
+
+    # 3. 【Code Block 後置修復】確保 ``` 後面有換行
+    content = re.sub(r'```([^\n])', r'```\n\n\1', content)
+
+    # 4. 【智慧縮排】(進階)
+    # 如果上一行是清單項目 (如 "* 說明:" 或 "1. 步驟:")，且下一行是 Code Block
+    # 強制幫 Code Block 加上 4 個空白的縮排，讓它乖乖待在清單裡
+    def indent_code_block(match):
+        list_line = match.group(1)
+        code_block = match.group(2)
+        # 幫每一行程式碼加縮排
+        indented_block = code_block.replace('\n', '\n    ')
+        return f"{list_line}\n\n    {indented_block}"
+
+    # 偵測模式： (清單行) + (換行) + (程式碼區塊)
+    content = re.sub(r'([\*\-]\s+.*?:)\s*\n+(```[\s\S]*?```)', indent_code_block, content)
+
+    # ==========================================
+
+    # 5. 插入被動收入 (暫時關閉)
+    affiliate_block = ""
+    # if category == "security":
+    #     affiliate_block = """..."""
+    
+    # 6. 組合內容
     full_content = f"""---
 layout: post
 title:  "{title}"
@@ -63,14 +63,12 @@ categories: [{category}]
 {affiliate_block}
 """
 
-    # 4. 寫入檔案
+    # 7. 寫入檔案
     try:
-        # 確保目錄存在
         os.makedirs(output_dir, exist_ok=True)
-        
         with open(filepath, "w", encoding="utf-8") as f:
             f.write(full_content)
-        print(f"✅ [Publisher] 文章已生成：{filename}")
+        print(f"✅ [Publisher] 文章已生成並自動排版：{filename}")
         return filepath
     except Exception as e:
         print(f"❌ [Publisher] 存檔失敗: {e}")
