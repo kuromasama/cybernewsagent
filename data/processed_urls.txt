@@ -1,0 +1,12 @@
+https://thehackernews.com/2026/01/your-digital-footprint-can-lead-right.html
+https://thehackernews.com/2026/01/lotuslite-backdoor-targets-us-policy.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-update-causes-outlook-freezes-for-pop-users/
+https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-critical-fortinet-fortisiem-vulnerability-in-attacks/
+https://krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition/
+https://krebsonsecurity.com/2026/01/who-benefited-from-the-aisuru-and-kimwolf-botnets/
+https://www.cisa.gov/news-events/cybersecurity-advisories/aa18-284a
+https://www.cisa.gov/news-events/cybersecurity-advisories/aa18-337a
+https://projectzero.google/2026/01/pixel-0-click-part-3.html
+https://projectzero.google/2026/01/pixel-0-click-part-2.html
+https://redcanary.com/blog/security-operations/security-data-lake-architecture/
+https://redcanary.com/blog/security-operations/data-lake-siem/
