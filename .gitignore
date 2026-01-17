@@ -1,0 +1,9 @@
+# Python 暫存檔
+__pycache__/
+*.pyc
+
+# 環境變數與機密 (絕對不能上傳!)
+.env
+
+# AI 提示詞備份 (本地開發用，不上傳)
+prompt_backup.txt
