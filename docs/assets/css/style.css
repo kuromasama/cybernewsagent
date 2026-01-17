@@ -1,5 +1,5 @@
-/* * Cyber News Agent - Terminal Theme (v14.5 Ultimate Mobile & Async Fix)
- * Status: STABLE // HIGH-FIDELITY // MOBILE-READY
+/* * Cyber News Agent - Terminal Theme (v13.9 Ultimate High-Fidelity Fix)
+ * Status: STABLE // ASYNC SYSTEM STATUS // FULL FEATURE RESTORATION
  * * Changelog:
  * 1. Global CRT Scanlines & TV Noise Overlay (Detailed Implementation)
  * 2. Stealth Scrollbars & Custom Layout Wrappers (Verbose Mode)
@@ -11,7 +11,6 @@
  * 5. Intro Animation: Sequential Loading Dots + Double-Blink [CONNECTED] tag.
  * 6. High Contrast Buttons & Micro-Jitter Hover Effects (Kept).
  * 7. Dynamic Watermarks & Detailed Markdown Typography Restoration.
- * 8. Mobile Breakpoints Refinement: Optimized font scaling, padding, and layout stacking.
  */
 
  :root {
@@ -23,53 +22,107 @@
     /* --- Identity Colors: The Matrix Green --- */
     --neon-green: #00ff41; 
     --dim-green: #008f11;
-    --neon-cyan: #00ff41;  
-    --dim-cyan: rgba(0, 255, 65, 0.15);
     
-    /* --- Threat Severity Colors (Vibrant Neon) --- */
-    --neon-pink: #ff003c;   /* CRITICAL LEVEL */
-    --neon-orange: #ff9d00; /* HIGH LEVEL */
-    --neon-yellow: #ffee00; /* MEDIUM LEVEL */
-    --neon-blue: #0088ff;   /* INFO LEVEL */
+    /* [Interface] Standard UI */
+    --neon-cyan: #00ff41;  
+    --dim-cyan: rgba(0, 255, 65, 0.2);
+    
+    /* --- Threat Level Colors --- */
+    --neon-pink: #ff003c;   /* Critical */
+    --neon-orange: #ff9d00; /* High */
+    --neon-yellow: #ffee00; /* Medium */
+    --neon-blue: #0088ff;   /* Info */
 
-    /* --- Technical Configuration --- */
+    /* --- Effects --- */
     --font-stack: 'Share Tech Mono', 'Courier New', monospace;
     --scanline-color: rgba(0, 0, 0, 0.5);
     
-    /* Optimized Base64 Noise for Global TV Static Effect */
+    /* Base64 Noise for TV Static Effect */
     --noise-bg: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.04'/%3E%3C/svg%3E");
 }
 
-/* --- 🔥 1. GLOBAL FOUNDATION & CRT STYLE 🔥 --- */
+/* --- Global Reset & TV Static --- */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-html, body {
-    height: 100%;
-    background-color: var(--bg-color);
-}
-
 body {
-    background-image: var(--noise-bg);
+    background-color: var(--bg-color);
+    background-image: var(--noise-bg); /* ENHANCEMENT 1: Noise */
     color: var(--text-color);
     font-family: var(--font-stack);
     line-height: 1.8;
     font-size: 18px;
-    overflow-x: hidden; /* 防止移動端水平滑動 */
+    overflow-x: hidden;
     min-height: 100vh;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    word-wrap: break-word; /* 確保長單字在手機上自動斷行 */
+    text-shadow: none; 
 }
 
-/* CRT Scanlines Overlay: 全域 UI 疊層 */
+/* --- 🔥 1. STEALTH SCROLLBARS (Webkit) 🔥 --- */
+::-webkit-scrollbar {
+    width: 8px; /* Thin */
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #050505; 
+}
+::-webkit-scrollbar-thumb {
+    background: #333; /* Dark Grey Stealth */
+    border-radius: 0px; /* Square/Tech look */
+    border: 1px solid #000;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--neon-green); 
+    border-color: var(--neon-green);
+}
+
+/* Code Block Scrollbars - Even Thinner */
+pre::-webkit-scrollbar {
+    height: 6px; 
+}
+pre::-webkit-scrollbar-thumb {
+    background: #444; 
+}
+
+/* --- 🔥 3. JITTER HOVER EFFECTS (Links & Buttons) 🔥 --- */
+@keyframes text-jitter {
+    0% { transform: translate(0,0); }
+    25% { transform: translate(1px, 1px); }
+    50% { transform: translate(-1px, 0); }
+    75% { transform: translate(0, -1px); }
+    100% { transform: translate(0,0); }
+}
+
+a {
+    color: var(--neon-green);
+    text-decoration: none;
+    transition: all 0.2s ease;
+    display: inline-block; /* Required for transform */
+}
+
+a:hover {
+    color: #fff;
+    /* Digital Noise Gradient instead of solid color */
+    background: repeating-linear-gradient(
+        45deg,
+        rgba(0, 255, 65, 0.1),
+        rgba(0, 255, 65, 0.1) 2px,
+        rgba(0, 255, 65, 0.2) 2px,
+        rgba(0, 255, 65, 0.2) 4px
+    );
+    box-shadow: 0 0 5px var(--neon-green);
+    animation: text-jitter 0.2s infinite; /* Text Shaking */
+}
+
+/* --- Visual Effects (Scanlines & Flicker) --- */
 .scanlines {
     position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background: linear-gradient(
         to bottom,
         rgba(255, 255, 255, 0),
@@ -79,17 +132,16 @@ body {
     );
     background-size: 100% 4px;
     pointer-events: none;
-    z-index: 9999;
-    opacity: 0.35;
+    z-index: 999;
+    opacity: 0.4;
 }
 
-/* Screen Flicker Animation (模擬 CRT 顯示器不穩定感) */
-@keyframes screen-flicker-anim {
-    0% { opacity: 0.985; }
-    5% { opacity: 0.965; }
-    10% { opacity: 0.985; }
+@keyframes flicker {
+    0% { opacity: 0.98; }
+    5% { opacity: 0.96; }
+    10% { opacity: 0.98; }
     15% { opacity: 0.99; }
-    50% { opacity: 0.97; }
+    50% { opacity: 0.96; }
     100% { opacity: 0.99; }
 }
 
@@ -101,38 +153,111 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    animation: screen-flicker-anim 0.15s infinite;
+    animation: flicker 0.15s infinite;
 }
 
-/* --- 🔥 2. STEALTH SYSTEM SCROLLBARS (詳細樣式) 🔥 --- */
-::-webkit-scrollbar {
-    width: 8px; 
-    height: 8px;
-}
-::-webkit-scrollbar-track {
-    background: #050505; 
-    border-left: 1px solid #111;
-}
-::-webkit-scrollbar-thumb {
-    background: #333; 
-    border-radius: 0px; 
-    border: 1px solid #000;
-}
-::-webkit-scrollbar-thumb:hover {
-    background: var(--neon-green); 
-    border-color: var(--neon-green);
-    box-shadow: 0 0 5px var(--neon-green);
+/* --- 🔥 2. HEADER GLITCH (Maximum Glitch) 🔥 --- */
+.site-header {
+    border-bottom: 2px solid var(--neon-green);
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    overflow: hidden; /* For scanline */
 }
 
-/* 代碼塊橫向捲軸優化 */
-pre::-webkit-scrollbar {
-    height: 6px; 
-}
-pre::-webkit-scrollbar-thumb {
-    background: #444; 
+/* Moving Scanline for Header */
+.site-header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: rgba(0, 255, 65, 0.7);
+    animation: header-scan 3s linear infinite;
+    opacity: 0.5;
+    pointer-events: none;
 }
 
-/* --- 🔥 3. ASYNCHRONOUS HEADER SYSTEM STATUS (非同步邏輯) 🔥 --- */
+@keyframes header-scan {
+    0% { top: 0%; }
+    100% { top: 100%; }
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.site-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--neon-green);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 0 0 8px var(--dim-green);
+    position: relative;
+}
+
+/* New Verbose Animation */
+.glitch-wrapper { position: relative; }
+
+.glitch::before, .glitch::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+}
+
+.glitch::before {
+    left: 2px;
+    text-shadow: -2px 0 var(--neon-pink);
+    clip: rect(24px, 550px, 90px, 0);
+    /* Updated to glitch-anim-3 */
+    animation: glitch-anim-3 4s infinite linear alternate-reverse;
+}
+
+.glitch::after {
+    left: -2px;
+    text-shadow: -2px 0 var(--neon-green);
+    clip: rect(85px, 550px, 140px, 0);
+    animation: glitch-anim 2.5s infinite linear alternate-reverse;
+}
+
+/* Original Glitch (Kept for secondary layer) */
+@keyframes glitch-anim {
+    0% { clip: rect(10px, 9999px, 30px, 0); }
+    20% { clip: rect(50px, 9999px, 80px, 0); }
+    40% { clip: rect(20px, 9999px, 60px, 0); }
+    60% { clip: rect(80px, 9999px, 100px, 0); }
+    80% { clip: rect(10px, 9999px, 40px, 0); }
+    100% { clip: rect(60px, 9999px, 90px, 0); }
+}
+
+/* NEW: Verbose Glitch Animation (10% Steps) */
+@keyframes glitch-anim-3 {
+    0% { clip: rect(5px, 9999px, 10px, 0); transform: skew(0.5deg); }
+    10% { clip: rect(80px, 9999px, 100px, 0); transform: skew(-0.5deg); }
+    20% { clip: rect(20px, 9999px, 60px, 0); transform: skew(0.1deg); }
+    30% { clip: rect(50px, 9999px, 90px, 0); }
+    40% { clip: rect(10px, 9999px, 20px, 0); transform: skew(1deg); }
+    50% { clip: rect(70px, 9999px, 75px, 0); }
+    60% { clip: rect(30px, 9999px, 40px, 0); transform: skew(-1deg); }
+    70% { clip: rect(90px, 9999px, 95px, 0); }
+    80% { clip: rect(15px, 9999px, 25px, 0); transform: skew(0.2deg); }
+    90% { clip: rect(60px, 9999px, 65px, 0); }
+    100% { clip: rect(40px, 9999px, 50px, 0); }
+}
+
+/* --- 🔥 UPDATED: HEADER SYSTEM STATUS (FINAL ASYNC FIX) 🔥 --- */
 .system-status { 
     font-size: 0.9rem; 
     color: #ffffff !important; /* [SYSTEM:] 固定純白色常量 */
@@ -142,7 +267,6 @@ pre::-webkit-scrollbar-thumb {
     gap: 12px;
     letter-spacing: 1px;
     user-select: none;
-    white-space: nowrap; /* 確保在 Header 中不會斷行 */
 }
 
 /* 左側狀態燈：4s 慢速非對稱有機呼吸 (非同步頻率) */
@@ -197,98 +321,283 @@ pre::-webkit-scrollbar-thumb {
     100% { transform: translate(0, 0); }
 }
 
-/* --- 🔥 4. HEADER GLITCH & SITE TITLE FX (響應式優化) 🔥 --- */
-.site-header {
-    border-bottom: 2px solid var(--neon-green);
-    padding-bottom: 25px;
-    margin-bottom: 45px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    position: relative;
-    overflow: hidden;
+/* --- Navigation --- */
+.site-nav { display: flex; gap: 15px; }
+
+.nav-link {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    border: 1px solid transparent;
+    padding: 2px 5px;
+    display: inline-block; /* Fix for hover jitter */
 }
 
-/* Header Sweep Scanline Effect */
-.site-header::after {
-    content: "";
-    position: absolute;
-    top: 0; left: 0; width: 100%; height: 2px;
-    background: rgba(0, 255, 65, 0.5);
-    animation: header-scan-sweep-v13 3.5s linear infinite;
-    opacity: 0.3;
-    pointer-events: none;
-}
-
-@keyframes header-scan-sweep-v13 { 
-    0% { top: 0%; } 
-    100% { top: 100%; } 
-}
-
-.header-inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap; /* 移動端自動換行 */
-    gap: 15px;
-}
-
-.site-title {
-    font-size: 2.5rem;
-    font-weight: bold;
+.nav-link:hover {
+    border-color: var(--neon-green);
     color: var(--neon-green);
-    letter-spacing: 2px;
+    text-shadow: none;
+    animation: text-jitter 0.3s infinite;
+}
+
+/* --- Content & Typography --- */
+.content-container { flex: 1; }
+
+.command-line {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed #333;
+    padding-bottom: 10px;
+}
+
+.prompt {
+    color: var(--neon-pink);
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--neon-green);
     text-transform: uppercase;
-    text-shadow: 0 0 10px var(--dim-green);
-    position: relative;
-    text-decoration: none;
-    max-width: 100%; /* 防止標題超出螢幕 */
+    margin-bottom: 1rem;
+    line-height: 1.3;
+    text-shadow: none;
 }
 
-/* Multi-layer Glitch Implementation for Title */
-.glitch::before, .glitch::after {
-    content: attr(data-text);
+h1.page-heading { 
+    color: var(--neon-green) !important;
+    text-shadow: 0 0 10px var(--neon-green); 
+    letter-spacing: 2px;
+}
+
+h1.post-title {
+    text-shadow: none !important; 
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.post-content {
+    position: relative; /* Anchor for watermark */
+}
+
+/* 🔥 4. UPDATED: DYNAMIC WATERMARK SUPPORT 🔥 */
+.post-content[data-watermark]::after {
+    content: attr(data-watermark);
     position: absolute;
-    top: 0; left: 0; width: 100%; height: 100%;
-    background: var(--bg-color);
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0) rotate(-30deg);
+    font-size: 5rem;
+    font-weight: 900;
+    color: var(--current-severity-color, var(--neon-pink));
+    opacity: 0.1;
+    pointer-events: none;
+    white-space: nowrap;
+    border: 5px solid var(--current-severity-color, var(--neon-pink));
+    padding: 20px 40px;
+    z-index: 0;
+    mask-image: linear-gradient(black 50%, transparent 100%);
 }
 
-.glitch::before {
-    left: 2px;
-    text-shadow: -2px 0 var(--neon-pink);
-    clip: rect(24px, 550px, 90px, 0);
-    animation: glitch-anim-secondary 4s infinite linear alternate-reverse;
+.post-content p {
+    color: #b0b0b0; 
+    margin-bottom: 1.5rem;
+    position: relative;
+    z-index: 1; /* Keep text above watermark */
 }
 
-.glitch::after {
-    left: -2px;
-    text-shadow: -2px 0 var(--neon-green);
-    clip: rect(85px, 550px, 140px, 0);
-    animation: glitch-anim-primary-v13 2.5s infinite linear alternate-reverse;
+.terminal-output p { 
+    margin-bottom: 1.5rem; 
+    color: #ccc;
+    text-shadow: none;
 }
 
-@keyframes glitch-anim-primary-v13 {
-    0% { clip: rect(10px, 9999px, 30px, 0); transform: skew(0.2deg); }
-    20% { clip: rect(50px, 9999px, 80px, 0); }
-    40% { clip: rect(20px, 9999px, 60px, 0); transform: skew(-0.2deg); }
-    60% { clip: rect(80px, 9999px, 100px, 0); }
-    80% { clip: rect(10px, 9999px, 40px, 0); }
-    100% { clip: rect(60px, 9999px, 90px, 0); }
+/* --- 🔥 3. ENHANCED CARD HOVER (Scale & Shake) 🔥 --- */
+@keyframes card-jitter {
+    0% { transform: scale(1.01) translate(0,0); }
+    25% { transform: scale(1.01) translate(1px, 1px); }
+    50% { transform: scale(1.01) translate(-1px, 0); }
+    75% { transform: scale(1.01) translate(0, -1px); }
+    100% { transform: scale(1.01) translate(0,0); }
 }
 
-@keyframes glitch-anim-secondary {
-    0% { clip: rect(5px, 9999px, 10px, 0); transform: skew(0.5deg); }
-    10% { clip: rect(80px, 9999px, 100px, 0); }
-    20% { clip: rect(30px, 9999px, 50px, 0); transform: skew(-0.5deg); }
-    40% { clip: rect(10px, 9999px, 20px, 0); transform: skew(1deg); }
-    60% { clip: rect(60px, 9999px, 75px, 0); }
-    80% { clip: rect(15px, 9999px, 25px, 0); transform: skew(-1deg); }
-    100% { clip: rect(40px, 9999px, 50px, 0); }
+ul.post-list {
+    list-style: none;
+    padding: 0;
 }
 
-/* --- 🔥 5. INTRO & CONNECTION ANIMATIONS 🔥 --- */
+ul.post-list li, 
+.card, 
+.post-list-item {
+    background: rgba(13, 17, 23, 0.8);
+    border: 1px solid var(--dim-cyan);
+    border-left: 5px solid var(--neon-green);
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+    transition: all 0.2s cubic-bezier(0, 1.18, 1, 1); /* Snappy transition */
+    clip-path: polygon(
+        0 0, 
+        100% 0, 
+        100% calc(100% - 20px), 
+        calc(100% - 20px) 100%, 
+        0 100%
+    );
+}
 
-/* 逐點加載：點號依序出現並循環 (硬朗步進式節奏) */
+ul.post-list li:hover, .card:hover {
+    border-color: var(--item-color, var(--neon-green)) !important;
+    border-left-color: var(--item-color, var(--neon-green)) !important;
+    box-shadow: 0 0 15px var(--item-color, rgba(0, 255, 65, 0.2));
+    transform: scale(1.01);
+    animation: card-jitter 0.3s infinite;
+    z-index: 10;
+}
+
+ul.post-list li h3 a, .card h3 a {
+    color: var(--neon-green);
+    font-size: 1.5rem;
+    display: inline; /* Reset display for inside card */
+    background: none !important; /* No noise background on header link inside card */
+    box-shadow: none !important;
+}
+
+/* --- Code Blocks --- */
+pre, code {
+    font-family: 'Fira Code', 'Roboto Mono', monospace;
+    background-color: #0a0a0a;
+    color: #a8ffc3; 
+    border: 1px solid #333;
+    border-radius: 3px;
+}
+
+pre {
+    padding: 15px;
+    overflow-x: auto;
+    margin-bottom: 20px;
+    box-shadow: inset 0 0 10px #000;
+}
+
+code { padding: 2px 5px; }
+
+pre code {
+    background-color: transparent;
+    padding: 0;
+    color: inherit;
+    border: none;
+}
+
+blockquote {
+    border-left: 4px solid var(--neon-pink);
+    background: rgba(255, 0, 60, 0.05);
+    padding: 15px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #bbb;
+}
+
+/* --- Footer --- */
+.site-footer {
+    margin-top: 50px;
+    border-top: 2px solid var(--neon-green);
+    padding-top: 20px;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #666;
+}
+
+.ai-credit { margin-top: 5px; letter-spacing: 1px; }
+
+/* --- 🔥 5. TABLES (Transparency & Glare Reduction) 🔥 --- */
+html body .post-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: transparent !important; /* Force Transparent */
+    border: 1px solid #333 !important;
+}
+
+html body .post-content th,
+html body .post-content td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #333 !important;
+}
+
+html body .post-content th {
+    background-color: transparent !important; /* Removed dark background */
+    color: var(--current-severity-color, var(--neon-green)) !important;
+    border-bottom: 2px solid var(--current-severity-color, var(--neon-green)) !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: none !important;
+}
+
+html body .post-content tr:hover {
+    background-color: rgba(255, 255, 255, 0.03) !important;
+}
+
+.table-wrapper { overflow-x: auto; }
+
+/* --- Legal Warning --- */
+.legal-warning {
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px dashed var(--neon-pink);
+    background-color: rgba(255, 0, 60, 0.05);
+    color: #ccc;
+    font-size: 0.85rem;
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.legal-warning strong {
+    color: var(--neon-pink);
+    border-bottom: 1px solid var(--neon-pink);
+}
+
+/* --- 🔥 5. UPDATED: BUTTON COMPATIBILITY (Return to Base Fix) 🔥 --- */
+.return-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    border: 1px solid var(--btn-color, var(--neon-green));
+    color: var(--btn-color, var(--neon-green));
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: monospace;
+    transition: all 0.2s;
+    background: transparent;
+    margin-top: 20px;
+}
+
+.return-btn:hover {
+    background: var(--btn-color, var(--neon-green)) !important;
+    color: #000 !important; 
+    box-shadow: 0 0 20px var(--btn-color, var(--neon-green));
+    text-shadow: none;
+    border-color: var(--btn-color, var(--neon-green));
+}
+
+/* --- 🔥 6. SUPPORT FOR INTRO ANIMATIONS 🔥 --- */
+
+/* 終端機打字效果：游標 */
+.typing-cursor::after {
+    content: '█';
+    animation: cursor-blink-stepped-v13 1s infinite;
+    color: var(--neon-green);
+    margin-left: 8px;
+    font-size: 0.9em;
+    vertical-align: middle;
+}
+@keyframes cursor-blink-stepped-v13 { 
+    0%, 49% { opacity: 1; }
+    50%, 100% { opacity: 0; }
+}
+
+/* 逐點加載動畫邏輯修正：. -> .. -> ... 並停留 */
 @keyframes dots-progression-stepped-v13 {
     0% { content: "."; }
     33% { content: ".."; }
@@ -302,7 +611,7 @@ pre::-webkit-scrollbar-thumb {
     animation: dots-progression-stepped-v13 1.5s infinite steps(1);
 }
 
-/* [CONNECTED] 標籤：雙次閃爍登場 + 非同步心跳脈動 */
+/* 🔥 [CONNECTED] 標籤：雙次閃爍登場 + 非同步心跳脈動 🔥 */
 .term-connected {
     color: var(--neon-green);
     font-weight: bold;
@@ -318,334 +627,28 @@ pre::-webkit-scrollbar-thumb {
 }
 
 @keyframes connected-heartbeat-v13 {
+    /* 前 20%：雙次急促硬閃爍，模擬老式螢幕開機 */
     0%, 10%, 20% { opacity: 1; text-shadow: 0 0 25px var(--neon-green); transform: scale(1); }
     5%, 15% { opacity: 0; text-shadow: none; }
+    /* 後 80%：非對稱柔和呼吸 + 微幅物理縮放感 */
     45% { opacity: 0.5; text-shadow: 0 0 5px var(--neon-green); transform: scale(0.98); }
     55% { opacity: 1; text-shadow: 0 0 30px var(--neon-green); transform: scale(1.03); }
     100% { opacity: 1; text-shadow: 0 0 15px var(--neon-green); transform: scale(1); }
 }
 
-/* --- 🔥 6. NAVIGATION & INTERACTIVE LINKS 🔥 --- */
-.site-nav { 
-    display: flex; 
-    gap: 15px; 
-    margin-top: 5px;
-    flex-wrap: wrap; /* 防止手機上導航連結擠在一起 */
-}
-
-.nav-link {
-    font-size: 1.1rem;
-    color: var(--text-color);
-    padding: 6px 12px;
-    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-    border: 1px solid transparent;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-.nav-link:hover {
-    color: var(--neon-green);
-    border-color: var(--neon-green);
-    background: rgba(0, 255, 65, 0.08);
-    animation: text-jitter-hover-v13 0.3s infinite;
-}
-
-@keyframes text-jitter-hover-v13 {
-    0%, 100% { transform: translate(0,0); }
-    25% { transform: translate(1px, 1.5px); }
-    75% { transform: translate(-1.5px, -1px); }
-}
-
-/* --- 🔥 7. CONTENT, CARDS & GRID SYSTEM 🔥 --- */
-ul.post-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-ul.post-list li, 
-.post-list-item {
-    background: rgba(13, 17, 23, 0.85);
-    border: 1px solid var(--dim-cyan);
-    border-left: 6px solid var(--neon-green);
-    margin-bottom: 35px;
-    padding: 30px 35px;
-    position: relative;
-    transition: all 0.35s cubic-bezier(0.2, 1, 0.3, 1);
-    /* PC 端的裁切效果 */
-    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), calc(100% - 25px) 100%, 0 100%);
-    overflow: hidden;
-}
-
-ul.post-list li:hover, .post-list-item:hover {
-    border-color: var(--item-color, var(--neon-green)) !important;
-    border-left-color: var(--item-color, var(--neon-green)) !important;
-    box-shadow: 0 0 30px var(--item-color, rgba(0, 255, 65, 0.2));
-    animation: card-shake-hover-v13 0.4s infinite;
-    transform: scale(1.02) translateX(10px);
-    z-index: 10;
-    background: rgba(13, 17, 23, 0.98);
-}
-
-@keyframes card-shake-hover-v13 {
-    0%, 100% { transform: scale(1.02) translate(0,0); }
-    25% { transform: scale(1.02) translate(1px, 1px); }
-    75% { transform: scale(1.02) translate(-1px, -1.5px); }
-}
-
-/* Card Heading Linking */
-ul.post-list li h3 a, .post-list-item h3 a {
-    color: var(--neon-green);
-    font-size: 1.6rem;
-    text-decoration: none;
-    display: inline-block;
-    margin-bottom: 10px;
-    transition: color 0.3s;
-}
-
-/* --- 🔥 8. DETAILED TYPOGRAPHY & SEVERITY WATERMARKS 🔥 --- */
-.post-content { 
-    position: relative; 
-    z-index: 1;
-    margin-top: 20px;
-}
-
-/* Dynamic Severity Watermark (Background FX) */
-.post-content[data-watermark]::after {
-    content: attr(data-watermark);
-    position: absolute;
-    top: 15%; left: 50%;
-    transform: translate(-50%, 0) rotate(-30deg);
-    font-size: 6.5rem;
-    font-weight: 900;
-    color: var(--current-severity-color, var(--neon-pink));
-    opacity: 0.1;
-    pointer-events: none;
-    white-space: nowrap;
-    border: 8px solid currentColor;
-    padding: 35px 70px;
-    z-index: -1;
-    mask-image: linear-gradient(black 40%, transparent 100%);
-    -webkit-mask-image: linear-gradient(black 40%, transparent 100%);
-    text-transform: uppercase;
-}
-
-.command-line {
-    display: flex;
-    align-items: baseline;
-    margin-bottom: 40px;
-    border-bottom: 1px dashed #444;
-    padding-bottom: 15px;
-    flex-wrap: wrap; /* 手機上 prompt 與標題自動換行 */
-}
-
-.prompt { 
-    color: var(--neon-pink); 
-    margin-right: 20px; 
-    font-weight: bold; 
-    text-shadow: 0 0 8px rgba(255, 0, 60, 0.4);
-    font-size: 1.1rem;
-    white-space: nowrap;
-}
-
-h1, h2, h3, h4, h5, h6 { 
-    color: var(--neon-green); 
-    text-transform: uppercase; 
-    margin-bottom: 1.5rem; 
-    letter-spacing: 1.5px;
-    line-height: 1.3;
-}
-
-h1.page-heading {
-    font-size: 2.2rem;
-    text-shadow: 0 0 10px var(--dim-green);
-    word-break: break-all;
-}
-
-/* Paragraph Detail Styling */
-p {
-    margin-bottom: 1.6rem;
-    color: var(--text-color);
-}
-
-/* High Contrast Return Button */
-.return-btn {
-    display: inline-block;
-    padding: 15px 45px;
-    margin-top: 40px;
-    border: 2px solid var(--btn-color, var(--neon-green));
-    color: var(--btn-color, var(--neon-green));
-    text-transform: uppercase;
-    font-family: var(--font-stack);
-    font-weight: bold;
-    letter-spacing: 2px;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    text-decoration: none;
-    background: transparent;
-}
-
-.return-btn:hover {
-    background: var(--btn-color, var(--neon-green)) !important;
-    color: #000 !important;
-    box-shadow: 0 0 35px var(--btn-color);
-    transform: translateY(-5px);
-}
-
-/* Blockquote Detailed Rendering */
-blockquote {
-    border-left: 6px solid var(--neon-pink);
-    background: rgba(255, 0, 60, 0.05);
-    padding: 25px 30px;
-    margin: 35px 0;
-    font-style: italic;
-    color: #efefef;
-    position: relative;
-}
-
-/* Table High-Fidelity Implementation */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 30px 0;
-    border: 1px solid #333;
-    background: rgba(0, 0, 0, 0.2);
-}
-
-.table-wrapper {
-    overflow-x: auto; /* 強制表格在手機上可橫向捲動，避免撐開頁面 */
-    margin-bottom: 30px;
-}
-
-th, td {
-    padding: 18px;
-    text-align: left;
-    border-bottom: 1px solid #222;
-}
-
-/* --- 🔥 9. UTILITY & MISC ANIMATIONS 🔥 --- */
-
-/* Utility: Typing Cursor FX */
-.typing-cursor::after {
-    content: '█';
-    animation: cursor-blink-stepped-v13 1s infinite;
-    color: var(--neon-green);
-    margin-left: 8px;
-    font-size: 0.9em;
-    vertical-align: middle;
-}
-@keyframes cursor-blink-stepped-v13 { 
-    0%, 49% { opacity: 1; }
-    50%, 100% { opacity: 0; }
-}
-
-/* HR / Separator Detailed Styling */
-hr {
-    border: none;
-    border-top: 1px dashed #444;
-    margin: 40px 0;
-}
-
-/* --- 🔥 10. FINAL RESPONSIVE OPTIMIZATION (THE MOBILE FIX) 🔥 --- */
-
-/* 手機與平板通用調整 (768px 以下) */
+/* --- Responsive --- */
 @media (max-width: 768px) {
-    .terminal-wrapper { padding: 15px; }
-
-    .site-header { padding-bottom: 20px; margin-bottom: 30px; }
-
-    .site-title { 
-        font-size: 1.8rem; 
-        line-height: 1.2;
-    }
+    .site-title { font-size: 1.8rem; }
+    .header-inner { flex-direction: column; align-items: flex-start; gap: 20px; }
+    .system-status { margin-top: 10px; font-size: 0.8rem; }
+    .command-line { flex-direction: column; }
+    .prompt { margin-bottom: 5px; }
     
-    .header-inner { 
-        flex-direction: column; 
-        align-items: flex-start; 
-        gap: 20px; 
-    }
-    
-    .system-status { 
-        margin-top: 10px; 
-        font-size: 0.8rem; 
-        padding: 5px 10px;
-        background: rgba(0, 255, 65, 0.05);
-        border-radius: 2px;
-        width: 100%; /* 手機端狀態列佔滿 */
-    }
-    
-    .site-nav {
-        gap: 10px;
-        justify-content: flex-start;
-    }
-    
-    .nav-link { 
-        font-size: 0.9rem; 
-        padding: 5px 10px; 
-    }
-    
-    .page-heading { 
-        font-size: 1.6rem; 
-    }
-
-    /* 調整手機端浮水印大小與位置，防止橫向溢出 */
-    .post-content[data-watermark]::after { 
-        font-size: 3rem; 
-        padding: 15px 30px; 
-        border-width: 4px;
-        top: 5%;
-        left: 50%;
-        transform: translate(-50%, 0) rotate(-20deg);
-        opacity: 0.06;
-    }
-    
-    /* 調整卡片缺角比例與間距 */
-    ul.post-list li, .post-list-item { 
-        padding: 20px; 
-        margin-bottom: 20px;
-        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 0 100%);
-        transform: none !important; /* 手機端取消位移 Hover 以防誤觸 */
-    }
-    
-    ul.post-list li:hover {
-        transform: scale(1.01); /* 手機端僅保留微幅縮放 */
-        box-shadow: 0 0 15px var(--item-color, rgba(0, 255, 65, 0.2));
+    .post-content[data-watermark]::after {
+        font-size: 2.5rem;
+        border-width: 3px;
+        padding: 10px 20px;
     }
 }
 
-/* 超小螢幕調整 (480px 以下) */
-@media (max-width: 480px) {
-    .site-title { 
-        font-size: 1.4rem; 
-        letter-spacing: 1px; 
-    }
-    
-    .prompt { 
-        font-size: 0.9rem; 
-        margin-right: 10px; 
-        width: 100%; /* 提示字佔滿一行 */
-        margin-bottom: 5px;
-    }
-    
-    .nav-link {
-        font-size: 0.8rem;
-        padding: 4px 8px;
-    }
-    
-    /* 解決打字動畫可能造成的橫向撐開 */
-    .terminal-line {
-        font-size: 0.8em;
-        white-space: normal; /* 窄螢幕允許折行 */
-        width: 100% !important;
-        animation: none; /* 小手機關閉打字動畫以保證內容可見 */
-    }
-    
-    .return-btn {
-        width: 100%;
-        text-align: center;
-        padding: 12px 0;
-    }
-
-    blockquote { padding: 15px; font-size: 0.9rem; }
-}
-
-/* [EOF - End of High-Fidelity Responsive Terminal Stylesheet Restoration] */
+/* [EOF - End of Full 600+ Line Restoration] */
