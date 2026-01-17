@@ -10,3 +10,7 @@ https://krebsonsecurity.com/2026/01/who-benefited-from-the-aisuru-and-kimwolf-bo
 https://www.cisa.gov/news-events/cybersecurity-advisories/aa18-284a
 https://www.cisa.gov/news-events/cybersecurity-advisories/aa18-337a
 https://projectzero.google/2026/01/pixel-0-click-part-3.html
+https://projectzero.google/2026/01/pixel-0-click-part-2.html
+https://redcanary.com/blog/security-operations/security-data-lake-architecture/
+https://redcanary.com/blog/security-operations/data-lake-siem/
+https://cloud.google.com/blog/topics/threat-intelligence/net-ntlmv1-deprecation-rainbow-tables/
