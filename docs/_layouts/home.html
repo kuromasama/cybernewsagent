@@ -15,7 +15,7 @@ layout: default
     margin-bottom: 25px;
     padding: 20px 25px;
     background: rgba(13, 17, 23, 0.6); /* 半透明背景 */
-    border: 1px solid #333;
+    border: 1px solid #333; /* 預設邊框改為深灰，避免綠色衝突 */
     border-left-width: 5px;
     border-left-style: solid;
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -25,10 +25,11 @@ layout: default
   }
 
   /* 滑鼠懸停效果：使用動態變數 */
-  .post-list-item:hover {
+  /* 🔥 Gemini 修復：增加 CSS Specificity (權重) 確保顏色正確 */
+  ul.post-list .post-list-item:hover {
     background: rgba(13, 17, 23, 0.95);
     transform: translateX(5px) scale(1.01);
-    border-color: var(--hover-color); /* 邊框變色 */
+    border-color: var(--hover-color) !important; /* 強制變色 */
     box-shadow: 0 0 20px var(--hover-color); /* 發光變色 */
   }
 

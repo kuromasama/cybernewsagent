@@ -30,18 +30,14 @@ layout: default
     overflow: hidden;
 ">
 
-  <div style="position: absolute; top: -20px; right: -20px; font-size: 10rem; opacity: 0.05; pointer-events: none; color: {{ severity_color }}">
-      {{ severity_icon }}
-  </div>
-
   <header class="post-header" style="margin-bottom: 35px; border-bottom: 1px dashed #444; padding-bottom: 20px;">
     
     <div style="font-family: monospace; color: {{ severity_color }}; margin-bottom: 15px; font-size: 1.1em; letter-spacing: 1px;">
-        {{ severity_icon }} THREAT_LEVEL: [ <span style="font-weight: bold;">{{ severity | upcase }}</span> ]
+        [ THREAT_LEVEL: <span style="font-weight: bold;">{{ severity | upcase }}</span> ]
     </div>
 
     <h1 class="post-title p-name" itemprop="name headline" style="color: {{ severity_color }}; text-shadow: 0 0 15px {{ severity_color }}; font-size: 2.2em; line-height: 1.3;">
-        {{ page.title | escape }}
+        <span style="margin-right: 10px;">{{ severity_icon }}</span>{{ page.title | escape }}
     </h1>
 
     <div class="post-meta" style="color: #888; font-size: 0.9em; margin-top: 15px; font-family: 'Courier New', monospace;">
@@ -78,21 +74,48 @@ layout: default
 </article>
 
 <style>
-  /* 標題變色 */
+  /* 標題與連結變色 */
   .post-content h1, .post-content h2, .post-content h3 {
     color: var(--current-severity-color) !important;
     border-bottom: 1px solid var(--current-severity-color) !important;
   }
-  
-  /* 重點字與連結變色 */
   .post-content strong { color: var(--current-severity-color) !important; }
   .post-content a { color: var(--current-severity-color) !important; text-decoration: underline; }
 
-  /* 引用區塊變色 */
+  /* 引用區塊 */
   .post-content blockquote {
       border-left: 4px solid var(--current-severity-color) !important;
       background: rgba(255, 255, 255, 0.03);
       color: #bbb;
+      padding: 10px 15px;
+      margin: 20px 0;
+  }
+
+  /* 🔥 駭客風程式碼區塊 (Code Blocks) - Gemini Refinement 🔥 */
+  .post-content pre {
+    background: #0a0a0a; /* 全黑背景 */
+    border: 1px solid var(--current-severity-color); /* 邊框跟著等級變色 */
+    color: #e0e0e0;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto; /* 避免程式碼超出 */
+    font-family: 'Courier New', monospace;
+    margin: 20px 0;
+  }
+  
+  .post-content code {
+    background: rgba(255, 255, 255, 0.1);
+    color: #e0e0e0;
+    font-family: 'Courier New', monospace;
+    padding: 2px 5px;
+    border-radius: 3px;
+  }
+  
+  /* 修正：在 pre 裡面的 code 不需要額外背景 */
+  .post-content pre code {
+    background: transparent;
+    padding: 0;
+    border: none;
   }
 
   /* 🔥 表格強制變色 (Table Override) 🔥 */
@@ -105,13 +128,13 @@ layout: default
   
   .post-content th {
       background-color: var(--current-severity-color) !important;
-      color: #000 !important; /* 表頭文字改為黑色，對比度較高 */
+      color: #000 !important;
       border: 1px solid var(--current-severity-color) !important;
       padding: 10px;
   }
   
   .post-content td {
-      border: 1px solid #444 !important; /* 內容格線保持深灰，避免太刺眼 */
+      border: 1px solid #444 !important;
       color: #ddd;
       padding: 10px;
   }
