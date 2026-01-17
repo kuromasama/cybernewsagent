@@ -1,24 +1,26 @@
-/* * Cyber News Agent - Terminal Theme (v7.0 Ultimate)
+/* * Cyber News Agent - Terminal Theme (v8.0 Matrix Reborn)
  * Author: AI Assistant & Command
- * Features: 
- * 1. CRT Scanlines & Flicker (Visual Effects)
- * 2. Glitch Text Animation (Header)
- * 3. Dynamic Threat Levels (Red/Orange/Yellow/Blue)
- * 4. Unified UI Colors (Cyan Interface / Green Identity)
+ * Focus: 
+ * 1. Unified Green Interface (Classic Terminal)
+ * 2. High Readability (No Glow on Body Text)
+ * 3. Dynamic Threat Levels (Red/Orange pop out)
  */
 
  :root {
     /* --- Base Colors --- */
     --bg-color: #050505;
     --terminal-black: #0d1117;
-    --text-color: #e0e0e0;
+    
+    /* [護眼調整] 字體顏色稍微調暗，不要用純白，減少刺眼感 */
+    --text-color: #c0c0c0; 
     
     /* --- Neon Palette --- */
-    --neon-green: #00ff41; /* [Identity] Logo, System Status */
+    /* [統一綠色] 將原本的 Cyan 全部指回 Green，達成視覺統一 */
+    --neon-green: #00ff41; 
     --dim-green: #008f11;
     
-    --neon-cyan: #00f3ff;  /* [UI] Borders, Headers, Links */
-    --dim-cyan: rgba(0, 243, 255, 0.3);
+    --neon-cyan: #00ff41;  /* 強制讓所有原本呼叫 Cyan 的地方都變綠色 */
+    --dim-cyan: rgba(0, 255, 65, 0.2); /* 淡淡的綠色邊框 */
     
     /* --- Threat Level Colors --- */
     --neon-pink: #ff003c;   /* Critical */
@@ -42,25 +44,31 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     font-family: var(--font-stack);
-    line-height: 1.6;
+    line-height: 1.7; /* [護眼] 增加行高，閱讀更舒適 */
     font-size: 18px;
     overflow-x: hidden;
     min-height: 100vh;
+    
+    /* [護眼關鍵] 全局移除文字光暈，只有標題才加 */
+    text-shadow: none; 
 }
 
 a {
-    color: var(--neon-cyan);
+    color: var(--neon-green);
     text-decoration: none;
     transition: all 0.3s ease;
+    /* 連結稍微加一點點光暈，表明可點擊，但不要太強 */
+    text-shadow: 0 0 2px var(--dim-green);
 }
 
 a:hover {
     color: var(--bg-color);
-    background-color: var(--neon-cyan);
-    box-shadow: 0 0 10px var(--neon-cyan);
+    background-color: var(--neon-green);
+    box-shadow: 0 0 10px var(--neon-green);
+    text-shadow: none;
 }
 
-/* --- CRT Scanlines Effect (完整保留) --- */
+/* --- CRT Scanlines Effect --- */
 .scanlines {
     position: fixed;
     top: 0;
@@ -77,18 +85,17 @@ a:hover {
     background-size: 100% 4px;
     pointer-events: none;
     z-index: 999;
-    opacity: 0.6;
+    opacity: 0.5; /* [護眼] 稍微降低掃描線透明度 */
 }
 
 /* Flicker Animation */
 @keyframes flicker {
-    0% { opacity: 0.97; }
-    5% { opacity: 0.95; }
-    10% { opacity: 0.9; }
-    15% { opacity: 0.95; }
-    20% { opacity: 0.99; }
-    50% { opacity: 0.95; }
-    100% { opacity: 0.98; }
+    0% { opacity: 0.98; }
+    5% { opacity: 0.96; }
+    10% { opacity: 0.98; }
+    15% { opacity: 0.99; }
+    50% { opacity: 0.96; }
+    100% { opacity: 0.99; }
 }
 
 .terminal-wrapper {
@@ -102,10 +109,9 @@ a:hover {
     animation: flicker 0.15s infinite;
 }
 
-/* --- Header & Glitch Effect (完整保留) --- */
+/* --- Header & Glitch Effect --- */
 .site-header {
-    /* [UI 統一] 邊框改為青色 */
-    border-bottom: 2px solid var(--neon-cyan);
+    border-bottom: 2px solid var(--neon-green);
     padding-bottom: 20px;
     margin-bottom: 40px;
     display: flex;
@@ -123,11 +129,11 @@ a:hover {
 .site-title {
     font-size: 2.5rem;
     font-weight: bold;
-    /* [品牌識別] Logo 維持綠色 */
     color: var(--neon-green);
     letter-spacing: 2px;
     text-transform: uppercase;
-    text-shadow: 0 0 10px var(--dim-green);
+    /* [特效] 只有大標題保留強力光暈 */
+    text-shadow: 0 0 10px var(--dim-green); 
     position: relative;
 }
 
@@ -159,35 +165,26 @@ a:hover {
 
 .glitch::after {
     left: -2px;
-    text-shadow: -2px 0 var(--neon-cyan);
+    text-shadow: -2px 0 var(--neon-green);
     clip: rect(85px, 550px, 140px, 0);
     animation: glitch-anim 2.5s infinite linear alternate-reverse;
 }
 
 @keyframes glitch-anim {
     0% { clip: rect(10px, 9999px, 30px, 0); }
-    20% { clip: rect(50px, 9999px, 80px, 0); }
-    40% { clip: rect(20px, 9999px, 60px, 0); }
-    60% { clip: rect(80px, 9999px, 100px, 0); }
-    80% { clip: rect(10px, 9999px, 40px, 0); }
     100% { clip: rect(60px, 9999px, 90px, 0); }
 }
 
 @keyframes glitch-anim-2 {
     0% { clip: rect(60px, 9999px, 90px, 0); }
-    20% { clip: rect(10px, 9999px, 40px, 0); }
-    40% { clip: rect(50px, 9999px, 80px, 0); }
-    60% { clip: rect(20px, 9999px, 60px, 0); }
-    80% { clip: rect(70px, 9999px, 100px, 0); }
     100% { clip: rect(30px, 9999px, 50px, 0); }
 }
 
-.system-status { font-size: 0.9rem; color: var(--neon-cyan); }
+.system-status { font-size: 0.9rem; color: var(--neon-green); }
 
 .status-light {
     display: inline-block;
     width: 10px; height: 10px;
-    /* [品牌識別] 系統燈號維持綠色 */
     background-color: var(--neon-green);
     border-radius: 50%;
     margin-right: 5px;
@@ -205,14 +202,15 @@ a:hover {
     color: var(--text-color);
     border: 1px solid transparent;
     padding: 2px 5px;
+    text-shadow: none; /* 導航預設不發光 */
 }
 
 .nav-link:hover {
-    border-color: var(--neon-cyan);
+    border-color: var(--neon-green);
     background: transparent;
-    color: var(--neon-cyan);
-    box-shadow: 0 0 15px var(--neon-cyan) inset;
-    text-shadow: 0 0 5px var(--neon-cyan);
+    color: var(--neon-green);
+    box-shadow: 0 0 15px var(--neon-green) inset;
+    text-shadow: 0 0 5px var(--neon-green);
 }
 
 /* --- Main Content & Typography --- */
@@ -230,19 +228,36 @@ a:hover {
     color: var(--neon-pink);
     margin-right: 15px;
     font-weight: bold;
+    text-shadow: 0 0 5px rgba(255, 0, 60, 0.5);
 }
 
-/* [UI 統一] 標題全改為青色 */
+/* 標題設定 */
 h1, h2, h3, h4, h5, h6 {
-    color: var(--neon-cyan);
+    color: var(--neon-green);
     text-transform: uppercase;
     margin-bottom: 1rem;
-    line-height: 1.2;
+    line-height: 1.3;
+    /* [特效] 標題保留光暈，增加層次感 */
+    text-shadow: 0 0 5px rgba(0, 255, 65, 0.5);
 }
 
-h1.page-heading { text-shadow: 0 0 5px var(--neon-cyan); }
+h1.page-heading { 
+    text-shadow: 0 0 10px var(--neon-green); 
+    color: var(--neon-green) !important; /* 強制首頁標題綠色 */
+}
 
-.terminal-output p { margin-bottom: 1.5rem; color: #ccc; }
+/* 文章內文特別優化 */
+.post-content p {
+    color: #cccccc; /* 淺灰色，比純白柔和 */
+    text-shadow: none !important; /* 絕對禁止內文發光 */
+    margin-bottom: 1.5rem;
+}
+
+.terminal-output p { 
+    margin-bottom: 1.5rem; 
+    color: #ccc;
+    text-shadow: none;
+}
 
 /* --- List Items / Cards (Integration) --- */
 ul.post-list {
@@ -250,20 +265,16 @@ ul.post-list {
     padding: 0;
 }
 
-/* 核心卡片樣式：保留切角與結構 */
 ul.post-list li, 
 .card,
 .post-list-item {
     background: rgba(13, 17, 23, 0.8);
-    /* [UI 統一] 預設邊框改為暗青色 */
-    border: 1px solid var(--dim-cyan); 
-    border-left: 5px solid var(--neon-cyan);
+    border: 1px solid var(--dim-cyan); /* 這裡的 cyan 變數已經被改成綠色了 */
+    border-left: 5px solid var(--neon-green);
     margin-bottom: 20px;
     padding: 20px;
     position: relative;
     transition: all 0.3s ease;
-    
-    /* 您的帥氣切角 */
     clip-path: polygon(
         0 0, 
         100% 0, 
@@ -273,28 +284,30 @@ ul.post-list li,
     );
 }
 
-/* 預設的 Hover 效果 (Post list item 的 hover 由 home.html 覆蓋) */
+/* Hover 效果 */
 ul.post-list li:hover,
 .card:hover {
-    border-color: var(--neon-cyan);
-    border-left-color: var(--neon-cyan);
-    box-shadow: 0 0 20px rgba(0, 243, 255, 0.2);
+    border-color: var(--neon-green);
+    border-left-color: var(--neon-green);
+    /* 綠色光暈，比較不刺眼 */
+    box-shadow: 0 0 15px rgba(0, 255, 65, 0.2); 
     transform: translateX(5px);
 }
 
 ul.post-list li h3 a,
 .card h3 a {
-    color: var(--neon-cyan);
+    color: var(--neon-green);
     font-size: 1.5rem;
 }
 
-/* --- Code Blocks (Hacker Style) --- */
+/* --- Code Blocks (Reading Optimized) --- */
 pre, code {
     font-family: 'Fira Code', 'Roboto Mono', monospace;
     background-color: #0a0a0a;
-    color: var(--neon-cyan); /* [UI 統一] 程式碼為青色 */
+    color: #a8ffc3; /* 淺綠色文字，比青色更柔和 */
     border: 1px solid #333;
     border-radius: 3px;
+    text-shadow: none; /* 程式碼不發光 */
 }
 
 pre {
@@ -315,21 +328,23 @@ pre code {
 
 blockquote {
     border-left: 4px solid var(--neon-pink);
-    padding-left: 15px;
-    margin-left: 0;
+    background: rgba(255, 0, 60, 0.05);
+    padding: 15px;
+    margin: 20px 0;
     font-style: italic;
-    color: #888;
+    color: #bbb;
+    text-shadow: none;
 }
 
 /* --- Footer --- */
 .site-footer {
     margin-top: 50px;
-    /* [UI 統一] 頁尾線條青色 */
-    border-top: 2px solid var(--neon-cyan);
+    border-top: 2px solid var(--neon-green);
     padding-top: 20px;
     font-size: 0.8rem;
     text-align: center;
-    color: #555;
+    color: #666; /* 頁尾再暗一點 */
+    text-shadow: none;
 }
 
 .ai-credit { margin-top: 5px; letter-spacing: 1px; }
@@ -345,9 +360,9 @@ table {
     border-collapse: collapse;
     margin: 20px 0;
     background: rgba(13, 17, 23, 0.6);
-    /* [UI 統一] 表格邊框暗青色 */
     border: 1px solid var(--dim-cyan);
     font-size: 0.9rem;
+    text-shadow: none; /* 表格內容不發光 */
 }
 
 th, td {
@@ -357,23 +372,23 @@ th, td {
 }
 
 th {
-    background-color: rgba(0, 243, 255, 0.1);
-    color: var(--neon-cyan); /* [UI 統一] 表頭青色 */
+    background-color: rgba(0, 255, 65, 0.1);
+    color: var(--neon-green);
     text-transform: uppercase;
     letter-spacing: 1px;
-    border-bottom: 2px solid var(--neon-cyan);
+    border-bottom: 2px solid var(--neon-green);
+    text-shadow: 0 0 5px rgba(0, 255, 65, 0.3); /* 表頭保留微弱光暈 */
 }
 
 tr:hover {
-    background-color: rgba(0, 243, 255, 0.05);
-    box-shadow: inset 0 0 10px rgba(0, 243, 255, 0.1);
+    background-color: rgba(0, 255, 65, 0.05);
 }
 
 tr:nth-child(even) { background-color: rgba(255, 255, 255, 0.02); }
 
 .table-wrapper { overflow-x: auto; }
 
-/* --- Legal Warning Box (完整保留) --- */
+/* --- Legal Warning Box --- */
 .legal-warning {
     margin-top: 30px;
     padding: 15px;
@@ -385,7 +400,7 @@ tr:nth-child(even) { background-color: rgba(255, 255, 255, 0.02); }
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 0 10px rgba(255, 0, 60, 0.1);
+    box-shadow: none; /* 移除盒陰影，減少雜訊 */
 }
 
 .legal-warning strong {
