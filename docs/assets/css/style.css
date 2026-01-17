@@ -389,6 +389,7 @@ html body .post-content tr:hover {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: none; /* 移除盒陰影，減少雜訊 */
 }
 
 .legal-warning strong {
