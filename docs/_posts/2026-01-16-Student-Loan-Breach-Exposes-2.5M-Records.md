@@ -56,11 +56,14 @@ bash
 
 ## 3. 🛡️ 藍隊防禦：偵測與緩解 (Blue Team Defense)
 * **IOCs (入侵指標)**:
-  | 類型 | 值 |
-  | --- | --- |
-  | IP | 192.0.2.1 |
-  | Domain | example.com |
-  | File Path | /vulnerable_endpoint |
+
+          | 類型 | 值 |
+          | --- | --- |
+          | IP | 192.0.2.1 |
+          | Domain | example.com |
+          | File Path | /vulnerable_endpoint |
+
+
 * **偵測規則 (Detection Rules)**:
 
     ```

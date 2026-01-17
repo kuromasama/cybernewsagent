@@ -48,9 +48,12 @@ categories: [security]
 
 ## 3. 🛡️ 藍隊防禦：偵測與緩解 (Blue Team Defense)
 * **IOCs (入侵指標)**:
-  | Hash | IP | Domain | File Path |
-  | --- | --- | --- | --- |
-  | XXXX | 192.168.1.1 | example.com | /data.parquet |
+
+          | Hash | IP | Domain | File Path |
+          | --- | --- | --- | --- |
+          | XXXX | 192.168.1.1 | example.com | /data.parquet |
+
+
 * **偵測規則 (Detection Rules)**:
 
     ```

@@ -60,11 +60,13 @@ curl -X POST \
 ## 3. 🛡️ 藍隊防禦：偵測與緩解 (Blue Team Defense)
 * **IOCs (入侵指標)**:
 
-| Hash | IP | Domain | File Path |
+        | Hash | IP | Domain | File Path |
 
-| --- | --- | --- | --- |
+        | --- | --- | --- | --- |
 
-| 1234567890abcdef | 192.168.1.100 | api.databycloud.com | /cookies |
+        | 1234567890abcdef | 192.168.1.100 | api.databycloud.com | /cookies |
+
+
 * **偵測規則 (Detection Rules)**:
 
     ```

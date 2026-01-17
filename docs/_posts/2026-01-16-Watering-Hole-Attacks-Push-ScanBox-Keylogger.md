@@ -48,9 +48,12 @@ bash
 
 ## 3. 🛡️ 藍隊防禦：偵測與緩解 (Blue Team Defense)
 * **IOCs (入侵指標)**:
-  | Hash | IP | Domain | File Path |
-  | --- | --- | --- | --- |
-  | 1234567890abcdef | 192.168.1.100 | example.com | /scanbox.html |
+
+          | Hash | IP | Domain | File Path |
+          | --- | --- | --- | --- |
+          | 1234567890abcdef | 192.168.1.100 | example.com | /scanbox.html |
+
+
 * **偵測規則 (Detection Rules)**:
 
     ```

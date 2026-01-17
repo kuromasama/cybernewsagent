@@ -59,10 +59,13 @@ categories: [security]
 
 * **IOCs (入侵指標)**:
 
-| Hash | IP | Domain | File Path |
-| --- | --- | --- | --- |
+        | Hash | IP | Domain | File Path |
 
-| 1234567890abcdef | 192.168.1.100 | example.com | /usr/bin/kimwolf |
+        | --- | --- | --- | --- |
+
+        | 1234567890abcdef | 192.168.1.100 | example.com | /usr/bin/kimwolf |
+
+
 * **偵測規則 (Detection Rules)**:
 
     ```

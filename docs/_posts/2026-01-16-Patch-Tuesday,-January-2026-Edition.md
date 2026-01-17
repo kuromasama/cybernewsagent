@@ -44,15 +44,19 @@ categories: [security]
 
 bash
 curl -X POST -H "Content-Type: application/json" -d '{"payload": "A" * 1024}' http://localhost:8080/dwm
+
 ```
 * **繞過技術**: 攻擊者可以使用 ASLR 繞過技術來繞過系統的安全防護。
 
 ## 3. 🛡️ 藍隊防禦：偵測與緩解 (Blue Team Defense)
 
 * **IOCs (入侵指標)**:
-  | Hash | IP | Domain | File Path |
-  | --- | --- | --- | --- |
-  | 1234567890abcdef | 192.168.1.100 | example.com | C:\Windows\System32\dwm.exe |
+
+          | Hash | IP | Domain | File Path |
+          | --- | --- | --- | --- |
+          | 1234567890abcdef | 192.168.1.100 | example.com | C:\Windows\System32\dwm.exe |
+
+
 * **偵測規則 (Detection Rules)**:
 
     ```
@@ -75,6 +79,7 @@ curl -X POST -H "Content-Type: application/json" -d '{"payload": "A" * 1024}' ht
 
 sql
 index=dwm_logs | search "payload"="A" * 1024
+
 ```
 * **緩解措施**: 更新系統的安全補丁，並設定 DWM 的安全配置。
 
