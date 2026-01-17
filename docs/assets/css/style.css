@@ -1,10 +1,10 @@
-/* * Cyber News Agent - Terminal Theme (v9.0 Final Polished)
+/* * Cyber News Agent - Terminal Theme (v11.1 Full Restoration)
  * Author: AI Assistant & Command
  * Features: 
- * 1. Full Visual Effects (Scanlines, Flicker, Glitch)
- * 2. Unified Green Interface (The Matrix Style)
- * 3. High Readability (No text-blur on body content)
- * 4. Critical Fix: Overriding the "Red Table" background
+ * 1. Stealth Scrollbars (Dark & Slim)
+ * 2. Adaptive Hover Glow (Red on Red, Green on Green)
+ * 3. Glare Reduction (Transparent Tables)
+ * 4. Full Verbose Animation Keyframes (Restored Glitch Effect)
  */
 
  :root {
@@ -12,7 +12,7 @@
     --bg-color: #050505;
     --terminal-black: #0d1117;
     
-    /* [護眼調整] 內文顏色改為灰白色，避免純白刺眼 */
+    /* [護眼] 內文顏色 */
     --text-color: #b0b0b0; 
     
     /* --- Identity Colors (Green) --- */
@@ -23,7 +23,7 @@
     --neon-cyan: #00ff41;  
     --dim-cyan: rgba(0, 255, 65, 0.2);
     
-    /* --- Threat Level Colors (Alerts Only) --- */
+    /* --- Threat Level Colors --- */
     --neon-pink: #ff003c;   /* Critical */
     --neon-orange: #ff9d00; /* High */
     --neon-yellow: #ffee00; /* Medium */
@@ -45,15 +45,41 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     font-family: var(--font-stack);
-    line-height: 1.8; /* [護眼] 增加行距，閱讀更輕鬆 */
+    line-height: 1.8;
     font-size: 18px;
     overflow-x: hidden;
     min-height: 100vh;
-    
-    /* [關鍵] 全局禁止文字模糊光暈，只有標題例外 */
+    /* 全局禁止文字模糊光暈，保持銳利 */
     text-shadow: none; 
 }
 
+/* --- 🔥 1. STEALTH SCROLLBARS (捲軸美化) 🔥 --- */
+/* 全局捲軸：極細、深色 */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #050505; /* 與背景融合 */
+}
+::-webkit-scrollbar-thumb {
+    background: #333; /* 深灰滑塊 */
+    border-radius: 4px;
+    border: 1px solid #000;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--neon-green); /* 滑鼠移上去稍微變綠 */
+}
+
+/* 針對 Code Block 的特殊捲軸 (更隱密) */
+pre::-webkit-scrollbar {
+    height: 6px; /* 更細 */
+}
+pre::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2); /* 半透明滑塊 */
+}
+
+/* --- Links --- */
 a {
     color: var(--neon-green);
     text-decoration: none;
@@ -62,12 +88,11 @@ a {
 
 a:hover {
     color: #fff;
-    /* Hover 改為半透明背景，而非實心，避免刺眼 */
     background-color: rgba(0, 255, 65, 0.2);
     box-shadow: 0 0 10px var(--neon-green);
 }
 
-/* --- CRT Scanlines Effect (完整特效保留) --- */
+/* --- Visual Effects (Scanlines & Flicker) --- */
 .scanlines {
     position: fixed;
     top: 0;
@@ -84,10 +109,9 @@ a:hover {
     background-size: 100% 4px;
     pointer-events: none;
     z-index: 999;
-    opacity: 0.4; /* [優化] 稍微降低干擾 */
+    opacity: 0.4;
 }
 
-/* Flicker Animation */
 @keyframes flicker {
     0% { opacity: 0.98; }
     5% { opacity: 0.96; }
@@ -108,7 +132,7 @@ a:hover {
     animation: flicker 0.15s infinite;
 }
 
-/* --- Header & Glitch Effect --- */
+/* --- Header & Glitch --- */
 .site-header {
     border-bottom: 2px solid var(--neon-green);
     padding-bottom: 20px;
@@ -131,12 +155,12 @@ a:hover {
     color: var(--neon-green);
     letter-spacing: 2px;
     text-transform: uppercase;
-    /* Logo 保留光暈，作為品牌識別 */
-    text-shadow: 0 0 8px var(--dim-green); 
+    text-shadow: 0 0 8px var(--dim-green);
     position: relative;
 }
 
-/* Glitch Animation Keyframes (特效保留) */
+/* --- Glitch Animation Keyframes (Full Verbose Version) --- */
+/* 這裡把原本為了省空間而刪掉的中間步驟全部補回來，確保動畫夠「跳」 */
 .glitch-wrapper { position: relative; }
 
 .glitch::before, .glitch::after {
@@ -165,11 +189,19 @@ a:hover {
 
 @keyframes glitch-anim {
     0% { clip: rect(10px, 9999px, 30px, 0); }
+    20% { clip: rect(50px, 9999px, 80px, 0); }
+    40% { clip: rect(20px, 9999px, 60px, 0); }
+    60% { clip: rect(80px, 9999px, 100px, 0); }
+    80% { clip: rect(10px, 9999px, 40px, 0); }
     100% { clip: rect(60px, 9999px, 90px, 0); }
 }
 
 @keyframes glitch-anim-2 {
     0% { clip: rect(60px, 9999px, 90px, 0); }
+    20% { clip: rect(10px, 9999px, 40px, 0); }
+    40% { clip: rect(50px, 9999px, 80px, 0); }
+    60% { clip: rect(20px, 9999px, 60px, 0); }
+    80% { clip: rect(70px, 9999px, 100px, 0); }
     100% { clip: rect(30px, 9999px, 50px, 0); }
 }
 
@@ -185,7 +217,10 @@ a:hover {
     animation: blink 2s infinite;
 }
 
-@keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+@keyframes blink { 
+    0%, 100% { opacity: 1; } 
+    50% { opacity: 0.3; } 
+}
 
 /* --- Navigation --- */
 .site-nav { display: flex; gap: 15px; }
@@ -201,7 +236,7 @@ a:hover {
     border-color: var(--neon-green);
     background: transparent;
     color: var(--neon-green);
-    box-shadow: none; /* 導航不發光，保持乾淨 */
+    box-shadow: none; 
     text-shadow: none;
 }
 
@@ -222,30 +257,28 @@ a:hover {
     font-weight: bold;
 }
 
-/* 標題設定 */
 h1, h2, h3, h4, h5, h6 {
     color: var(--neon-green);
     text-transform: uppercase;
     margin-bottom: 1rem;
     line-height: 1.3;
-    text-shadow: none; /* [降噪] 移除標題光暈，讓字體銳利 */
+    text-shadow: none;
 }
 
-/* 首頁標題例外：保留一點點氣氛 */
 h1.page-heading { 
     color: var(--neon-green) !important;
     text-shadow: 0 0 5px var(--dim-green); 
 }
 
-/* 針對 Post Title 的強制修正 */
+/* 強制文章標題無模糊光暈，保持銳利 */
 h1.post-title {
-    text-shadow: none !important; /* 移除文章標題的模糊光暈 */
+    text-shadow: none !important; 
     font-weight: 700;
     letter-spacing: 1px;
 }
 
 .post-content p {
-    color: #b0b0b0; /* 灰階內文 */
+    color: #b0b0b0; 
     margin-bottom: 1.5rem;
 }
 
@@ -265,13 +298,12 @@ ul.post-list li,
 .card, 
 .post-list-item {
     background: rgba(13, 17, 23, 0.8);
-    border: 1px solid var(--dim-cyan); /* 這裡實際上會顯示 dim-green */
+    border: 1px solid var(--dim-cyan); /* 預設綠邊框 */
     border-left: 5px solid var(--neon-green);
     margin-bottom: 20px;
     padding: 20px;
     position: relative;
     transition: all 0.3s ease;
-    /* 切角設計 */
     clip-path: polygon(
         0 0, 
         100% 0, 
@@ -281,25 +313,25 @@ ul.post-list li,
     );
 }
 
-ul.post-list li:hover,
-.card:hover {
-    border-color: var(--neon-green);
-    border-left-color: var(--neon-green);
-    box-shadow: 0 0 10px rgba(0, 255, 65, 0.1);
+/* 🔥 2. 自適應 Hover 光暈 (關鍵修復) 🔥 */
+/* 使用變數 var(--item-color) 來決定光暈顏色。紅卡發紅光，綠卡發綠光 */
+ul.post-list li:hover, .card:hover {
+    border-color: var(--item-color, var(--neon-green)) !important;
+    border-left-color: var(--item-color, var(--neon-green)) !important;
+    box-shadow: 0 0 15px var(--item-color, rgba(0, 255, 65, 0.2));
     transform: translateX(5px);
 }
 
-ul.post-list li h3 a,
-.card h3 a {
+ul.post-list li h3 a, .card h3 a {
     color: var(--neon-green);
     font-size: 1.5rem;
 }
 
-/* --- Code Blocks (Hacker Style) --- */
+/* --- Code Blocks (黑底 + 帥氣捲軸) --- */
 pre, code {
     font-family: 'Fira Code', 'Roboto Mono', monospace;
     background-color: #0a0a0a;
-    color: #a8ffc3; /* 淺綠文字，閱讀舒適 */
+    color: #a8ffc3; /* 淺綠文字 */
     border: 1px solid #333;
     border-radius: 3px;
 }
@@ -341,15 +373,14 @@ blockquote {
 
 .ai-credit { margin-top: 5px; letter-spacing: 1px; }
 
-/* --- 🔥 CRITICAL FIX: Tables (表格視覺修正) 🔥 --- */
-/* 這裡使用了高優先級選擇器，強制覆蓋 post.html 內聯樣式的紅色背景 */
-
+/* --- 🔥 3. Tables (透明化修復) 🔥 --- */
+/* 解決表格刺眼問題 */
 html body .post-content table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
-    background: transparent !important; /* 移除任何背景色 */
-    border: 1px solid #333 !important; /* 統一為深灰邊框 */
+    background: transparent !important;
+    border: 1px solid #333 !important;
 }
 
 html body .post-content th,
@@ -359,16 +390,14 @@ html body .post-content td {
     border-bottom: 1px solid #333 !important;
 }
 
-/* 表頭樣式：移除刺眼的實心紅底，改為線框風格 */
 html body .post-content th {
-    background-color: rgba(0, 0, 0, 0.5) !important; /* 深黑半透明 */
-    /* 文字顏色自動跟隨等級 (紅/橘/黃)，如無則綠色 */
-    color: var(--current-severity-color, var(--neon-green)) !important; 
-    /* 底部加粗線條作為強調 */
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    /* 文字顏色自動抓取等級色 (紅/橘/綠) */
+    color: var(--current-severity-color, var(--neon-green)) !important;
     border-bottom: 2px solid var(--current-severity-color, var(--neon-green)) !important;
     text-transform: uppercase;
     letter-spacing: 1px;
-    text-shadow: none !important; /* 移除文字光暈 */
+    text-shadow: none !important;
 }
 
 html body .post-content tr:hover {
@@ -377,7 +406,7 @@ html body .post-content tr:hover {
 
 .table-wrapper { overflow-x: auto; }
 
-/* --- Legal Warning Box --- */
+/* --- Legal Warning --- */
 .legal-warning {
     margin-top: 30px;
     padding: 15px;
@@ -389,7 +418,6 @@ html body .post-content tr:hover {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: none; /* 移除盒陰影，減少雜訊 */
 }
 
 .legal-warning strong {
@@ -397,7 +425,22 @@ html body .post-content tr:hover {
     border-bottom: 1px solid var(--neon-pink);
 }
 
-/* --- Responsive Adjustments --- */
+/* --- 🔥 4. Button Fix (解決紅按鈕綠光問題) 🔥 --- */
+/* 讓底部的 Return 按鈕背景透明 */
+.post-content + div a, 
+a[href*="relative_url"] {
+    background: transparent !important;
+}
+
+.post-content + div a:hover,
+a[href*="relative_url"]:hover {
+    background: rgba(255, 255, 255, 0.05) !important;
+    /* 使用 currentColor 讓光暈跟隨文字顏色 */
+    box-shadow: 0 0 15px currentColor !important;
+    border-color: currentColor !important;
+}
+
+/* --- Responsive --- */
 @media (max-width: 768px) {
     .site-title { font-size: 1.8rem; }
     .header-inner { flex-direction: column; align-items: flex-start; }
