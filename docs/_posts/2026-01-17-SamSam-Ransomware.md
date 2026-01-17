@@ -3,6 +3,7 @@ layout: post
 title:  "SamSam Ransomware"
 date:   2026-01-17 01:10:36 +0000
 categories: [security]
+severity: critical
 ---
 
 # 🚨 解析 SamSam 勒索軟體的技術細節與防禦策略
@@ -27,7 +28,7 @@ categories: [security]
 * **攻擊前置需求**: 攻擊者需要有目標系統的 RDP 連線權限，或能夠透過暴力破解或其他手段取得登入憑證。
 * **Payload 建構邏輯**:
 
-    ```
+    '''
         
         python
         import socket
@@ -53,15 +54,15 @@ categories: [security]
         
         
     
-    ```
+    '''
   *範例指令*: 使用 `nmap` 掃描目標系統的 RDP 連線埠。
 
-```
+'''
 
 bash
 nmap -p 3389 目標系統 IP
 
-```
+'''
 * **繞過技術**: 攻擊者可能使用堆疊溢位或序列化等技術，繞過目標系統的安全防護機制。
 
 ## 3. 🛡️ 藍隊防禦：偵測與緩解 (Blue Team Defense)
@@ -77,7 +78,7 @@ nmap -p 3389 目標系統 IP
 
 * **偵測規則 (Detection Rules)**:
 
-    ```
+    '''
         
         yara
         rule SamSam_Ransomware {
@@ -92,15 +93,15 @@ nmap -p 3389 目標系統 IP
         
         
     
-    ```
+    '''
   或者是使用 Snort/Suricata Signature：
 
-```
+'''
 
 snort
 alert tcp any any -> any 3389 (msg:"SamSam 勒索軟體 RDP 連線"; sid:1000001;)
 
-```
+'''
 * **緩解措施**: 更新 RDP 服務的安全性設定，使用強密碼和雙因素認證，限制 RDP 連線的權限，定期更新系統和軟體。
 
 ## 4. 📚 專有名詞與技術概念解析 (Technical Glossary)

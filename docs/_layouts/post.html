@@ -1,53 +1,58 @@
+---
+layout: default
+---
 
-{% extends "default" %}
+{% comment %}
+===========================================================
+✨ 動態威脅等級顏色系統 (v1.2 Fix)
+===========================================================
+{% endcomment %}
 
-{% block content %}
+{%- assign severity = page.severity | default: 'info' | downcase -%}
 
-  {% comment %}
-  ===========================================================
-  ✨ 動態威脅等級顏色系統 (v1.0)
-  ===========================================================
-  根據 post front-matter 中的 'severity'，設定對應的 CSS 變數。
-  - critical: Neon Pink (預設)
-  - high:     Neon Orange
-  - medium:   Neon Yellow
-  - info/low: Neon Blue
-  ===========================================================
-  {% endcomment %}
+{%- case severity -%}
+  {%- when 'critical' -%}
+    {%- assign severity_color = "var(--neon-pink)" -%}
+  {%- when 'high' -%}
+    {%- assign severity_color = "var(--neon-orange)" -%}
+  {%- when 'medium' -%}
+    {%- assign severity_color = "var(--neon-yellow)" -%}
+  {%- else -%}
+    {%- assign severity_color = "var(--neon-cyan)" -%} 
+{%- endcase -%}
 
-  {%- assign severity = page.severity | downcase -%}
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" style="
+    border: 1px solid {{ severity_color }}; 
+    border-left: 6px solid {{ severity_color }}; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); 
+    padding: 25px; 
+    background: rgba(13, 17, 23, 0.8);
+    margin-bottom: 30px;
+">
 
-  {%- case severity -%}
-    {%- when 'critical' -%}
-      {%- assign severity_color = "var(--neon-pink)" -%}
-    {%- when 'high' -%}
-      {%- assign severity_color = "var(--neon-orange)" -%}
-    {%- when 'medium' -%}
-      {%- assign severity_color = "var(--neon-yellow)" -%}
-    {%- else -%}
-      {%- comment %}預設或 'info' 等級{% endcomment %}
-      {%- assign severity_color = "var(--neon-blue)" -%}
-  {%- endcase -%}
+  <header class="post-header" style="margin-bottom: 30px; border-bottom: 1px dashed #333; padding-bottom: 15px;">
+    <div style="font-family: monospace; color: {{ severity_color }}; margin-bottom: 10px;">
+        > THREAT_LEVEL: [ {{ severity | upcase }} ]
+    </div>
 
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" style="border: 1px solid {{ severity_color }}; border-left: 5px solid {{ severity_color }}; box-shadow: 0 0 20px rgba(0, 243, 255, 0.1); clip-path: none; padding: 25px; background: rgba(13, 17, 23, 0.7);">
+    <h1 class="post-title p-name" itemprop="name headline" style="color: {{ severity_color }}; text-shadow: 0 0 10px {{ severity_color }};">
+        {{ page.title | escape }}
+    </h1>
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline" style="color: {{ severity_color }}; text-shadow: 0 0 10px {{ severity_color }};">{{ page.title | escape }}</h1>
-    <p class="post-meta">
+    <div class="post-meta" style="color: #666; font-size: 0.9em; margin-top: 10px;">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        [>] System Time: {{ page.date | date: date_format }}
+        {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
+        [SYSTEM_TIME]: {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
+        <span style="margin-left: 15px;">
+            // AGENT: <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
+        </span>
       {%- endif -%}
-    </p>
+    </div>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody" style="
-    --neon-pink: {{ severity_color }}; 
-    --neon-green: {{ severity_color }};
-  ">
+  <div class="post-content e-content" itemprop="articleBody" style="--current-severity-color: {{ severity_color }};">
     {{ content }}
   </div>
 
@@ -56,24 +61,38 @@
   {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  
+  <div style="margin-top: 50px; text-align: center;">
+      <a href="{{ "/" | relative_url }}" style="color: {{ severity_color }}; border: 1px solid {{ severity_color }}; padding: 10px 20px; text-decoration: none; transition: all 0.3s;">
+          &lt; RETURN_TO_BASE
+      </a>
+  </div>
+
 </article>
 
 <style>
-  /* 動態修改 post-content 內元素的顏色 */
   .post-content h1,
   .post-content h2,
   .post-content h3 {
-    color: {{ severity_color }};
-    text-shadow: 0 0 5px {{ severity_color }};
-    border-bottom: 1px solid {{ severity_color | replace: 'var(', 'rgba(' | replace: ')', ', 0.3)' }};
+    color: var(--current-severity-color) !important;
+    border-bottom: 1px solid var(--current-severity-color) !important;
     padding-bottom: 5px;
+    margin-top: 30px;
   }
+  
+  .post-content strong {
+    color: var(--current-severity-color) !important;
+  }
+
   .post-content blockquote {
-      border-left: 4px solid {{ severity_color }};
-      background: {{ severity_color | replace: 'var(', 'rgba(' | replace: ')', ', 0.05)' }};
-      color: #ccc;
+      border-left: 4px solid var(--current-severity-color) !important;
+      background: rgba(255, 255, 255, 0.05);
+      color: #aaa;
       padding: 10px 15px;
+      margin: 20px 0;
+  }
+  
+  .post-content a {
+      color: var(--current-severity-color) !important;
   }
 </style>
-
-{% endblock %}
