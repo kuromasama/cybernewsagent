@@ -8,3 +8,8 @@ permalink: /:year/:month/:day/:title/
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-paginate
+
+paginate: 10  # 設定每頁顯示幾篇文章，可以改成 5 或 20
+paginate_path: "/page:num/"
+
