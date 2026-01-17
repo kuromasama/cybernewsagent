@@ -1,6 +1,10 @@
-/* * Cyber News Agent - Terminal Theme (v5.0 Final Merged)
+/* * Cyber News Agent - Terminal Theme (v7.0 Ultimate)
  * Author: AI Assistant & Command
- * Features: CRT Scanlines, Glitch Text, Dynamic Threat Levels
+ * Features: 
+ * 1. CRT Scanlines & Flicker (Visual Effects)
+ * 2. Glitch Text Animation (Header)
+ * 3. Dynamic Threat Levels (Red/Orange/Yellow/Blue)
+ * 4. Unified UI Colors (Cyan Interface / Green Identity)
  */
 
  :root {
@@ -10,20 +14,21 @@
     --text-color: #e0e0e0;
     
     /* --- Neon Palette --- */
-    --neon-green: #00ff41;
+    --neon-green: #00ff41; /* [Identity] Logo, System Status */
     --dim-green: #008f11;
-    --neon-cyan: #00f3ff;
     
-    /* --- Threat Level Colors (Dynamic System) --- */
+    --neon-cyan: #00f3ff;  /* [UI] Borders, Headers, Links */
+    --dim-cyan: rgba(0, 243, 255, 0.3);
+    
+    /* --- Threat Level Colors --- */
     --neon-pink: #ff003c;   /* Critical */
     --neon-orange: #ff9d00; /* High */
     --neon-yellow: #ffee00; /* Medium */
-    --neon-blue: #0088ff;   /* Info/Low */
+    --neon-blue: #0088ff;   /* Info */
 
     /* --- Effects --- */
     --font-stack: 'Share Tech Mono', 'Courier New', monospace;
     --scanline-color: rgba(0, 0, 0, 0.5);
-    --glass-border: 1px solid rgba(0, 255, 65, 0.3);
 }
 
 /* --- Global Reset & Basics --- */
@@ -99,7 +104,8 @@ a:hover {
 
 /* --- Header & Glitch Effect (完整保留) --- */
 .site-header {
-    border-bottom: 2px solid var(--neon-green);
+    /* [UI 統一] 邊框改為青色 */
+    border-bottom: 2px solid var(--neon-cyan);
     padding-bottom: 20px;
     margin-bottom: 40px;
     display: flex;
@@ -117,6 +123,7 @@ a:hover {
 .site-title {
     font-size: 2.5rem;
     font-weight: bold;
+    /* [品牌識別] Logo 維持綠色 */
     color: var(--neon-green);
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -180,6 +187,7 @@ a:hover {
 .status-light {
     display: inline-block;
     width: 10px; height: 10px;
+    /* [品牌識別] 系統燈號維持綠色 */
     background-color: var(--neon-green);
     border-radius: 50%;
     margin-right: 5px;
@@ -187,10 +195,7 @@ a:hover {
     animation: blink 2s infinite;
 }
 
-@keyframes blink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.3; }
-}
+@keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
 
 /* --- Navigation --- */
 .site-nav { display: flex; gap: 15px; }
@@ -227,38 +232,38 @@ a:hover {
     font-weight: bold;
 }
 
+/* [UI 統一] 標題全改為青色 */
 h1, h2, h3, h4, h5, h6 {
-    color: var(--neon-green);
+    color: var(--neon-cyan);
     text-transform: uppercase;
     margin-bottom: 1rem;
     line-height: 1.2;
 }
 
-h1.page-heading { text-shadow: 0 0 5px var(--neon-green); }
+h1.page-heading { text-shadow: 0 0 5px var(--neon-cyan); }
 
 .terminal-output p { margin-bottom: 1.5rem; color: #ccc; }
 
 /* --- List Items / Cards (Integration) --- */
-/* 這部分整合了您原本的 card 樣式與新的列表樣式 */
 ul.post-list {
     list-style: none;
     padding: 0;
 }
 
-/* 核心卡片樣式：保留切角與基本邊框邏輯 */
+/* 核心卡片樣式：保留切角與結構 */
 ul.post-list li, 
 .card,
 .post-list-item {
     background: rgba(13, 17, 23, 0.8);
-    /* 這裡使用淡邊框，讓 home.html 的 inline-style 可以輕鬆覆蓋 */
-    border: 1px solid var(--dim-green); 
-    border-left: 5px solid var(--neon-green);
+    /* [UI 統一] 預設邊框改為暗青色 */
+    border: 1px solid var(--dim-cyan); 
+    border-left: 5px solid var(--neon-cyan);
     margin-bottom: 20px;
     padding: 20px;
     position: relative;
     transition: all 0.3s ease;
     
-    /* 您原本的帥氣切角 */
+    /* 您的帥氣切角 */
     clip-path: polygon(
         0 0, 
         100% 0, 
@@ -268,7 +273,7 @@ ul.post-list li,
     );
 }
 
-/* 預設的 Hover 效果 (如果沒有 severity 變數時的備案) */
+/* 預設的 Hover 效果 (Post list item 的 hover 由 home.html 覆蓋) */
 ul.post-list li:hover,
 .card:hover {
     border-color: var(--neon-cyan);
@@ -279,16 +284,15 @@ ul.post-list li:hover,
 
 ul.post-list li h3 a,
 .card h3 a {
-    color: var(--neon-green);
+    color: var(--neon-cyan);
     font-size: 1.5rem;
 }
 
-/* --- Code Blocks (Updated Logic) --- */
-/* 讓程式碼區塊更好讀，且支援被 layout 覆蓋顏色 */
+/* --- Code Blocks (Hacker Style) --- */
 pre, code {
     font-family: 'Fira Code', 'Roboto Mono', monospace;
-    background-color: #0a0a0a; /* 改為全黑，對比度更好 */
-    color: var(--neon-cyan);
+    background-color: #0a0a0a;
+    color: var(--neon-cyan); /* [UI 統一] 程式碼為青色 */
     border: 1px solid #333;
     border-radius: 3px;
 }
@@ -300,11 +304,8 @@ pre {
     box-shadow: inset 0 0 10px #000;
 }
 
-code {
-    padding: 2px 5px;
-}
+code { padding: 2px 5px; }
 
-/* 避免重複 padding */
 pre code {
     background-color: transparent;
     padding: 0;
@@ -323,7 +324,8 @@ blockquote {
 /* --- Footer --- */
 .site-footer {
     margin-top: 50px;
-    border-top: 2px solid var(--neon-green);
+    /* [UI 統一] 頁尾線條青色 */
+    border-top: 2px solid var(--neon-cyan);
     padding-top: 20px;
     font-size: 0.8rem;
     text-align: center;
@@ -338,14 +340,13 @@ blockquote {
 }
 
 /* --- Tables (Data Grids) --- */
-/* 預設樣式：綠色 (Green) */
-/* 但這裡的權重設定得比較低，允許 post.html 裡面的 !important 覆蓋它 */
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
     background: rgba(13, 17, 23, 0.6);
-    border: 1px solid var(--dim-green);
+    /* [UI 統一] 表格邊框暗青色 */
+    border: 1px solid var(--dim-cyan);
     font-size: 0.9rem;
 }
 
@@ -356,11 +357,11 @@ th, td {
 }
 
 th {
-    background-color: rgba(0, 255, 65, 0.1);
-    color: var(--neon-green);
+    background-color: rgba(0, 243, 255, 0.1);
+    color: var(--neon-cyan); /* [UI 統一] 表頭青色 */
     text-transform: uppercase;
     letter-spacing: 1px;
-    border-bottom: 2px solid var(--neon-green);
+    border-bottom: 2px solid var(--neon-cyan);
 }
 
 tr:hover {
