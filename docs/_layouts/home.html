@@ -3,66 +3,98 @@ layout: default
 ---
 
 <style>
-  /* 首頁專屬樣式 */
   .post-list {
     list-style: none;
     padding: 0;
     margin: 0;
   }
 
+  /* 列表項目卡片 */
   .post-list-item {
-    margin-bottom: 20px;
-    padding: 20px;
-    background: rgba(13, 17, 23, 0.7);
+    position: relative;
+    margin-bottom: 25px;
+    padding: 20px 25px;
+    background: rgba(13, 17, 23, 0.6); /* 半透明背景 */
     border: 1px solid #333;
-    border-left-width: 6px; /* 加寬左邊框，強調顏色 */
+    border-left-width: 5px;
     border-left-style: solid;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    
+    /* 預設變數，會被 inline style 覆蓋 */
+    --hover-color: var(--neon-cyan); 
   }
 
+  /* 滑鼠懸停效果：使用動態變數 */
   .post-list-item:hover {
-    background: rgba(13, 17, 23, 1.0);
-    transform: translateX(5px); /* 滑鼠移過去稍微向右移動 */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  }
-
-  .post-link {
-    text-decoration: none;
-    color: #e0e0e0;
-    font-size: 1.3em;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 8px;
-    font-family: 'Courier New', monospace; /* 統一字體風格 */
-  }
-
-  .post-link:hover {
-    color: #fff;
-    text-decoration: none;
+    background: rgba(13, 17, 23, 0.95);
+    transform: translateX(5px) scale(1.01);
+    border-color: var(--hover-color); /* 邊框變色 */
+    box-shadow: 0 0 20px var(--hover-color); /* 發光變色 */
   }
 
   .post-meta {
-    font-size: 0.85em;
-    color: #888;
-    font-family: monospace;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.85em;
+    color: #888;
   }
 
-  .severity-tag {
+  .severity-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 10px;
+    border-radius: 4px;
     font-weight: bold;
-    font-size: 0.85em;
-    padding: 2px 8px;
-    border: 1px solid;
-    border-radius: 3px;
     letter-spacing: 1px;
+    background: rgba(0,0,0,0.3);
+    border: 1px solid;
+  }
+
+  .post-link {
+    font-size: 1.4em;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    transition: color 0.3s;
+  }
+  
+  .post-link:hover {
+    text-decoration: none;
+    filter: brightness(1.2);
+  }
+
+  .post-excerpt {
+    color: #aaa;
+    font-size: 0.95em;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 </style>
 
 <div class="home">
 
-  <h1 class="page-heading" style="color: var(--neon-cyan); text-shadow: 0 0 10px var(--neon-cyan); margin-bottom: 40px; border-bottom: 1px dashed var(--neon-cyan); padding-bottom: 10px;">
+  <div class="home-intro" style="margin-bottom: 50px; font-size: 1.1em; line-height: 1.6; color: #ddd;">
+    {{ content }}
+  </div>
+
+  <h1 class="page-heading" style="
+      color: var(--neon-cyan); 
+      text-shadow: 0 0 10px var(--neon-cyan); 
+      margin-bottom: 40px; 
+      border-bottom: 2px dashed var(--neon-cyan); 
+      padding-bottom: 15px;
+      letter-spacing: 2px;
+  ">
     > THREAT_INTELLIGENCE_FEED
   </h1>
 
@@ -74,25 +106,31 @@ layout: default
         {%- when 'critical' -%}
           {%- assign severity_color = "var(--neon-pink)" -%}
           {%- assign severity_text = "CRITICAL" -%}
+          {%- assign severity_icon = "🚨" -%}
         {%- when 'high' -%}
           {%- assign severity_color = "var(--neon-orange)" -%}
           {%- assign severity_text = "HIGH" -%}
+          {%- assign severity_icon = "🔥" -%}
         {%- when 'medium' -%}
           {%- assign severity_color = "var(--neon-yellow)" -%}
           {%- assign severity_text = "MEDIUM" -%}
+          {%- assign severity_icon = "⚠️" -%}
         {%- else -%}
           {%- assign severity_color = "var(--neon-blue)" -%}
           {%- assign severity_text = "INFO" -%}
+          {%- assign severity_icon = "🛡️" -%}
       {%- endcase -%}
 
-      <li class="post-list-item" style="border-left-color: {{ severity_color }};">
+      <li class="post-list-item" style="border-left-color: {{ severity_color }}; --hover-color: {{ severity_color }};">
         
-        <div class="post-meta" style="margin-bottom: 5px;">
-             <span class="severity-tag" style="color: {{ severity_color }}; border-color: {{ severity_color }}; box-shadow: 0 0 5px {{ severity_color }};">
+        <div class="post-meta">
+            <span class="severity-badge" style="color: {{ severity_color }}; border-color: {{ severity_color }};">
+                <span style="font-size: 1.2em;">{{ severity_icon }}</span> 
                 {{ severity_text }}
             </span>
+            
             <time datetime="{{ post.date | date_to_xmlschema }}">
-                {{ post.date | date: "%Y-%m-%d" }}
+                [ {{ post.date | date: "%Y-%m-%d" }} ]
             </time>
         </div>
 
@@ -100,9 +138,10 @@ layout: default
           {{ post.title | escape }}
         </a>
 
-        <p style="color: #aaa; font-size: 0.9em; margin: 0;">
-            {{ post.excerpt | strip_html | truncatewords: 20 }}
-        </p>
+        <div class="post-excerpt">
+            {{ post.excerpt | strip_html | truncatewords: 30 }}
+        </div>
+
       </li>
     {% endfor %}
   </ul>

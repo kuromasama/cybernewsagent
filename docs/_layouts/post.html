@@ -2,51 +2,55 @@
 layout: default
 ---
 
-{% comment %}
-===========================================================
-✨ 動態威脅等級顏色系統 (v1.2 Fix)
-===========================================================
-{% endcomment %}
-
 {%- assign severity = page.severity | default: 'info' | downcase -%}
 
 {%- case severity -%}
   {%- when 'critical' -%}
     {%- assign severity_color = "var(--neon-pink)" -%}
+    {%- assign severity_icon = "🚨" -%}
   {%- when 'high' -%}
     {%- assign severity_color = "var(--neon-orange)" -%}
+    {%- assign severity_icon = "🔥" -%}
   {%- when 'medium' -%}
     {%- assign severity_color = "var(--neon-yellow)" -%}
+    {%- assign severity_icon = "⚠️" -%}
   {%- else -%}
     {%- assign severity_color = "var(--neon-cyan)" -%} 
+    {%- assign severity_icon = "🛡️" -%}
 {%- endcase -%}
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" style="
     border: 1px solid {{ severity_color }}; 
     border-left: 6px solid {{ severity_color }}; 
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); 
-    padding: 25px; 
-    background: rgba(13, 17, 23, 0.8);
+    box-shadow: 0 0 25px {{ severity_color | replace: 'var(', 'rgba(' | replace: ')', ', 0.15)' }}; 
+    padding: 30px; 
+    background: rgba(13, 17, 23, 0.85);
     margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
 ">
 
-  <header class="post-header" style="margin-bottom: 30px; border-bottom: 1px dashed #333; padding-bottom: 15px;">
-    <div style="font-family: monospace; color: {{ severity_color }}; margin-bottom: 10px;">
-        > THREAT_LEVEL: [ {{ severity | upcase }} ]
+  <div style="position: absolute; top: -20px; right: -20px; font-size: 10rem; opacity: 0.05; pointer-events: none; color: {{ severity_color }}">
+      {{ severity_icon }}
+  </div>
+
+  <header class="post-header" style="margin-bottom: 35px; border-bottom: 1px dashed #444; padding-bottom: 20px;">
+    
+    <div style="font-family: monospace; color: {{ severity_color }}; margin-bottom: 15px; font-size: 1.1em; letter-spacing: 1px;">
+        {{ severity_icon }} THREAT_LEVEL: [ <span style="font-weight: bold;">{{ severity | upcase }}</span> ]
     </div>
 
-    <h1 class="post-title p-name" itemprop="name headline" style="color: {{ severity_color }}; text-shadow: 0 0 10px {{ severity_color }};">
+    <h1 class="post-title p-name" itemprop="name headline" style="color: {{ severity_color }}; text-shadow: 0 0 15px {{ severity_color }}; font-size: 2.2em; line-height: 1.3;">
         {{ page.title | escape }}
     </h1>
 
-    <div class="post-meta" style="color: #666; font-size: 0.9em; margin-top: 10px;">
+    <div class="post-meta" style="color: #888; font-size: 0.9em; margin-top: 15px; font-family: 'Courier New', monospace;">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
-        [SYSTEM_TIME]: {{ page.date | date: date_format }}
+        [TIME]: {{ page.date | date: "%Y-%m-%d %H:%M" }}
       </time>
       {%- if page.author -%}
         <span style="margin-left: 15px;">
-            // AGENT: <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
+            // AGENT: {{ page.author | escape }}
         </span>
       {%- endif -%}
     </div>
@@ -56,14 +60,17 @@ layout: default
     {{ content }}
   </div>
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-  
-  <div style="margin-top: 50px; text-align: center;">
-      <a href="{{ "/" | relative_url }}" style="color: {{ severity_color }}; border: 1px solid {{ severity_color }}; padding: 10px 20px; text-decoration: none; transition: all 0.3s;">
+  <div style="margin-top: 60px; text-align: center; border-top: 1px solid #333; padding-top: 30px;">
+      <a href="{{ "/" | relative_url }}" style="
+          color: {{ severity_color }}; 
+          border: 1px solid {{ severity_color }}; 
+          padding: 12px 30px; 
+          text-decoration: none; 
+          transition: all 0.3s;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          font-family: monospace;
+      " onmouseover="this.style.background='{{ severity_color }}'; this.style.color='#000'" onmouseout="this.style.background='transparent'; this.style.color='{{ severity_color }}'">
           &lt; RETURN_TO_BASE
       </a>
   </div>
@@ -71,28 +78,41 @@ layout: default
 </article>
 
 <style>
-  .post-content h1,
-  .post-content h2,
-  .post-content h3 {
+  /* 標題變色 */
+  .post-content h1, .post-content h2, .post-content h3 {
     color: var(--current-severity-color) !important;
     border-bottom: 1px solid var(--current-severity-color) !important;
-    padding-bottom: 5px;
-    margin-top: 30px;
   }
   
-  .post-content strong {
-    color: var(--current-severity-color) !important;
-  }
+  /* 重點字與連結變色 */
+  .post-content strong { color: var(--current-severity-color) !important; }
+  .post-content a { color: var(--current-severity-color) !important; text-decoration: underline; }
 
+  /* 引用區塊變色 */
   .post-content blockquote {
       border-left: 4px solid var(--current-severity-color) !important;
-      background: rgba(255, 255, 255, 0.05);
-      color: #aaa;
-      padding: 10px 15px;
+      background: rgba(255, 255, 255, 0.03);
+      color: #bbb;
+  }
+
+  /* 🔥 表格強制變色 (Table Override) 🔥 */
+  .post-content table {
+      border: 1px solid var(--current-severity-color) !important;
+      width: 100%;
+      border-collapse: collapse;
       margin: 20px 0;
   }
   
-  .post-content a {
-      color: var(--current-severity-color) !important;
+  .post-content th {
+      background-color: var(--current-severity-color) !important;
+      color: #000 !important; /* 表頭文字改為黑色，對比度較高 */
+      border: 1px solid var(--current-severity-color) !important;
+      padding: 10px;
+  }
+  
+  .post-content td {
+      border: 1px solid #444 !important; /* 內容格線保持深灰，避免太刺眼 */
+      color: #ddd;
+      padding: 10px;
   }
 </style>
