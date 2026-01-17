@@ -9,39 +9,27 @@ layout: default
     margin: 0;
   }
 
-  /* 列表項目卡片 */
   .post-list-item {
     position: relative;
     margin-bottom: 25px;
     padding: 20px 25px;
-    background: rgba(13, 17, 23, 0.6); /* 半透明背景 */
-    
-    /* 預設邊框改為極淡的灰色，避免與左側顏色衝突 */
+    background: rgba(13, 17, 23, 0.6);
     border: 1px solid rgba(255, 255, 255, 0.1); 
-    
     border-left-width: 5px;
     border-left-style: solid;
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-    
-    /* 定義 CSS 變數：預設為青色，會被 inline style 覆蓋 */
     --item-color: var(--neon-cyan); 
   }
 
-  /* 🔥 卡片 Hover 效果：震動 + 顏色光暈 🔥 */
   ul.post-list .post-list-item:hover {
     background: rgba(13, 17, 23, 0.95);
     transform: translateX(5px) scale(1.01);
-    
-    /* 懸停時，邊框與光暈都變成該卡片的專屬顏色 */
     border-color: var(--item-color) !important;
     box-shadow: 0 0 20px var(--item-color);
-    
-    /* 新增：震動效果 */
     animation: card-shake 0.3s infinite;
-    z-index: 10; /* 確保浮起時在最上層 */
+    z-index: 10;
   }
   
-  /* 微幅震動動畫 */
   @keyframes card-shake {
       0% { transform: translate(0,0) scale(1.01); }
       25% { transform: translate(1px, 1px) scale(1.01); }
@@ -54,7 +42,7 @@ layout: default
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 12px; /* 稍微拉開距離 */
+    margin-bottom: 12px;
     font-family: 'Courier New', monospace;
     font-size: 0.85em;
   }
@@ -69,12 +57,10 @@ layout: default
     letter-spacing: 1px;
     background: rgba(0,0,0,0.3);
     border: 1px solid;
-    /* 徽章文字顏色使用卡片專屬色 */
     color: var(--item-color);
     border-color: var(--item-color);
   }
 
-  /* 🔥 標題樣式修復：強制使用 --item-color 🔥 */
   .post-link {
     font-size: 1.4em;
     font-weight: bold;
@@ -82,28 +68,22 @@ layout: default
     display: block;
     margin-top: 5px;
     margin-bottom: 10px;
-    transition: all 0.3s; /* 改為 all 以支援 color 變換 */
-    
-    /* 這裡原本是青色，現在改為變數，讓紅卡顯示紅字 */
+    transition: all 0.3s;
     color: var(--item-color) !important;
-    text-shadow: 0 0 8px var(--item-color); /* 光暈也跟著變色 */
+    text-shadow: 0 0 8px var(--item-color);
   }
   
-  /* 🔥 首頁文章標題 Hover 特效 🔥 */
   .post-link:hover {
     text-decoration: none;
-    color: #fff !important; /* 變為白色高亮 */
-    text-shadow: 0 0 15px var(--item-color); /* 強烈光暈 */
-    box-shadow: 0 2px 0 var(--item-color); /* 發光底線 */
+    color: #fff !important;
+    text-shadow: 0 0 15px var(--item-color);
+    box-shadow: 0 2px 0 var(--item-color);
     filter: brightness(1.3);
   }
 
-  /* 🔥 UPDATED: 已讀文章特效 (Visited Link) 🔥 
-     將看過的文章標題變暗，模擬 "Data Extracted" 的狀態
-  */
   .post-link:visited {
-      color: #667770 !important; /* 暗淡的灰綠色 */
-      text-shadow: none !important; /* 移除光暈 */
+      color: #667770 !important;
+      text-shadow: none !important;
       transition: color 0.5s;
   }
 
@@ -117,15 +97,13 @@ layout: default
     overflow: hidden;
   }
 
-  /* 🔥 日期樣式優化 🔥 */
   .post-date {
-    color: #ccc; /* 加亮：淺銀色 */
+    color: #ccc;
     font-weight: normal;
     font-family: monospace;
     opacity: 0.8;
   }
   
-  /* 終端機打字效果：游標 */
   .typing-cursor::after {
       content: '█';
       animation: blink 1s infinite;
@@ -135,7 +113,7 @@ layout: default
       font-size: 0.8em;
   }
 
-  /* --- 分頁按鈕樣式 --- */
+  /* 分頁樣式 */
   .pagination {
       margin-top: 50px; 
       text-align: center; 
@@ -147,7 +125,7 @@ layout: default
   
   .pagination-link, .pagination-current, .pagination-disabled, .pagination-dots {
       display: inline-block;
-      padding: 5px 12px;
+      padding: 8px 14px;
       margin: 0 4px;
       text-decoration: none;
       font-size: 1rem;
@@ -179,18 +157,8 @@ layout: default
       cursor: default;
   }
 
-  .pagination-dots {
-      color: #666;
-      border: none;
-      letter-spacing: 2px;
-  }
-
-  .pagination-disabled {
-      color: #444;
-      border: 1px solid #333;
-      pointer-events: none;
-      opacity: 0.5;
-  }
+  .pagination-dots { color: #666; border: none; letter-spacing: 2px; }
+  .pagination-disabled { color: #444; border: 1px solid #333; pointer-events: none; opacity: 0.5; }
 </style>
 
 <div class="home">
@@ -214,75 +182,93 @@ layout: default
     {% assign posts = paginator.posts | default: site.posts %}
     {% for post in posts %}
       {%- assign severity = post.severity | default: 'info' | downcase -%}
-      
       {%- case severity -%}
-        {%- when 'critical' -%}
-          {%- assign severity_color = "var(--neon-pink)" -%}
-          {%- assign severity_text = "CRITICAL" -%}
-          {%- assign severity_icon = "🚨" -%}
-        {%- when 'high' -%}
-          {%- assign severity_color = "var(--neon-orange)" -%}
-          {%- assign severity_text = "HIGH" -%}
-          {%- assign severity_icon = "🔥" -%}
-        {%- when 'medium' -%}
-          {%- assign severity_color = "var(--neon-yellow)" -%}
-          {%- assign severity_text = "MEDIUM" -%}
-          {%- assign severity_icon = "⚠️" -%}
-        {%- else -%}
-          {%- assign severity_color = "var(--neon-blue)" -%}
-          {%- assign severity_text = "INFO" -%}
-          {%- assign severity_icon = "🛡️" -%}
+        {%- when 'critical' -%}{%- assign severity_color = "var(--neon-pink)" -%}{%- assign severity_text = "CRITICAL" -%}{%- assign severity_icon = "🚨" -%}
+        {%- when 'high' -%}{%- assign severity_color = "var(--neon-orange)" -%}{%- assign severity_text = "HIGH" -%}{%- assign severity_icon = "🔥" -%}
+        {%- when 'medium' -%}{%- assign severity_color = "var(--neon-yellow)" -%}{%- assign severity_text = "MEDIUM" -%}{%- assign severity_icon = "⚠️" -%}
+        {%- else -%}{%- assign severity_color = "var(--neon-blue)" -%}{%- assign severity_text = "INFO" -%}{%- assign severity_icon = "🛡️" -%}
       {%- endcase -%}
 
       <li class="post-list-item" style="border-left-color: {{ severity_color }}; --item-color: {{ severity_color }};">
-        
         <div class="post-meta">
             <span class="severity-badge">
-                <span style="font-size: 1.2em;">{{ severity_icon }}</span> 
-                {{ severity_text }}
+                <span style="font-size: 1.2em;">{{ severity_icon }}</span> {{ severity_text }}
             </span>
-            
             <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">
                 [ {{ post.date | date: "%Y-%m-%d %H:%M" }} ]
             </time>
         </div>
-
         <a class="post-link" href="{{ post.url | relative_url }}">
           {{ post.title | escape }}
         </a>
-
         <div class="post-excerpt">
             {{ post.excerpt | strip_html | truncatewords: 30 }}
         </div>
-
       </li>
     {% endfor %}
   </ul>
 
+  <!-- 🔥 FIXED: 穩健的分頁邏輯 (修正第一頁顯示問題) 🔥 -->
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
+    <!-- Prev -->
     {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-link">&lt; PREV</a>
     {% else %}
       <span class="pagination-disabled">&lt; PREV</span>
     {% endif %}
 
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <span class="pagination-current">{{ page }}</span>
-      {% elsif page == 1 %}
-        <a href="{{ '/' | relative_url }}" class="pagination-link">1</a>
-      {% elsif page == paginator.total_pages %}
-        <a href="{{ site.paginate_path | default: '/page:num/' | replace: ':num', page | relative_url }}" class="pagination-link">{{ page }}</a>
-      {% elsif page > paginator.page | minus: 3 and page < paginator.page | plus: 3 %}
-        <a href="{{ site.paginate_path | default: '/page:num/' | replace: ':num', page | relative_url }}" class="pagination-link">{{ page }}</a>
-      {% elsif page == paginator.page | minus: 3 %}
-        <span class="pagination-dots">...</span>
-      {% elsif page == paginator.page | plus: 3 %}
-        <span class="pagination-dots">...</span>
+    <!-- Numbers Logic -->
+    <!-- Window size: number of pages to show around current page -->
+    {% assign window_size = 2 %} 
+    
+    <!-- 永遠顯示第一頁 -->
+    {% if paginator.page == 1 %}
+      <span class="pagination-current">1</span>
+    {% else %}
+      <a href="{{ '/' | relative_url }}" class="pagination-link">1</a>
+    {% endif %}
+
+    <!-- 左側省略號邏輯 -->
+    {% assign left_gap = paginator.page | minus: window_size | minus: 1 %}
+    {% if left_gap > 1 %}
+      <span class="pagination-dots">...</span>
+    {% endif %}
+
+    <!-- 中間頁碼迴圈 -->
+    {% for i in (2..paginator.total_pages) %}
+      <!-- 排除最後一頁 (後面單獨處理)，只處理中間頁 -->
+      {% if i < paginator.total_pages %}
+        {% assign dist = paginator.page | minus: i %}
+        {% if dist < 0 %}{% assign dist = dist | times: -1 %}{% endif %}
+        
+        <!-- 顯示條件: 距離在視窗內，或是剛好填補省略號空缺的頁碼 -->
+        {% if dist <= window_size or left_gap == 1 and i == 2 %}
+          {% if i == paginator.page %}
+            <span class="pagination-current">{{ i }}</span>
+          {% else %}
+            <a href="{{ site.paginate_path | default: '/page:num/' | replace: ':num', i | relative_url }}" class="pagination-link">{{ i }}</a>
+          {% endif %}
+        {% endif %}
       {% endif %}
     {% endfor %}
 
+    <!-- 右側省略號邏輯 -->
+    {% assign right_gap = paginator.total_pages | minus: paginator.page | minus: window_size %}
+    {% if right_gap > 1 %}
+      <span class="pagination-dots">...</span>
+    {% endif %}
+
+    <!-- 永遠顯示最後一頁 (如果總頁數大於1) -->
+    {% if paginator.total_pages > 1 %}
+      {% if paginator.page == paginator.total_pages %}
+        <span class="pagination-current">{{ paginator.total_pages }}</span>
+      {% else %}
+        <a href="{{ site.paginate_path | default: '/page:num/' | replace: ':num', paginator.total_pages | relative_url }}" class="pagination-link">{{ paginator.total_pages }}</a>
+      {% endif %}
+    {% endif %}
+
+    <!-- Next -->
     {% if paginator.next_page %}
       <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-link">NEXT &gt;</a>
     {% else %}
