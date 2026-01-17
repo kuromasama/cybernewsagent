@@ -3,6 +3,7 @@ layout: post
 title:  "Publicly Available Tools Seen in Cyber Incidents Worldwide"
 date:   2026-01-16 14:49:00 +0000
 categories: [security]
+severity: high
 ---
 
 # 🚨 解析公開工具在全球網絡事件中的應用：技術分析與防禦策略

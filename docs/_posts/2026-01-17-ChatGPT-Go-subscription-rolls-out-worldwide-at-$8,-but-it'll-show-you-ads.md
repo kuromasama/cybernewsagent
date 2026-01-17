@@ -3,6 +3,7 @@ layout: post
 title:  "ChatGPT Go subscription rolls out worldwide at $8, but it'll show you ads"
 date:   2026-01-17 01:09:17 +0000
 categories: [security]
+severity: medium
 ---
 
 # 🚨 解析 ChatGPT Go 的安全性與威脅

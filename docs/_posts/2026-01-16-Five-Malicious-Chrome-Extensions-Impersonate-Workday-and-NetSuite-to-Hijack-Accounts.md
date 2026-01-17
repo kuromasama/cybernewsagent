@@ -3,6 +3,7 @@ layout: post
 title:  "Five Malicious Chrome Extensions Impersonate Workday and NetSuite to Hijack Accounts"
 date:   2026-01-16 16:11:32 +0000
 categories: [security]
+severity: high
 ---
 
 # 🚨 解析 Google Chrome 擴充功能的會話劫持與防禦繞過技術

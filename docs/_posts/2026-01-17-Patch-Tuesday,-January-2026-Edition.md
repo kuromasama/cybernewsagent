@@ -3,6 +3,7 @@ layout: post
 title:  "Patch Tuesday, January 2026 Edition"
 date:   2026-01-17 01:09:47 +0000
 categories: [security]
+severity: critical
 ---
 
 # 🚨 解析 Microsoft January 2026 安全更新：CVE-2026-20805、CVE-2026-20952、CVE-2026-20953 和 CVE-2026-21265

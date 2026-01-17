@@ -3,6 +3,7 @@ layout: post
 title:  "Who Benefited from the Aisuru and Kimwolf Botnets?"
 date:   2026-01-16 14:48:42 +0000
 categories: [security]
+severity: critical
 ---
 
 # 🚨 解析 Kimwolf Botnet：技術分析與防禦策略

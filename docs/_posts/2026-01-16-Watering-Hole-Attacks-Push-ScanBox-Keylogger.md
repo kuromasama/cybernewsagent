@@ -3,6 +3,7 @@ layout: post
 title:  "Watering Hole Attacks Push ScanBox Keylogger"
 date:   2026-01-16 14:22:00 +0000
 categories: [security]
+severity: high
 ---
 
 # 🚨 解析 ScanBox 蠕蟲的技術細節與防禦策略

@@ -3,6 +3,7 @@ layout: post
 title:  "Microsoft: Windows 11 update causes Outlook freezes for POP users"
 date:   2026-01-16 14:47:57 +0000
 categories: [security]
+severity: medium
 ---
 
 # 🚨 解析 Windows 11 安全更新對 Outlook 的影響：技術深度分析

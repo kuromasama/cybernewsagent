@@ -1,0 +1,110 @@
+---
+layout: default
+---
+
+<style>
+  /* 首頁專屬樣式 */
+  .post-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .post-list-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: rgba(13, 17, 23, 0.7);
+    border: 1px solid #333;
+    border-left-width: 6px; /* 加寬左邊框，強調顏色 */
+    border-left-style: solid;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .post-list-item:hover {
+    background: rgba(13, 17, 23, 1.0);
+    transform: translateX(5px); /* 滑鼠移過去稍微向右移動 */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .post-link {
+    text-decoration: none;
+    color: #e0e0e0;
+    font-size: 1.3em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'Courier New', monospace; /* 統一字體風格 */
+  }
+
+  .post-link:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .post-meta {
+    font-size: 0.85em;
+    color: #888;
+    font-family: monospace;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .severity-tag {
+    font-weight: bold;
+    font-size: 0.85em;
+    padding: 2px 8px;
+    border: 1px solid;
+    border-radius: 3px;
+    letter-spacing: 1px;
+  }
+</style>
+
+<div class="home">
+
+  <h1 class="page-heading" style="color: var(--neon-cyan); text-shadow: 0 0 10px var(--neon-cyan); margin-bottom: 40px; border-bottom: 1px dashed var(--neon-cyan); padding-bottom: 10px;">
+    > THREAT_INTELLIGENCE_FEED
+  </h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      {%- assign severity = post.severity | default: 'info' | downcase -%}
+      
+      {%- case severity -%}
+        {%- when 'critical' -%}
+          {%- assign severity_color = "var(--neon-pink)" -%}
+          {%- assign severity_text = "CRITICAL" -%}
+        {%- when 'high' -%}
+          {%- assign severity_color = "var(--neon-orange)" -%}
+          {%- assign severity_text = "HIGH" -%}
+        {%- when 'medium' -%}
+          {%- assign severity_color = "var(--neon-yellow)" -%}
+          {%- assign severity_text = "MEDIUM" -%}
+        {%- else -%}
+          {%- assign severity_color = "var(--neon-blue)" -%}
+          {%- assign severity_text = "INFO" -%}
+      {%- endcase -%}
+
+      <li class="post-list-item" style="border-left-color: {{ severity_color }};">
+        
+        <div class="post-meta" style="margin-bottom: 5px;">
+             <span class="severity-tag" style="color: {{ severity_color }}; border-color: {{ severity_color }}; box-shadow: 0 0 5px {{ severity_color }};">
+                {{ severity_text }}
+            </span>
+            <time datetime="{{ post.date | date_to_xmlschema }}">
+                {{ post.date | date: "%Y-%m-%d" }}
+            </time>
+        </div>
+
+        <a class="post-link" href="{{ post.url | relative_url }}" style="color: {{ severity_color }};">
+          {{ post.title | escape }}
+        </a>
+
+        <p style="color: #aaa; font-size: 0.9em; margin: 0;">
+            {{ post.excerpt | strip_html | truncatewords: 20 }}
+        </p>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

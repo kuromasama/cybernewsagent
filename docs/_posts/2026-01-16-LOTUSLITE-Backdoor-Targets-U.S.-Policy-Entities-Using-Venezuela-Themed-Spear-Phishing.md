@@ -3,6 +3,7 @@ layout: post
 title:  "LOTUSLITE Backdoor Targets U.S. Policy Entities Using Venezuela-Themed Spear Phishing"
 date:   2026-01-16 14:47:42 +0000
 categories: [security]
+severity: high
 ---
 
 # 🚨 解析 LOTUSLITE 後門攻擊：技術分析與防禦策略

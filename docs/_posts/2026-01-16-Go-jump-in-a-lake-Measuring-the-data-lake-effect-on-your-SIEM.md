@@ -3,6 +3,7 @@ layout: post
 title:  "Go jump in a lake: Measuring the data lake effect on your SIEM"
 date:   2026-01-16 14:50:34 +0000
 categories: [security]
+severity: medium
 ---
 
 # 🚨 SIEM 與 Data Lake 的成本優化與安全威脅分析

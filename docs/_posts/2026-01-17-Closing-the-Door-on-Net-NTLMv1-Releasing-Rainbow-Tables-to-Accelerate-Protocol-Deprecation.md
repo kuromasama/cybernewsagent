@@ -3,6 +3,7 @@ layout: post
 title:  "Closing the Door on Net-NTLMv1: Releasing Rainbow Tables to Accelerate Protocol Deprecation"
 date:   2026-01-17 06:23:00 +0000
 categories: [security]
+severity: critical
 ---
 
 # 🚨 解析 Net-NTLMv1 協議漏洞：利用 Rainbow Tables 進行密碼破解

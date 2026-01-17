@@ -3,6 +3,7 @@ layout: post
 title:  "Go jump in a lake: Data storage for the win"
 date:   2026-01-17 06:22:28 +0000
 categories: [security]
+severity: medium
 ---
 
 # 🚨 資安大數據湖解析：從 SIEM 到 Data Lake 的技術演進

@@ -3,6 +3,7 @@ layout: post
 title:  "Student Loan Breach Exposes 2.5M Records"
 date:   2026-01-16 14:21:45 +0000
 categories: [security]
+severity: high
 ---
 
 # 🚨 解析 Nelnet Servicing 數據洩露事件：技術分析與防禦策略

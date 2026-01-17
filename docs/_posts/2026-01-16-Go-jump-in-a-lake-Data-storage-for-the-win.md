@@ -3,6 +3,7 @@ layout: post
 title:  "Go jump in a lake: Data storage for the win"
 date:   2026-01-16 14:50:13 +0000
 categories: [security]
+severity: medium
 ---
 
 # 🚨 資安數據湖解析：深入探討數據湖的技術細節與安全應用

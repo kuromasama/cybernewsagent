@@ -3,6 +3,7 @@ layout: post
 title:  "OpenAI says its new ChatGPT ads won't influence answers"
 date:   2026-01-17 01:09:32 +0000
 categories: [security]
+severity: medium
 ---
 
 # 🚨 解析 OpenAI ChatGPT 廣告機制與潛在安全風險

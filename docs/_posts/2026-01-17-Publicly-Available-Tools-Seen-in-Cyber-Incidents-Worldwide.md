@@ -3,6 +3,7 @@ layout: post
 title:  "Publicly Available Tools Seen in Cyber Incidents Worldwide"
 date:   2026-01-17 01:10:19 +0000
 categories: [security]
+severity: critical
 ---
 
 # 🚨 解析公開工具在全球網路事件中的應用：解密 JBiFrost、China Chopper、Mimikatz、PowerShell Empire 和 HUC Packet Transmitter

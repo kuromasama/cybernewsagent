@@ -3,6 +3,7 @@ layout: post
 title:  "Verizon starts issuing $20 credits after nationwide outage"
 date:   2026-01-16 18:23:49 +0000
 categories: [security]
+severity: medium
 ---
 
 # 🚨 解析 Verizon 全國無線中斷事件：技術分析與防禦策略

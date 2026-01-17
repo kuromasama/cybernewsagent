@@ -3,6 +3,7 @@ layout: post
 title:  "SamSam Ransomware"
 date:   2026-01-16 14:49:15 +0000
 categories: [security]
+severity: critical
 ---
 
 # 🚨 解析 SamSam 勒索軟體的技術細節與防禦策略

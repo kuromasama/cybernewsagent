@@ -3,6 +3,7 @@ layout: post
 title:  "Your Digital Footprint Can Lead Right to Your Front Door"
 date:   2026-01-16 16:11:48 +0000
 categories: [security]
+severity: high
 ---
 
 # 🚨 個人資訊外洩風險解析：從資料經紀人到網路安全威脅
