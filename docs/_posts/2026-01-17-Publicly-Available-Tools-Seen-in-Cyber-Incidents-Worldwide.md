@@ -82,7 +82,6 @@ htran -l 8080 -r 受害者的機器 IP
 | PowerShell Empire | powershell.exe |
 | HUC Packet Transmitter | htran.exe |
 
-
 * **偵測規則 (Detection Rules)**:
 
     ```

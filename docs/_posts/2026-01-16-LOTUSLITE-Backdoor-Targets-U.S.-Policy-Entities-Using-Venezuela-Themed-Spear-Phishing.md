@@ -66,7 +66,6 @@ bash
 |---|---|---|---|
 | 1234567890abcdef | 192.168.1.100 | example.com | C:\Windows\System32\kugou.dll |
 
-
 * **偵測規則 (Detection Rules)**:
 
     ```

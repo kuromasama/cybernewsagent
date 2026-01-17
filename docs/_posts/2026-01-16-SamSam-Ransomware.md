@@ -59,7 +59,6 @@ categories: [security]
 |---|---|---|---|
 | 1234567890abcdef | 192.168.1.100 | example.com | C:\Windows\Temp\SamSam.exe |
 
-
 * **偵測規則 (Detection Rules)**:
 
     ```

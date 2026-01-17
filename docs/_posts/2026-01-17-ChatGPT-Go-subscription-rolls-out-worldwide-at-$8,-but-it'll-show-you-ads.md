@@ -64,7 +64,6 @@ curl -X POST -F "file=@/path/to/file" https://chatgpt-go.example.com/upload
 |---|---|---|---|
 | 1234567890abcdef | 192.168.1.100 | chatgpt-go.example.com | /path/to/file |
 
-
 * **偵測規則 (Detection Rules)**:
 
     ```

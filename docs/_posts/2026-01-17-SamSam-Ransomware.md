@@ -75,7 +75,6 @@ nmap -p 3389 目標系統 IP
 | Domain | `目標系統 Domain` |
 | File Path | `SamSam 勒索軟體的檔案路徑` |
 
-
 * **偵測規則 (Detection Rules)**:
 
     ```

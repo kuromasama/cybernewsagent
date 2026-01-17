@@ -53,7 +53,6 @@ categories: [security]
 |---|---|---|---|
 | XXXX | 192.168.1.1 | example.com | /data.parquet |
 
-
 * **偵測規則 (Detection Rules)**:
 
     ```

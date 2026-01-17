@@ -55,11 +55,8 @@ categories: [security]
 * **IOCs (入侵指標)**:
 
 | Hash | IP | Domain | File Path |
-
 |---|---|---|---|
-
 | 1234567890abcdef | 93.95.112.59 | kimwolf.net | /usr/bin/proxy |
-
 
 * **偵測規則 (Detection Rules)**:
 

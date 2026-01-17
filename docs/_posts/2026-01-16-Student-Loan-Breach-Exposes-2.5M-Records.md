@@ -63,7 +63,6 @@ bash
 | Domain | example.com |
 | File Path | /vulnerable_endpoint |
 
-
 * **偵測規則 (Detection Rules)**:
 
     ```

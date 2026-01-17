@@ -84,7 +84,6 @@ bash
 | PowerShell Empire | empire.ps1 |
 | HUC Packet Transmitter | htran.exe |
 
-
 * **偵測規則 (Detection Rules)**:
 
     ```

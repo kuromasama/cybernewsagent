@@ -66,11 +66,8 @@ categories: [security]
 * **IOCs (入侵指標)**:
 
 | Hash | IP | Domain | File Path |
-
 |---|---|---|---|
-
 | - | - | verizon.com | - |
-
 
 * **偵測規則 (Detection Rules)**:
 
