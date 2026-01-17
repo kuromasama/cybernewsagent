@@ -85,7 +85,29 @@ layout: default
     border-bottom: 1px solid var(--current-severity-color) !important;
   }
   .post-content strong { color: var(--current-severity-color) !important; }
-  .post-content a { color: var(--current-severity-color) !important; text-decoration: underline; }
+  
+  /* UPDATED: 文章內連結樣式
+     預設顏色跟隨等級，並加入過渡效果
+  */
+  .post-content a { 
+      color: var(--current-severity-color) !important; 
+      text-decoration: underline; 
+      transition: all 0.3s; 
+  }
+
+  /* 🔥 UPDATED: 文章內連結 Hover 特效 🔥
+     1. 文字變白色 (清晰高亮)
+     2. 移除原本的全域綠色背景 (background: transparent)
+     3. 加入動態顏色的文字光暈 (text-shadow)
+     4. 底部加入動態顏色線條 (box-shadow/border)
+  */
+  .post-content a:hover {
+      color: #fff !important; 
+      background: transparent !important;
+      text-shadow: 0 0 10px var(--current-severity-color);
+      box-shadow: 0 2px 0 var(--current-severity-color); /* 模擬發光底線 */
+      text-decoration: none;
+  }
 
   /* 引用區塊 */
   .post-content blockquote {
