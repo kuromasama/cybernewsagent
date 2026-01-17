@@ -3,3 +3,10 @@ https://thehackernews.com/2026/01/your-digital-footprint-can-lead-right.html
 https://thehackernews.com/2026/01/gootloader-malware-uses-5001000.html
 https://www.bleepingcomputer.com/news/security/china-linked-hackers-exploited-sitecore-zero-day-for-initial-access/
 https://www.bleepingcomputer.com/news/mobile/verizon-starts-issuing-20-credits-after-nationwide-outage/
+https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-go-subscription-rolls-out-worldwide-at-8-but-itll-show-you-ads/
+https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-new-chatgpt-ads-wont-influence-answers/
+https://krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition/
+https://krebsonsecurity.com/2026/01/who-benefited-from-the-aisuru-and-kimwolf-botnets/
+https://www.cisa.gov/news-events/cybersecurity-advisories/aa18-284a
+https://www.cisa.gov/news-events/cybersecurity-advisories/aa18-337a
+https://projectzero.google/2026/01/pixel-0-click-part-3.html
