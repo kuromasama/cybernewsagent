@@ -27,7 +27,7 @@ layout: default
     --item-color: var(--neon-cyan); 
   }
 
-  /* 滑鼠懸停效果 */
+  /* 🔥 卡片 Hover 效果：震動 + 顏色光暈 🔥 */
   ul.post-list .post-list-item:hover {
     background: rgba(13, 17, 23, 0.95);
     transform: translateX(5px) scale(1.01);
@@ -35,6 +35,19 @@ layout: default
     /* 懸停時，邊框與光暈都變成該卡片的專屬顏色 */
     border-color: var(--item-color) !important;
     box-shadow: 0 0 20px var(--item-color);
+    
+    /* 新增：震動效果 */
+    animation: card-shake 0.3s infinite;
+    z-index: 10; /* 確保浮起時在最上層 */
+  }
+  
+  /* 微幅震動動畫 */
+  @keyframes card-shake {
+      0% { transform: translate(0,0) scale(1.01); }
+      25% { transform: translate(1px, 1px) scale(1.01); }
+      50% { transform: translate(-1px, -1px) scale(1.01); }
+      75% { transform: translate(1px, -1px) scale(1.01); }
+      100% { transform: translate(0,0) scale(1.01); }
   }
 
   .post-meta {
@@ -98,12 +111,23 @@ layout: default
     font-family: monospace;
     opacity: 0.8;
   }
+  
+  /* 終端機打字效果：游標 */
+  .typing-cursor::after {
+      content: '█';
+      animation: blink 1s infinite;
+      color: var(--neon-green);
+      margin-left: 5px;
+      vertical-align: middle;
+      font-size: 0.8em;
+  }
 </style>
 
 <div class="home">
 
   <div class="home-intro" style="margin-bottom: 50px; font-size: 1.1em; line-height: 1.6; color: #ddd;">
-    {{ content }}
+    <!-- 加入打字機游標 -->
+    <span class="typing-cursor">{{ content }}</span>
   </div>
 
   <h1 class="page-heading" style="
@@ -114,7 +138,8 @@ layout: default
       padding-bottom: 15px;
       letter-spacing: 2px;
   ">
-    > THREAT_INTELLIGENCE_FEED
+    <!-- 加入故障文字特效 -->
+    <span class="glitch" data-text="> THREAT_INTELLIGENCE_FEED">> THREAT_INTELLIGENCE_FEED</span>
   </h1>
 
   <ul class="post-list">

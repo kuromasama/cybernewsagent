@@ -1,11 +1,11 @@
-/* * Cyber News Agent - Terminal Theme (v12.0 Total Hack / 全面入侵)
- * Status: UNSTABLE // MAXIMUM GLITCH
+/* * Cyber News Agent - Terminal Theme (v12.1 Total Hack / 全面修復)
+ * Status: STABLE // VISUAL UPGRADE
  * * Changelog:
- * 1. Global TV Static & Stealth Scrollbars
- * 2. Verbose Glitch Animation (Step-by-step chaos)
- * 3. Text & Card Jitter Effects (Digital Noise)
- * 4. Critical Alert Watermarks
- * 5. Glare Reduction Protocol
+ * 1. Global TV Static & Stealth Scrollbars (Kept)
+ * 2. Verbose Glitch Animation (Kept)
+ * 3. Text & Card Jitter Effects (Kept)
+ * 4. Dynamic Watermarks (Fixed for all levels)
+ * 5. High Contrast Buttons (Solid fill on hover)
  */
 
  :root {
@@ -329,20 +329,25 @@ h1.post-title {
     position: relative; /* Anchor for watermark */
 }
 
-/* 🔥 4. ALERT WATERMARK (CSS Portion) 🔥 */
-.post-content[data-severity="Critical"]::after {
-    content: "ALERT // SYSTEM BREACH";
+/* 🔥 4. UPDATED: DYNAMIC WATERMARK SUPPORT 🔥 */
+/* 修正：改用 [data-watermark] 選擇器。
+   這允許 CSS 直接讀取 HTML 屬性 (content: attr(data-watermark)) 
+   並支援所有威脅等級的顏色自動變換。
+*/
+.post-content[data-watermark]::after {
+    content: attr(data-watermark);
     position: absolute;
     top: 20%;
     left: 50%;
     transform: translate(-50%, 0) rotate(-30deg);
     font-size: 5rem;
     font-weight: 900;
-    color: var(--neon-pink);
-    opacity: 0.08; /* Subtle but visible */
+    /* 使用變數確保顏色自動跟隨等級 (紅/橘/黃) */
+    color: var(--current-severity-color, var(--neon-pink));
+    opacity: 0.1; /* 提高不透明度，讓其更可見 */
     pointer-events: none;
     white-space: nowrap;
-    border: 5px solid var(--neon-pink);
+    border: 5px solid var(--current-severity-color, var(--neon-pink));
     padding: 20px 40px;
     z-index: 0;
     mask-image: linear-gradient(black 50%, transparent 100%);
@@ -508,7 +513,8 @@ html body .post-content tr:hover {
     border-bottom: 1px solid var(--neon-pink);
 }
 
-/* --- 🔥 5. BUTTON COMPATIBILITY (Return to Base Fix) 🔥 --- */
+/* --- 🔥 5. UPDATED: BUTTON COMPATIBILITY (Return to Base Fix) 🔥 --- */
+/* 一般按鈕的 Fallback (保留原本邏輯) */
 .post-content + div a, 
 a[href*="relative_url"] {
     background: transparent !important;
@@ -519,18 +525,84 @@ a[href*="relative_url"] {
     margin-top: 20px;
 }
 
-.post-content + div a:hover,
-a[href*="relative_url"]:hover {
-    /* Digital noise background using currentColor to match Red/Green severity */
-    background: repeating-linear-gradient(
-        45deg,
-        rgba(255,255,255, 0.05),
-        rgba(255,255,255, 0.05) 2px,
-        rgba(255,255,255, 0.1) 2px,
-        rgba(255,255,255, 0.1) 4px
-    ) !important;
-    box-shadow: 0 0 15px currentColor !important;
-    animation: text-jitter 0.2s infinite;
+/* 新增：專屬 .return-btn 樣式
+   用於解決 Hover 時文字變成白色的問題，改為高對比 (填滿底色+黑字)
+*/
+.return-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    border: 1px solid var(--btn-color, var(--neon-green));
+    color: var(--btn-color, var(--neon-green));
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: monospace;
+    transition: all 0.2s;
+    background: transparent;
+    margin-top: 20px;
+}
+
+.return-btn:hover {
+    background: var(--btn-color, var(--neon-green)) !important;
+    color: #000 !important; /* 黑色文字，形成反白效果 */
+    box-shadow: 0 0 20px var(--btn-color, var(--neon-green));
+    text-shadow: none;
+    border-color: var(--btn-color, var(--neon-green));
+}
+
+/* --- Support for New Animations (Typing & Watermark) --- */
+/* 終端機打字效果：游標 */
+.typing-cursor::after {
+    content: '█';
+    animation: blink 1s infinite;
+    color: var(--neon-green);
+    margin-left: 5px;
+    vertical-align: middle;
+    font-size: 0.8em;
+}
+
+/* 名字故障特效 (About Page) */
+.hacker-name {
+    position: relative;
+    display: inline-block;
+    color: var(--neon-pink);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.3em;
+}
+.hacker-name::before, .hacker-name::after {
+    content: attr(data-text);
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(13, 17, 23, 0.9);
+}
+.hacker-name::before {
+    left: 2px; text-shadow: -1px 0 #00ffff; clip: rect(44px, 450px, 56px, 0);
+    animation: glitch-anim-1 5s infinite linear alternate-reverse;
+}
+.hacker-name::after {
+    left: -2px; text-shadow: -1px 0 #ff00ff; clip: rect(44px, 450px, 56px, 0);
+    animation: glitch-anim-2 5s infinite linear alternate-reverse;
+}
+@keyframes glitch-anim-1 {
+    0% { clip: rect(20px, 9999px, 10px, 0); } 100% { clip: rect(70px, 9999px, 20px, 0); }
+}
+@keyframes glitch-anim-2 {
+    0% { clip: rect(80px, 9999px, 30px, 0); } 100% { clip: rect(20px, 9999px, 90px, 0); }
+}
+
+/* 背景浮水印 (About Page) */
+.bg-watermark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-20deg);
+    font-size: 8rem;
+    color: rgba(0, 255, 65, 0.03);
+    font-weight: 900;
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 0;
+    user-select: none;
 }
 
 /* --- Responsive --- */
@@ -540,4 +612,11 @@ a[href*="relative_url"]:hover {
     .system-status { margin-top: 10px; }
     .command-line { flex-direction: column; }
     .prompt { margin-bottom: 5px; }
+    
+    /* Mobile Watermark Adjustment */
+    .post-content[data-watermark]::after {
+        font-size: 2.5rem;
+        border-width: 3px;
+        padding: 10px 20px;
+    }
 }
