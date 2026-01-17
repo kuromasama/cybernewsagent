@@ -65,11 +65,11 @@ categories: [security]
 ## 3. 🛡️ 藍隊防禦：偵測與緩解 (Blue Team Defense)
 * **IOCs (入侵指標)**:
 
-        | Hash | IP | Domain | File Path |
+| Hash | IP | Domain | File Path |
 
-        | --- | --- | --- | --- |
+|---|---|---|---|
 
-        | - | - | verizon.com | - |
+| - | - | verizon.com | - |
 
 
 * **偵測規則 (Detection Rules)**:

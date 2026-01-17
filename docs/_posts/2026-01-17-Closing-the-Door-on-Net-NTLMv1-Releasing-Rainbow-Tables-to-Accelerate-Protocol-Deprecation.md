@@ -46,11 +46,11 @@ categories: [security]
 ## 3. 🛡️ 藍隊防禦：偵測與緩解 (Blue Team Defense)
 * **IOCs (入侵指標)**:
 
-        | Hash | IP | Domain | File Path |
+| Hash | IP | Domain | File Path |
 
-        | --- | --- | --- | --- |
+|---|---|---|---|
 
-        | 1122334455667788 | 192.168.1.100 | example.com | C:\Windows\System32\ntlm.dll |
+| 1122334455667788 | 192.168.1.100 | example.com | C:\Windows\System32\ntlm.dll |
 
 
 * **偵測規則 (Detection Rules)**:

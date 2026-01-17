@@ -52,9 +52,9 @@ curl -X POST -H "Content-Type: application/json" -d '{"payload": "A" * 1024}' ht
 
 * **IOCs (入侵指標)**:
 
-          | Hash | IP | Domain | File Path |
-          | --- | --- | --- | --- |
-          | 1234567890abcdef | 192.168.1.100 | example.com | C:\Windows\System32\dwm.exe |
+| Hash | IP | Domain | File Path |
+|---|---|---|---|
+| 1234567890abcdef | 192.168.1.100 | example.com | C:\Windows\System32\dwm.exe |
 
 
 * **偵測規則 (Detection Rules)**:

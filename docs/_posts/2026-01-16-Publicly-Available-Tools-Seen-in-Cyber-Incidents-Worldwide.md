@@ -76,13 +76,13 @@ bash
 ## 3. 🛡️ 藍隊防禦：偵測與緩解 (Blue Team Defense)
 * **IOCs (入侵指標)**:
 
-            | 名稱 | 值 |
-            | --- | --- |
-            | JBiFrost | 5001ef50c7e869253a7c152a638eab8a |
-            | China Chopper | caidao.exe |
-            | Mimikatz | mimikatz.exe |
-            | PowerShell Empire | empire.ps1 |
-            | HUC Packet Transmitter | htran.exe |
+| 名稱 | 值 |
+|---|---|
+| JBiFrost | 5001ef50c7e869253a7c152a638eab8a |
+| China Chopper | caidao.exe |
+| Mimikatz | mimikatz.exe |
+| PowerShell Empire | empire.ps1 |
+| HUC Packet Transmitter | htran.exe |
 
 
 * **偵測規則 (Detection Rules)**:
