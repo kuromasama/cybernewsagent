@@ -82,16 +82,20 @@ layout: default
     display: block;
     margin-top: 5px;
     margin-bottom: 10px;
-    transition: filter 0.3s;
+    transition: all 0.3s; /* 改為 all 以支援 color 變換 */
     
     /* 這裡原本是青色，現在改為變數，讓紅卡顯示紅字 */
     color: var(--item-color) !important;
     text-shadow: 0 0 8px var(--item-color); /* 光暈也跟著變色 */
   }
   
+  /* 🔥 UPDATED: 首頁文章標題 Hover 特效 🔥 */
   .post-link:hover {
     text-decoration: none;
-    filter: brightness(1.3); /* 移上去變亮一點 */
+    color: #fff !important; /* 變為白色高亮 */
+    text-shadow: 0 0 15px var(--item-color); /* 強烈光暈 */
+    box-shadow: 0 2px 0 var(--item-color); /* 發光底線 */
+    filter: brightness(1.3);
   }
 
   .post-excerpt {
