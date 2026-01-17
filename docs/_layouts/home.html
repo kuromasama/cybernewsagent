@@ -164,35 +164,43 @@ layout: default
   .term-cyan { color: #00e5ff; font-weight: bold; text-shadow: 0 0 8px #00e5ff; }
   .term-pink { color: var(--neon-pink); font-weight: bold; text-shadow: 0 0 8px var(--neon-pink); }
   .term-white { color: #ffffff; font-weight: bold; }
-  .term-dim { color: #555; }
   
-  /* 🔥 逐點加載循環動畫 🔥 */
+  /* 🔥 UPDATED: 逐點加載循環動畫 🔥 */
   .loading-dots::after {
     content: "";
     display: inline-block;
     width: 25px;
     text-align: left;
-    animation: dots-progression 2s infinite;
+    animation: dots-progression 1.5s infinite;
   }
 
   @keyframes dots-progression {
-    0%, 20%   { content: ""; }
-    40%       { content: "."; }
-    60%       { content: ".."; }
-    80%       { content: "..."; }
-    100%      { content: ""; }
+    0%, 20%   { content: "."; }
+    40%       { content: ".."; }
+    60%       { content: "..."; }
+    80%, 100% { content: "..."; }
   }
 
-  /* 呼吸燈特效動畫 (供全局使用) */
-  @keyframes terminal-pulse {
-    0%, 100% { 
-        text-shadow: 0 0 5px var(--neon-green); 
-        opacity: 1;
-    }
-    50% { 
-        text-shadow: 0 0 15px var(--neon-green), 0 0 20px var(--neon-green); 
-        opacity: 0.8;
-    }
+  /* 🔥 [CONNECTED] 標籤專屬標籤動畫 🔥 
+     閃爍兩下延遲循環
+  */
+  .term-connected {
+    color: var(--neon-green);
+    font-weight: bold;
+    text-shadow: 0 0 8px var(--neon-green);
+    display: inline-block;
+    animation: connected-blink-logic 4s infinite 3.5s; /* 延遲 3.5s 等待打字與點點完成 */
+  }
+
+  @keyframes connected-blink-logic {
+    0%   { opacity: 1; text-shadow: 0 0 15px var(--neon-green); }
+    5%   { opacity: 0; text-shadow: none; }
+    10%  { opacity: 1; text-shadow: 0 0 15px var(--neon-green); }
+    15%  { opacity: 0; text-shadow: none; }
+    20%  { opacity: 1; text-shadow: 0 0 15px var(--neon-green); }
+    40%  { opacity: 0.7; text-shadow: 0 0 5px var(--neon-green); }
+    60%  { opacity: 1; text-shadow: 0 0 20px var(--neon-green); }
+    100% { opacity: 1; text-shadow: 0 0 15px var(--neon-green); }
   }
 
   .term-alert { 
@@ -266,10 +274,10 @@ layout: default
 
 <div class="home">
 
-  <!-- 🔥 FIXED: 歡迎詞還原為 ACTIVE_MONITORING 樣式 🔥 -->
+  <!-- 🔥 UPDATED: 全自動終端機打字歡迎詞 🔥 -->
   <div class="home-intro">
     <span class="terminal-line line-1">> Initializing Cyber News Agent <span class="term-cyan">v3.0</span><span class="loading-dots"></span></span>
-    <span class="terminal-line line-2">> Connecting to Global Threat Feeds<span class="loading-dots"></span> <span class="term-green">[CONNECTED]</span></span>
+    <span class="terminal-line line-2">> Connecting to Global Threat Feeds<span class="loading-dots"></span> <span class="term-connected">[CONNECTED]</span></span>
     <span class="terminal-line line-3">> AI Model: <span class="term-cyan">GEMINI-3-FLASH</span> loaded.</span>
     <span class="terminal-line line-4">> System Status: <span class="term-alert">ACTIVE_MONITORING</span></span>
     <br>
