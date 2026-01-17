@@ -6,7 +6,7 @@ categories: [security]
 severity: medium
 ---
 
-# 🚨 SIEM 與 Data Lake 的成本優化與安全威脅分析
+# ⚠️ SIEM 與 Data Lake 的成本優化與安全威脅分析
 > **⚡ 戰情快篩 (TL;DR)**
 > * **嚴重等級**: Medium (CVSS 分數：未提供)
 > * **受駭指標**: 資料存儲與分析成本優化

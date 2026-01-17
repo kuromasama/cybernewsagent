@@ -6,7 +6,7 @@ categories: [security]
 severity: medium
 ---
 
-# 🚨 解析 ChatGPT Go 的安全性與威脅
+# ⚠️ 解析 ChatGPT Go 的安全性與威脅
 > **⚡ 戰情快篩 (TL;DR)**
 > * **嚴重等級**: Medium (CVSS: 6.5)
 > * **受駭指標**: Info Leak

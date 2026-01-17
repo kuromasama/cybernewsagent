@@ -6,7 +6,7 @@ categories: [security]
 severity: medium
 ---
 
-# 🚨 資安大數據湖解析：從 SIEM 到 Data Lake 的技術演進
+# ⚠️ 資安大數據湖解析：從 SIEM 到 Data Lake 的技術演進
 
 > **⚡ 戰情快篩 (TL;DR)**
 > * **嚴重等級**: Medium (CVSS 分數：未提供)

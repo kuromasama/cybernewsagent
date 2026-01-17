@@ -1,19 +1,27 @@
-/* * Cyber News Agent - Terminal Theme 
- * Author: AI Assistant
+/* * Cyber News Agent - Terminal Theme (v5.0 Final Merged)
+ * Author: AI Assistant & Command
+ * Features: CRT Scanlines, Glitch Text, Dynamic Threat Levels
  */
 
-:root {
+ :root {
+    /* --- Base Colors --- */
     --bg-color: #050505;
     --terminal-black: #0d1117;
+    --text-color: #e0e0e0;
+    
+    /* --- Neon Palette --- */
     --neon-green: #00ff41;
     --dim-green: #008f11;
     --neon-cyan: #00f3ff;
-    --neon-pink: #ff003c; /* Critical */
-    --neon-orange: #ff9d00;  /* High */
+    
+    /* --- Threat Level Colors (Dynamic System) --- */
+    --neon-pink: #ff003c;   /* Critical */
+    --neon-orange: #ff9d00; /* High */
     --neon-yellow: #ffee00; /* Medium */
     --neon-blue: #0088ff;   /* Info/Low */
-    --text-color: #e0e0e0;
-    --font-stack: 'Share Tech Mono', monospace;
+
+    /* --- Effects --- */
+    --font-stack: 'Share Tech Mono', 'Courier New', monospace;
     --scanline-color: rgba(0, 0, 0, 0.5);
     --glass-border: 1px solid rgba(0, 255, 65, 0.3);
 }
@@ -47,7 +55,7 @@ a:hover {
     box-shadow: 0 0 10px var(--neon-cyan);
 }
 
-/* --- CRT Scanlines Effect --- */
+/* --- CRT Scanlines Effect (完整保留) --- */
 .scanlines {
     position: fixed;
     top: 0;
@@ -67,7 +75,7 @@ a:hover {
     opacity: 0.6;
 }
 
-/* Flicker Animation for extra realism */
+/* Flicker Animation */
 @keyframes flicker {
     0% { opacity: 0.97; }
     5% { opacity: 0.95; }
@@ -89,7 +97,7 @@ a:hover {
     animation: flicker 0.15s infinite;
 }
 
-/* --- Header & Glitch Effect --- */
+/* --- Header & Glitch Effect (完整保留) --- */
 .site-header {
     border-bottom: 2px solid var(--neon-green);
     padding-bottom: 20px;
@@ -122,10 +130,8 @@ a:hover {
     box-shadow: none;
 }
 
-/* Glitch Animation */
-.glitch-wrapper {
-    position: relative;
-}
+/* Glitch Animation Keyframes */
+.glitch-wrapper { position: relative; }
 
 .glitch::before, .glitch::after {
     content: attr(data-text);
@@ -169,15 +175,11 @@ a:hover {
     100% { clip: rect(30px, 9999px, 50px, 0); }
 }
 
-.system-status {
-    font-size: 0.9rem;
-    color: var(--neon-cyan);
-}
+.system-status { font-size: 0.9rem; color: var(--neon-cyan); }
 
 .status-light {
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 10px; height: 10px;
     background-color: var(--neon-green);
     border-radius: 50%;
     margin-right: 5px;
@@ -191,10 +193,7 @@ a:hover {
 }
 
 /* --- Navigation --- */
-.site-nav {
-    display: flex;
-    gap: 15px;
-}
+.site-nav { display: flex; gap: 15px; }
 
 .nav-link {
     font-size: 1.1rem;
@@ -211,10 +210,8 @@ a:hover {
     text-shadow: 0 0 5px var(--neon-cyan);
 }
 
-/* --- Main Content --- */
-.content-container {
-    flex: 1;
-}
+/* --- Main Content & Typography --- */
+.content-container { flex: 1; }
 
 .command-line {
     display: flex;
@@ -237,33 +234,31 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
 }
 
-h1.page-heading {
-    text-shadow: 0 0 5px var(--neon-green);
-}
+h1.page-heading { text-shadow: 0 0 5px var(--neon-green); }
 
-.terminal-output p {
-    margin-bottom: 1.5rem;
-    color: #ccc;
-}
+.terminal-output p { margin-bottom: 1.5rem; color: #ccc; }
 
-/* --- "Card" Design for Lists (Intelligence Cards) --- */
-/* Usage: Wrap your list items in a div or ul with these styles 
-   This automatically styles default Jekyll post lists if using <ul>
-*/
+/* --- List Items / Cards (Integration) --- */
+/* 這部分整合了您原本的 card 樣式與新的列表樣式 */
 ul.post-list {
     list-style: none;
     padding: 0;
 }
 
+/* 核心卡片樣式：保留切角與基本邊框邏輯 */
 ul.post-list li, 
-.card {
+.card,
+.post-list-item {
     background: rgba(13, 17, 23, 0.8);
-    border: 1px solid var(--dim-green);
+    /* 這裡使用淡邊框，讓 home.html 的 inline-style 可以輕鬆覆蓋 */
+    border: 1px solid var(--dim-green); 
     border-left: 5px solid var(--neon-green);
     margin-bottom: 20px;
     padding: 20px;
     position: relative;
     transition: all 0.3s ease;
+    
+    /* 您原本的帥氣切角 */
     clip-path: polygon(
         0 0, 
         100% 0, 
@@ -273,6 +268,7 @@ ul.post-list li,
     );
 }
 
+/* 預設的 Hover 效果 (如果沒有 severity 變數時的備案) */
 ul.post-list li:hover,
 .card:hover {
     border-color: var(--neon-cyan);
@@ -287,26 +283,11 @@ ul.post-list li h3 a,
     font-size: 1.5rem;
 }
 
-ul.post-list li h3 a:hover,
-.card h3 a:hover {
-    background: none;
-    color: var(--neon-cyan);
-    box-shadow: none;
-    text-shadow: 0 0 8px var(--neon-cyan);
-}
-
-.post-meta {
-    font-size: 0.85rem;
-    color: #666;
-    display: block;
-    margin-bottom: 10px;
-    font-family: monospace;
-}
-
-/* --- Code Blocks --- */
+/* --- Code Blocks (Updated Logic) --- */
+/* 讓程式碼區塊更好讀，且支援被 layout 覆蓋顏色 */
 pre, code {
     font-family: 'Fira Code', 'Roboto Mono', monospace;
-    background-color: #111;
+    background-color: #0a0a0a; /* 改為全黑，對比度更好 */
     color: var(--neon-cyan);
     border: 1px solid #333;
     border-radius: 3px;
@@ -321,6 +302,14 @@ pre {
 
 code {
     padding: 2px 5px;
+}
+
+/* 避免重複 padding */
+pre code {
+    background-color: transparent;
+    padding: 0;
+    color: inherit;
+    border: none;
 }
 
 blockquote {
@@ -341,40 +330,16 @@ blockquote {
     color: #555;
 }
 
-.ai-credit {
-    margin-top: 5px;
-    letter-spacing: 1px;
-}
+.ai-credit { margin-top: 5px; letter-spacing: 1px; }
 
 .neon-pink {
     color: var(--neon-pink);
     text-shadow: 0 0 5px var(--neon-pink);
 }
 
-/* --- Responsive Adjustments --- */
-@media (max-width: 768px) {
-    .site-title {
-        font-size: 1.8rem;
-    }
-    
-    .header-inner {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    
-    .system-status {
-        margin-top: 10px;
-    }
-    
-    .command-line {
-        flex-direction: column;
-    }
-    
-    .prompt {
-        margin-bottom: 5px;
-    }
-}
 /* --- Tables (Data Grids) --- */
+/* 預設樣式：綠色 (Green) */
+/* 但這裡的權重設定得比較低，允許 post.html 裡面的 !important 覆蓋它 */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -390,7 +355,6 @@ th, td {
     border-bottom: 1px solid #333;
 }
 
-/* 表頭設計 */
 th {
     background-color: rgba(0, 255, 65, 0.1);
     color: var(--neon-green);
@@ -399,27 +363,21 @@ th {
     border-bottom: 2px solid var(--neon-green);
 }
 
-/* 滑鼠滑過某一列時發光 */
 tr:hover {
     background-color: rgba(0, 243, 255, 0.05);
     box-shadow: inset 0 0 10px rgba(0, 243, 255, 0.1);
 }
 
-/* 偶數列稍微變暗，增加閱讀性 */
-tr:nth-child(even) {
-    background-color: rgba(255, 255, 255, 0.02);
-}
+tr:nth-child(even) { background-color: rgba(255, 255, 255, 0.02); }
 
-/* 手機版讓表格可以左右滑動 */
-.table-wrapper {
-    overflow-x: auto;
-}
-/* --- Legal Warning Box --- */
+.table-wrapper { overflow-x: auto; }
+
+/* --- Legal Warning Box (完整保留) --- */
 .legal-warning {
     margin-top: 30px;
     padding: 15px;
-    border: 1px dashed var(--neon-pink); /* 紅色虛線邊框，表示警告 */
-    background-color: rgba(255, 0, 60, 0.05); /* 淡淡的紅色背景 */
+    border: 1px dashed var(--neon-pink);
+    background-color: rgba(255, 0, 60, 0.05);
     color: #ccc;
     font-size: 0.85rem;
     text-align: left;
@@ -432,4 +390,13 @@ tr:nth-child(even) {
 .legal-warning strong {
     color: var(--neon-pink);
     border-bottom: 1px solid var(--neon-pink);
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 768px) {
+    .site-title { font-size: 1.8rem; }
+    .header-inner { flex-direction: column; align-items: flex-start; }
+    .system-status { margin-top: 10px; }
+    .command-line { flex-direction: column; }
+    .prompt { margin-bottom: 5px; }
 }

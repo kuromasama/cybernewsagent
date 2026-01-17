@@ -6,7 +6,7 @@ categories: [security]
 severity: medium
 ---
 
-# 🚨 解析 Verizon 全國無線中斷事件：技術分析與防禦策略
+# ⚠️ 解析 Verizon 全國無線中斷事件：技術分析與防禦策略
 > **⚡ 戰情快篩 (TL;DR)**
 > * **嚴重等級**: Medium (CVSS: 4.3)
 > * **受駭指標**: 服務中斷（Service Disruption）

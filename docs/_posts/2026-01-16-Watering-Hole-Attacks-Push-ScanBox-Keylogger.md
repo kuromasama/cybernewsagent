@@ -6,7 +6,7 @@ categories: [security]
 severity: high
 ---
 
-# 🚨 解析 ScanBox 蠕蟲的技術細節與防禦策略
+# 🔥 解析 ScanBox 蠕蟲的技術細節與防禦策略
 
 > **⚡ 戰情快篩 (TL;DR)**
 > * **嚴重等級**: High (CVSS: 8.5)

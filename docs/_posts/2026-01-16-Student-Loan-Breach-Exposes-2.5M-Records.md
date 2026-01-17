@@ -6,7 +6,7 @@ categories: [security]
 severity: high
 ---
 
-# 🚨 解析 Nelnet Servicing 數據洩露事件：技術分析與防禦策略
+# 🔥 解析 Nelnet Servicing 數據洩露事件：技術分析與防禦策略
 
 > **⚡ 戰情快篩 (TL;DR)**
 > * **嚴重等級**: High (CVSS 分數：8.0)

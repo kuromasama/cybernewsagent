@@ -6,7 +6,7 @@ categories: [security]
 severity: high
 ---
 
-# 🚨 解析 LOTUSLITE 後門攻擊：技術分析與防禦策略
+# 🔥 解析 LOTUSLITE 後門攻擊：技術分析與防禦策略
 
 > **⚡ 戰情快篩 (TL;DR)**
 > * **嚴重等級**: High (CVSS: 8.5)

@@ -6,7 +6,7 @@ categories: [security]
 severity: medium
 ---
 
-# 🚨 解析 OpenAI ChatGPT 廣告機制與潛在安全風險
+# ⚠️ 解析 OpenAI ChatGPT 廣告機制與潛在安全風險
 > **⚡ 戰情快篩 (TL;DR)**
 > * **嚴重等級**: Medium (CVSS: 4.3)
 > * **受駭指標**: Info Leak

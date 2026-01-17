@@ -6,7 +6,7 @@ categories: [security]
 severity: medium
 ---
 
-# 🚨 解析 Windows 11 安全更新對 Outlook 的影響：技術深度分析
+# ⚠️ 解析 Windows 11 安全更新對 Outlook 的影響：技術深度分析
 > **⚡ 戰情快篩 (TL;DR)**
 > * **嚴重等級**: Medium (CVSS: 4.3)
 > * **受駭指標**: LPE (Local Privilege Escalation)

@@ -6,7 +6,7 @@ categories: [security]
 severity: high
 ---
 
-# 🚨 解析 Google Chrome 擴充功能的會話劫持與防禦繞過技術
+# 🔥 解析 Google Chrome 擴充功能的會話劫持與防禦繞過技術
 
 > **⚡ 戰情快篩 (TL;DR)**
 > * **嚴重等級**: High (CVSS: 8.5)
