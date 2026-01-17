@@ -53,24 +53,17 @@ layout: default
   </header>
 
   <!-- 
-       MODIFIED: Added data-severity="{{ page.severity }}" 
-       This connects to the CSS watermarking system.
+       UPDATED: 
+       1. 使用 'severity' (小寫變數) 確保 data-severity 屬性值統一 (例如: "critical")
+       2. 浮水印 CSS 現在直接寫在下方 <style> 中以確保顯示
   -->
-  <div class="post-content e-content" itemprop="articleBody" data-severity="{{ page.severity }}" style="--current-severity-color: {{ severity_color }};">
+  <div class="post-content e-content" itemprop="articleBody" data-severity="{{ severity }}" style="--current-severity-color: {{ severity_color }};">
     {{ content }}
   </div>
 
   <div style="margin-top: 60px; text-align: center; border-top: 1px solid #333; padding-top: 30px;">
-      <a href="{{ "/" | relative_url }}" style="
-          color: {{ severity_color }};
-          border: 1px solid {{ severity_color }};
-          padding: 12px 30px;
-          text-decoration: none;
-          transition: all 0.3s;
-          text-transform: uppercase;
-          letter-spacing: 2px;
-          font-family: monospace;
-      " onmouseover="this.style.background='{{ severity_color }}'; this.style.color='#000'" onmouseout="this.style.background='transparent'; this.style.color='{{ severity_color }}'">
+      <!-- UPDATED: 改用 CSS class 控制 Hover 效果，解決紅色背景不清晰的問題 -->
+      <a href="{{ "/" | relative_url }}" class="return-btn" style="--btn-color: {{ severity_color }};">
           &lt; RETURN_TO_BASE
       </a>
   </div>
@@ -95,14 +88,14 @@ layout: default
       margin: 20px 0;
   }
 
-  /* 🔥 駭客風程式碼區塊 (Code Blocks) - Gemini Refinement 🔥 */
+  /* 🔥 駭客風程式碼區塊 (Code Blocks) 🔥 */
   .post-content pre {
-    background: #0a0a0a; /* 全黑背景 */
-    border: 1px solid var(--current-severity-color); /* 邊框跟著等級變色 */
+    background: #0a0a0a;
+    border: 1px solid var(--current-severity-color);
     color: #e0e0e0;
     padding: 15px;
     border-radius: 5px;
-    overflow-x: auto; /* 避免程式碼超出 */
+    overflow-x: auto;
     font-family: 'Courier New', monospace;
     margin: 20px 0;
   }
@@ -115,7 +108,6 @@ layout: default
     border-radius: 3px;
   }
  
-  /* 修正：在 pre 裡面的 code 不需要額外背景 */
   .post-content pre code {
     background: transparent;
     padding: 0;
@@ -141,5 +133,56 @@ layout: default
       border: 1px solid #444 !important;
       color: #ddd;
       padding: 10px;
+  }
+
+  /* 🔥 新增：返回按鈕樣式 (更清晰的 Hover) 🔥 */
+  .return-btn {
+      color: var(--btn-color);
+      border: 1px solid var(--btn-color);
+      padding: 12px 30px;
+      text-decoration: none;
+      transition: all 0.3s;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-family: monospace;
+      display: inline-block;
+      background: transparent;
+  }
+
+  .return-btn:hover {
+      /* 改為深色半透明背景，搭配白色文字與強烈發光，閱讀性更佳 */
+      background: rgba(255, 255, 255, 0.1); 
+      color: #fff !important;
+      box-shadow: 0 0 20px var(--btn-color);
+      text-shadow: 0 0 8px var(--btn-color);
+      border-color: #fff;
+  }
+
+  /* 🔥 新增：浮水印 (Watermark) 確保顯示 🔥 */
+  .post-content[data-severity="critical"]::after {
+      content: "ALERT // SYSTEM BREACH";
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, 0) rotate(-30deg);
+      font-size: 5rem;
+      font-weight: 900;
+      color: var(--current-severity-color); 
+      opacity: 0.1; /* 低透明度，避免干擾閱讀 */
+      pointer-events: none;
+      white-space: nowrap;
+      border: 5px solid var(--current-severity-color);
+      padding: 20px 40px;
+      z-index: 0;
+      mask-image: linear-gradient(black 50%, transparent 100%);
+  }
+  
+  /* 為了讓浮水印在手機上也不會跑版，稍微縮小一點 */
+  @media (max-width: 768px) {
+      .post-content[data-severity="critical"]::after {
+          font-size: 2.5rem;
+          border-width: 3px;
+          padding: 10px 20px;
+      }
   }
 </style>
