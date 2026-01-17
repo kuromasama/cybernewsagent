@@ -6,7 +6,7 @@
  * 3. Text & Card Jitter Effects (Kept)
  * 4. Dynamic Watermarks (Fixed for all levels)
  * 5. High Contrast Buttons (Solid fill on hover)
- * 6. Header System Status: White Label + Slow Breathing ONLINE (Fixed)
+ * 6. Header System Status: White Label + Slow Breathing ONLINE (Final Fix)
  */
 
  :root {
@@ -255,10 +255,10 @@ a:hover {
     100% { clip: rect(40px, 9999px, 50px, 0); }
 }
 
-/* --- 🔥 UPDATED: HEADER SYSTEM STATUS (Optimized Colors & Speed) 🔥 --- */
+/* --- 🔥 FINAL UPDATED: HEADER SYSTEM STATUS 🔥 --- */
 .system-status { 
     font-size: 0.9rem; 
-    color: #ffffff; /* [SYSTEM:] 固定為純白色 */
+    color: #ffffff !important; /* [SYSTEM:] 強制為純白色 */
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -266,13 +266,14 @@ a:hover {
     letter-spacing: 1px;
 }
 
-/* ONLINE 燈號與文字同步閃爍：霓虹綠 + 呼吸效果 (放慢為 3s) */
+/* ONLINE 文字與燈號同步變綠 + 緩慢呼吸 (3s) */
 .status-light, 
 .system-status span, 
-.system-status strong {
+.system-status strong,
+.system-status .online-text {
     color: var(--neon-green) !important;
     text-shadow: 0 0 5px var(--neon-green);
-    animation: header-pulse 3s ease-in-out infinite; /* 調慢速度至 3s */
+    animation: header-pulse 3s ease-in-out infinite !important;
 }
 
 .status-light {
@@ -291,9 +292,9 @@ a:hover {
         filter: brightness(1);
     }
     50% { 
-        opacity: 0.6; /* 稍微增加呼吸深度 */
-        text-shadow: 0 0 15px var(--neon-green), 0 0 25px var(--neon-green);
-        filter: brightness(1.4);
+        opacity: 0.5; /* 呼吸深度增加 */
+        text-shadow: 0 0 20px var(--neon-green), 0 0 30px var(--neon-green);
+        filter: brightness(1.6);
     }
 }
 
