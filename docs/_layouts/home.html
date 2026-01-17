@@ -127,38 +127,56 @@ layout: default
     opacity: 0.8;
   }
   
-  /* --- 終端機特效專用樣式 --- */
+  /* --- 🔥 終端機打字特效升級 🔥 --- */
   .home-intro {
-    background: rgba(0, 0, 0, 0.4);
-    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 25px;
     border-radius: 4px;
-    border: 1px solid rgba(0, 255, 65, 0.1);
+    border: 1px solid rgba(0, 255, 65, 0.15);
     margin-bottom: 50px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Share Tech Mono', 'Courier New', monospace;
+    box-shadow: inset 0 0 20px rgba(0, 255, 65, 0.05);
   }
 
   .terminal-line {
     display: block;
-    margin-bottom: 8px;
-    color: #ddd;
+    margin-bottom: 10px;
+    color: #bbb;
     font-size: 0.95em;
-    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0; /* 預設寬度為 0 用於打字 */
+    animation: typing 1.5s steps(40, end) forwards;
   }
 
-  /* 關鍵字變色 */
-  .term-green { color: var(--neon-green); font-weight: bold; }
-  .term-dim { color: #666; }
-  
-  /* 點點閃爍動畫 */
-  .blink-dots {
-    animation: blink 1.5s step-start infinite;
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
   }
+
+  /* 逐行延遲顯示 */
+  .line-1 { animation-delay: 0.2s; }
+  .line-2 { animation-delay: 1.7s; }
+  .line-3 { animation-delay: 3.2s; }
+  .line-4 { animation-delay: 4.7s; }
+  .line-5 { animation-delay: 6.2s; }
+  .line-6 { animation-delay: 7.7s; width: 0; animation: typing 2s steps(50, end) forwards; animation-delay: 7.7s; }
+
+  /* 關鍵字與特殊樣式 */
+  .term-green { color: var(--neon-green); font-weight: bold; text-shadow: 0 0 5px var(--neon-green); }
+  .term-cyan { color: #00e5ff; font-weight: bold; text-shadow: 0 0 5px #00e5ff; }
+  .term-pink { color: var(--neon-pink); font-weight: bold; text-shadow: 0 0 5px var(--neon-pink); }
+  .term-dim { color: #555; }
+  
+  /* 閃爍動畫 */
+  .blink-dots { animation: blink 1s step-start infinite; }
+  .term-alert { animation: blink 0.8s step-start infinite; color: var(--neon-green); }
 
   @keyframes blink {
     50% { opacity: 0; }
   }
 
-  /* 游標效果 */
+  /* 打字機游標 */
   .typing-cursor::after {
       content: '█';
       animation: blink 1s infinite;
@@ -218,19 +236,19 @@ layout: default
 
 <div class="home">
 
-  <!-- 🔥 UPDATED: 駭客終端機式歡迎詞 🔥 -->
+  <!-- 🔥 UPDATED: 全自動終端機打字歡迎詞 🔥 -->
   <div class="home-intro">
-    <span class="terminal-line">> Initializing Cyber News Agent v3.0<span class="blink-dots">...</span></span>
-    <span class="terminal-line">> Connecting to Global Threat Feeds<span class="blink-dots">...</span> <span class="term-green">[CONNECTED]</span></span>
-    <span class="terminal-line">> AI Model: <span class="term-green">GEMINI-3-FLASH</span> loaded.</span>
-    <span class="terminal-line">> System Status: <span class="term-green">ACTIVE_MONITORING</span></span>
+    <span class="terminal-line line-1">> Initializing Cyber News Agent <span class="term-cyan">v3.0</span><span class="blink-dots">...</span></span>
+    <span class="terminal-line line-2">> Connecting to Global Threat Feeds<span class="blink-dots">...</span> <span class="term-green">[CONNECTED]</span></span>
+    <span class="terminal-line line-3">> AI Model: <span class="term-cyan">GEMINI-3-FLASH</span> loaded.</span>
+    <span class="terminal-line line-4">> System Status: <span class="term-alert">ACTIVE_MONITORING</span></span>
     <br>
-    <span class="terminal-line">> <span class="term-green">SYSTEM_UPDATE:</span> 動態威脅渲染引擎 (Dynamic Threat Rendering Engine) 已啟動。</span>
-    <span class="terminal-line typing-cursor">> 偵測模式: 
-      <span style="color: var(--neon-pink);">🚨 CRITICAL</span> | 
-      <span style="color: var(--neon-orange);">🔥 HIGH</span> | 
-      <span style="color: var(--neon-yellow);">⚠️ MEDIUM</span> | 
-      <span style="color: var(--neon-blue);">🛡️ INFO</span>
+    <span class="terminal-line line-5">> <span class="term-pink">SYSTEM_UPDATE:</span> 動態威脅渲染引擎 (DTRE) 已啟動。</span>
+    <span class="terminal-line line-6 typing-cursor">> 偵測模式: 
+      <span style="color: var(--neon-pink); font-weight: bold;">🚨 CRITICAL</span> | 
+      <span style="color: var(--neon-orange); font-weight: bold;">🔥 HIGH</span> | 
+      <span style="color: var(--neon-yellow); font-weight: bold;">⚠️ MEDIUM</span> | 
+      <span style="color: var(--neon-blue); font-weight: bold;">🛡️ INFO</span>
     </span>
   </div>
 
@@ -246,7 +264,7 @@ layout: default
   </div>
 
   <ul class="post-list">
-    <!-- UPDATED: 使用 paginator.posts 來支援分頁，如果分頁未啟用它會自動退回 site.posts -->
+    <!-- 使用 paginator.posts 來支援分頁 -->
     {% assign posts = paginator.posts | default: site.posts %}
     {% for post in posts %}
       {%- assign severity = post.severity | default: 'info' | downcase -%}
@@ -295,33 +313,28 @@ layout: default
     {% endfor %}
   </ul>
 
-  <!-- 🔥 FIXED: 穩健的分頁邏輯 (修正第一頁顯示問題) 🔥 -->
+  <!-- 分頁邏輯 -->
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
-    <!-- Prev -->
     {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-link">&lt; PREV</a>
     {% else %}
       <span class="pagination-disabled">&lt; PREV</span>
     {% endif %}
 
-    <!-- Numbers Logic -->
     {% assign window_size = 2 %} 
     
-    <!-- 永遠顯示第一頁 -->
     {% if paginator.page == 1 %}
       <span class="pagination-current">1</span>
     {% else %}
       <a href="{{ '/' | relative_url }}" class="pagination-link">1</a>
     {% endif %}
 
-    <!-- 左側省略號邏輯 -->
     {% assign left_gap = paginator.page | minus: window_size | minus: 1 %}
     {% if left_gap > 1 %}
       <span class="pagination-dots">...</span>
     {% endif %}
 
-    <!-- 中間頁碼迴圈 -->
     {% for i in (2..paginator.total_pages) %}
       {% if i < paginator.total_pages %}
         {% assign dist = paginator.page | minus: i %}
@@ -337,13 +350,11 @@ layout: default
       {% endif %}
     {% endfor %}
 
-    <!-- 右側省略號邏輯 -->
     {% assign right_gap = paginator.total_pages | minus: paginator.page | minus: window_size %}
     {% if right_gap > 1 %}
       <span class="pagination-dots">...</span>
     {% endif %}
 
-    <!-- 永遠顯示最後一頁 (如果總頁數大於1) -->
     {% if paginator.total_pages > 1 %}
       {% if paginator.page == paginator.total_pages %}
         <span class="pagination-current">{{ paginator.total_pages }}</span>
@@ -352,7 +363,6 @@ layout: default
       {% endif %}
     {% endif %}
 
-    <!-- Next -->
     {% if paginator.next_page %}
       <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-link">NEXT &gt;</a>
     {% else %}
