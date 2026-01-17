@@ -25,24 +25,26 @@ categories: [security]
 * **Payload 建構邏輯**:
 
     ```
-    
-    python
-    import requests
-    
-    # 定義上傳檔案的路徑和名稱
-    file_path = "/path/to/file"
-    file_name = "example.txt"
-    
-    # 建立 HTTP 請求
-    url = "https://chatgpt-go.example.com/upload"
-    files = {"file": open(file_path, "rb")}
-    response = requests.post(url, files=files)
-    
-    # 檢查是否上傳成功
-    if response.status_code == 200:
-        print("上傳成功")
-    else:
-        print("上傳失敗")
+        
+        python
+        import requests
+        
+        # 定義上傳檔案的路徑和名稱
+        file_path = "/path/to/file"
+        file_name = "example.txt"
+        
+        # 建立 HTTP 請求
+        url = "https://chatgpt-go.example.com/upload"
+        files = {"file": open(file_path, "rb")}
+        response = requests.post(url, files=files)
+        
+        # 檢查是否上傳成功
+        if response.status_code == 200:
+            print("上傳成功")
+        else:
+            print("上傳失敗")
+        
+        
     
     ```
   *範例指令*: 使用 `curl` 上傳檔案
@@ -63,17 +65,19 @@ curl -X POST -F "file=@/path/to/file" https://chatgpt-go.example.com/upload
 * **偵測規則 (Detection Rules)**:
 
     ```
-    
-    yara
-    rule ChatGPT_Go_Upload {
-      meta:
-        description = "Detects ChatGPT Go file upload"
-        author = "Your Name"
-      strings:
-        $upload_url = "https://chatgpt-go.example.com/upload"
-      condition:
-        $upload_url in (http.request.uri)
-    }
+        
+        yara
+        rule ChatGPT_Go_Upload {
+          meta:
+            description = "Detects ChatGPT Go file upload"
+            author = "Your Name"
+          strings:
+            $upload_url = "https://chatgpt-go.example.com/upload"
+          condition:
+            $upload_url in (http.request.uri)
+        }
+        
+        
     
     ```
   或者是具體的 SIEM 查詢語法 (Splunk/Elastic)
@@ -94,5 +98,4 @@ index=chatgpt_go sourcetype=upload | stats count as upload_count by user
 ## 5. 🔗 參考文獻與延伸閱讀
 - [原始報告](https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-go-subscription-rolls-out-worldwide-at-8-but-itll-show-you-ads/)
 - [MITRE ATT&CK](https://attack.mitre.org/techniques/T1190/)
-
 

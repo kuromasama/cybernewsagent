@@ -21,25 +21,27 @@ categories: [security]
 * **Payload 建構邏輯**:
 
     ```
-    
-    python
-    import requests
-    
-    # 建構廣告請求
-    ad_request = {
-        "user_id": "1234567890",
-        "conversation_id": "abcdefg",
-        "advertiser_id": "1234567890"
-    }
-    
-    # 發送請求
-    response = requests.post("https://example.com/advertisement", json=ad_request)
-    
-    # 解析回應
-    if response.status_code == 200:
-        print("廣告請求成功")
-    else:
-        print("廣告請求失敗")
+        
+        python
+        import requests
+        
+        # 建構廣告請求
+        ad_request = {
+            "user_id": "1234567890",
+            "conversation_id": "abcdefg",
+            "advertiser_id": "1234567890"
+        }
+        
+        # 發送請求
+        response = requests.post("https://example.com/advertisement", json=ad_request)
+        
+        # 解析回應
+        if response.status_code == 200:
+            print("廣告請求成功")
+        else:
+            print("廣告請求失敗")
+        
+        
     
     ```
 * **繞過技術**: 可以使用代理伺服器或 VPN 來繞過廣告伺服器的 IP 限制
@@ -48,23 +50,26 @@ categories: [security]
 * **IOCs (入侵指標)**:
 
 | Hash | IP | Domain | File Path |
+
 | --- | --- | --- | --- |
 
 | 1234567890abcdef | 192.168.1.100 | example.com | /advertisement |
 * **偵測規則 (Detection Rules)**:
 
     ```
-    
-    yara
-    rule advertisement_detection {
-        meta:
-            description = "Detects OpenAI ChatGPT advertisement requests"
-            author = "Your Name"
-        strings:
-            $ad_request = "user_id=1234567890&conversation_id=abcdefg&advertiser_id=1234567890"
-        condition:
-            $ad_request in (http.request_body)
-    }
+        
+        yara
+        rule advertisement_detection {
+            meta:
+                description = "Detects OpenAI ChatGPT advertisement requests"
+                author = "Your Name"
+            strings:
+                $ad_request = "user_id=1234567890&conversation_id=abcdefg&advertiser_id=1234567890"
+            condition:
+                $ad_request in (http.request_body)
+        }
+        
+        
     
     ```
 * **緩解措施**: 可以設定 ChatGPT 的廣告設定為不顯示廣告，或者升級到付費版
@@ -77,5 +82,4 @@ categories: [security]
 ## 5. 🔗 參考文獻與延伸閱讀
 - [原始報告](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-new-chatgpt-ads-wont-influence-answers/)
 - [MITRE ATT&CK](https://attack.mitre.org/techniques/T1056/)
-
 

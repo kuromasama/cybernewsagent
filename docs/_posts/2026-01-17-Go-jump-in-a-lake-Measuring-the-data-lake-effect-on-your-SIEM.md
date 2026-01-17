@@ -16,7 +16,9 @@ categories: [security]
 * **攻擊流程圖解**:
 
     ```
-      資料來源 (Logs) -> SIEM 系統 -> 資料儲存 (Block Storage) -> 資料處理 (Compute)
+          資料來源 (Logs) -> SIEM 系統 -> 資料儲存 (Block Storage) -> 資料處理 (Compute)
+        
+        
     
     ```
 * **受影響元件**: SIEM 系統、企業級資料儲存解決方案。
@@ -26,13 +28,15 @@ categories: [security]
 * **Payload 建構邏輯**:
 
     ```
-    
-    python
-      # 範例 Python 代碼，展示如何使用 AWS SDK 將資料上傳到 S3
-      import boto3
-    
-      s3 = boto3.client('s3')
-      s3.upload_file('local_file.txt', 'my_bucket', 'remote_file.txt')
+        
+        python
+          # 範例 Python 代碼，展示如何使用 AWS SDK 將資料上傳到 S3
+          import boto3
+        
+          s3 = boto3.client('s3')
+          s3.upload_file('local_file.txt', 'my_bucket', 'remote_file.txt')
+        
+        
     
     ```
   *範例指令*: 使用 `aws cli` 將檔案上傳到 S3：`aws s3 cp local_file.txt s3://my_bucket/remote_file.txt`
@@ -46,17 +50,19 @@ categories: [security]
 * **偵測規則 (Detection Rules)**:
 
     ```
-    
-    yara
-      rule SIEM_Logs {
-        meta:
-          description = "Detect SIEM logs"
-          author = "Your Name"
-        strings:
-          $log_string = "log_message"
-        condition:
-          $log_string
-      }
+        
+        yara
+          rule SIEM_Logs {
+            meta:
+              description = "Detect SIEM logs"
+              author = "Your Name"
+            strings:
+              $log_string = "log_message"
+            condition:
+              $log_string
+          }
+        
+        
     
     ```
   或者是具體的 SIEM 查詢語法 (Splunk/Elastic)：
@@ -78,5 +84,4 @@ sql
 - [原始報告](https://redcanary.com/blog/security-operations/data-lake-siem/)
 - [AWS Data Lake](https://aws.amazon.com/tw/data-lake/)
 - [Serverless Computing](https://aws.amazon.com/tw/serverless/)
-
 

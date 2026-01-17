@@ -25,18 +25,20 @@ categories: [security]
 * **Payload 建構邏輯**:
 
     ```
-    
-    python
-    import hashlib
-    
-    # Net-NTLMv1 雜湊值
-    ntlm_hash = "1122334455667788"
-    
-    # DES 演算法
-    des_key = hashlib.md5(ntlm_hash.encode()).digest()
-    
-    # Rainbow Tables 查詢
-    rainbow_table = ...
+        
+        python
+        import hashlib
+        
+        # Net-NTLMv1 雜湊值
+        ntlm_hash = "1122334455667788"
+        
+        # DES 演算法
+        des_key = hashlib.md5(ntlm_hash.encode()).digest()
+        
+        # Rainbow Tables 查詢
+        rainbow_table = ...
+        
+        
     
     ```
 * **繞過技術**: 攻擊者可以使用 Responder 工具來獲得 Net-NTLMv1 雜湊值，並使用 PetitPotam 或 DFSCoerce 工具來進行 DCSync 攻擊
@@ -45,22 +47,25 @@ categories: [security]
 * **IOCs (入侵指標)**:
 
 | Hash | IP | Domain | File Path |
+
 | --- | --- | --- | --- |
 
 | 1122334455667788 | 192.168.1.100 | example.com | C:\Windows\System32\ntlm.dll |
 * **偵測規則 (Detection Rules)**:
 
     ```
-    
-    yara
-    rule NetNTLMv1_Detection {
-      meta:
-        description = "Detect Net-NTLMv1 authentication"
-      strings:
-        $a = "NTLMv1" ascii
-      condition:
-        $a
-    }
+        
+        yara
+        rule NetNTLMv1_Detection {
+          meta:
+            description = "Detect Net-NTLMv1 authentication"
+          strings:
+            $a = "NTLMv1" ascii
+          condition:
+            $a
+        }
+        
+        
     
     ```
 * **緩解措施**: 禁用 Net-NTLMv1 協議，使用 NTLMv2 或 Kerberos 協議進行驗證
@@ -73,5 +78,4 @@ categories: [security]
 ## 5. 🔗 參考文獻與延伸閱讀
 * [原始報告](https://cloud.google.com/blog/topics/threat-intelligence/net-ntlmv1-deprecation-rainbow-tables/)
 * [MITRE ATT&CK](https://attack.mitre.org/techniques/T1110/)
-
 

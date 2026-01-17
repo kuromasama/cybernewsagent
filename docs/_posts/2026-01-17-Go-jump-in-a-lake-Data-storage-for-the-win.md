@@ -22,19 +22,21 @@ categories: [security]
 * **Payload 建構邏輯**:
 
     ```
-    
-    python
-    import pandas as pd
-    
-    # 範例資料
-    data = {'device': ['device1', 'device2', 'device3'],
-            'timestamp': ['2022-01-01 00:00:00', '2022-01-01 00:00:01', '2022-01-01 00:00:02'],
-            'severity': ['INFO', 'WARNING', 'ERROR']}
-    
-    df = pd.DataFrame(data)
-    
-    # 儲存為 Parquet 檔案
-    df.to_parquet('data.parquet', index=False)
+        
+        python
+        import pandas as pd
+        
+        # 範例資料
+        data = {'device': ['device1', 'device2', 'device3'],
+                'timestamp': ['2022-01-01 00:00:00', '2022-01-01 00:00:01', '2022-01-01 00:00:02'],
+                'severity': ['INFO', 'WARNING', 'ERROR']}
+        
+        df = pd.DataFrame(data)
+        
+        # 儲存為 Parquet 檔案
+        df.to_parquet('data.parquet', index=False)
+        
+        
     
     ```
 * **繞過技術**: 使用 Apache Iceberg 儲存格式，實現資料的 columnar 儲存和查詢優化。
@@ -44,17 +46,19 @@ categories: [security]
 * **偵測規則 (Detection Rules)**:
 
     ```
-    
-    yara
-    rule SIEM_Data_Lake {
-        meta:
-            description = "SIEM 資料湖儲存格式"
-            author = "Your Name"
-        strings:
-            $parquet_header = { 50 41 52 51 45 54 }
-        condition:
-            $parquet_header at 0
-    }
+        
+        yara
+        rule SIEM_Data_Lake {
+            meta:
+                description = "SIEM 資料湖儲存格式"
+                author = "Your Name"
+            strings:
+                $parquet_header = { 50 41 52 51 45 54 }
+            condition:
+                $parquet_header at 0
+        }
+        
+        
     
     ```
 * **緩解措施**: 使用 Apache Iceberg 儲存格式，實現資料的 columnar 儲存和查詢優化。
@@ -68,5 +72,4 @@ categories: [security]
 - [原始報告](https://redcanary.com/blog/security-operations/security-data-lake-architecture/)
 - [Apache Iceberg 官方網站](https://iceberg.apache.org/)
 - [Serverless Compute 官方網站](https://aws.amazon.com/tw/serverless/)
-
 

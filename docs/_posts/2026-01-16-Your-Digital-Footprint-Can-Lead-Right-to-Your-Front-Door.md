@@ -24,20 +24,20 @@ categories: [security]
 * **攻擊前置需求**: 網路存取權限和相關的個人資料。
 * **Payload 建構邏輯**:
 
-```
-python
-  import requests
-
-  # 範例：使用公開的個人資料進行釣魚攻擊
-  def phishing_attack(target_email, target_name):
-    # 建構釣魚郵件內容
-    email_content = f"親愛的 {target_name}, 請點擊以下連結更新您的帳戶資訊："
-    email_content += "http://example.com/malicious_link"
+    ```
+    python
+      import requests
     
-    # 發送釣魚郵件
-    requests.post("https://example.com/send_email", data={"to": target_email, "content": email_content})
-
-```
+      # 範例：使用公開的個人資料進行釣魚攻擊
+      def phishing_attack(target_email, target_name):
+        # 建構釣魚郵件內容
+        email_content = f"親愛的 {target_name}, 請點擊以下連結更新您的帳戶資訊："
+        email_content += "http://example.com/malicious_link"
+        
+        # 發送釣魚郵件
+        requests.post("https://example.com/send_email", data={"to": target_email, "content": email_content})
+    
+    ```
   *範例指令*: 使用 `curl` 發送 HTTP 請求進行釣魚攻擊。
 
 ```
@@ -57,19 +57,19 @@ bash
   | 1234567890abcdef | 192.168.1.100 | example.com | /malicious_file |
 * **偵測規則 (Detection Rules)**:
 
-```
-yara
-  rule phishing_email {
-    meta:
-      description = "偵測釣魚郵件"
-      author = "Your Name"
-    strings:
-      $email_content = "親愛的 %s, 請點擊以下連結更新您的帳戶資訊："
-    condition:
-      $email_content
-  }
-
-```
+    ```
+    yara
+      rule phishing_email {
+        meta:
+          description = "偵測釣魚郵件"
+          author = "Your Name"
+        strings:
+          $email_content = "親愛的 %s, 請點擊以下連結更新您的帳戶資訊："
+        condition:
+          $email_content
+      }
+    
+    ```
   或者使用 SIEM 查詢語法進行偵測：
 
 ```
@@ -90,5 +90,4 @@ sql
 ## 5. 🔗 參考文獻與延伸閱讀
 - [原始報告](https://thehackernews.com/2026/01/your-digital-footprint-can-lead-right.html)
 - [MITRE ATT&CK](https://attack.mitre.org/techniques/T1056/)
-
 

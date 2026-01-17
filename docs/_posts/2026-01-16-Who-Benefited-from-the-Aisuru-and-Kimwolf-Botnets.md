@@ -25,49 +25,60 @@ categories: [security]
 
 * **攻擊前置需求**: 攻擊者需要有 `DDoS` 攻擊能力和 `Residential Proxy` 服務的存取權限。
 * **Payload 建構邏輯**:
-```python
-import requests
 
-# Kimwolf Botnet 的控制伺服器 URL
-url = "https://example.com/kimwolf"
-
-# Payload 結構
-payload = {
-    "action": "ddos",
-    "target": "https://example.com"
-}
-
-# 發送 Payload
-response = requests.post(url, json=payload)
-
-# 印出回應
-print(response.text)
-```
+    ```
+    
+    python
+    import requests
+    
+    # Kimwolf Botnet 的控制伺服器 URL
+    url = "https://example.com/kimwolf"
+    
+    # Payload 結構
+    payload = {
+        "action": "ddos",
+        "target": "https://example.com"
+    }
+    
+    # 發送 Payload
+    response = requests.post(url, json=payload)
+    
+    # 印出回應
+    print(response.text)
+    ```
 * **範例指令**:
-```bash
-curl -X POST -H "Content-Type: application/json" -d '{"action": "ddos", "target": "https://example.com"}' https://example.com/kimwolf
-```
+
+    ```
+    
+    bash
+    curl -X POST -H "Content-Type: application/json" -d '{"action": "ddos", "target": "https://example.com"}' https://example.com/kimwolf
+    ```
 * **繞過技術**: Kimwolf Botnet 的控制伺服器使用 `Ethereum Name Service (ENS)` 進行控制和更新，難以被攔截和阻止。
 
 ## 3. 🛡️ 藍隊防禦：偵測與緩解 (Blue Team Defense)
 
 * **IOCs (入侵指標)**:
+
 | Hash | IP | Domain | File Path |
 | --- | --- | --- | --- |
+
 | 1234567890abcdef | 192.168.1.100 | example.com | /usr/bin/kimwolf |
 * **偵測規則 (Detection Rules)**:
-```yara
-rule Kimwolf_Botnet {
-    meta:
-        description = "Kimwolf Botnet Malware"
-        author = "Your Name"
-    strings:
-        $a = "kimwolf" ascii
-        $b = "ddos" ascii
-    condition:
-        all of them
-}
-```
+
+    ```
+    
+    yara
+    rule Kimwolf_Botnet {
+        meta:
+            description = "Kimwolf Botnet Malware"
+            author = "Your Name"
+        strings:
+            $a = "kimwolf" ascii
+            $b = "ddos" ascii
+        condition:
+            all of them
+    }
+    ```
 * **緩解措施**: 更新 Android TV Streaming Box 的軟體和固件，關閉不必要的服務和埠口，使用防火牆和入侵偵測系統進行監控和防禦。
 
 ## 4. 📚 專有名詞與技術概念解析 (Technical Glossary)
@@ -80,5 +91,4 @@ rule Kimwolf_Botnet {
 
 * [原始報告](https://krebsonsecurity.com/2026/01/who-benefited-from-the-aisuru-and-kimwolf-botnets/)
 * [MITRE ATT&CK](https://attack.mitre.org/techniques/T1490/)
-
 

@@ -25,17 +25,24 @@ categories: [security]
 
 * **攻擊前置需求**: 攻擊者需要有系統的使用權限。
 * **Payload 建構邏輯**:
-  ```python
-import ctypes
 
-# 定義緩衝區溢位的內容
-payload = b"A" * 1024
-
-# 使用 ctypes 將 payload 傳送給 DWM
-ctypes.windll.user32.SendMessageW(0x00000001, 0x00000002, payload, 0x00000003)
-```
+    ```
+    
+    python
+    import ctypes
+    
+    # 定義緩衝區溢位的內容
+    payload = b"A" * 1024
+    
+    # 使用 ctypes 將 payload 傳送給 DWM
+    ctypes.windll.user32.SendMessageW(0x00000001, 0x00000002, payload, 0x00000003)
+    ```
   *範例指令*: 使用 `curl` 傳送請求給 DWM。
-  ```bash
+  
+
+```
+
+bash
 curl -X POST -H "Content-Type: application/json" -d '{"payload": "A" * 1024}' http://localhost:8080/dwm
 ```
 * **繞過技術**: 攻擊者可以使用 ASLR 繞過技術來繞過系統的安全防護。
@@ -47,19 +54,26 @@ curl -X POST -H "Content-Type: application/json" -d '{"payload": "A" * 1024}' ht
   | --- | --- | --- | --- |
   | 1234567890abcdef | 192.168.1.100 | example.com | C:\Windows\System32\dwm.exe |
 * **偵測規則 (Detection Rules)**:
-  ```yara
-rule DWM_Buffer_Overflow {
-  meta:
-    description = "DWM 緩衝區溢位"
-    author = "Blue Team"
-  strings:
-    $payload = { 41 41 41 41 41 41 41 41 }
-  condition:
-    $payload in (0..1000)
-}
-```
+
+    ```
+    
+    yara
+    rule DWM_Buffer_Overflow {
+      meta:
+        description = "DWM 緩衝區溢位"
+        author = "Blue Team"
+      strings:
+        $payload = { 41 41 41 41 41 41 41 41 }
+      condition:
+        $payload in (0..1000)
+    }
+    ```
   或者是具體的 SIEM 查詢語法 (Splunk/Elastic)。
-  ```sql
+  
+
+```
+
+sql
 index=dwm_logs | search "payload"="A" * 1024
 ```
 * **緩解措施**: 更新系統的安全補丁，並設定 DWM 的安全配置。
@@ -75,5 +89,4 @@ index=dwm_logs | search "payload"="A" * 1024
 
 * [原始報告](https://krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition/)
 * [MITRE ATT&CK](https://attack.mitre.org/techniques/T1204/)
-
 

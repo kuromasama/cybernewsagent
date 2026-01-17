@@ -28,17 +28,19 @@ categories: [security]
 * **Payload 建構邏輯**:
 
     ```
-    
-    java
-    // JBiFrost RAT Payload
-    public class JBiFrost {
-        public static void main(String[] args) {
-            // 連接到受害者的機器
-            Socket socket = new Socket("受害者的機器 IP", 8080);
-            // 執行命令和控制
-            socket.getOutputStream().write("命令和控制".getBytes());
+        
+        java
+        // JBiFrost RAT Payload
+        public class JBiFrost {
+            public static void main(String[] args) {
+                // 連接到受害者的機器
+                Socket socket = new Socket("受害者的機器 IP", 8080);
+                // 執行命令和控制
+                socket.getOutputStream().write("命令和控制".getBytes());
+            }
         }
-    }
+        
+        
     
     ```
  
@@ -81,17 +83,19 @@ htran -l 8080 -r 受害者的機器 IP
 * **偵測規則 (Detection Rules)**:
 
     ```
-    
-    yara
-    rule JBiFrost_RAT {
-        meta:
-            description = "JBiFrost RAT"
-            author = "您的名字"
-        strings:
-            $a = "JBiFrost"
-        condition:
-            $a
-    }
+        
+        yara
+        rule JBiFrost_RAT {
+            meta:
+                description = "JBiFrost RAT"
+                author = "您的名字"
+            strings:
+                $a = "JBiFrost"
+            condition:
+                $a
+        }
+        
+        
     
     ```
  
@@ -118,5 +122,4 @@ alert tcp any any -> any 8080 (msg:"JBiFrost RAT"; sid:1000001; rev:1;)
 ## 5. 🔗 參考文獻與延伸閱讀
 * [原始報告](https://www.cisa.gov/news-events/cybersecurity-advisories/aa18-284a)
 * [MITRE ATT&CK](https://attack.mitre.org/)
-
 

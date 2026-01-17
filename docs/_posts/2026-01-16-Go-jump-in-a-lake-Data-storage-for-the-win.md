@@ -23,22 +23,27 @@ categories: [security]
 ## 2. ⚔️ 紅隊實戰：攻擊向量與 Payload (Red Team Operations)
 * **攻擊前置需求**: 需要對數據湖架構有深入的了解。
 * **Payload 建構邏輯**:
-  ```python
-  # 範例 Python 代碼
-  from pyspark.sql import SparkSession
 
-  # 創建 SparkSession
-  spark = SparkSession.builder.appName("Data Lake Example").getOrCreate()
-
-  # 讀取數據
-  data = spark.read.parquet("s3://my-bucket/data.parquet")
-
-  # 查詢數據
-  results = data.filter(data["column"] == "value")
-
-  # 顯示結果
-  results.show()
-  ```
+    ```
+    
+    python
+      # 範例 Python 代碼
+      from pyspark.sql import SparkSession
+    
+      # 創建 SparkSession
+      spark = SparkSession.builder.appName("Data Lake Example").getOrCreate()
+    
+      # 讀取數據
+      data = spark.read.parquet("s3://my-bucket/data.parquet")
+    
+      # 查詢數據
+      results = data.filter(data["column"] == "value")
+    
+      # 顯示結果
+      results.show()
+      
+    
+    ```
 * **繞過技術**: 使用 Serverless Compute 可以繞過傳統的計算資源限制。
 
 ## 3. 🛡️ 藍隊防禦：偵測與緩解 (Blue Team Defense)
@@ -47,16 +52,21 @@ categories: [security]
   | --- | --- | --- | --- |
   | XXXX | 192.168.1.1 | example.com | /data.parquet |
 * **偵測規則 (Detection Rules)**:
-  ```yara
-  rule DataLakeQuery {
-    meta:
-      description = "Detects suspicious data lake queries"
-    strings:
-      $query = "SELECT * FROM data WHERE column = 'value'"
-    condition:
-      $query
-  }
-  ```
+
+    ```
+    
+    yara
+      rule DataLakeQuery {
+        meta:
+          description = "Detects suspicious data lake queries"
+        strings:
+          $query = "SELECT * FROM data WHERE column = 'value'"
+        condition:
+          $query
+      }
+      
+    
+    ```
 * **緩解措施**: 使用 IAM 角色控制數據湖的存取權限。
 
 ## 4. 📚 專有名詞與技術概念解析 (Technical Glossary)
@@ -68,5 +78,4 @@ categories: [security]
 - [原始報告](https://redcanary.com/blog/security-operations/security-data-lake-architecture/)
 - [Apache Iceberg 官方文檔](https://iceberg.apache.org/)
 - [MITRE ATT&CK 編號](https://attack.mitre.org/)
-
 

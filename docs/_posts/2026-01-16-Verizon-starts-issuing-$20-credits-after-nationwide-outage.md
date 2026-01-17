@@ -25,37 +25,39 @@ categories: [security]
 * **Payload 建構邏輯**:
 
     ```
-    
-    python
-    import requests
-    
-    # 定義 Verizon 的 API 連結
-    verizon_api = "https://www.verizon.com/api/redeem-credit"
-    
-    # 定義客戶的帳戶資訊
-    customer_info = {
-        "account_number": "1234567890",
-        "password": "password123"
-    }
-    
-    # 定義補償金額
-    credit_amount = 20
-    
-    # 建構 Payload
-    payload = {
-        "account_number": customer_info["account_number"],
-        "password": customer_info["password"],
-        "credit_amount": credit_amount
-    }
-    
-    # 送出請求
-    response = requests.post(verizon_api, json=payload)
-    
-    # 判斷是否成功
-    if response.status_code == 200:
-        print("補償金額已成功領取")
-    else:
-        print("領取失敗")
+        
+        python
+        import requests
+        
+        # 定義 Verizon 的 API 連結
+        verizon_api = "https://www.verizon.com/api/redeem-credit"
+        
+        # 定義客戶的帳戶資訊
+        customer_info = {
+            "account_number": "1234567890",
+            "password": "password123"
+        }
+        
+        # 定義補償金額
+        credit_amount = 20
+        
+        # 建構 Payload
+        payload = {
+            "account_number": customer_info["account_number"],
+            "password": customer_info["password"],
+            "credit_amount": credit_amount
+        }
+        
+        # 送出請求
+        response = requests.post(verizon_api, json=payload)
+        
+        # 判斷是否成功
+        if response.status_code == 200:
+            print("補償金額已成功領取")
+        else:
+            print("領取失敗")
+        
+        
     
     ```
 * **繞過技術**: 如果有 WAF 或 EDR 繞過技巧，可能需要使用代理伺服器或 VPN 來隱藏 IP 地址。
@@ -64,23 +66,26 @@ categories: [security]
 * **IOCs (入侵指標)**:
 
 | Hash | IP | Domain | File Path |
+
 | --- | --- | --- | --- |
 
 | - | - | verizon.com | - |
 * **偵測規則 (Detection Rules)**:
 
     ```
-    
-    yara
-    rule Verizon_Credit_Redemption {
-        meta:
-            description = "Verizon 信用額度領取"
-            author = "Your Name"
-        strings:
-            $verizon_api = "https://www.verizon.com/api/redeem-credit"
-        condition:
-            $verizon_api in (http.request.uri)
-    }
+        
+        yara
+        rule Verizon_Credit_Redemption {
+            meta:
+                description = "Verizon 信用額度領取"
+                author = "Your Name"
+            strings:
+                $verizon_api = "https://www.verizon.com/api/redeem-credit"
+            condition:
+                $verizon_api in (http.request.uri)
+        }
+        
+        
     
     ```
 * **緩解措施**: 除了更新修補之外，還可以修改 Verizon.com 的設定，例如限制客戶的登入次數或要求客戶驗證身份。
@@ -93,5 +98,4 @@ categories: [security]
 ## 5. 🔗 參考文獻與延伸閱讀
 - [原始報告](https://www.bleepingcomputer.com/news/mobile/verizon-starts-issuing-20-credits-after-nationwide-outage/)
 - [MITRE ATT&CK](https://attack.mitre.org/techniques/T1190/)
-
 

@@ -31,14 +31,16 @@ categories: [security]
 * **Payload 建構邏輯**:
 
     ```
-    
-    python
-    # 範例 payload 結構
-    payload = {
-        'type': 'exploit',
-        'target': 'CVE-2026-20805',
-        'data': 'malicious_code'
-    }
+        
+        python
+        # 範例 payload 結構
+        payload = {
+            'type': 'exploit',
+            'target': 'CVE-2026-20805',
+            'data': 'malicious_code'
+        }
+        
+        
     
     ```
  
@@ -62,17 +64,19 @@ curl -X POST -H "Content-Type: application/json" -d '{"type": "exploit", "target
 * **偵測規則 (Detection Rules)**:
 
     ```
-    
-    yara
-    rule CVE_2026_20805 {
-        meta:
-            description = "Detects CVE-2026-20805 exploit"
-            author = "Your Name"
-        strings:
-            $a = { 12 34 56 78 90 ab cd ef }
-        condition:
-            $a at entry_point
-    }
+        
+        yara
+        rule CVE_2026_20805 {
+            meta:
+                description = "Detects CVE-2026-20805 exploit"
+                author = "Your Name"
+            strings:
+                $a = { 12 34 56 78 90 ab cd ef }
+            condition:
+                $a at entry_point
+        }
+        
+        
     
     ```
  
@@ -96,5 +100,4 @@ alert tcp any any -> any any (msg:"CVE-2026-20805 exploit"; content:"malicious_c
 ## 5. 🔗 參考文獻與延伸閱讀
 - [原始報告](https://krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition/)
 - [MITRE ATT&CK](https://attack.mitre.org/)
-
 

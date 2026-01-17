@@ -22,25 +22,36 @@ categories: [security]
 
 ## 2. ⚔️ 紅隊實戰：攻擊向量與 Payload (Red Team Operations)
 * **攻擊前置需求**: 攻擊者需要對 Nelnet Servicing 系統的漏洞有所了解，並具備必要的技術能力來利用這個漏洞。
-* **Payload 建構邏輯**: 
-  ```python
-  # 範例 Payload
-  import requests
+* **Payload 建構邏輯**:
 
-  url = "https://example.com/vulnerable_endpoint"
-  payload = {"username": "admin", "password": "password123"}
-
-  response = requests.post(url, data=payload)
-
-  if response.status_code == 200:
-      print("成功存取系統")
-  else:
-      print("存取失敗")
-  ```
+    ```
+    
+    python
+      # 範例 Payload
+      import requests
+    
+      url = "https://example.com/vulnerable_endpoint"
+      payload = {"username": "admin", "password": "password123"}
+    
+      response = requests.post(url, data=payload)
+    
+      if response.status_code == 200:
+          print("成功存取系統")
+      else:
+          print("存取失敗")
+      
+    
+    ```
   *範例指令*: 使用 `curl` 命令發送 HTTP 請求來存取系統。
-  ```bash
+  
+
+```
+
+bash
   curl -X POST -H "Content-Type: application/json" -d '{"username": "admin", "password": "password123"}' https://example.com/vulnerable_endpoint
-  ```
+  
+
+```
 * **繞過技術**: 如果系統配置了 WAF 或 EDR，攻擊者可能需要使用繞過技巧，例如使用加密或編碼來隱藏 Payload。
 
 ## 3. 🛡️ 藍隊防禦：偵測與緩解 (Blue Team Defense)
@@ -50,22 +61,33 @@ categories: [security]
   | IP | 192.0.2.1 |
   | Domain | example.com |
   | File Path | /vulnerable_endpoint |
-* **偵測規則 (Detection Rules)**: 
-  ```yara
-  rule Nelnet_Servicing_Vulnerability {
-      meta:
-          description = "Nelnet Servicing Vulnerability"
-          author = "Your Name"
-      strings:
-          $payload = { 61 64 6d 69 6e 20 70 61 73 73 77 6f 72 64 31 32 33 }
-      condition:
-          $payload at entrypoint
-  }
-  ```
+* **偵測規則 (Detection Rules)**:
+
+    ```
+    
+    yara
+      rule Nelnet_Servicing_Vulnerability {
+          meta:
+              description = "Nelnet Servicing Vulnerability"
+              author = "Your Name"
+          strings:
+              $payload = { 61 64 6d 69 6e 20 70 61 73 73 77 6f 72 64 31 32 33 }
+          condition:
+              $payload at entrypoint
+      }
+      
+    
+    ```
   或者是使用 Snort/Suricata Signature 來偵測攻擊。
-  ```snort
+  
+
+```
+
+snort
   alert tcp any any -> any any (msg:"Nelnet Servicing Vulnerability"; content:"admin password123"; sid:1000001; rev:1;)
-  ```
+  
+
+```
 * **緩解措施**: 
   1. 更新 Nelnet Servicing 系統的安全補丁。
   2. 配置 WAF 和 EDR 來偵測和阻止攻擊。
@@ -79,5 +101,4 @@ categories: [security]
 ## 5. 🔗 參考文獻與延伸閱讀
 - [原始報告](https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/)
 - [MITRE ATT&CK](https://attack.mitre.org/)
-
 

