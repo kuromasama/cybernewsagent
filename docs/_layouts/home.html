@@ -127,7 +127,38 @@ layout: default
     opacity: 0.8;
   }
   
-  /* 終端機打字效果：游標 */
+  /* --- 終端機特效專用樣式 --- */
+  .home-intro {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 255, 65, 0.1);
+    margin-bottom: 50px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .terminal-line {
+    display: block;
+    margin-bottom: 8px;
+    color: #ddd;
+    font-size: 0.95em;
+    position: relative;
+  }
+
+  /* 關鍵字變色 */
+  .term-green { color: var(--neon-green); font-weight: bold; }
+  .term-dim { color: #666; }
+  
+  /* 點點閃爍動畫 */
+  .blink-dots {
+    animation: blink 1.5s step-start infinite;
+  }
+
+  @keyframes blink {
+    50% { opacity: 0; }
+  }
+
+  /* 游標效果 */
   .typing-cursor::after {
       content: '█';
       animation: blink 1s infinite;
@@ -137,7 +168,7 @@ layout: default
       font-size: 0.8em;
   }
 
-  /* --- 分頁按鈕樣式 --- */
+  /* 分頁按鈕樣式 */
   .pagination {
       margin-top: 50px; 
       text-align: center; 
@@ -187,8 +218,20 @@ layout: default
 
 <div class="home">
 
-  <div class="home-intro" style="margin-bottom: 50px; font-size: 1.1em; line-height: 1.6; color: #ddd;">
-    <span class="typing-cursor">{{ content }}</span>
+  <!-- 🔥 UPDATED: 駭客終端機式歡迎詞 🔥 -->
+  <div class="home-intro">
+    <span class="terminal-line">> Initializing Cyber News Agent v3.0<span class="blink-dots">...</span></span>
+    <span class="terminal-line">> Connecting to Global Threat Feeds<span class="blink-dots">...</span> <span class="term-green">[CONNECTED]</span></span>
+    <span class="terminal-line">> AI Model: <span class="term-green">GEMINI-3-FLASH</span> loaded.</span>
+    <span class="terminal-line">> System Status: <span class="term-green">ACTIVE_MONITORING</span></span>
+    <br>
+    <span class="terminal-line">> <span class="term-green">SYSTEM_UPDATE:</span> 動態威脅渲染引擎 (Dynamic Threat Rendering Engine) 已啟動。</span>
+    <span class="terminal-line typing-cursor">> 偵測模式: 
+      <span style="color: var(--neon-pink);">🚨 CRITICAL</span> | 
+      <span style="color: var(--neon-orange);">🔥 HIGH</span> | 
+      <span style="color: var(--neon-yellow);">⚠️ MEDIUM</span> | 
+      <span style="color: var(--neon-blue);">🛡️ INFO</span>
+    </span>
   </div>
 
   <div class="glitch-wrapper" style="margin-bottom: 40px; border-bottom: 2px dashed var(--neon-cyan); padding-bottom: 15px;">
