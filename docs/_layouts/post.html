@@ -8,19 +8,23 @@ layout: default
   {%- when 'critical' -%}
     {%- assign severity_color = "var(--neon-pink)" -%}
     {%- assign severity_icon = "🚨" -%}
-    {%- assign watermark_text = "🚨 ALERT // SYSTEM BREACH" -%}
+    <!-- Siren/Alert SVG (Red) -->
+    {%- assign watermark_svg = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ff003c' stroke-width='1' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z'/%3E%3Cline x1='12' y1='9' x2='12' y2='13'/%3E%3Cline x1='12' y1='17' x2='12.01' y2='17'/%3E%3C/svg%3E" -%}
   {%- when 'high' -%}
     {%- assign severity_color = "var(--neon-orange)" -%}
     {%- assign severity_icon = "🔥" -%}
-    {%- assign watermark_text = "🔥 WARNING // HIGH THREAT" -%}
+    <!-- Fire SVG (Orange) -->
+    {%- assign watermark_svg = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ff9d00' stroke-width='1' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.1.2-2.2.6-3.3.3.9.8 1.9 1.9 2.8z'/%3E%3C/svg%3E" -%}
   {%- when 'medium' -%}
     {%- assign severity_color = "var(--neon-yellow)" -%}
     {%- assign severity_icon = "⚠️" -%}
-    {%- assign watermark_text = "⚠️ CAUTION // SUSPICIOUS" -%}
+    <!-- Warning Triangle SVG (Yellow) -->
+    {%- assign watermark_svg = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffee00' stroke-width='1' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z'/%3E%3Cpath d='M12 9v4'/%3E%3Cpath d='M12 17h.01'/%3E%3C/svg%3E" -%}
   {%- else -%}
     {%- assign severity_color = "var(--neon-cyan)" -%}
     {%- assign severity_icon = "🛡️" -%}
-    {%- assign watermark_text = "🛡️ INFO // SYSTEM LOG" -%}
+    <!-- Shield SVG (Blue/Cyan) -->
+    {%- assign watermark_svg = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230088ff' stroke-width='1' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z'/%3E%3C/svg%3E" -%}
 {%- endcase -%}
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" style="
@@ -57,19 +61,17 @@ layout: default
   </header>
 
   <!-- 
-       UPDATED: 
-       1. 加入 data-watermark 屬性，傳入 Liquid 生成的警示文字
-       2. 保留 data-severity 以供相容性使用
+       UPDATED: 圖片浮水印 (Image Watermark)
+       1. 使用 style 屬性直接將 Liquid 變數注入為 CSS 變數 --watermark-bg
+       2. data-severity 屬性保留供其他 CSS 使用
   -->
   <div class="post-content e-content" itemprop="articleBody" 
        data-severity="{{ severity }}" 
-       data-watermark="{{ watermark_text }}"
-       style="--current-severity-color: {{ severity_color }};">
+       style="--current-severity-color: {{ severity_color }}; --watermark-bg: url('{{ watermark_svg }}');">
     {{ content }}
   </div>
 
   <div style="margin-top: 60px; text-align: center; border-top: 1px solid #333; padding-top: 30px;">
-      <!-- UPDATED: 使用 CSS Class .return-btn 並傳入顏色變數 -->
       <a href="{{ "/" | relative_url }}" class="return-btn" style="--btn-color: {{ severity_color }};">
           &lt; RETURN_TO_BASE
       </a>
@@ -142,7 +144,7 @@ layout: default
       padding: 10px;
   }
 
-  /* 🔥 新增：返回按鈕樣式 (更清晰的 Hover) 🔥 */
+  /* 🔥 返回按鈕樣式 (更清晰的 Hover) 🔥 */
   .return-btn {
       color: var(--btn-color);
       border: 1px solid var(--btn-color);
@@ -158,7 +160,7 @@ layout: default
   }
 
   .return-btn:hover {
-      /* 改為填滿背景色，搭配黑色文字，閱讀性更佳 */
+      /* 改為深色半透明背景，搭配黑色文字，閱讀性更佳 */
       background: var(--btn-color) !important; 
       color: #000 !important;
       box-shadow: 0 0 20px var(--btn-color);
@@ -166,32 +168,28 @@ layout: default
       border-color: var(--btn-color);
   }
 
-  /* 🔥 UPDATED: 通用浮水印 (Dynamic Watermark) 🔥 */
-  /* 改為讀取 data-watermark 屬性，支援所有等級 */
-  .post-content[data-watermark]::after {
-      content: attr(data-watermark);
+  /* 🔥 FIXED: 圖片浮水印樣式 (Top Right Image) 🔥 */
+  .post-content::after {
+      content: "";
       position: absolute;
-      top: 20%;
-      left: 50%;
-      transform: translate(-50%, 0) rotate(-30deg);
-      font-size: 5rem;
-      font-weight: 900;
-      color: var(--current-severity-color); 
-      opacity: 0.1; /* 低透明度 */
+      top: 0;         /* 貼齊頂部 */
+      right: 0;       /* 貼齊右側 */
+      width: 30%;     /* 寬度約 1/3 ~ 1/4 */
+      height: 300px;  /* 固定高度範圍，確保不會無限延伸 */
+      background-image: var(--watermark-bg); /* 使用 SVG 變數 */
+      background-repeat: no-repeat;
+      background-position: top right;
+      background-size: contain; /* 確保圖示完整顯示 */
+      opacity: 0.08;  /* 極低透明度，不干擾閱讀 */
       pointer-events: none;
-      white-space: nowrap;
-      border: 5px solid var(--current-severity-color);
-      padding: 20px 40px;
       z-index: 0;
-      mask-image: linear-gradient(black 50%, transparent 100%);
   }
   
   /* 為了讓浮水印在手機上也不會跑版，稍微縮小一點 */
   @media (max-width: 768px) {
-      .post-content[data-watermark]::after {
-          font-size: 2.5rem;
-          border-width: 3px;
-          padding: 10px 20px;
+      .post-content::after {
+          width: 50%;
+          opacity: 0.05;
       }
   }
 </style>

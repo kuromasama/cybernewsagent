@@ -130,17 +130,20 @@ layout: default
     <span class="typing-cursor">{{ content }}</span>
   </div>
 
-  <h1 class="page-heading" style="
-      color: var(--neon-cyan); 
-      text-shadow: 0 0 10px var(--neon-cyan); 
-      margin-bottom: 40px; 
-      border-bottom: 2px dashed var(--neon-cyan); 
-      padding-bottom: 15px;
-      letter-spacing: 2px;
-  ">
-    <!-- 加入故障文字特效 -->
-    <span class="glitch" data-text="> THREAT_INTELLIGENCE_FEED">> THREAT_INTELLIGENCE_FEED</span>
-  </h1>
+  <!-- 
+       FIXED: 使用與 About 頁面相同的 glitch-wrapper 結構
+       這能確保動畫穩定，解決 "閃爍成站名" 的問題
+  -->
+  <div class="glitch-wrapper" style="margin-bottom: 40px; border-bottom: 2px dashed var(--neon-cyan); padding-bottom: 15px;">
+      <h1 class="page-heading glitch" data-text="> THREAT_INTELLIGENCE_FEED" style="
+          color: var(--neon-cyan); 
+          text-shadow: 0 0 10px var(--neon-cyan); 
+          letter-spacing: 2px;
+          margin: 0;
+      ">
+        > THREAT_INTELLIGENCE_FEED
+      </h1>
+  </div>
 
   <ul class="post-list">
     {% for post in site.posts %}
