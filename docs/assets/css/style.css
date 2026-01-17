@@ -1,11 +1,12 @@
 /* * Cyber News Agent - Terminal Theme (v12.1 Total Hack / 全面修復)
  * Status: STABLE // VISUAL UPGRADE
- * * Changelog:
+ * Changelog:
  * 1. Global TV Static & Stealth Scrollbars (Kept)
  * 2. Verbose Glitch Animation (Kept)
  * 3. Text & Card Jitter Effects (Kept)
  * 4. Dynamic Watermarks (Fixed for all levels)
  * 5. High Contrast Buttons (Solid fill on hover)
+ * 6. Header System Status: White Label + Breathing ONLINE (New)
  */
 
  :root {
@@ -254,21 +255,46 @@ a:hover {
     100% { clip: rect(40px, 9999px, 50px, 0); }
 }
 
-.system-status { font-size: 0.9rem; color: var(--neon-green); }
+/* --- 🔥 UPDATED: HEADER SYSTEM STATUS (Breathing Effect) 🔥 --- */
+.system-status { 
+    font-size: 0.9rem; 
+    color: #ffffff; /* [SYSTEM:] 文字改為白色 */
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    letter-spacing: 1px;
+}
+
+/* ONLINE 燈號與文字的呼吸效果 */
+.status-light, 
+.system-status span, 
+.system-status strong {
+    color: var(--neon-green);
+    text-shadow: 0 0 5px var(--neon-green);
+    animation: header-pulse 2s ease-in-out infinite;
+}
 
 .status-light {
     display: inline-block;
     width: 10px; height: 10px;
     background-color: var(--neon-green);
     border-radius: 50%;
-    margin-right: 5px;
-    box-shadow: 0 0 5px var(--neon-green);
-    animation: blink 2s infinite;
+    margin-right: 0px; /* 改用 gap 控制 */
+    box-shadow: 0 0 8px var(--neon-green);
 }
 
-@keyframes blink { 
-    0%, 100% { opacity: 1; } 
-    50% { opacity: 0.3; } 
+@keyframes header-pulse {
+    0%, 100% { 
+        opacity: 1; 
+        text-shadow: 0 0 5px var(--neon-green);
+        filter: brightness(1);
+    }
+    50% { 
+        opacity: 0.7; 
+        text-shadow: 0 0 15px var(--neon-green), 0 0 25px var(--neon-green);
+        filter: brightness(1.5);
+    }
 }
 
 /* --- Navigation --- */
@@ -330,10 +356,6 @@ h1.post-title {
 }
 
 /* 🔥 4. UPDATED: DYNAMIC WATERMARK SUPPORT 🔥 */
-/* 修正：改用 [data-watermark] 選擇器。
-   這允許 CSS 直接讀取 HTML 屬性 (content: attr(data-watermark)) 
-   並支援所有威脅等級的顏色自動變換。
-*/
 .post-content[data-watermark]::after {
     content: attr(data-watermark);
     position: absolute;
@@ -342,9 +364,8 @@ h1.post-title {
     transform: translate(-50%, 0) rotate(-30deg);
     font-size: 5rem;
     font-weight: 900;
-    /* 使用變數確保顏色自動跟隨等級 (紅/橘/黃) */
     color: var(--current-severity-color, var(--neon-pink));
-    opacity: 0.1; /* 提高不透明度，讓其更可見 */
+    opacity: 0.1;
     pointer-events: none;
     white-space: nowrap;
     border: 5px solid var(--current-severity-color, var(--neon-pink));
@@ -403,7 +424,6 @@ ul.post-list li:hover, .card:hover {
     border-color: var(--item-color, var(--neon-green)) !important;
     border-left-color: var(--item-color, var(--neon-green)) !important;
     box-shadow: 0 0 15px var(--item-color, rgba(0, 255, 65, 0.2));
-    /* New Transformation Logic */
     transform: scale(1.01);
     animation: card-jitter 0.3s infinite;
     z-index: 10;
@@ -514,20 +534,6 @@ html body .post-content tr:hover {
 }
 
 /* --- 🔥 5. UPDATED: BUTTON COMPATIBILITY (Return to Base Fix) 🔥 --- */
-/* 一般按鈕的 Fallback (保留原本邏輯) */
-.post-content + div a, 
-a[href*="relative_url"] {
-    background: transparent !important;
-    display: inline-block;
-    padding: 10px 20px;
-    border: 1px solid currentColor;
-    color: inherit;
-    margin-top: 20px;
-}
-
-/* 新增：專屬 .return-btn 樣式
-   用於解決 Hover 時文字變成白色的問題，改為高對比 (填滿底色+黑字)
-*/
 .return-btn {
     display: inline-block;
     padding: 12px 30px;
@@ -544,14 +550,13 @@ a[href*="relative_url"] {
 
 .return-btn:hover {
     background: var(--btn-color, var(--neon-green)) !important;
-    color: #000 !important; /* 黑色文字，形成反白效果 */
+    color: #000 !important; 
     box-shadow: 0 0 20px var(--btn-color, var(--neon-green));
     text-shadow: none;
     border-color: var(--btn-color, var(--neon-green));
 }
 
 /* --- Support for New Animations (Typing & Watermark) --- */
-/* 終端機打字效果：游標 */
 .typing-cursor::after {
     content: '█';
     animation: blink 1s infinite;
@@ -613,7 +618,6 @@ a[href*="relative_url"] {
     .command-line { flex-direction: column; }
     .prompt { margin-bottom: 5px; }
     
-    /* Mobile Watermark Adjustment */
     .post-content[data-watermark]::after {
         font-size: 2.5rem;
         border-width: 3px;

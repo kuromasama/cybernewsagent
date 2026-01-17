@@ -183,14 +183,7 @@ layout: default
     100%      { content: ""; }
   }
 
-  /* 🔥 呼吸燈特效：ONLINE 字體與點號燈 🔥 */
-  .online-breathing {
-    color: var(--neon-green);
-    font-weight: bold;
-    text-shadow: 0 0 5px var(--neon-green);
-    animation: terminal-pulse 2s ease-in-out infinite;
-  }
-
+  /* 呼吸燈特效動畫 (供全局使用) */
   @keyframes terminal-pulse {
     0%, 100% { 
         text-shadow: 0 0 5px var(--neon-green); 
@@ -200,6 +193,13 @@ layout: default
         text-shadow: 0 0 15px var(--neon-green), 0 0 20px var(--neon-green); 
         opacity: 0.8;
     }
+  }
+
+  .term-alert { 
+    animation: blink 0.8s step-start infinite; 
+    color: var(--neon-green); 
+    font-weight: bold;
+    text-shadow: 0 0 10px var(--neon-green);
   }
 
   @keyframes blink {
@@ -266,13 +266,12 @@ layout: default
 
 <div class="home">
 
-  <!-- 🔥 UPDATED: 全自動終端機打字歡迎詞 🔥 -->
+  <!-- 🔥 FIXED: 歡迎詞還原為 ACTIVE_MONITORING 樣式 🔥 -->
   <div class="home-intro">
     <span class="terminal-line line-1">> Initializing Cyber News Agent <span class="term-cyan">v3.0</span><span class="loading-dots"></span></span>
     <span class="terminal-line line-2">> Connecting to Global Threat Feeds<span class="loading-dots"></span> <span class="term-green">[CONNECTED]</span></span>
     <span class="terminal-line line-3">> AI Model: <span class="term-cyan">GEMINI-3-FLASH</span> loaded.</span>
-    <!-- 🔥 UPDATED: SYSTEM: ONLINE 樣式 🔥 -->
-    <span class="terminal-line line-4">> <span class="term-white">SYSTEM:</span> <span class="online-breathing">● ONLINE</span></span>
+    <span class="terminal-line line-4">> System Status: <span class="term-alert">ACTIVE_MONITORING</span></span>
     <br>
     <span class="terminal-line line-5">> <span class="term-pink">SYSTEM_UPDATE:</span> 動態威脅渲染引擎 (DTRE) 已啟動。</span>
     <span class="terminal-line line-6 typing-cursor">> 偵測模式: 
