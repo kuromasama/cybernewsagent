@@ -1,12 +1,12 @@
 /* * Cyber News Agent - Terminal Theme (v12.1 Total Hack / 全面修復)
  * Status: STABLE // VISUAL UPGRADE
- * Changelog:
+ * * Changelog:
  * 1. Global TV Static & Stealth Scrollbars (Kept)
  * 2. Verbose Glitch Animation (Kept)
  * 3. Text & Card Jitter Effects (Kept)
  * 4. Dynamic Watermarks (Fixed for all levels)
  * 5. High Contrast Buttons (Solid fill on hover)
- * 6. Header System Status: White Label + Breathing ONLINE (New)
+ * 6. Header System Status: White Label + Slow Breathing ONLINE (Fixed)
  */
 
  :root {
@@ -255,10 +255,10 @@ a:hover {
     100% { clip: rect(40px, 9999px, 50px, 0); }
 }
 
-/* --- 🔥 UPDATED: HEADER SYSTEM STATUS (Breathing Effect) 🔥 --- */
+/* --- 🔥 UPDATED: HEADER SYSTEM STATUS (Optimized Colors & Speed) 🔥 --- */
 .system-status { 
     font-size: 0.9rem; 
-    color: #ffffff; /* [SYSTEM:] 文字改為白色 */
+    color: #ffffff; /* [SYSTEM:] 固定為純白色 */
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -266,13 +266,13 @@ a:hover {
     letter-spacing: 1px;
 }
 
-/* ONLINE 燈號與文字的呼吸效果 */
+/* ONLINE 燈號與文字同步閃爍：霓虹綠 + 呼吸效果 (放慢為 3s) */
 .status-light, 
 .system-status span, 
 .system-status strong {
-    color: var(--neon-green);
+    color: var(--neon-green) !important;
     text-shadow: 0 0 5px var(--neon-green);
-    animation: header-pulse 2s ease-in-out infinite;
+    animation: header-pulse 3s ease-in-out infinite; /* 調慢速度至 3s */
 }
 
 .status-light {
@@ -280,7 +280,7 @@ a:hover {
     width: 10px; height: 10px;
     background-color: var(--neon-green);
     border-radius: 50%;
-    margin-right: 0px; /* 改用 gap 控制 */
+    margin-right: 0px; 
     box-shadow: 0 0 8px var(--neon-green);
 }
 
@@ -291,9 +291,9 @@ a:hover {
         filter: brightness(1);
     }
     50% { 
-        opacity: 0.7; 
+        opacity: 0.6; /* 稍微增加呼吸深度 */
         text-shadow: 0 0 15px var(--neon-green), 0 0 25px var(--neon-green);
-        filter: brightness(1.5);
+        filter: brightness(1.4);
     }
 }
 
