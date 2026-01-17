@@ -8,7 +8,10 @@
     --neon-green: #00ff41;
     --dim-green: #008f11;
     --neon-cyan: #00f3ff;
-    --neon-pink: #ff003c;
+    --neon-pink: #ff003c; /* Critical */
+    --neon-orange: #ff9d00;  /* High */
+    --neon-yellow: #ffee00; /* Medium */
+    --neon-blue: #0088ff;   /* Info/Low */
     --text-color: #e0e0e0;
     --font-stack: 'Share Tech Mono', monospace;
     --scanline-color: rgba(0, 0, 0, 0.5);
