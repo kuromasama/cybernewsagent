@@ -1,24 +1,25 @@
-/* * Cyber News Agent - Terminal Theme (v12.2 Total Hack / 進階動畫修復)
- * Status: STABLE // VISUAL UPGRADE
+/* * Cyber News Agent - Terminal Theme (v13.9 Ultimate High-Fidelity Fix)
+ * Status: STABLE // ASYNC SYSTEM STATUS // FULL FEATURE RESTORATION
  * * Changelog:
- * 1. Global TV Static & Stealth Scrollbars (Kept)
- * 2. Verbose Glitch Animation (Kept)
- * 3. Text & Card Jitter Effects (Kept)
- * 4. Dynamic Watermarks (Fixed for all levels)
- * 5. High Contrast Buttons (Solid fill on hover)
- * 6. Header System Status: White Label + Slow Breathing ONLINE (Kept)
- * 7. Intro Animation: Sequential Loading Dots + Double-Blink [CONNECTED] (New)
+ * 1. Global CRT Scanlines & TV Noise Overlay (Detailed Implementation)
+ * 2. Stealth Scrollbars & Custom Layout Wrappers (Verbose Mode)
+ * 3. Multi-layer Glitch Animation for Site Title (Enhanced 10% Steps)
+ * 4. Asynchronous Header System Status (Fixed):
+ * - "SYSTEM:" label forced to pure white (#ffffff).
+ * - "Status Light" uses slow organic non-linear breathing (4s cycle).
+ * - "ONLINE" text uses high-frequency flicker + micro-jitter (Independent frequency).
+ * 5. Intro Animation: Sequential Loading Dots + Double-Blink [CONNECTED] tag.
+ * 6. High Contrast Buttons & Micro-Jitter Hover Effects (Kept).
+ * 7. Dynamic Watermarks & Detailed Markdown Typography Restoration.
  */
 
  :root {
-    /* --- Base Colors --- */
+    /* --- Base Colors: Deep Space Foundation --- */
     --bg-color: #050505;
     --terminal-black: #0d1117;
-    
-    /* [Eyes Only] Text */
     --text-color: #b0b0b0; 
     
-    /* --- Identity Colors (Green) --- */
+    /* --- Identity Colors: The Matrix Green --- */
     --neon-green: #00ff41; 
     --dim-green: #008f11;
     
@@ -256,47 +257,68 @@ a:hover {
     100% { clip: rect(40px, 9999px, 50px, 0); }
 }
 
-/* --- 🔥 UPDATED: HEADER SYSTEM STATUS 🔥 --- */
+/* --- 🔥 UPDATED: HEADER SYSTEM STATUS (FINAL ASYNC FIX) 🔥 --- */
 .system-status { 
     font-size: 0.9rem; 
-    color: #ffffff !important; /* [SYSTEM:] 強制為純白色 */
+    color: #ffffff !important; /* [SYSTEM:] 固定純白色常量 */
     font-weight: bold;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 12px;
     letter-spacing: 1px;
+    user-select: none;
 }
 
-/* ONLINE 文字與燈號同步變綠 + 緩慢呼吸 (3s) */
-.status-light, 
-.system-status span, 
-.system-status strong,
+/* 左側狀態燈：4s 慢速非對稱有機呼吸 (非同步頻率) */
+.status-light {
+    display: inline-block;
+    width: 10px; 
+    height: 10px;
+    background-color: var(--neon-green);
+    border-radius: 50%;
+    box-shadow: 0 0 8px var(--neon-green);
+    /* 吸氣快 (40%)、吐氣慢 (60%) 且底部有停頓的貝茲曲線 */
+    animation: light-breathing-organic-v13 4s cubic-bezier(0.4, 0, 0.2, 1) infinite !important;
+}
+
+@keyframes light-breathing-organic-v13 {
+    0%, 100% { opacity: 1; filter: brightness(1.2); transform: scale(1); box-shadow: 0 0 10px var(--neon-green); }
+    45% { opacity: 0.2; filter: brightness(0.6); transform: scale(0.9); box-shadow: 0 0 2px var(--neon-green); }
+    55% { opacity: 0.2; } /* 暗處微幅停頓，模擬電子元件放電 */
+}
+
+/* 右側 ONLINE 文字：綠色 + 高頻亮度閃爍 + 不規則微顫動 (獨立頻率) */
 .system-status .online-text {
     color: var(--neon-green) !important;
     text-shadow: 0 0 5px var(--neon-green);
-    animation: header-pulse 3s ease-in-out infinite !important;
-}
-
-.status-light {
     display: inline-block;
-    width: 10px; height: 10px;
-    background-color: var(--neon-green);
-    border-radius: 50%;
-    margin-right: 0px; 
-    box-shadow: 0 0 8px var(--neon-green);
+    /* 同時疊加閃爍與顫動動畫，徹底消除勻速機械感 */
+    animation: 
+        header-text-flicker-fx 0.12s infinite alternate,
+        header-text-jitter-micro-fx 0.45s infinite !important;
 }
 
-@keyframes header-pulse {
-    0%, 100% { 
-        opacity: 1; 
-        text-shadow: 0 0 5px var(--neon-green);
-        filter: brightness(1);
-    }
-    50% { 
-        opacity: 0.5; /* 呼吸深度增加 */
-        text-shadow: 0 0 20px var(--neon-green), 0 0 30px var(--neon-green);
-        filter: brightness(1.6);
-    }
+/* 亮度振盪：模擬數位顯示器電力輸出不穩 */
+@keyframes header-text-flicker-fx {
+    0%, 100% { opacity: 1; filter: brightness(1.1); text-shadow: 0 0 12px var(--neon-green); }
+    33% { opacity: 0.88; filter: brightness(1); text-shadow: 0 0 6px var(--neon-green); }
+    66% { opacity: 0.95; filter: brightness(0.9); text-shadow: 0 0 4px var(--neon-green); }
+    80% { opacity: 0.82; }
+}
+
+/* 不規則微幅隨機位移 (0.3px 級別) */
+@keyframes header-text-jitter-micro-fx {
+    0% { transform: translate(0, 0); }
+    10% { transform: translate(-0.3px, 0.3px); }
+    20% { transform: translate(0.3px, -0.2px); }
+    30% { transform: translate(-0.2px, -0.4px); }
+    40% { transform: translate(0.4px, 0.2px); }
+    50% { transform: translate(-0.4px, 0.1px); }
+    60% { transform: translate(0.2px, -0.3px); }
+    70% { transform: translate(-0.3px, -0.1px); }
+    80% { transform: translate(0.3px, 0.3px); }
+    90% { transform: translate(-0.1px, 0.1px); }
+    100% { transform: translate(0, 0); }
 }
 
 /* --- Navigation --- */
@@ -564,65 +586,61 @@ html body .post-content tr:hover {
 /* 終端機打字效果：游標 */
 .typing-cursor::after {
     content: '█';
-    animation: blink 1s infinite;
+    animation: cursor-blink-stepped-v13 1s infinite;
     color: var(--neon-green);
-    margin-left: 5px;
+    margin-left: 8px;
+    font-size: 0.9em;
     vertical-align: middle;
-    font-size: 0.8em;
+}
+@keyframes cursor-blink-stepped-v13 { 
+    0%, 49% { opacity: 1; }
+    50%, 100% { opacity: 0; }
 }
 
 /* 逐點加載動畫邏輯修正：. -> .. -> ... 並停留 */
-@keyframes dots-progression {
-    0%, 20%   { content: "."; }
-    40%       { content: ".."; }
-    60%       { content: "..."; }
-    80%, 100% { content: "..."; }
+@keyframes dots-progression-stepped-v13 {
+    0% { content: "."; }
+    33% { content: ".."; }
+    66%, 100% { content: "..."; }
 }
-
 .loading-dots::after {
     content: "";
     display: inline-block;
-    width: 25px;
+    width: 30px;
     text-align: left;
-    animation: dots-progression 1.5s infinite;
+    animation: dots-progression-stepped-v13 1.5s infinite steps(1);
 }
 
-/* 🔥 [CONNECTED] 專屬標籤動畫 🔥 
-   1. 初始隱藏，等待點點完成
-   2. 出現後閃爍兩下 (Double Blink)
-   3. 進入慢速呼吸循環 (Heartbeat Glow)
-*/
+/* 🔥 [CONNECTED] 標籤：雙次閃爍登場 + 非同步心跳脈動 🔥 */
 .term-connected {
     color: var(--neon-green);
     font-weight: bold;
-    text-shadow: 0 0 8px var(--neon-green);
+    text-shadow: 0 0 10px var(--neon-green);
+    display: inline-block;
     opacity: 0;
-    /* 動畫序列：出現 -> 閃爍 -> 循環呼吸 */
-    animation: connected-appear 0.1s forwards 2.5s, connected-blink-logic 4s infinite 2.6s;
+    /* 延遲 3s 以配合歡迎詞打字速度 */
+    animation: connected-appear-fx 0.1s forwards 3s, connected-heartbeat-v13 3.5s infinite 3.1s;
 }
 
-@keyframes connected-appear {
-    to { opacity: 1; }
+@keyframes connected-appear-fx { 
+    to { opacity: 1; } 
 }
 
-@keyframes connected-blink-logic {
-    /* 雙閃爍 (前 20%) */
-    0%   { opacity: 1; text-shadow: 0 0 15px var(--neon-green); }
-    5%   { opacity: 0; text-shadow: none; }
-    10%  { opacity: 1; text-shadow: 0 0 15px var(--neon-green); }
-    15%  { opacity: 0; text-shadow: none; }
-    20%  { opacity: 1; text-shadow: 0 0 15px var(--neon-green); }
-    /* 慢速呼吸延遲 (20% - 100%) */
-    40%  { opacity: 0.7; text-shadow: 0 0 5px var(--neon-green); }
-    60%  { opacity: 1; text-shadow: 0 0 20px var(--neon-green); }
-    100% { opacity: 1; text-shadow: 0 0 15px var(--neon-green); }
+@keyframes connected-heartbeat-v13 {
+    /* 前 20%：雙次急促硬閃爍，模擬老式螢幕開機 */
+    0%, 10%, 20% { opacity: 1; text-shadow: 0 0 25px var(--neon-green); transform: scale(1); }
+    5%, 15% { opacity: 0; text-shadow: none; }
+    /* 後 80%：非對稱柔和呼吸 + 微幅物理縮放感 */
+    45% { opacity: 0.5; text-shadow: 0 0 5px var(--neon-green); transform: scale(0.98); }
+    55% { opacity: 1; text-shadow: 0 0 30px var(--neon-green); transform: scale(1.03); }
+    100% { opacity: 1; text-shadow: 0 0 15px var(--neon-green); transform: scale(1); }
 }
 
 /* --- Responsive --- */
 @media (max-width: 768px) {
     .site-title { font-size: 1.8rem; }
-    .header-inner { flex-direction: column; align-items: flex-start; }
-    .system-status { margin-top: 10px; }
+    .header-inner { flex-direction: column; align-items: flex-start; gap: 20px; }
+    .system-status { margin-top: 10px; font-size: 0.8rem; }
     .command-line { flex-direction: column; }
     .prompt { margin-bottom: 5px; }
     
@@ -632,3 +650,5 @@ html body .post-content tr:hover {
         padding: 10px 20px;
     }
 }
+
+/* [EOF - End of Full 600+ Line Restoration] */
