@@ -15,15 +15,15 @@ layout: default
     {%- assign severity_color = "var(--neon-yellow)" -%}
     {%- assign severity_icon = "⚠️" -%}
   {%- else -%}
-    {%- assign severity_color = "var(--neon-cyan)" -%} 
+    {%- assign severity_color = "var(--neon-cyan)" -%}
     {%- assign severity_icon = "🛡️" -%}
 {%- endcase -%}
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" style="
-    border: 1px solid {{ severity_color }}; 
-    border-left: 6px solid {{ severity_color }}; 
-    box-shadow: 0 0 25px {{ severity_color | replace: 'var(', 'rgba(' | replace: ')', ', 0.15)' }}; 
-    padding: 30px; 
+    border: 1px solid {{ severity_color }};
+    border-left: 6px solid {{ severity_color }};
+    box-shadow: 0 0 25px {{ severity_color | replace: 'var(', 'rgba(' | replace: ')', ', 0.15)' }};
+    padding: 30px;
     background: rgba(13, 17, 23, 0.85);
     margin-bottom: 30px;
     position: relative;
@@ -52,16 +52,20 @@ layout: default
     </div>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody" style="--current-severity-color: {{ severity_color }};">
+  <!-- 
+       MODIFIED: Added data-severity="{{ page.severity }}" 
+       This connects to the CSS watermarking system.
+  -->
+  <div class="post-content e-content" itemprop="articleBody" data-severity="{{ page.severity }}" style="--current-severity-color: {{ severity_color }};">
     {{ content }}
   </div>
 
   <div style="margin-top: 60px; text-align: center; border-top: 1px solid #333; padding-top: 30px;">
       <a href="{{ "/" | relative_url }}" style="
-          color: {{ severity_color }}; 
-          border: 1px solid {{ severity_color }}; 
-          padding: 12px 30px; 
-          text-decoration: none; 
+          color: {{ severity_color }};
+          border: 1px solid {{ severity_color }};
+          padding: 12px 30px;
+          text-decoration: none;
           transition: all 0.3s;
           text-transform: uppercase;
           letter-spacing: 2px;
@@ -102,7 +106,7 @@ layout: default
     font-family: 'Courier New', monospace;
     margin: 20px 0;
   }
-  
+ 
   .post-content code {
     background: rgba(255, 255, 255, 0.1);
     color: #e0e0e0;
@@ -110,7 +114,7 @@ layout: default
     padding: 2px 5px;
     border-radius: 3px;
   }
-  
+ 
   /* 修正：在 pre 裡面的 code 不需要額外背景 */
   .post-content pre code {
     background: transparent;
@@ -125,14 +129,14 @@ layout: default
       border-collapse: collapse;
       margin: 20px 0;
   }
-  
+ 
   .post-content th {
       background-color: var(--current-severity-color) !important;
       color: #000 !important;
       border: 1px solid var(--current-severity-color) !important;
       padding: 10px;
   }
-  
+ 
   .post-content td {
       border: 1px solid #444 !important;
       color: #ddd;
