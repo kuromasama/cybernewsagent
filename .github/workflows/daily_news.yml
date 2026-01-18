@@ -27,9 +27,15 @@ jobs:
 
       - name: Run Cyber News Agent
         env:
+          # 🔥 修正點：這裡必須明確把 Secret 傳遞給環境變數
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          AI_PROMPT_TEMPLATE: ${{ secrets.AI_PROMPT_TEMPLATE }} # 新增這一行！
         run: |
+          # 檢查環境變數是否正確讀取 (為了安全只印出前幾個字或長度)
+          python -c "import os; print(f'🔍 AI_PROMPT_TEMPLATE Status: {len(os.getenv(\"AI_PROMPT_TEMPLATE\", \"\")) > 0}')"
+          
+          # 執行主程式
           python main.py
 
       - name: Commit and Push changes
@@ -37,8 +43,7 @@ jobs:
           git config --global user.name "CyberNewsBot"
           git config --global user.email "bot@github.com"
           
-          # 1. 嘗試加入新文章 (忽略錯誤訊息)
-          # 使用 2>/dev/null 隱藏 "沒有檔案" 的報錯
+          # 1. 嘗試加入新文章
           git add docs/_posts/*.md 2>/dev/null || true
           git add data/processed_urls.txt 2>/dev/null || true
           
