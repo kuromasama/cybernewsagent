@@ -21,3 +21,5 @@ https://www.bleepingcomputer.com/news/security/credential-stealing-chrome-extens
 https://cloud.google.com/blog/topics/threat-intelligence/auditing-salesforce-aura-data-exposure/
 https://www.ithome.com.tw/people/173419
 https://www.ithome.com.tw/news/173420
+https://www.ithome.com.tw/news/173422
+https://www.ithome.com.tw/news/173418
