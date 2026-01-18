@@ -14,3 +14,10 @@ https://projectzero.google/2026/01/pixel-0-click-part-2.html
 https://redcanary.com/blog/security-operations/security-data-lake-architecture/
 https://redcanary.com/blog/security-operations/data-lake-siem/
 https://cloud.google.com/blog/topics/threat-intelligence/net-ntlmv1-deprecation-rainbow-tables/
+https://thehackernews.com/2026/01/black-basta-ransomware-hacker-leader.html
+https://thehackernews.com/2026/01/openai-to-show-ads-in-chatgpt-for.html
+https://www.bleepingcomputer.com/news/artificial-intelligence/google-chrome-now-lets-you-turn-off-on-device-ai-model-powering-scam-detection/
+https://www.bleepingcomputer.com/news/security/credential-stealing-chrome-extensions-target-enterprise-hr-platforms/
+https://cloud.google.com/blog/topics/threat-intelligence/auditing-salesforce-aura-data-exposure/
+https://www.ithome.com.tw/people/173419
+https://www.ithome.com.tw/news/173420
