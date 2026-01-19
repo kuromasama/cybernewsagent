@@ -28,3 +28,8 @@ https://www.bleepingcomputer.com/news/security/ciro-data-breach-last-year-expose
 https://www.bleepingcomputer.com/news/artificial-intelligence/new-openai-leak-hints-at-upcoming-chatgpt-features/
 https://www.ithome.com.tw/news/173431
 https://www.ithome.com.tw/news/173430
+https://thehackernews.com/2026/01/crashfix-chrome-extension-delivers.html
+https://thehackernews.com/2026/01/security-bug-in-stealc-malware-panel.html
+https://www.bleepingcomputer.com/news/artificial-intelligence/openai-hostname-hints-at-a-new-chatgpt-feature-codenamed-sonata/
+https://www.ithome.com.tw/news/173446
+https://www.ithome.com.tw/review/172263
