@@ -33,3 +33,8 @@ https://thehackernews.com/2026/01/security-bug-in-stealc-malware-panel.html
 https://www.bleepingcomputer.com/news/artificial-intelligence/openai-hostname-hints-at-a-new-chatgpt-feature-codenamed-sonata/
 https://www.ithome.com.tw/news/173446
 https://www.ithome.com.tw/review/172263
+https://thehackernews.com/2026/01/google-gemini-prompt-injection-flaw.html
+https://thehackernews.com/2026/01/weekly-recap-fortinet-exploits-redline.html
+https://www.bleepingcomputer.com/news/security/uk-govt-warns-about-ongoing-russian-hacktivist-group-attacks/
+https://www.bleepingcomputer.com/news/security/hacker-admits-to-leaking-stolen-supreme-court-data-on-instagram/
+https://www.ithome.com.tw/news/173437
