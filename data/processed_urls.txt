@@ -25,3 +25,4 @@ https://www.ithome.com.tw/news/173422
 https://www.ithome.com.tw/news/173418
 https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-oob-windows-updates-to-fix-shutdown-cloud-pc-bugs/
 https://www.bleepingcomputer.com/news/security/ciro-data-breach-last-year-exposed-info-on-750-000-canadian-investors/
+https://www.bleepingcomputer.com/news/artificial-intelligence/new-openai-leak-hints-at-upcoming-chatgpt-features/
