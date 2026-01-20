@@ -43,3 +43,7 @@ https://www.bleepingcomputer.com/news/security/fake-ad-blocker-extension-crashes
 https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-go-now-unlocks-unlimited-access-to-gpt-52-instant-for-8/
 https://www.ithome.com.tw/news/173475
 https://www.ithome.com.tw/news/173476
+https://thehackernews.com/2026/01/cloudflare-fixes-acme-validation-bug.html
+https://thehackernews.com/2026/01/why-secrets-in-javascript-bundles-are.html
+https://www.ithome.com.tw/news/173481
+https://www.ithome.com.tw/news/173483
