@@ -63,3 +63,7 @@ https://thehackernews.com/2026/01/exposure-assessment-platforms-signal.html
 https://www.bleepingcomputer.com/news/security/tesla-hacked-37-zero-days-demoed-at-pwn2own-automotive-2026/
 https://www.ithome.com.tw/news/173511
 https://www.ithome.com.tw/news/173509
+https://thehackernews.com/2026/01/north-korean-purplebravo-campaign.html
+https://thehackernews.com/2026/01/zoom-and-gitlab-release-security.html
+https://www.bleepingcomputer.com/news/security/fortinet-admins-report-patched-fortigate-firewalls-getting-hacked/
+https://www.bleepingcomputer.com/news/security/fake-lastpass-emails-pose-as-password-vault-backup-alerts/
