@@ -73,3 +73,9 @@ https://www.ithome.com.tw/people/173514
 https://thehackernews.com/2026/01/cisco-fixes-actively-exploited-zero-day.html
 https://www.ithome.com.tw/news/173515
 https://www.ithome.com.tw/news/173512
+https://thehackernews.com/2026/01/filling-most-common-gaps-in-google.html
+https://thehackernews.com/2026/01/malicious-pypi-package-impersonates.html
+https://www.bleepingcomputer.com/news/security/hackers-exploit-29-zero-day-vulnerabilities-on-second-day-of-pwn2own-automotive/
+https://www.bleepingcomputer.com/news/security/hackers-breach-fortinet-fortigate-devices-steal-firewall-configs/
+https://www.ithome.com.tw/news/173528
+https://www.ithome.com.tw/news/173526
