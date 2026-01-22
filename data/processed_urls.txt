@@ -70,3 +70,6 @@ https://www.bleepingcomputer.com/news/security/fake-lastpass-emails-pose-as-pass
 https://www.bleepingcomputer.com/news/security/zendesk-ticket-systems-hijacked-in-massive-global-spam-wave/
 https://www.bleepingcomputer.com/news/security/chainlit-ai-framework-bugs-let-hackers-breach-cloud-environments/
 https://www.ithome.com.tw/people/173514
+https://thehackernews.com/2026/01/cisco-fixes-actively-exploited-zero-day.html
+https://www.ithome.com.tw/news/173515
+https://www.ithome.com.tw/news/173512
