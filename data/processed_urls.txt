@@ -67,3 +67,6 @@ https://thehackernews.com/2026/01/north-korean-purplebravo-campaign.html
 https://thehackernews.com/2026/01/zoom-and-gitlab-release-security.html
 https://www.bleepingcomputer.com/news/security/fortinet-admins-report-patched-fortigate-firewalls-getting-hacked/
 https://www.bleepingcomputer.com/news/security/fake-lastpass-emails-pose-as-password-vault-backup-alerts/
+https://www.bleepingcomputer.com/news/security/zendesk-ticket-systems-hijacked-in-massive-global-spam-wave/
+https://www.bleepingcomputer.com/news/security/chainlit-ai-framework-bugs-let-hackers-breach-cloud-environments/
+https://www.ithome.com.tw/people/173514
