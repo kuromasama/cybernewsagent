@@ -97,3 +97,7 @@ https://thehackernews.com/2026/01/phishing-attack-uses-stolen-credentials.html
 https://www.bleepingcomputer.com/news/security/fortinet-confirms-critical-forticloud-auth-bypass-not-fully-patched/
 https://www.ithome.com.tw/news/173560
 https://www.ithome.com.tw/news/173559
+https://thehackernews.com/2026/01/cisa-updates-kev-catalog-with-four.html
+https://thehackernews.com/2026/01/fortinet-confirms-active-forticloud-sso.html
+https://www.bleepingcomputer.com/news/security/us-to-deport-venezuelans-who-emptied-bank-atms-using-malware/
+https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-telnetd-auth-bypass-flaw-to-get-root/
