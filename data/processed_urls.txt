@@ -83,3 +83,9 @@ https://thehackernews.com/2026/01/critical-gnu-inetutils-telnetd-flaw.html
 https://thehackernews.com/2026/01/threatsday-bulletin-pixel-zero-click.html
 https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-add-brand-impersonation-warnings-to-calls/
 https://www.bleepingcomputer.com/news/security/inc-ransomware-opsec-fail-allowed-data-recovery-for-12-us-orgs/
+https://thehackernews.com/2026/01/new-osiris-ransomware-emerges-as-new.html
+https://www.bleepingcomputer.com/news/security/okta-sso-accounts-targeted-in-vishing-based-data-theft-attacks/
+https://www.bleepingcomputer.com/news/security/curl-ending-bug-bounty-program-after-flood-of-ai-slop-reports/
+https://redcanary.com/blog/threat-intelligence/intelligence-insights-january-2026/
+https://www.ithome.com.tw/news/173537
+https://www.ithome.com.tw/news/173536
