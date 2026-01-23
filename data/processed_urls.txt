@@ -92,3 +92,8 @@ https://www.ithome.com.tw/news/173536
 https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/
 https://www.ithome.com.tw/news/173555
 https://www.ithome.com.tw/news/173548
+https://thehackernews.com/2026/01/tiktok-forms-us-joint-venture-to.html
+https://thehackernews.com/2026/01/phishing-attack-uses-stolen-credentials.html
+https://www.bleepingcomputer.com/news/security/fortinet-confirms-critical-forticloud-auth-bypass-not-fully-patched/
+https://www.ithome.com.tw/news/173560
+https://www.ithome.com.tw/news/173559
