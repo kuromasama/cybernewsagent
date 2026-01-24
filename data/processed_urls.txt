@@ -106,3 +106,6 @@ https://www.bleepingcomputer.com/news/security/malicious-ai-extensions-on-vscode
 https://redcanary.com/blog/product-updates/zscaler-internet-access/
 https://www.ithome.com.tw/news/173569
 https://www.ithome.com.tw/news/173567
+https://thehackernews.com/2026/01/multi-stage-phishing-campaign-targets.html
+https://thehackernews.com/2026/01/new-dynowiper-malware-used-in-attempted.html
+https://www.ithome.com.tw/review/173558
