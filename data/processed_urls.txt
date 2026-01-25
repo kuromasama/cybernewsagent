@@ -111,3 +111,4 @@ https://thehackernews.com/2026/01/new-dynowiper-malware-used-in-attempted.html
 https://www.ithome.com.tw/review/173558
 https://www.bleepingcomputer.com/news/security/konni-hackers-target-blockchain-engineers-with-ai-built-malware/
 https://www.bleepingcomputer.com/news/security/sandworm-hackers-linked-to-failed-wiper-attack-on-polands-energy-systems/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-oob-update-to-fix-outlook-freezes/
