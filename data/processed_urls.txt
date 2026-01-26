@@ -115,3 +115,6 @@ https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-oob
 https://www.ithome.com.tw/review/173571
 https://www.bleepingcomputer.com/news/security/1password-adds-pop-pup-warnings-for-suspected-phishing-sites/
 https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-windows-11-boot-failures-after-january-updates/
+https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-temporary-chat-feature-is-getting-a-much-needed-upgrade/
+https://www.bleepingcomputer.com/news/security/1password-adds-pop-up-warnings-for-suspected-phishing-sites/
+https://www.ithome.com.tw/news/173568
