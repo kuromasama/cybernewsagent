@@ -120,3 +120,8 @@ https://www.bleepingcomputer.com/news/security/1password-adds-pop-up-warnings-fo
 https://www.ithome.com.tw/news/173568
 https://www.ithome.com.tw/news/173577
 https://www.ithome.com.tw/news/173576
+https://thehackernews.com/2026/01/winning-against-ai-based-attacks.html
+https://thehackernews.com/2026/01/konni-hackers-deploy-ai-generated.html
+https://www.bleepingcomputer.com/news/security/cisa-says-critical-vmware-rce-flaw-now-actively-exploited/
+https://www.ithome.com.tw/news/173591
+https://www.ithome.com.tw/news/173582
