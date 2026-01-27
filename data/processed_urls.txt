@@ -135,3 +135,5 @@ https://www.bleepingcomputer.com/news/security/new-malware-service-guarantees-ph
 https://www.bleepingcomputer.com/news/security/new-clickfix-attacks-abuse-windows-app-v-scripts-to-push-malware/
 https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/
 https://www.ithome.com.tw/news/173592
+https://www.ithome.com.tw/news/173601
+https://www.ithome.com.tw/news/173600
