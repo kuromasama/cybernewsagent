@@ -142,3 +142,8 @@ https://thehackernews.com/2026/01/microsoft-issues-emergency-patch-for.html
 https://www.bleepingcomputer.com/news/security/have-i-been-pwned-soundcloud-data-breach-impacts-298-million-accounts/
 https://www.ithome.com.tw/news/173618
 https://www.ithome.com.tw/news/173617
+https://thehackernews.com/2026/01/whatsapp-rolls-out-lockdown-style.html
+https://thehackernews.com/2026/01/experts-detect-pakistan-linked-cyber.html
+https://www.bleepingcomputer.com/news/security/nike-investigates-data-breach-after-extortion-gang-leaks-files/
+https://www.bleepingcomputer.com/news/security/critical-sandbox-escape-flaw-discovered-in-popular-vm2-nodejs-library/
+https://cloud.google.com/blog/topics/threat-intelligence/exploiting-critical-winrar-vulnerability/
