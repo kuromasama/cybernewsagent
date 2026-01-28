@@ -152,3 +152,8 @@ https://www.bleepingcomputer.com/news/security/fortinet-blocks-exploited-forticl
 https://thehackernews.com/2026/01/fortinet-patches-cve-2026-24858-after.html
 https://www.ithome.com.tw/news/173633
 https://www.ithome.com.tw/news/173632
+https://thehackernews.com/2026/01/password-reuse-in-disguise-often-missed.html
+https://thehackernews.com/2026/01/google-warns-of-active-exploitation-of.html
+https://www.bleepingcomputer.com/news/security/whatsapp-gets-new-lockdown-feature-that-blocks-cyberattacks/
+https://www.ithome.com.tw/news/173647
+https://www.ithome.com.tw/news/173643
