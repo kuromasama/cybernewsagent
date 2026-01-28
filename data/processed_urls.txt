@@ -149,3 +149,6 @@ https://www.bleepingcomputer.com/news/security/critical-sandbox-escape-flaw-disc
 https://cloud.google.com/blog/topics/threat-intelligence/exploiting-critical-winrar-vulnerability/
 https://www.bleepingcomputer.com/news/artificial-intelligence/openais-chatgpt-ad-costs-are-on-par-with-live-nfl-broadcasts/
 https://www.bleepingcomputer.com/news/security/fortinet-blocks-exploited-forticloud-sso-zero-day-until-patch-is-ready/
+https://thehackernews.com/2026/01/fortinet-patches-cve-2026-24858-after.html
+https://www.ithome.com.tw/news/173633
+https://www.ithome.com.tw/news/173632
