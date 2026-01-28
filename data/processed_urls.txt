@@ -147,3 +147,5 @@ https://thehackernews.com/2026/01/experts-detect-pakistan-linked-cyber.html
 https://www.bleepingcomputer.com/news/security/nike-investigates-data-breach-after-extortion-gang-leaks-files/
 https://www.bleepingcomputer.com/news/security/critical-sandbox-escape-flaw-discovered-in-popular-vm2-nodejs-library/
 https://cloud.google.com/blog/topics/threat-intelligence/exploiting-critical-winrar-vulnerability/
+https://www.bleepingcomputer.com/news/artificial-intelligence/openais-chatgpt-ad-costs-are-on-par-with-live-nfl-broadcasts/
+https://www.bleepingcomputer.com/news/security/fortinet-blocks-exploited-forticloud-sso-zero-day-until-patch-is-ready/
