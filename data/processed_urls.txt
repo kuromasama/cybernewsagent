@@ -157,3 +157,7 @@ https://thehackernews.com/2026/01/google-warns-of-active-exploitation-of.html
 https://www.bleepingcomputer.com/news/security/whatsapp-gets-new-lockdown-feature-that-blocks-cyberattacks/
 https://www.ithome.com.tw/news/173647
 https://www.ithome.com.tw/news/173643
+https://thehackernews.com/2026/01/fake-moltbot-ai-coding-assistant-on-vs.html
+https://thehackernews.com/2026/01/russian-electrum-tied-to-december-2025.html
+https://www.bleepingcomputer.com/news/security/new-sandbox-escape-flaw-exposes-n8n-instances-to-rce-attacks/
+https://www.bleepingcomputer.com/news/security/fbi-seizes-ramp-cybercrime-forum-used-by-ransomware-gangs/
