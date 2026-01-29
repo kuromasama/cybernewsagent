@@ -161,3 +161,7 @@ https://thehackernews.com/2026/01/fake-moltbot-ai-coding-assistant-on-vs.html
 https://thehackernews.com/2026/01/russian-electrum-tied-to-december-2025.html
 https://www.bleepingcomputer.com/news/security/new-sandbox-escape-flaw-exposes-n8n-instances-to-rce-attacks/
 https://www.bleepingcomputer.com/news/security/fbi-seizes-ramp-cybercrime-forum-used-by-ransomware-gangs/
+https://www.bleepingcomputer.com/news/security/initial-access-hackers-switch-to-tsundere-bot-for-ransomware-attacks/
+https://www.bleepingcomputer.com/news/security/cyberattack-on-polish-energy-grid-impacted-around-30-facilities/
+https://cloud.google.com/blog/topics/threat-intelligence/disrupting-largest-residential-proxy-network/
+https://www.ithome.com.tw/news/173648
