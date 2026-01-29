@@ -165,3 +165,5 @@ https://www.bleepingcomputer.com/news/security/initial-access-hackers-switch-to-
 https://www.bleepingcomputer.com/news/security/cyberattack-on-polish-energy-grid-impacted-around-30-facilities/
 https://cloud.google.com/blog/topics/threat-intelligence/disrupting-largest-residential-proxy-network/
 https://www.ithome.com.tw/news/173648
+https://www.ithome.com.tw/news/173656
+https://www.ithome.com.tw/news/173659
