@@ -175,3 +175,8 @@ https://www.ithome.com.tw/news/173665
 https://thehackernews.com/2026/01/threatsday-bulletin-new-rces-darknet.html
 https://www.bleepingcomputer.com/news/security/match-group-breach-exposes-data-from-hinge-tinder-okcupid-and-match/
 https://www.bleepingcomputer.com/news/security/marquis-blames-ransomware-breach-on-sonicwall-cloud-backup-hack/
+https://thehackernews.com/2026/01/researchers-find-175000-publicly.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-links-windows-11-boot-failures-to-failed-december-2025-update/
+https://www.bleepingcomputer.com/news/security/hugging-face-abused-to-spread-thousands-of-android-malware-variants/
+https://www.ithome.com.tw/news/173670
+https://www.ithome.com.tw/news/173668
