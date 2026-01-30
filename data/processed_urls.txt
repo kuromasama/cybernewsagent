@@ -183,3 +183,8 @@ https://www.ithome.com.tw/news/173668
 https://thehackernews.com/2026/01/two-ivanti-epmm-zero-day-rce-flaws.html
 https://www.ithome.com.tw/news/173683
 https://www.ithome.com.tw/people/173684
+https://thehackernews.com/2026/01/badges-bytes-and-blackmail.html
+https://thehackernews.com/2026/01/ex-google-engineer-convicted-for.html
+https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5074105-update-fixes-boot-sign-in-and-activation-issues/
+https://www.ithome.com.tw/news/173685
+https://www.ithome.com.tw/news/173686
