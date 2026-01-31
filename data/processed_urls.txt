@@ -199,3 +199,6 @@ https://cloud.google.com/blog/topics/threat-intelligence/expansion-shinyhunters-
 https://thehackernews.com/2026/01/mandiant-finds-shinyhunters-using.html
 https://thehackernews.com/2026/01/poland-attributes-december-cyber.html
 https://www.ithome.com.tw/review/173697
+https://thehackernews.com/2026/01/iran-linked-redkitten-cyber-campaign.html
+https://www.bleepingcomputer.com/news/security/us-convicts-ex-google-engineer-for-sending-ai-tech-data-to-china/
+https://www.bleepingcomputer.com/news/security/cloud-storage-payment-scam-floods-inboxes-with-fake-renewals/
