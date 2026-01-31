@@ -196,3 +196,6 @@ https://projectzero.google/2026/01/sound-barrier-2.html
 https://www.bleepingcomputer.com/news/security/crypto-wallets-received-a-record-158-billion-in-illicit-funds-last-year/
 https://cloud.google.com/blog/topics/threat-intelligence/defense-against-shinyhunters-cybercrime-saas/
 https://cloud.google.com/blog/topics/threat-intelligence/expansion-shinyhunters-saas-data-theft/
+https://thehackernews.com/2026/01/mandiant-finds-shinyhunters-using.html
+https://thehackernews.com/2026/01/poland-attributes-december-cyber.html
+https://www.ithome.com.tw/review/173697
