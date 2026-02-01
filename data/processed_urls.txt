@@ -206,3 +206,5 @@ https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-retiring
 https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-you-can-trust-chatgpt-answers-as-it-kicks-off-ads-rollout-preparation/
 https://www.ithome.com.tw/voice/173701
 https://www.ithome.com.tw/news/173694
+https://www.bleepingcomputer.com/news/security/exposed-mongodb-instances-still-targeted-in-data-extortion-attacks/
+https://www.bleepingcomputer.com/news/apple/new-apple-privacy-feature-limits-location-tracking-on-iphones-ipads/
