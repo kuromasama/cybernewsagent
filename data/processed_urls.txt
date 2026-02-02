@@ -212,3 +212,8 @@ https://thehackernews.com/2026/02/escan-antivirus-update-servers.html
 https://thehackernews.com/2026/02/open-vsx-supply-chain-attack-used.html
 https://www.ithome.com.tw/news/173710
 https://www.ithome.com.tw/news/173709
+https://thehackernews.com/2026/02/notepad-official-update-mechanism.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-password-sign-in-option-to-disappear/
+https://www.bleepingcomputer.com/news/security/nationstates-confirms-data-breach-shuts-down-game-site/
+https://www.ithome.com.tw/news/173717
+https://www.ithome.com.tw/news/173718
