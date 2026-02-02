@@ -208,3 +208,7 @@ https://www.ithome.com.tw/voice/173701
 https://www.ithome.com.tw/news/173694
 https://www.bleepingcomputer.com/news/security/exposed-mongodb-instances-still-targeted-in-data-extortion-attacks/
 https://www.bleepingcomputer.com/news/apple/new-apple-privacy-feature-limits-location-tracking-on-iphones-ipads/
+https://thehackernews.com/2026/02/escan-antivirus-update-servers.html
+https://thehackernews.com/2026/02/open-vsx-supply-chain-attack-used.html
+https://www.ithome.com.tw/news/173710
+https://www.ithome.com.tw/news/173709
