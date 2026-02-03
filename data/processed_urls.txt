@@ -229,3 +229,7 @@ https://thehackernews.com/2026/02/notepad-hosting-breach-attributed-to.html
 https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/
 https://www.ithome.com.tw/news/173726
 https://www.ithome.com.tw/news/173725
+https://thehackernews.com/2026/02/when-cloud-outages-ripple-across.html
+https://thehackernews.com/2026/02/apt28-uses-microsoft-office-cve-2026.html
+https://www.ithome.com.tw/news/173739
+https://www.ithome.com.tw/news/173736
