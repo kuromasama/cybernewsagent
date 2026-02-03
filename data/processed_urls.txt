@@ -225,3 +225,7 @@ https://redcanary.com/blog/news-events/cfp-tracker-february-2026/
 https://thehackernews.com/2026/02/researchers-find-341-malicious-clawhub.html
 https://www.bleepingcomputer.com/news/security/new-glassworm-attack-targets-macos-via-compromised-openvsx-extensions/
 https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-recently-patched-microsoft-office-bug-in-attacks/
+https://thehackernews.com/2026/02/notepad-hosting-breach-attributed-to.html
+https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/
+https://www.ithome.com.tw/news/173726
+https://www.ithome.com.tw/news/173725
