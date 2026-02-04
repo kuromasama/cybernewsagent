@@ -237,3 +237,5 @@ https://thehackernews.com/2026/02/docker-fixes-critical-ask-gordon-ai.html
 https://thehackernews.com/2026/02/webinar-smarter-soc-blueprint-learn.html
 https://www.bleepingcomputer.com/news/security/iron-mountain-data-breach-mostly-limited-to-marketing-materials/
 https://www.bleepingcomputer.com/news/security/ai-agent-identity-management-a-new-security-control-plane-for-cisos/
+https://www.bleepingcomputer.com/news/security/step-finance-says-compromised-execs-devices-led-to-40m-crypto-theft/
+https://www.bleepingcomputer.com/news/security/wave-of-citrix-netscaler-scans-use-thousands-of-residential-proxies/
