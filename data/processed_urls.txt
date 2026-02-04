@@ -239,3 +239,5 @@ https://www.bleepingcomputer.com/news/security/iron-mountain-data-breach-mostly-
 https://www.bleepingcomputer.com/news/security/ai-agent-identity-management-a-new-security-control-plane-for-cisos/
 https://www.bleepingcomputer.com/news/security/step-finance-says-compromised-execs-devices-led-to-40m-crypto-theft/
 https://www.bleepingcomputer.com/news/security/wave-of-citrix-netscaler-scans-use-thousands-of-residential-proxies/
+https://www.ithome.com.tw/news/173753
+https://www.ithome.com.tw/news/173752
