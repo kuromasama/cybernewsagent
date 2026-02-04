@@ -247,3 +247,8 @@ https://www.bleepingcomputer.com/news/security/taiwanese-man-gets-30-years-for-o
 https://www.bleepingcomputer.com/news/security/coinbase-confirms-insider-breach-linked-to-leaked-support-tool-screenshots/
 https://www.ithome.com.tw/news/173766
 https://www.ithome.com.tw/news/173761
+https://thehackernews.com/2026/02/china-linked-amaranth-dragon-exploits.html
+https://www.bleepingcomputer.com/news/security/cisa-vmware-esxi-flaw-now-exploited-in-ransomware-attacks/
+https://www.bleepingcomputer.com/news/security/cisa-warns-of-five-year-old-gitlab-flaw-exploited-in-attacks/
+https://www.ithome.com.tw/news/173757
+https://www.ithome.com.tw/news/173755
