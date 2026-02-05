@@ -252,3 +252,7 @@ https://www.bleepingcomputer.com/news/security/cisa-vmware-esxi-flaw-now-exploit
 https://www.bleepingcomputer.com/news/security/cisa-warns-of-five-year-old-gitlab-flaw-exploited-in-attacks/
 https://www.ithome.com.tw/news/173757
 https://www.ithome.com.tw/news/173755
+https://thehackernews.com/2026/02/microsoft-develops-scanner-to-detect.html
+https://thehackernews.com/2026/02/deadvax-malware-campaign-deploys.html
+https://www.bleepingcomputer.com/news/security/hackers-compromise-nginx-servers-to-redirect-user-traffic/
+https://www.bleepingcomputer.com/news/security/critical-n8n-flaws-disclosed-along-with-public-exploits/
