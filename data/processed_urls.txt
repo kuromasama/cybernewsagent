@@ -260,3 +260,9 @@ https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html
 https://thehackernews.com/2026/02/hackers-exploit-react2shell-to-hijack.html
 https://www.ithome.com.tw/news/173778
 https://www.ithome.com.tw/news/173779
+https://thehackernews.com/2026/02/the-buyers-guide-to-ai-usage-control.html
+https://thehackernews.com/2026/02/infy-hackers-resume-operations-with-new.html
+https://www.bleepingcomputer.com/news/security/data-breach-at-fintech-firm-betterment-exposes-14-million-accounts/
+https://www.bleepingcomputer.com/news/security/zendesk-spam-wave-returns-floods-users-with-activate-account-emails/
+https://www.ithome.com.tw/news/173786
+https://www.ithome.com.tw/news/173783
