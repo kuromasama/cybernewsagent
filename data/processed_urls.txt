@@ -273,3 +273,6 @@ https://www.bleepingcomputer.com/news/security/italian-university-la-sapienza-go
 https://www.ithome.com.tw/review/173772
 https://www.bleepingcomputer.com/news/security/spains-ministry-of-science-shuts-down-systems-after-breach-claims/
 https://www.bleepingcomputer.com/news/security/ransomware-gang-uses-ispsystem-vms-for-stealthy-payload-delivery/
+https://thehackernews.com/2026/02/claude-opus-46-finds-500-high-severity.html
+https://www.ithome.com.tw/news/173800
+https://www.ithome.com.tw/news/173799
