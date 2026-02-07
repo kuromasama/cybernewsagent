@@ -289,3 +289,4 @@ https://www.bleepingcomputer.com/news/security/cisa-warns-of-smartermail-rce-fla
 https://www.bleepingcomputer.com/news/security/germany-warns-of-signal-account-hijacking-targeting-senior-figures/
 https://thehackernews.com/2026/02/german-agencies-warn-of-signal-phishing.html
 https://www.bleepingcomputer.com/news/security/payments-platform-bridgepay-confirms-ransomware-attack-behind-outage/
+https://www.bleepingcomputer.com/news/security/state-actor-targets-155-countries-in-shadow-campaigns-espionage-op/
