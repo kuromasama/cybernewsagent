@@ -293,3 +293,4 @@ https://www.bleepingcomputer.com/news/security/state-actor-targets-155-countries
 https://www.ithome.com.tw/article/173836
 https://www.ithome.com.tw/news/173835
 https://thehackernews.com/2026/02/openclaw-integrates-virustotal-scanning.html
+https://www.bleepingcomputer.com/news/security/new-tool-blocks-imposter-attacks-disguised-as-safe-commands/
