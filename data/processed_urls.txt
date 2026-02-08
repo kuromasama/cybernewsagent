@@ -292,3 +292,4 @@ https://www.bleepingcomputer.com/news/security/payments-platform-bridgepay-confi
 https://www.bleepingcomputer.com/news/security/state-actor-targets-155-countries-in-shadow-campaigns-espionage-op/
 https://www.ithome.com.tw/article/173836
 https://www.ithome.com.tw/news/173835
+https://thehackernews.com/2026/02/openclaw-integrates-virustotal-scanning.html
