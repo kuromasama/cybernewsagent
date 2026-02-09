@@ -302,3 +302,9 @@ https://www.bleepingcomputer.com/news/security/men-charged-in-massive-fanduel-fr
 https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-flags-legitimate-emails-as-phishing/
 https://www.ithome.com.tw/news/173855
 https://www.ithome.com.tw/news/173858
+https://thehackernews.com/2026/02/china-linked-unc3886-targets-singapore.html
+https://thehackernews.com/2026/02/solarwinds-web-help-desk-exploited-for.html
+https://www.bleepingcomputer.com/news/security/password-guessing-without-ai-how-attackers-build-targeted-wordlists/
+https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-rce-flaw-in-remote-support-software/
+https://cloud.google.com/blog/topics/threat-intelligence/unc1069-targets-cryptocurrency-ai-social-engineering/
+https://www.ithome.com.tw/news/173853
