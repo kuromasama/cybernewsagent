@@ -321,3 +321,8 @@ https://www.bleepingcomputer.com/news/security/fugitive-behind-73m-pig-butcherin
 https://cloud.google.com/blog/topics/threat-intelligence/threats-to-defense-industrial-base/
 https://www.ithome.com.tw/news/173869
 https://www.ithome.com.tw/news/173884
+https://thehackernews.com/2026/02/dprk-operatives-impersonate.html
+https://thehackernews.com/2026/02/reynolds-ransomware-embeds-byovd-driver.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-february-2026-patch-tuesday-fixes-6-zero-days-58-flaws/
+https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5077181-and-kb5075941-cumulative-updates-released/
+https://redcanary.com/blog/security-operations/guide-to-mastering-app-control/
