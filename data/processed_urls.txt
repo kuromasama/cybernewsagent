@@ -312,3 +312,6 @@ https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breach-singapo
 https://www.bleepingcomputer.com/news/security/threat-actors-exploit-solarwinds-wdh-flaws-to-deploy-velociraptor/
 https://www.ithome.com.tw/news/173860
 https://www.ithome.com.tw/news/173859
+https://thehackernews.com/2026/02/fortinet-patches-critical-sqli-flaw.html
+https://www.ithome.com.tw/news/173875
+https://www.ithome.com.tw/news/173874
