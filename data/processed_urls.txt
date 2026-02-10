@@ -315,3 +315,9 @@ https://www.ithome.com.tw/news/173859
 https://thehackernews.com/2026/02/fortinet-patches-critical-sqli-flaw.html
 https://www.ithome.com.tw/news/173875
 https://www.ithome.com.tw/news/173874
+https://thehackernews.com/2026/02/zastai-raises-6m-pre-to-scale-zero.html
+https://thehackernews.com/2026/02/warlock-ransomware-breaches.html
+https://www.bleepingcomputer.com/news/security/fugitive-behind-73m-pig-butchering-scheme-gets-20-years-in-prison/
+https://cloud.google.com/blog/topics/threat-intelligence/threats-to-defense-industrial-base/
+https://www.ithome.com.tw/news/173869
+https://www.ithome.com.tw/news/173884
