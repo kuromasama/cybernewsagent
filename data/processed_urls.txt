@@ -338,3 +338,12 @@ https://thehackernews.com/2026/02/exposed-training-open-door-for-crypto.html
 https://thehackernews.com/2026/02/microsoft-patches-59-vulnerabilities.html
 https://www.ithome.com.tw/news/173905
 https://www.ithome.com.tw/news/173915
+https://thehackernews.com/2026/02/apt36-and-sidecopy-launch-cross.html
+https://thehackernews.com/2026/02/over-60-software-vendors-issue-security.html
+https://www.bleepingcomputer.com/news/security/proactive-strategies-for-cyber-resilience-with-wazuh/
+https://www.bleepingcomputer.com/news/security/lummastealer-infections-surge-after-castleloader-malware-campaigns/
+https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/
+https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-343a
+https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-266a
+https://www.ithome.com.tw/news/173914
+https://www.ithome.com.tw/news/173904
