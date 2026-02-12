@@ -358,3 +358,10 @@ https://www.bleepingcomputer.com/news/security/google-says-hackers-are-abusing-g
 https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use/
 https://www.ithome.com.tw/news/173936
 https://www.ithome.com.tw/news/173939
+https://thehackernews.com/2026/02/google-reports-state-backed-hackers.html
+https://thehackernews.com/2026/02/lazarus-campaign-plants-malicious.html
+https://www.bleepingcomputer.com/news/security/odido-data-breach-exposes-personal-info-of-62-million-customers/
+https://www.bleepingcomputer.com/news/security/wordpress-plugin-with-900k-installs-vulnerable-to-critical-rce-flaw/
+https://projectzero.google/2026/02/windows-administrator-protection.html
+https://redcanary.com/blog/security-operations/ai-security-operations/
+https://www.ithome.com.tw/news/173942
