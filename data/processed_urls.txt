@@ -352,3 +352,9 @@ https://www.bleepingcomputer.com/news/security/apple-fixes-zero-day-flaw-used-in
 https://www.bleepingcomputer.com/news/microsoft/windows-11-notepad-flaw-let-files-execute-silently-via-markdown-links/
 https://www.ithome.com.tw/news/173922
 https://www.ithome.com.tw/news/173917
+https://thehackernews.com/2026/02/threatsday-bulletin-ai-prompt-rce.html
+https://thehackernews.com/2026/02/the-ctem-divide-why-84-of-security.html
+https://www.bleepingcomputer.com/news/security/google-says-hackers-are-abusing-gemini-ai-for-all-attacks-stages/
+https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use/
+https://www.ithome.com.tw/news/173936
+https://www.ithome.com.tw/news/173939
