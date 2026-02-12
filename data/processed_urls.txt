@@ -350,3 +350,5 @@ https://www.ithome.com.tw/news/173904
 https://thehackernews.com/2026/02/first-malicious-outlook-add-in-found.html
 https://www.bleepingcomputer.com/news/security/apple-fixes-zero-day-flaw-used-in-extremely-sophisticated-attacks/
 https://www.bleepingcomputer.com/news/microsoft/windows-11-notepad-flaw-let-files-execute-silently-via-markdown-links/
+https://www.ithome.com.tw/news/173922
+https://www.ithome.com.tw/news/173917
