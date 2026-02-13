@@ -367,3 +367,5 @@ https://redcanary.com/blog/security-operations/ai-security-operations/
 https://www.ithome.com.tw/news/173942
 https://www.bleepingcomputer.com/news/security/russia-tries-to-block-whatsapp-telegram-in-communication-blockade/
 https://www.bleepingcomputer.com/news/security/bitwarden-introduces-cupid-vault-for-secure-password-sharing/
+https://www.ithome.com.tw/news/173941
+https://www.ithome.com.tw/news/173940
