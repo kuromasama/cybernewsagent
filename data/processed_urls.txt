@@ -369,3 +369,9 @@ https://www.bleepingcomputer.com/news/security/russia-tries-to-block-whatsapp-te
 https://www.bleepingcomputer.com/news/security/bitwarden-introduces-cupid-vault-for-secure-password-sharing/
 https://www.ithome.com.tw/news/173941
 https://www.ithome.com.tw/news/173940
+https://thehackernews.com/2026/02/malicious-chrome-extensions-caught.html
+https://thehackernews.com/2026/02/npms-update-to-harden-their-supply.html
+https://www.bleepingcomputer.com/news/security/cisa-flags-microsoft-configmgr-rce-flaw-as-exploited-in-attacks/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/
+https://www.ithome.com.tw/news/173962
+https://www.ithome.com.tw/news/173954
