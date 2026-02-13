@@ -365,3 +365,5 @@ https://www.bleepingcomputer.com/news/security/wordpress-plugin-with-900k-instal
 https://projectzero.google/2026/02/windows-administrator-protection.html
 https://redcanary.com/blog/security-operations/ai-security-operations/
 https://www.ithome.com.tw/news/173942
+https://www.bleepingcomputer.com/news/security/russia-tries-to-block-whatsapp-telegram-in-communication-blockade/
+https://www.bleepingcomputer.com/news/security/bitwarden-introduces-cupid-vault-for-secure-password-sharing/
