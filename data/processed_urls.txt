@@ -375,3 +375,7 @@ https://www.bleepingcomputer.com/news/security/cisa-flags-microsoft-configmgr-rc
 https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/
 https://www.ithome.com.tw/news/173962
 https://www.ithome.com.tw/news/173954
+https://thehackernews.com/2026/02/google-ties-suspected-russian-actor-to.html
+https://thehackernews.com/2026/02/google-links-china-iran-russia-north.html
+https://www.bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches/
+https://www.bleepingcomputer.com/news/security/turning-ibm-qradar-alerts-into-action-with-criminal-ip/
