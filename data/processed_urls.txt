@@ -396,3 +396,6 @@ https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-beyondt
 https://www.bleepingcomputer.com/news/security/google-patches-first-chrome-zero-day-exploited-in-attacks-this-year/
 https://www.ithome.com.tw/news/173966
 https://www.ithome.com.tw/news/173969
+https://thehackernews.com/2026/02/weekly-recap-outlook-add-ins-hijack-0.html
+https://www.bleepingcomputer.com/news/security/infostealer-malware-found-stealing-openclaw-secrets-for-first-time/
+https://www.bleepingcomputer.com/news/security/passwords-to-passkeys-staying-iso-27001-compliant-in-a-passwordless-era/
