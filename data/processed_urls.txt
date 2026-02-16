@@ -390,3 +390,9 @@ https://www.bleepingcomputer.com/news/security/pastebin-comments-push-clickfix-j
 https://www.bleepingcomputer.com/news/security/new-clickfix-attack-abuses-nslookup-to-retrieve-powershell-payload-via-dns/
 https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5077181-fixes-boot-failures-linked-to-failed-updates/
 https://www.bleepingcomputer.com/news/security/canada-goose-investigating-as-hackers-leak-600k-customer-records/
+https://thehackernews.com/2026/02/safe-and-inclusive-esociety-how.html
+https://thehackernews.com/2026/02/new-zerodayrat-mobile-spyware-enables.html
+https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-beyondtrust-flaw-within-three-days/
+https://www.bleepingcomputer.com/news/security/google-patches-first-chrome-zero-day-exploited-in-attacks-this-year/
+https://www.ithome.com.tw/news/173966
+https://www.ithome.com.tw/news/173969
