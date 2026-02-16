@@ -387,3 +387,5 @@ https://www.bleepingcomputer.com/news/security/snail-mail-letters-target-trezor-
 https://thehackernews.com/2026/02/microsoft-discloses-dns-based-clickfix.html
 https://www.bleepingcomputer.com/news/security/ctm360-lumma-stealer-and-ninja-browser-malware-campaign-abusing-google-groups/
 https://www.bleepingcomputer.com/news/security/pastebin-comments-push-clickfix-javascript-attack-to-hijack-crypto-swaps/
+https://www.bleepingcomputer.com/news/security/new-clickfix-attack-abuses-nslookup-to-retrieve-powershell-payload-via-dns/
+https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5077181-fixes-boot-failures-linked-to-failed-updates/
