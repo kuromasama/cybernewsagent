@@ -410,3 +410,7 @@ https://www.bleepingcomputer.com/news/security/poland-arrests-suspect-linked-to-
 https://www.bleepingcomputer.com/news/security/ireland-now-also-investigating-x-over-grok-made-sexual-images/
 https://www.ithome.com.tw/news/173972
 https://www.ithome.com.tw/news/173971
+https://thehackernews.com/2026/02/researchers-show-copilot-and-grok-can.html
+https://thehackernews.com/2026/02/keenadu-firmware-backdoor-infects.html
+https://www.bleepingcomputer.com/news/security/notepad-plus-plus-boosts-update-security-with-double-lock-mechanism/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outage-affects-users-in-united-states-europe/
