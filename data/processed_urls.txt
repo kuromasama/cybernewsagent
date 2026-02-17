@@ -399,3 +399,7 @@ https://www.ithome.com.tw/news/173969
 https://thehackernews.com/2026/02/weekly-recap-outlook-add-ins-hijack-0.html
 https://www.bleepingcomputer.com/news/security/infostealer-malware-found-stealing-openclaw-secrets-for-first-time/
 https://www.bleepingcomputer.com/news/security/passwords-to-passkeys-staying-iso-27001-compliant-in-a-passwordless-era/
+https://thehackernews.com/2026/02/infostealer-steals-openclaw-ai-agent.html
+https://thehackernews.com/2026/02/study-uncovers-25-password-recovery.html
+https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/
+https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/
