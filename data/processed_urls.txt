@@ -417,3 +417,5 @@ https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outage-affects-u
 https://www.bleepingcomputer.com/news/legal/spain-orders-nordvpn-protonvpn-to-block-laliga-piracy-sites/
 https://www.bleepingcomputer.com/news/security/flaws-in-popular-vscode-extensions-expose-developers-to-attacks/
 https://cloud.google.com/blog/topics/threat-intelligence/unc6201-exploiting-dell-recoverpoint-zero-day/
+https://www.ithome.com.tw/news/173974
+https://www.ithome.com.tw/news/173973
