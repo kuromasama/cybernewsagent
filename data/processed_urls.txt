@@ -414,3 +414,6 @@ https://thehackernews.com/2026/02/researchers-show-copilot-and-grok-can.html
 https://thehackernews.com/2026/02/keenadu-firmware-backdoor-infects.html
 https://www.bleepingcomputer.com/news/security/notepad-plus-plus-boosts-update-security-with-double-lock-mechanism/
 https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outage-affects-users-in-united-states-europe/
+https://www.bleepingcomputer.com/news/legal/spain-orders-nordvpn-protonvpn-to-block-laliga-piracy-sites/
+https://www.bleepingcomputer.com/news/security/flaws-in-popular-vscode-extensions-expose-developers-to-attacks/
+https://cloud.google.com/blog/topics/threat-intelligence/unc6201-exploiting-dell-recoverpoint-zero-day/
