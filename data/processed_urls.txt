@@ -419,3 +419,7 @@ https://www.bleepingcomputer.com/news/security/flaws-in-popular-vscode-extension
 https://cloud.google.com/blog/topics/threat-intelligence/unc6201-exploiting-dell-recoverpoint-zero-day/
 https://www.ithome.com.tw/news/173974
 https://www.ithome.com.tw/news/173973
+https://thehackernews.com/2026/02/dell-recoverpoint-for-vms-zero-day-cve.html
+https://thehackernews.com/2026/02/3-ways-to-start-your-intelligent.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-causes-copilot-to-summarize-confidential-emails/
+https://www.bleepingcomputer.com/news/security/glendale-man-gets-5-years-in-prison-for-role-in-darknet-drug-trafficking-operation/
