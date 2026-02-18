@@ -423,3 +423,7 @@ https://thehackernews.com/2026/02/dell-recoverpoint-for-vms-zero-day-cve.html
 https://thehackernews.com/2026/02/3-ways-to-start-your-intelligent.html
 https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-causes-copilot-to-summarize-confidential-emails/
 https://www.bleepingcomputer.com/news/security/glendale-man-gets-5-years-in-prison-for-role-in-darknet-drug-trafficking-operation/
+https://thehackernews.com/2026/02/citizen-lab-finds-cellebrite-tool-used.html
+https://thehackernews.com/2026/02/grandstream-gxp1600-voip-phones-exposed.html
+https://www.bleepingcomputer.com/news/security/telegram-channels-expose-rapid-weaponization-of-smartermail-flaws/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-anti-phishing-rules-mistakenly-blocked-emails-teams-messages/
