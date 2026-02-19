@@ -429,3 +429,9 @@ https://www.bleepingcomputer.com/news/security/telegram-channels-expose-rapid-we
 https://www.bleepingcomputer.com/news/microsoft/microsoft-anti-phishing-rules-mistakenly-blocked-emails-teams-messages/
 https://www.bleepingcomputer.com/news/security/critical-infra-honeywell-cctvs-vulnerable-to-auth-bypass-flaw/
 https://www.bleepingcomputer.com/news/security/ai-platforms-can-be-abused-for-stealthy-malware-communication/
+https://thehackernews.com/2026/02/from-exposure-to-exploitation-how-ai.html
+https://thehackernews.com/2026/02/fake-iptv-apps-spread-massiv-android.html
+https://www.bleepingcomputer.com/news/security/texas-sues-tp-link-over-chinese-hacking-risks-user-deception/
+https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-entra-accounts-in-device-code-vishing-attacks/
+https://www.ithome.com.tw/news/173980
+https://www.ithome.com.tw/news/173979
