@@ -427,3 +427,5 @@ https://thehackernews.com/2026/02/citizen-lab-finds-cellebrite-tool-used.html
 https://thehackernews.com/2026/02/grandstream-gxp1600-voip-phones-exposed.html
 https://www.bleepingcomputer.com/news/security/telegram-channels-expose-rapid-weaponization-of-smartermail-flaws/
 https://www.bleepingcomputer.com/news/microsoft/microsoft-anti-phishing-rules-mistakenly-blocked-emails-teams-messages/
+https://www.bleepingcomputer.com/news/security/critical-infra-honeywell-cctvs-vulnerable-to-auth-bypass-flaw/
+https://www.bleepingcomputer.com/news/security/ai-platforms-can-be-abused-for-stealthy-malware-communication/
