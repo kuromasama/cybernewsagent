@@ -443,3 +443,4 @@ https://thehackernews.com/2026/02/promptspy-android-malware-abuses-google.html
 https://thehackernews.com/2026/02/interpol-operation-red-card-20-arrests.html
 https://www.bleepingcomputer.com/news/security/promptspy-is-the-first-known-android-malware-to-use-generative-ai-at-runtime/
 https://redcanary.com/blog/threat-intelligence/intelligence-insights-february-2026/
+https://thehackernews.com/2026/02/three-former-google-engineers-indicted.html
