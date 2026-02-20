@@ -444,3 +444,7 @@ https://thehackernews.com/2026/02/interpol-operation-red-card-20-arrests.html
 https://www.bleepingcomputer.com/news/security/promptspy-is-the-first-known-android-malware-to-use-generative-ai-at-runtime/
 https://redcanary.com/blog/threat-intelligence/intelligence-insights-february-2026/
 https://thehackernews.com/2026/02/three-former-google-engineers-indicted.html
+https://thehackernews.com/2026/02/identity-cyber-scores-new-metric.html
+https://thehackernews.com/2026/02/ukrainian-national-sentenced-to-5-years.html
+https://www.bleepingcomputer.com/news/security/university-of-mississippi-medical-center-closes-clinics-after-ransomware-attack/
+https://www.bleepingcomputer.com/news/security/fbi-over-20-million-stolen-in-surge-of-atm-malware-attacks-in-2025/
