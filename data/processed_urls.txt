@@ -439,3 +439,7 @@ https://thehackernews.com/2026/02/threatsday-bulletin-openssl-rce-foxit-0.html
 https://www.bleepingcomputer.com/news/security/flaw-in-grandstream-voip-phones-allows-stealthy-eavesdropping/
 https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-dell-flaw-within-3-days/
 https://www.ithome.com.tw/news/173981
+https://thehackernews.com/2026/02/promptspy-android-malware-abuses-google.html
+https://thehackernews.com/2026/02/interpol-operation-red-card-20-arrests.html
+https://www.bleepingcomputer.com/news/security/promptspy-is-the-first-known-android-malware-to-use-generative-ai-at-runtime/
+https://redcanary.com/blog/threat-intelligence/intelligence-insights-february-2026/
