@@ -454,3 +454,5 @@ https://www.bleepingcomputer.com/news/security/japanese-tech-giant-advantest-hit
 https://www.bleepingcomputer.com/news/security/cisa-beyondtrust-rce-flaw-now-exploited-in-ransomware-attacks/
 https://www.ithome.com.tw/news/173987
 https://www.ithome.com.tw/news/173986
+https://www.ithome.com.tw/news/173983
+https://www.ithome.com.tw/news/173984
