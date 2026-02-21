@@ -456,3 +456,5 @@ https://www.ithome.com.tw/news/173987
 https://www.ithome.com.tw/news/173986
 https://www.ithome.com.tw/news/173983
 https://www.ithome.com.tw/news/173984
+https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/
+https://www.ithome.com.tw/review/173982
