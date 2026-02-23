@@ -471,3 +471,9 @@ https://thehackernews.com/2026/02/malicious-npm-packages-harvest-crypto.html
 https://www.bleepingcomputer.com/news/security/cisa-recently-patched-roundcube-flaws-now-exploited-in-attacks/
 https://www.ithome.com.tw/news/174003
 https://www.ithome.com.tw/news/174001
+https://thehackernews.com/2026/02/wormable-xmrig-campaign-uses-byovd.html
+https://thehackernews.com/2026/02/weekly-recap-double-tap-skimmers.html
+https://www.bleepingcomputer.com/news/security/ad-tech-firm-optimizely-confirms-data-breach-after-vishing-attack/
+https://www.bleepingcomputer.com/news/security/when-identity-isnt-the-weak-link-access-still-is/
+https://www.ithome.com.tw/news/174005
+https://www.ithome.com.tw/news/174000
