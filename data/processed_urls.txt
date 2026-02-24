@@ -488,3 +488,8 @@ https://www.bleepingcomputer.com/news/security/shinyhunters-extortion-gang-claim
 https://www.bleepingcomputer.com/news/security/north-korean-lazarus-group-linked-to-medusa-ransomware-attacks/
 https://www.ithome.com.tw/news/174021
 https://www.ithome.com.tw/news/174020
+https://thehackernews.com/2026/02/uac-0050-targets-european-financial.html
+https://www.bleepingcomputer.com/news/security/cargurus-data-breach-exposes-information-of-124-million-accounts/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-copilot-data-controls-to-all-storage-locations/
+https://redcanary.com/blog/threat-detection/entra-id-oauth-attacks/
+https://www.ithome.com.tw/news/174016
