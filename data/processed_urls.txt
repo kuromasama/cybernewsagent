@@ -477,3 +477,6 @@ https://www.bleepingcomputer.com/news/security/ad-tech-firm-optimizely-confirms-
 https://www.bleepingcomputer.com/news/security/when-identity-isnt-the-weak-link-access-still-is/
 https://www.ithome.com.tw/news/174005
 https://www.ithome.com.tw/news/174000
+https://thehackernews.com/2026/02/apt28-targeted-european-entities-using.html
+https://www.bleepingcomputer.com/news/security/android-mental-health-apps-with-147m-installs-filled-with-security-flaws/
+https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-anonymous-fenix-hacktivists-for-ddosing-govt-sites/
