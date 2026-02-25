@@ -493,3 +493,6 @@ https://www.bleepingcomputer.com/news/security/cargurus-data-breach-exposes-info
 https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-copilot-data-controls-to-all-storage-locations/
 https://redcanary.com/blog/threat-detection/entra-id-oauth-attacks/
 https://www.ithome.com.tw/news/174016
+https://thehackernews.com/2026/02/roguepilot-flaw-in-github-codespaces.html
+https://www.bleepingcomputer.com/news/security/phishing-campaign-targets-freight-and-logistics-orgs-in-the-us-europe/
+https://www.bleepingcomputer.com/news/security/wynn-resorts-confirms-employee-data-breach-after-extortion-threat/
