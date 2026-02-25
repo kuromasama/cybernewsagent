@@ -496,3 +496,6 @@ https://www.ithome.com.tw/news/174016
 https://thehackernews.com/2026/02/roguepilot-flaw-in-github-codespaces.html
 https://www.bleepingcomputer.com/news/security/phishing-campaign-targets-freight-and-logistics-orgs-in-the-us-europe/
 https://www.bleepingcomputer.com/news/security/wynn-resorts-confirms-employee-data-breach-after-extortion-threat/
+https://thehackernews.com/2026/02/cisa-confirms-active-exploitation-of.html
+https://www.ithome.com.tw/news/174036
+https://www.ithome.com.tw/news/174035
