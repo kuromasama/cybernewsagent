@@ -505,3 +505,9 @@ https://www.bleepingcomputer.com/news/security/us-sanctions-russian-exploit-brok
 https://www.bleepingcomputer.com/news/security/ex-l3harris-exec-jailed-for-selling-zero-days-to-russian-exploit-broker/
 https://www.ithome.com.tw/news/174053
 https://www.ithome.com.tw/news/174052
+https://thehackernews.com/2026/02/google-disrupts-unc2814-gridtide.html
+https://thehackernews.com/2026/02/claude-code-flaws-allow-remote-code.html
+https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/
+https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breached-dozens-of-telecom-firms-govt-agencies/
+https://redcanary.com/blog/security-operations/saas-session-integrity/
+https://cloud.google.com/blog/topics/threat-intelligence/disrupting-gridtide-global-espionage-campaign/
