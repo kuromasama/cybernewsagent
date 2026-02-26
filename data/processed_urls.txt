@@ -517,3 +517,8 @@ https://www.ithome.com.tw/news/174051
 https://thehackernews.com/2026/02/cisco-sd-wan-zero-day-cve-2026-20127.html
 https://www.ithome.com.tw/news/174064
 https://www.ithome.com.tw/news/174063
+https://thehackernews.com/2026/02/fake-nextjs-repos-target-developers.html
+https://thehackernews.com/2026/02/malicious-stripeapi-nuget-package.html
+https://www.bleepingcomputer.com/news/gaming/new-york-sues-valve-for-promoting-illegal-gambling-via-game-loot-boxes/
+https://www.ithome.com.tw/news/174078
+https://www.ithome.com.tw/news/174068
