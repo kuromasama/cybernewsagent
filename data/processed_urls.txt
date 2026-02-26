@@ -522,3 +522,8 @@ https://thehackernews.com/2026/02/malicious-stripeapi-nuget-package.html
 https://www.bleepingcomputer.com/news/gaming/new-york-sues-valve-for-promoting-illegal-gambling-via-game-loot-boxes/
 https://www.ithome.com.tw/news/174078
 https://www.ithome.com.tw/news/174068
+https://thehackernews.com/2026/02/uat-10027-targets-us-education-and.html
+https://thehackernews.com/2026/02/threatsday-bulletin-kali-linux-claude.html
+https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-critical-apex-one-rce-vulnerabilities/
+https://www.bleepingcomputer.com/news/security/european-dyi-chain-manomano-data-breach-impacts-38-million-customers/
+https://projectzero.google/2026/02/gphfh-deep-dive.html
