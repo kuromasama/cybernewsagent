@@ -534,3 +534,7 @@ https://thehackernews.com/2026/02/meta-files-lawsuits-against-brazil.html
 https://www.bleepingcomputer.com/news/security/ukrainian-man-pleads-guilty-to-running-ai-powered-fake-id-site/
 https://www.ithome.com.tw/news/174089
 https://www.ithome.com.tw/news/174088
+https://thehackernews.com/2026/02/900-sangoma-freepbx-instances.html
+https://thehackernews.com/2026/02/malicious-go-crypto-module-steals.html
+https://www.bleepingcomputer.com/news/security/police-crackdown-on-the-com-cybercrime-gang-leads-to-30-arrests/
+https://www.bleepingcomputer.com/news/security/cisa-warns-that-resurge-malware-can-be-dormant-on-ivanti-devices/
