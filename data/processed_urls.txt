@@ -529,3 +529,8 @@ https://www.bleepingcomputer.com/news/security/european-dyi-chain-manomano-data-
 https://projectzero.google/2026/02/gphfh-deep-dive.html
 https://thehackernews.com/2026/02/aeternum-c2-botnet-stores-encrypted.html
 https://www.bleepingcomputer.com/news/security/previously-harmless-google-api-keys-now-expose-gemini-ai-data/
+https://thehackernews.com/2026/02/trojanized-gaming-tools-spread-java.html
+https://thehackernews.com/2026/02/meta-files-lawsuits-against-brazil.html
+https://www.bleepingcomputer.com/news/security/ukrainian-man-pleads-guilty-to-running-ai-powered-fake-id-site/
+https://www.ithome.com.tw/news/174089
+https://www.ithome.com.tw/news/174088
