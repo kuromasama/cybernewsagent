@@ -545,3 +545,5 @@ https://thehackernews.com/2026/02/pentagon-designates-anthropic-supply.html
 https://www.ithome.com.tw/review/174090
 https://thehackernews.com/2026/02/thousands-of-public-google-cloud-api.html
 https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/
+https://thehackernews.com/2026/02/clawjacked-flaw-lets-malicious-sites.html
+https://www.bleepingcomputer.com/news/security/48m-in-crypto-stolen-after-korean-tax-agency-exposes-wallet-seed/
