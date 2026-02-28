@@ -538,3 +538,6 @@ https://thehackernews.com/2026/02/900-sangoma-freepbx-instances.html
 https://thehackernews.com/2026/02/malicious-go-crypto-module-steals.html
 https://www.bleepingcomputer.com/news/security/police-crackdown-on-the-com-cybercrime-gang-leads-to-30-arrests/
 https://www.bleepingcomputer.com/news/security/cisa-warns-that-resurge-malware-can-be-dormant-on-ivanti-devices/
+https://thehackernews.com/2026/02/doj-seizes-61-million-in-tether-linked.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-windows-11-batch-file-security-improvements/
+https://www.bleepingcomputer.com/news/security/apt37-hackers-use-new-malware-to-breach-air-gapped-networks/
