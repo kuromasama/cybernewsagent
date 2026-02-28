@@ -541,3 +541,5 @@ https://www.bleepingcomputer.com/news/security/cisa-warns-that-resurge-malware-c
 https://thehackernews.com/2026/02/doj-seizes-61-million-in-tether-linked.html
 https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-windows-11-batch-file-security-improvements/
 https://www.bleepingcomputer.com/news/security/apt37-hackers-use-new-malware-to-breach-air-gapped-networks/
+https://thehackernews.com/2026/02/pentagon-designates-anthropic-supply.html
+https://www.ithome.com.tw/review/174090
