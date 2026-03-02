@@ -557,3 +557,7 @@ https://thehackernews.com/2026/03/apt28-tied-to-cve-2026-21513-mshtml-0.html
 https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-a-worldwide-outage/
 https://www.ithome.com.tw/news/174114
 https://www.ithome.com.tw/news/174106
+https://thehackernews.com/2026/03/new-chrome-vulnerability-let-malicious.html
+https://thehackernews.com/2026/03/google-develops-merkle-tree.html
+https://www.bleepingcomputer.com/news/security/florida-woman-imprisoned-for-massive-microsoft-license-fraud-scheme/
+https://www.bleepingcomputer.com/news/security/uk-warns-of-iranian-cyberattack-risks-amid-middle-east-conflict/
