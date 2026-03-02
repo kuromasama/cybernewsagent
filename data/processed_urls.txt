@@ -552,3 +552,8 @@ https://www.bleepingcomputer.com/news/security/samsung-tvs-to-stop-collecting-te
 https://www.bleepingcomputer.com/news/security/clawjacked-attack-let-malicious-websites-hijack-openclaw-to-steal-data/
 https://www.ithome.com.tw/news/174102
 https://www.ithome.com.tw/news/174101
+https://thehackernews.com/2026/03/how-to-protect-your-saas-from-bot.html
+https://thehackernews.com/2026/03/apt28-tied-to-cve-2026-21513-mshtml-0.html
+https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-a-worldwide-outage/
+https://www.ithome.com.tw/news/174114
+https://www.ithome.com.tw/news/174106
