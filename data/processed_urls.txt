@@ -561,3 +561,7 @@ https://thehackernews.com/2026/03/new-chrome-vulnerability-let-malicious.html
 https://thehackernews.com/2026/03/google-develops-merkle-tree.html
 https://www.bleepingcomputer.com/news/security/florida-woman-imprisoned-for-massive-microsoft-license-fraud-scheme/
 https://www.bleepingcomputer.com/news/security/uk-warns-of-iranian-cyberattack-risks-amid-middle-east-conflict/
+https://www.bleepingcomputer.com/news/security/cyberstrikeai-tool-adopted-by-hackers-for-ai-powered-attacks/
+https://www.bleepingcomputer.com/news/security/fake-google-security-site-uses-pwa-app-to-steal-credentials-mfa-codes/
+https://redcanary.com/blog/news-events/red-canary-cfp-tracker-march-2026/
+https://www.ithome.com.tw/news/174118
