@@ -565,3 +565,5 @@ https://www.bleepingcomputer.com/news/security/cyberstrikeai-tool-adopted-by-hac
 https://www.bleepingcomputer.com/news/security/fake-google-security-site-uses-pwa-app-to-steal-credentials-mfa-codes/
 https://redcanary.com/blog/news-events/red-canary-cfp-tracker-march-2026/
 https://www.ithome.com.tw/news/174118
+https://www.ithome.com.tw/review/174091
+https://www.ithome.com.tw/news/174124
