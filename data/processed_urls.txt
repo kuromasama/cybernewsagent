@@ -581,3 +581,6 @@ https://cloud.google.com/blog/topics/threat-intelligence/coruna-powerful-ios-exp
 https://www.ithome.com.tw/news/174159
 https://www.bleepingcomputer.com/news/security/cisa-flags-vmware-aria-operations-rce-flaw-as-exploited-in-attacks/
 https://www.bleepingcomputer.com/news/security/paint-maker-giant-akzonobel-confirms-cyberattack-on-us-site/
+https://thehackernews.com/2026/03/cisa-adds-actively-exploited-vmware.html
+https://www.ithome.com.tw/news/174171
+https://www.ithome.com.tw/news/174174
