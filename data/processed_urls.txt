@@ -584,3 +584,7 @@ https://www.bleepingcomputer.com/news/security/paint-maker-giant-akzonobel-confi
 https://thehackernews.com/2026/03/cisa-adds-actively-exploited-vmware.html
 https://www.ithome.com.tw/news/174171
 https://www.ithome.com.tw/news/174174
+https://thehackernews.com/2026/03/new-rfp-template-for-ai-usage-control.html
+https://thehackernews.com/2026/03/fake-laravel-packages-on-packagist.html
+https://www.ithome.com.tw/news/174197
+https://www.ithome.com.tw/tech/174196
