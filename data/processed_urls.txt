@@ -579,3 +579,5 @@ https://www.bleepingcomputer.com/news/security/google-chrome-shifts-to-two-week-
 https://www.bleepingcomputer.com/news/security/lexisnexis-confirms-data-breach-as-hackers-leak-stolen-files/
 https://cloud.google.com/blog/topics/threat-intelligence/coruna-powerful-ios-exploit-kit/
 https://www.ithome.com.tw/news/174159
+https://www.bleepingcomputer.com/news/security/cisa-flags-vmware-aria-operations-rce-flaw-as-exploited-in-attacks/
+https://www.bleepingcomputer.com/news/security/paint-maker-giant-akzonobel-confirms-cyberattack-on-us-site/
