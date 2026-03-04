@@ -588,3 +588,9 @@ https://thehackernews.com/2026/03/new-rfp-template-for-ai-usage-control.html
 https://thehackernews.com/2026/03/fake-laravel-packages-on-packagist.html
 https://www.ithome.com.tw/news/174197
 https://www.ithome.com.tw/tech/174196
+https://thehackernews.com/2026/03/149-hacktivist-ddos-attacks-hit-110.html
+https://thehackernews.com/2026/03/coruna-ios-exploit-kit-uses-23-exploits.html
+https://www.bleepingcomputer.com/news/security/fbi-seizes-leakbase-cybercrime-forum-data-of-142-000-members/
+https://www.bleepingcomputer.com/news/security/europol-coordinated-action-disrupts-tycoon2fa-phishing-platform/
+https://redcanary.com/blog/threat-detection/google-workspace-oauth-attack/
+https://www.ithome.com.tw/news/174199
