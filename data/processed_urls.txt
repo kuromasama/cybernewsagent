@@ -594,3 +594,7 @@ https://www.bleepingcomputer.com/news/security/fbi-seizes-leakbase-cybercrime-fo
 https://www.bleepingcomputer.com/news/security/europol-coordinated-action-disrupts-tycoon2fa-phishing-platform/
 https://redcanary.com/blog/threat-detection/google-workspace-oauth-attack/
 https://www.ithome.com.tw/news/174199
+https://www.bleepingcomputer.com/news/security/bitwarden-adds-support-for-passkey-login-on-windows-11/
+https://www.bleepingcomputer.com/news/security/mail2shell-zero-click-attack-lets-hackers-hijack-freescout-mail-servers/
+https://www.ithome.com.tw/news/174195
+https://www.ithome.com.tw/news/174188
