@@ -606,3 +606,10 @@ https://www.bleepingcomputer.com/news/security/police-dismantles-online-gambling
 https://www.bleepingcomputer.com/news/security/cisco-flags-more-sd-wan-flaws-as-actively-exploited-in-attacks/
 https://www.ithome.com.tw/news/174224
 https://www.ithome.com.tw/news/174223
+https://thehackernews.com/2026/03/preparing-for-quantum-era-post-quantum.html
+https://thehackernews.com/2026/03/cisco-confirms-active-exploitation-of.html
+https://www.bleepingcomputer.com/news/security/wordpress-membership-plugin-bug-exploited-to-create-admin-accounts/
+https://www.bleepingcomputer.com/news/security/fbi-arrests-suspect-linked-to-46m-crypto-theft-from-us-marshals/
+https://projectzero.google/2026/03/mutational-grammar-fuzzing.html
+https://redcanary.com/blog/threat-detection/openclaw-ai/
+https://cloud.google.com/blog/topics/threat-intelligence/2025-zero-day-review/
