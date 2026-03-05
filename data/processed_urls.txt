@@ -598,3 +598,5 @@ https://www.bleepingcomputer.com/news/security/bitwarden-adds-support-for-passke
 https://www.bleepingcomputer.com/news/security/mail2shell-zero-click-attack-lets-hackers-hijack-freescout-mail-servers/
 https://www.ithome.com.tw/news/174195
 https://www.ithome.com.tw/news/174188
+https://www.ithome.com.tw/news/174217
+https://www.ithome.com.tw/news/174215
