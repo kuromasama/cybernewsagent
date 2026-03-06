@@ -613,3 +613,6 @@ https://www.bleepingcomputer.com/news/security/fbi-arrests-suspect-linked-to-46m
 https://projectzero.google/2026/03/mutational-grammar-fuzzing.html
 https://redcanary.com/blog/threat-detection/openclaw-ai/
 https://cloud.google.com/blog/topics/threat-intelligence/2025-zero-day-review/
+https://www.bleepingcomputer.com/news/security/chinese-state-hackers-target-telcos-with-new-malware-toolkit/
+https://www.bleepingcomputer.com/news/security/bing-ai-promoted-fake-openclaw-github-repo-pushing-info-stealing-malware/
+https://www.ithome.com.tw/news/174225
