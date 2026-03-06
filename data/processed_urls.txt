@@ -624,3 +624,10 @@ https://www.bleepingcomputer.com/news/security/ghanain-man-pleads-guilty-to-role
 https://www.bleepingcomputer.com/news/security/fbi-investigates-breach-of-surveillance-and-wiretap-systems/
 https://www.ithome.com.tw/news/174259
 https://www.ithome.com.tw/news/174263
+https://thehackernews.com/2026/03/transparent-tribe-uses-ai-to-mass.html
+https://thehackernews.com/2026/03/multi-stage-voidgeist-malware.html
+https://www.bleepingcomputer.com/news/security/cisa-warns-of-apple-flaws-exploited-in-spyware-crypto-theft-attacks/
+https://www.bleepingcomputer.com/news/security/ec-council-expands-ai-certification-portfolio-to-strengthen-us-ai-workforce-readiness-and-security/
+https://cloud.google.com/blog/topics/threat-intelligence/preparation-hardening-destructive-attacks/
+https://www.ithome.com.tw/news/174265
+https://www.ithome.com.tw/news/174264
