@@ -632,3 +632,7 @@ https://cloud.google.com/blog/topics/threat-intelligence/preparation-hardening-d
 https://www.ithome.com.tw/news/174265
 https://www.ithome.com.tw/news/174264
 https://www.bleepingcomputer.com/news/security/cognizant-trizetto-breach-exposes-health-data-of-34-million-patients/
+https://thehackernews.com/2026/03/openai-codex-security-scanned-12.html
+https://thehackernews.com/2026/03/anthropic-finds-22-firefox.html
+https://www.bleepingcomputer.com/news/security/termite-ransomware-breaches-linked-to-clickfix-castlerat-attacks/
+https://www.bleepingcomputer.com/news/security/microsoft-hackers-abusing-ai-at-every-stage-of-cyberattacks/
