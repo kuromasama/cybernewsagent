@@ -631,3 +631,4 @@ https://www.bleepingcomputer.com/news/security/ec-council-expands-ai-certificati
 https://cloud.google.com/blog/topics/threat-intelligence/preparation-hardening-destructive-attacks/
 https://www.ithome.com.tw/news/174265
 https://www.ithome.com.tw/news/174264
+https://www.bleepingcomputer.com/news/security/cognizant-trizetto-breach-exposes-health-data-of-34-million-patients/
