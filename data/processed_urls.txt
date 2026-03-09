@@ -640,3 +640,5 @@ https://www.bleepingcomputer.com/news/legal/eu-court-adviser-says-banks-must-imm
 https://www.bleepingcomputer.com/news/security/hackers-abuse-arpa-dns-and-ipv6-to-evade-phishing-defenses/
 https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/
 https://www.ithome.com.tw/news/174254
+https://www.ithome.com.tw/news/174272
+https://www.ithome.com.tw/news/174282
