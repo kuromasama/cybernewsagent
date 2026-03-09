@@ -646,3 +646,7 @@ https://thehackernews.com/2026/03/can-security-platform-finally-deliver.html
 https://thehackernews.com/2026/03/chrome-extension-turns-malicious-after.html
 https://www.ithome.com.tw/news/174289
 https://www.ithome.com.tw/news/174288
+https://thehackernews.com/2026/03/unc4899-used-airdrop-file-transfer-and.html
+https://thehackernews.com/2026/03/weekly-recap-qualcomm-0-day-ios-exploit.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-will-tag-third-party-bots-in-meeting-lobbies/
+https://www.bleepingcomputer.com/news/security/shinyhunters-claims-ongoing-salesforce-aura-data-theft-attacks/
