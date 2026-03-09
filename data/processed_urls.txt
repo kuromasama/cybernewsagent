@@ -638,3 +638,5 @@ https://www.bleepingcomputer.com/news/security/termite-ransomware-breaches-linke
 https://www.bleepingcomputer.com/news/security/microsoft-hackers-abusing-ai-at-every-stage-of-cyberattacks/
 https://www.bleepingcomputer.com/news/legal/eu-court-adviser-says-banks-must-immediately-refund-phishing-victims/
 https://www.bleepingcomputer.com/news/security/hackers-abuse-arpa-dns-and-ipv6-to-evade-phishing-defenses/
+https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/
+https://www.ithome.com.tw/news/174254
