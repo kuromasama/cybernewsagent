@@ -654,3 +654,5 @@ https://thehackernews.com/2026/03/malicious-npm-package-posing-as.html
 https://www.bleepingcomputer.com/news/security/microsoft-teams-phishing-targets-employees-with-backdoors/
 https://www.bleepingcomputer.com/news/security/google-cloud-attacks-exploit-flaws-more-than-weak-credentials/
 https://www.ithome.com.tw/news/174287
+https://www.ithome.com.tw/news/174301
+https://www.ithome.com.tw/news/174300
