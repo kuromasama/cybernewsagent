@@ -650,3 +650,7 @@ https://thehackernews.com/2026/03/unc4899-used-airdrop-file-transfer-and.html
 https://thehackernews.com/2026/03/weekly-recap-qualcomm-0-day-ios-exploit.html
 https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-will-tag-third-party-bots-in-meeting-lobbies/
 https://www.bleepingcomputer.com/news/security/shinyhunters-claims-ongoing-salesforce-aura-data-theft-attacks/
+https://thehackernews.com/2026/03/malicious-npm-package-posing-as.html
+https://www.bleepingcomputer.com/news/security/microsoft-teams-phishing-targets-employees-with-backdoors/
+https://www.bleepingcomputer.com/news/security/google-cloud-attacks-exploit-flaws-more-than-weak-credentials/
+https://www.ithome.com.tw/news/174287
