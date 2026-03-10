@@ -656,3 +656,9 @@ https://www.bleepingcomputer.com/news/security/google-cloud-attacks-exploit-flaw
 https://www.ithome.com.tw/news/174287
 https://www.ithome.com.tw/news/174301
 https://www.ithome.com.tw/news/174300
+https://thehackernews.com/2026/03/how-to-stop-ai-data-leaks-webinar-guide.html
+https://thehackernews.com/2026/03/the-zero-day-scramble-is-avoidable.html
+https://www.bleepingcomputer.com/news/security/cisa-recently-patched-ivanti-epm-flaw-now-actively-exploited/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-hotpatch-security-updates-by-default-in-may/
+https://www.ithome.com.tw/news/174319
+https://www.ithome.com.tw/news/174314
