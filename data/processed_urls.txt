@@ -662,3 +662,9 @@ https://www.bleepingcomputer.com/news/security/cisa-recently-patched-ivanti-epm-
 https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-hotpatch-security-updates-by-default-in-may/
 https://www.ithome.com.tw/news/174319
 https://www.ithome.com.tw/news/174314
+https://thehackernews.com/2026/03/fortigate-devices-exploited-to-breach.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5078885-extended-security-update/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-march-2026-patch-tuesday-fixes-2-zero-days-79-flaws/
+https://redcanary.com/blog/news-events/rsac-2026/
+https://www.ithome.com.tw/news/174312
+https://www.ithome.com.tw/news/174306
