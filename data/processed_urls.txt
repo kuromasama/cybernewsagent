@@ -678,3 +678,8 @@ https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html
 https://thehackernews.com/2026/03/what-boards-must-demand-in-age-of-ai.html
 https://www.ithome.com.tw/news/174344
 https://www.ithome.com.tw/news/174343
+https://thehackernews.com/2026/03/researchers-trick-perplexitys-comet-ai.html
+https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html
+https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-n8n-rce-flaw-exploited-in-attacks/
+https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-offline-after-iran-linked-wiper-malware-attack/
+https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/
