@@ -671,3 +671,6 @@ https://www.ithome.com.tw/news/174306
 https://www.bleepingcomputer.com/news/security/new-blacksanta-edr-killer-spotted-targeting-hr-departments/
 https://www.bleepingcomputer.com/news/security/new-beatbanker-android-malware-poses-as-starlink-app-to-hijack-devices/
 https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/
+https://thehackernews.com/2026/03/five-malicious-rust-crates-and-ai-bot.html
+https://www.ithome.com.tw/news/174330
+https://www.ithome.com.tw/news/174329
