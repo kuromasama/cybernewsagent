@@ -674,3 +674,7 @@ https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/
 https://thehackernews.com/2026/03/five-malicious-rust-crates-and-ai-bot.html
 https://www.ithome.com.tw/news/174330
 https://www.ithome.com.tw/news/174329
+https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html
+https://thehackernews.com/2026/03/what-boards-must-demand-in-age-of-ai.html
+https://www.ithome.com.tw/news/174344
+https://www.ithome.com.tw/news/174343
