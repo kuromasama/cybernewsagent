@@ -685,3 +685,6 @@ https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-offline-aft
 https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/
 https://www.bleepingcomputer.com/news/security/whatsapp-introduces-parent-managed-accounts-for-pre-teens/
 https://www.bleepingcomputer.com/news/security/sqli-flaw-in-elementor-ally-plugin-impacts-250k-plus-wordpress-sites/
+https://thehackernews.com/2026/03/cisa-flags-actively-exploited-n8n-rce.html
+https://www.ithome.com.tw/news/174360
+https://www.ithome.com.tw/news/174361
