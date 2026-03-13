@@ -698,3 +698,5 @@ https://thehackernews.com/2026/03/hive0163-uses-ai-assisted-slopoly.html
 https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-flaws-exposing-backup-servers-to-rce-attacks/
 https://www.bleepingcomputer.com/news/security/us-disrupts-socksescort-proxy-network-powered-by-linux-malware/
 https://redcanary.com/blog/threat-detection/assemblyline-browser-extensions/
+https://www.bleepingcomputer.com/news/security/canadian-retail-giant-loblaw-notifies-customers-of-data-breach/
+https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/
