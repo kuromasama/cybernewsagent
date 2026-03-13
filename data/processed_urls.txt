@@ -700,3 +700,6 @@ https://www.bleepingcomputer.com/news/security/us-disrupts-socksescort-proxy-net
 https://redcanary.com/blog/threat-detection/assemblyline-browser-extensions/
 https://www.bleepingcomputer.com/news/security/canadian-retail-giant-loblaw-notifies-customers-of-data-breach/
 https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/
+https://thehackernews.com/2026/03/veeam-patches-7-critical-backup.html
+https://www.ithome.com.tw/news/174391
+https://www.ithome.com.tw/news/174390
