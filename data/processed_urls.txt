@@ -709,3 +709,7 @@ https://www.bleepingcomputer.com/news/security/starbucks-discloses-data-breach-a
 https://www.bleepingcomputer.com/news/google/google-fixes-two-new-chrome-zero-days-exploited-in-attacks/
 https://www.ithome.com.tw/news/174393
 https://www.ithome.com.tw/news/174392
+https://thehackernews.com/2026/03/chinese-hackers-target-southeast-asian.html
+https://thehackernews.com/2026/03/meta-to-shut-down-instagram-end-to-end.html
+https://www.bleepingcomputer.com/news/security/polands-nuclear-research-centre-targeted-by-cyberattack/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-outlook-sync-and-connection-issues/
