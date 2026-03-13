@@ -703,3 +703,9 @@ https://www.bleepingcomputer.com/news/security/england-hockey-investigating-rans
 https://thehackernews.com/2026/03/veeam-patches-7-critical-backup.html
 https://www.ithome.com.tw/news/174391
 https://www.ithome.com.tw/news/174390
+https://thehackernews.com/2026/03/google-fixes-two-chrome-zero-days.html
+https://thehackernews.com/2026/03/nine-crackarmor-flaws-in-linux-apparmor.html
+https://www.bleepingcomputer.com/news/security/starbucks-discloses-data-breach-affecting-hundreds-of-employees/
+https://www.bleepingcomputer.com/news/google/google-fixes-two-new-chrome-zero-days-exploited-in-attacks/
+https://www.ithome.com.tw/news/174393
+https://www.ithome.com.tw/news/174392
