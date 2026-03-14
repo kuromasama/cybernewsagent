@@ -713,3 +713,5 @@ https://thehackernews.com/2026/03/chinese-hackers-target-southeast-asian.html
 https://thehackernews.com/2026/03/meta-to-shut-down-instagram-end-to-end.html
 https://www.bleepingcomputer.com/news/security/polands-nuclear-research-centre-targeted-by-cyberattack/
 https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-outlook-sync-and-connection-issues/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-users-cant-access-c-drive-on-some-samsung-pcs/
+https://www.bleepingcomputer.com/news/security/fbi-seeks-victims-of-steam-games-used-to-spread-malware/
