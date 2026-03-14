@@ -716,3 +716,6 @@ https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-o
 https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-users-cant-access-c-drive-on-some-samsung-pcs/
 https://www.bleepingcomputer.com/news/security/fbi-seeks-victims-of-steam-games-used-to-spread-malware/
 https://www.ithome.com.tw/news/174399
+https://thehackernews.com/2026/03/openclaw-ai-agent-flaws-could-enable.html
+https://thehackernews.com/2026/03/glassworm-supply-chain-attack-abuses-72.html
+https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/
