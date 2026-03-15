@@ -719,3 +719,4 @@ https://www.ithome.com.tw/news/174399
 https://thehackernews.com/2026/03/openclaw-ai-agent-flaws-could-enable.html
 https://thehackernews.com/2026/03/glassworm-supply-chain-attack-abuses-72.html
 https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/
