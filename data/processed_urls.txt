@@ -739,3 +739,9 @@ https://www.bleepingcomputer.com/news/security/stryker-attack-wiped-tens-of-thou
 https://thehackernews.com/2026/03/cisa-flags-actively-exploited-wing-ftp.html
 https://www.ithome.com.tw/news/174444
 https://www.ithome.com.tw/news/174443
+https://thehackernews.com/2026/03/ai-is-everywhere-but-cisos-are-still.html
+https://thehackernews.com/2026/03/konni-deploys-endrat-through-spear.html
+https://www.bleepingcomputer.com/news/security/leaknet-ransomware-uses-clickfix-and-deno-runtime-for-stealthy-attacks/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-fix-for-windows-c-drive-access-issues-on-samsung-pcs/
+https://www.ithome.com.tw/news/174453
+https://www.ithome.com.tw/news/174451
