@@ -734,3 +734,5 @@ https://www.bleepingcomputer.com/news/security/cisa-flags-wing-ftp-server-flaw-a
 https://www.bleepingcomputer.com/news/security/uks-companies-house-confirms-security-flaw-exposed-business-data/
 https://cloud.google.com/blog/topics/threat-intelligence/ransomware-ttps-shifting-threat-landscape/
 https://www.ithome.com.tw/news/174426
+https://thehackernews.com/2026/03/glassworm-attack-uses-stolen-github.html
+https://www.bleepingcomputer.com/news/security/stryker-attack-wiped-tens-of-thousands-of-devices-no-malware-needed/
