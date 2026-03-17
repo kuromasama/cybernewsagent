@@ -736,3 +736,6 @@ https://cloud.google.com/blog/topics/threat-intelligence/ransomware-ttps-shiftin
 https://www.ithome.com.tw/news/174426
 https://thehackernews.com/2026/03/glassworm-attack-uses-stolen-github.html
 https://www.bleepingcomputer.com/news/security/stryker-attack-wiped-tens-of-thousands-of-devices-no-malware-needed/
+https://thehackernews.com/2026/03/cisa-flags-actively-exploited-wing-ftp.html
+https://www.ithome.com.tw/news/174444
+https://www.ithome.com.tw/news/174443
