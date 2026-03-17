@@ -745,3 +745,8 @@ https://www.bleepingcomputer.com/news/security/leaknet-ransomware-uses-clickfix-
 https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-fix-for-windows-c-drive-access-issues-on-samsung-pcs/
 https://www.ithome.com.tw/news/174453
 https://www.ithome.com.tw/news/174451
+https://thehackernews.com/2026/03/ai-flaws-in-amazon-bedrock-langsmith.html
+https://thehackernews.com/2026/03/leaknet-ransomware-uses-clickfix-via.html
+https://www.bleepingcomputer.com/news/security/europe-sanctions-chinese-and-iranian-firms-for-cyberattacks/
+https://www.bleepingcomputer.com/news/security/top-5-things-cisos-need-to-do-today-to-secure-ai-agents/
+https://www.ithome.com.tw/news/174473
