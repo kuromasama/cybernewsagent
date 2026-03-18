@@ -752,3 +752,6 @@ https://www.bleepingcomputer.com/news/security/top-5-things-cisos-need-to-do-tod
 https://www.ithome.com.tw/news/174473
 https://www.bleepingcomputer.com/news/security/apple-pushes-first-background-security-improvements-update-to-fix-webkit-flaw/
 https://www.bleepingcomputer.com/news/security/glassworm-malware-hits-400-plus-code-repos-on-github-npm-vscode-openvsx/
+https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html
+https://www.ithome.com.tw/news/174483
+https://www.ithome.com.tw/news/174482
