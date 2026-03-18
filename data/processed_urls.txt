@@ -755,3 +755,6 @@ https://www.bleepingcomputer.com/news/security/glassworm-malware-hits-400-plus-c
 https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html
 https://www.ithome.com.tw/news/174483
 https://www.ithome.com.tw/news/174482
+https://thehackernews.com/2026/03/claude-code-security-and-magecart.html
+https://www.ithome.com.tw/news/174496
+https://www.ithome.com.tw/news/174494
