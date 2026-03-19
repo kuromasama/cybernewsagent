@@ -775,3 +775,8 @@ https://www.bleepingcomputer.com/news/security/cisa-warns-businesses-to-secure-m
 https://www.bleepingcomputer.com/news/security/new-perseus-android-malware-checks-user-notes-for-secrets/
 https://www.ithome.com.tw/news/174535
 https://www.ithome.com.tw/news/174527
+https://thehackernews.com/2026/03/threatsday-bulletin-fortigate-raas.html
+https://thehackernews.com/2026/03/new-perseus-android-banking-malware.html
+https://www.bleepingcomputer.com/news/security/bitrefill-blames-north-korean-lazarus-group-for-cyberattack/
+https://www.bleepingcomputer.com/news/security/fbi-seizes-handala-data-leak-site-after-stryker-cyberattack/
+https://redcanary.com/blog/threat-intelligence/intelligence-insights-march-2026/
