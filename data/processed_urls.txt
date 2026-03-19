@@ -769,3 +769,9 @@ https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-zimbra-
 https://thehackernews.com/2026/03/cisa-warns-of-zimbra-sharepoint-flaw.html
 https://www.ithome.com.tw/news/174517
 https://www.ithome.com.tw/news/174516
+https://thehackernews.com/2026/03/how-ceros-gives-security-teams.html
+https://thehackernews.com/2026/03/darksword-ios-exploit-kit-uses-6-flaws.html
+https://www.bleepingcomputer.com/news/security/cisa-warns-businesses-to-secure-microsoft-intune-systems-after-stryker-breach/
+https://www.bleepingcomputer.com/news/security/new-perseus-android-malware-checks-user-notes-for-secrets/
+https://www.ithome.com.tw/news/174535
+https://www.ithome.com.tw/news/174527
