@@ -764,3 +764,5 @@ https://www.bleepingcomputer.com/news/security/connectwise-patches-new-flaw-allo
 https://www.bleepingcomputer.com/news/security/interlock-ransomware-exploited-secure-fmc-flaw-in-zero-day-attacks-since-january/
 https://redcanary.com/blog/threat-detection/2026-threat-detection-report/
 https://cloud.google.com/blog/topics/threat-intelligence/darksword-ios-exploit-chain/
+https://www.bleepingcomputer.com/news/security/aura-confirms-data-breach-exposing-900-000-marketing-contacts/
+https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-zimbra-xss-flaw-exploited-in-attacks/
