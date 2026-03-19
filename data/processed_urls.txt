@@ -766,3 +766,6 @@ https://redcanary.com/blog/threat-detection/2026-threat-detection-report/
 https://cloud.google.com/blog/topics/threat-intelligence/darksword-ios-exploit-chain/
 https://www.bleepingcomputer.com/news/security/aura-confirms-data-breach-exposing-900-000-marketing-contacts/
 https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-zimbra-xss-flaw-exploited-in-attacks/
+https://thehackernews.com/2026/03/cisa-warns-of-zimbra-sharepoint-flaw.html
+https://www.ithome.com.tw/news/174517
+https://www.ithome.com.tw/news/174516
