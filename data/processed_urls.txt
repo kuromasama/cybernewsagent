@@ -786,3 +786,7 @@ https://www.bleepingcomputer.com/news/security/navia-discloses-data-breach-impac
 https://www.bleepingcomputer.com/news/security/new-polyshell-flaw-allows-unauthenticated-rce-on-magento-e-stores/
 https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/
 https://www.ithome.com.tw/news/174540
+https://thehackernews.com/2026/03/doj-disrupts-3-million-device-iot.html
+https://thehackernews.com/2026/03/apple-warns-older-iphones-vulnerable-to.html
+https://www.ithome.com.tw/news/174548
+https://www.ithome.com.tw/news/174547
