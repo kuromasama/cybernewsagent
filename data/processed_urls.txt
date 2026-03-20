@@ -796,3 +796,7 @@ https://www.bleepingcomputer.com/news/security/musician-pleads-guilty-to-10m-str
 https://www.bleepingcomputer.com/news/security/aisuru-kimwolf-jackskid-and-mossad-botnets-disrupted-in-joint-action/
 https://www.ithome.com.tw/news/174559
 https://www.ithome.com.tw/news/174558
+https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html
+https://thehackernews.com/2026/03/critical-langflow-flaw-cve-2026-33017.html
+https://www.bleepingcomputer.com/news/security/police-take-down-373-000-fake-csam-sites-in-operation-alice/
+https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-cisco-flaw-by-sunday/
