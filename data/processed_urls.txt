@@ -802,3 +802,5 @@ https://www.bleepingcomputer.com/news/security/police-take-down-373-000-fake-csa
 https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-cisco-flaw-by-sunday/
 https://www.bleepingcomputer.com/news/security/fbi-links-signal-phishing-attacks-to-russian-intelligence-services/
 https://www.bleepingcomputer.com/news/security/oracle-pushes-emergency-fix-for-critical-identity-manager-rce-flaw/
+https://www.ithome.com.tw/news/174566
+https://www.ithome.com.tw/news/174565
