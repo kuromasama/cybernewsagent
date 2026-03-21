@@ -800,3 +800,5 @@ https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html
 https://thehackernews.com/2026/03/critical-langflow-flaw-cve-2026-33017.html
 https://www.bleepingcomputer.com/news/security/police-take-down-373-000-fake-csam-sites-in-operation-alice/
 https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-cisco-flaw-by-sunday/
+https://www.bleepingcomputer.com/news/security/fbi-links-signal-phishing-attacks-to-russian-intelligence-services/
+https://www.bleepingcomputer.com/news/security/oracle-pushes-emergency-fix-for-critical-identity-manager-rce-flaw/
