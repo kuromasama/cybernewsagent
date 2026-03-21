@@ -804,3 +804,5 @@ https://www.bleepingcomputer.com/news/security/fbi-links-signal-phishing-attacks
 https://www.bleepingcomputer.com/news/security/oracle-pushes-emergency-fix-for-critical-identity-manager-rce-flaw/
 https://www.ithome.com.tw/news/174566
 https://www.ithome.com.tw/news/174565
+https://thehackernews.com/2026/03/oracle-patches-critical-cve-2026-21992.html
+https://thehackernews.com/2026/03/trivy-supply-chain-attack-triggers-self.html
