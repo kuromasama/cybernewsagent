@@ -809,3 +809,4 @@ https://thehackernews.com/2026/03/trivy-supply-chain-attack-triggers-self.html
 https://thehackernews.com/2026/03/fbi-warns-russian-hackers-target-signal.html
 https://www.bleepingcomputer.com/news/security/trivy-vulnerability-scanner-breach-pushed-infostealer-via-github-actions/
 https://www.bleepingcomputer.com/news/security/google-adds-advanced-flow-for-safe-apk-sideloading-on-android/
+https://www.bleepingcomputer.com/news/security/voidstealer-malware-steals-chrome-master-key-via-debugger-trick/
