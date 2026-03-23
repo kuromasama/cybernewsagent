@@ -810,3 +810,6 @@ https://thehackernews.com/2026/03/fbi-warns-russian-hackers-target-signal.html
 https://www.bleepingcomputer.com/news/security/trivy-vulnerability-scanner-breach-pushed-infostealer-via-github-actions/
 https://www.bleepingcomputer.com/news/security/google-adds-advanced-flow-for-safe-apk-sideloading-on-android/
 https://www.bleepingcomputer.com/news/security/voidstealer-malware-steals-chrome-master-key-via-debugger-trick/
+https://thehackernews.com/2026/03/hackers-exploit-cve-2025-32975-cvss-100.html
+https://www.ithome.com.tw/news/174589
+https://www.ithome.com.tw/news/174588
