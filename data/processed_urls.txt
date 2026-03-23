@@ -819,3 +819,11 @@ https://www.bleepingcomputer.com/news/microsoft/new-exchange-online-virtual-acco
 https://www.bleepingcomputer.com/news/security/fbi-warns-of-handala-hackers-using-telegram-in-malware-attacks/
 https://www.ithome.com.tw/news/174600
 https://www.ithome.com.tw/news/174597
+https://thehackernews.com/2026/03/weekly-recap-cicd-backdoor-fbi-buys.html
+https://thehackernews.com/2026/03/we-found-eight-attack-vectors-inside.html
+https://www.bleepingcomputer.com/news/security/trivy-supply-chain-attack-spreads-to-docker-github-repos/
+https://www.bleepingcomputer.com/news/security/varonis-atlas-securing-ai-and-the-data-that-powers-it/
+https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/
+https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/
+https://www.ithome.com.tw/news/174599
+https://www.ithome.com.tw/news/174602
