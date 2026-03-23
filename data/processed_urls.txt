@@ -813,3 +813,9 @@ https://www.bleepingcomputer.com/news/security/voidstealer-malware-steals-chrome
 https://thehackernews.com/2026/03/hackers-exploit-cve-2025-32975-cvss-100.html
 https://www.ithome.com.tw/news/174589
 https://www.ithome.com.tw/news/174588
+https://thehackernews.com/2026/03/microsoft-warns-irs-phishing-hits-29000.html
+https://thehackernews.com/2026/03/trivy-hack-spreads-infostealer-via.html
+https://www.bleepingcomputer.com/news/microsoft/new-exchange-online-virtual-account-blocks-email-access-via-mobile-mac-apps/
+https://www.bleepingcomputer.com/news/security/fbi-warns-of-handala-hackers-using-telegram-in-malware-attacks/
+https://www.ithome.com.tw/news/174600
+https://www.ithome.com.tw/news/174597
