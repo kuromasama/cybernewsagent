@@ -827,3 +827,6 @@ https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-
 https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/
 https://www.ithome.com.tw/news/174599
 https://www.ithome.com.tw/news/174602
+https://thehackernews.com/2026/03/north-korean-hackers-abuse-vs-code-auto.html
+https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-chatgpt-library-to-store-your-personal-files/
+https://www.bleepingcomputer.com/news/security/mazda-discloses-security-breach-exposing-employee-and-partner-data/
