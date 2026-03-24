@@ -832,3 +832,8 @@ https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-c
 https://www.bleepingcomputer.com/news/security/mazda-discloses-security-breach-exposing-employee-and-partner-data/
 https://www.ithome.com.tw/news/174611
 https://www.ithome.com.tw/news/174610
+https://thehackernews.com/2026/03/ghost-campaign-uses-7-npm-packages-to.html
+https://thehackernews.com/2026/03/5-learnings-from-first-ever-gartner.html
+https://www.bleepingcomputer.com/news/security/dutch-ministry-of-finance-discloses-breach-affecting-employees/
+https://www.ithome.com.tw/news/174643
+https://www.ithome.com.tw/news/174642
