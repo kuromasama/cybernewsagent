@@ -846,3 +846,9 @@ https://www.bleepingcomputer.com/news/security/ptc-warns-of-imminent-threat-from
 https://www.bleepingcomputer.com/news/security/popular-litellm-pypi-package-compromised-in-teampcp-supply-chain-attack/
 https://www.ithome.com.tw/news/174661
 https://www.ithome.com.tw/news/174659
+https://thehackernews.com/2026/03/the-kill-chain-is-obsolete-when-your-ai.html
+https://thehackernews.com/2026/03/russian-hacker-sentenced-to-2-years-for.html
+https://www.bleepingcomputer.com/news/linux/kali-linux-20261-released-with-8-new-tools-new-backtrack-mode/
+https://www.bleepingcomputer.com/news/security/tp-link-warns-users-to-patch-critical-router-auth-bypass-flaw/
+https://www.ithome.com.tw/news/174676
+https://www.ithome.com.tw/news/174675
