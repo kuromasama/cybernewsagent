@@ -841,3 +841,6 @@ https://thehackernews.com/2026/03/tax-search-ads-deliver-screenconnect.html
 https://www.bleepingcomputer.com/news/security/firefox-now-has-a-free-built-in-vpn-with-50gb-monthly-data-limit/
 https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-outlook-sync-issues-for-gmail-users/
 https://www.ithome.com.tw/news/174646
+https://thehackernews.com/2026/03/teampcp-backdoors-litellm-versions.html
+https://www.bleepingcomputer.com/news/security/ptc-warns-of-imminent-threat-from-critical-windchill-flexplm-rce-bug/
+https://www.bleepingcomputer.com/news/security/popular-litellm-pypi-package-compromised-in-teampcp-supply-chain-attack/
