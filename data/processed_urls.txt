@@ -844,3 +844,5 @@ https://www.ithome.com.tw/news/174646
 https://thehackernews.com/2026/03/teampcp-backdoors-litellm-versions.html
 https://www.bleepingcomputer.com/news/security/ptc-warns-of-imminent-threat-from-critical-windchill-flexplm-rce-bug/
 https://www.bleepingcomputer.com/news/security/popular-litellm-pypi-package-compromised-in-teampcp-supply-chain-attack/
+https://www.ithome.com.tw/news/174661
+https://www.ithome.com.tw/news/174659
