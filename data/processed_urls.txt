@@ -872,3 +872,5 @@ https://www.bleepingcomputer.com/news/security/uk-sanctions-xinbi-marketplace-li
 https://www.bleepingcomputer.com/news/security/tiktok-for-business-accounts-targeted-in-new-phishing-campaign/
 https://redcanary.com/blog/threat-intelligence/scarlet-goldfinch-clickfix/
 https://www.ithome.com.tw/news/174709
+https://www.bleepingcomputer.com/news/security/ajax-football-club-hack-exposed-fan-data-enabled-ticket-hijack/
+https://www.bleepingcomputer.com/news/security/cisa-new-langflow-flaw-actively-exploited-to-hijack-ai-workflows/
