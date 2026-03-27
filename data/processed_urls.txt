@@ -882,3 +882,7 @@ https://www.bleepingcomputer.com/news/security/european-commission-investigating
 https://www.bleepingcomputer.com/news/security/anti-piracy-coalition-takes-down-animeplay-app-with-5-million-users/
 https://www.ithome.com.tw/news/174728
 https://www.ithome.com.tw/news/174736
+https://thehackernews.com/2026/03/apple-sends-lock-screen-alerts-to.html
+https://thehackernews.com/2026/03/teampcp-pushes-malicious-telnyx.html
+https://www.bleepingcomputer.com/news/security/fake-vs-code-alerts-on-github-spread-malware-to-developers/
+https://www.bleepingcomputer.com/news/security/agentic-grc-teams-get-the-tech-the-mindset-shift-is-whats-missing/
