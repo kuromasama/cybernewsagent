@@ -886,3 +886,4 @@ https://thehackernews.com/2026/03/apple-sends-lock-screen-alerts-to.html
 https://thehackernews.com/2026/03/teampcp-pushes-malicious-telnyx.html
 https://www.bleepingcomputer.com/news/security/fake-vs-code-alerts-on-github-spread-malware-to-developers/
 https://www.bleepingcomputer.com/news/security/agentic-grc-teams-get-the-tech-the-mindset-shift-is-whats-missing/
+https://www.bleepingcomputer.com/news/security/backdoored-telnyx-pypi-package-pushes-malware-hidden-in-wav-audio/
