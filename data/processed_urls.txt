@@ -889,3 +889,5 @@ https://www.bleepingcomputer.com/news/security/agentic-grc-teams-get-the-tech-th
 https://www.bleepingcomputer.com/news/security/backdoored-telnyx-pypi-package-pushes-malware-hidden-in-wav-audio/
 https://www.ithome.com.tw/news/174739
 https://www.ithome.com.tw/review/173988
+https://thehackernews.com/2026/03/citrix-netscaler-under-active-recon-for.html
+https://thehackernews.com/2026/03/cisa-adds-cve-2025-53521-to-kev-after.html
