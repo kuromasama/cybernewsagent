@@ -895,3 +895,6 @@ https://thehackernews.com/2026/03/iran-linked-hackers-breach-fbi.html
 https://www.bleepingcomputer.com/news/security/new-infinity-stealer-malware-grabs-macos-data-via-clickfix-lures/
 https://www.bleepingcomputer.com/news/security/file-read-flaw-in-smart-slider-plugin-impacts-500k-wordpress-sites/
 https://www.bleepingcomputer.com/news/security/fbi-confirms-hack-of-director-patels-personal-email-inbox/
+https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-breach-after-europaeu-hack/
+https://www.ithome.com.tw/news/174753
+https://www.ithome.com.tw/news/174752
