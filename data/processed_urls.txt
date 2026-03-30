@@ -904,3 +904,9 @@ https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-f5-b
 https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-windows-kb5079391-update-over-0x80073712-install-errors/
 https://www.ithome.com.tw/news/174767
 https://www.ithome.com.tw/news/174766
+https://thehackernews.com/2026/03/deepload-malware-uses-clickfix-and-wmi.html
+https://thehackernews.com/2026/03/weekly-recap-telecom-sleeper-cells-llm.html
+https://www.bleepingcomputer.com/news/security/critical-citrix-netscaler-memory-flaw-actively-exploited-in-attacks/
+https://www.bleepingcomputer.com/news/security/apple-adds-macos-terminal-warning-to-block-clickfix-attacks/
+https://www.ithome.com.tw/news/174775
+https://www.ithome.com.tw/news/174774
