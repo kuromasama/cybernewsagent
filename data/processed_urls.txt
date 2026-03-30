@@ -898,3 +898,9 @@ https://www.bleepingcomputer.com/news/security/fbi-confirms-hack-of-director-pat
 https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-breach-after-europaeu-hack/
 https://www.ithome.com.tw/news/174753
 https://www.ithome.com.tw/news/174752
+https://thehackernews.com/2026/03/the-state-of-secrets-sprawl-2026-9.html
+https://thehackernews.com/2026/03/russian-ctrl-toolkit-delivered-via.html
+https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-f5-big-ip-flaw-in-attacks-patch-now/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-windows-kb5079391-update-over-0x80073712-install-errors/
+https://www.ithome.com.tw/news/174767
+https://www.ithome.com.tw/news/174766
