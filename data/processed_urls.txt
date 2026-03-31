@@ -923,3 +923,7 @@ https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-classic-
 https://www.bleepingcomputer.com/news/security/hacker-charged-with-stealing-53-million-from-uranium-crypto-exchange/
 https://www.ithome.com.tw/news/174805
 https://www.ithome.com.tw/news/174807
+https://thehackernews.com/2026/03/trueconf-zero-day-exploited-in-attacks.html
+https://thehackernews.com/2026/03/vertex-ai-vulnerability-exposes-google.html
+https://www.bleepingcomputer.com/news/security/cisco-source-code-stolen-in-trivy-linked-dev-environment-breach/
+https://www.bleepingcomputer.com/news/security/how-to-categorize-ai-agents-and-prioritize-risk/
