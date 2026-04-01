@@ -937,3 +937,9 @@ https://www.bleepingcomputer.com/news/microsoft/new-windows-11-kb5086672-emergen
 https://cloud.google.com/blog/topics/threat-intelligence/north-korea-threat-actor-targets-axios-npm-package/
 https://www.ithome.com.tw/news/174825
 https://www.ithome.com.tw/news/174819
+https://thehackernews.com/2026/04/3-reasons-attackers-are-using-your.html
+https://thehackernews.com/2026/04/google-attributes-axios-npm-supply.html
+https://www.bleepingcomputer.com/news/security/fbi-warns-against-using-chinese-mobile-apps-over-to-data-security-risks/
+https://www.bleepingcomputer.com/news/security/google-fixes-fourth-chrome-zero-day-exploited-in-attacks-in-2026/
+https://www.ithome.com.tw/news/174834
+https://www.ithome.com.tw/news/174833
