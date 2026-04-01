@@ -931,3 +931,9 @@ https://thehackernews.com/2026/03/android-developer-verification-rollout.html
 https://www.bleepingcomputer.com/news/artificial-intelligence/claude-code-source-code-accidentally-leaked-in-npm-package/
 https://www.bleepingcomputer.com/news/google/google-now-allows-you-to-change-your-gmailcom-address/
 https://www.ithome.com.tw/news/174808
+https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html
+https://www.bleepingcomputer.com/news/security/google-drive-ransomware-detection-now-on-by-default-for-paying-users/
+https://www.bleepingcomputer.com/news/microsoft/new-windows-11-kb5086672-emergency-update-fixes-install-issues/
+https://cloud.google.com/blog/topics/threat-intelligence/north-korea-threat-actor-targets-axios-npm-package/
+https://www.ithome.com.tw/news/174825
+https://www.ithome.com.tw/news/174819
