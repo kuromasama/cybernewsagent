@@ -927,3 +927,7 @@ https://thehackernews.com/2026/03/trueconf-zero-day-exploited-in-attacks.html
 https://thehackernews.com/2026/03/vertex-ai-vulnerability-exposes-google.html
 https://www.bleepingcomputer.com/news/security/cisco-source-code-stolen-in-trivy-linked-dev-environment-breach/
 https://www.bleepingcomputer.com/news/security/how-to-categorize-ai-agents-and-prioritize-risk/
+https://thehackernews.com/2026/03/android-developer-verification-rollout.html
+https://www.bleepingcomputer.com/news/artificial-intelligence/claude-code-source-code-accidentally-leaked-in-npm-package/
+https://www.bleepingcomputer.com/news/google/google-now-allows-you-to-change-your-gmailcom-address/
+https://www.ithome.com.tw/news/174808
