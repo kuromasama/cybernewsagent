@@ -943,3 +943,8 @@ https://www.bleepingcomputer.com/news/security/fbi-warns-against-using-chinese-m
 https://www.bleepingcomputer.com/news/security/google-fixes-fourth-chrome-zero-day-exploited-in-attacks-in-2026/
 https://www.ithome.com.tw/news/174834
 https://www.ithome.com.tw/news/174833
+https://thehackernews.com/2026/04/cert-ua-impersonation-campaign-spread.html
+https://thehackernews.com/2026/04/microsoft-warns-of-whatsapp-delivered.html
+https://www.bleepingcomputer.com/news/security/novoice-android-malware-on-google-play-infected-23-million-devices/
+https://www.bleepingcomputer.com/news/security/routine-access-is-powering-modern-intrusions-a-new-threat-report-finds/
+https://redcanary.com/blog/news-events/red-canary-cfp-tracker-april-2026/
