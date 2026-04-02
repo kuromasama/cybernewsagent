@@ -948,3 +948,6 @@ https://thehackernews.com/2026/04/microsoft-warns-of-whatsapp-delivered.html
 https://www.bleepingcomputer.com/news/security/novoice-android-malware-on-google-play-infected-23-million-devices/
 https://www.bleepingcomputer.com/news/security/routine-access-is-powering-modern-intrusions-a-new-threat-report-finds/
 https://redcanary.com/blog/news-events/red-canary-cfp-tracker-april-2026/
+https://www.bleepingcomputer.com/news/security/new-crystalrat-malware-adds-rat-stealer-and-prankware-features/
+https://www.bleepingcomputer.com/news/security/apple-expands-ios-18-updates-to-more-iphones-to-block-darksword-attacks/
+https://www.ithome.com.tw/news/174832
