@@ -959,3 +959,7 @@ https://www.bleepingcomputer.com/news/security/critical-cisco-imc-auth-bypass-gi
 https://www.bleepingcomputer.com/news/microsoft/microsoft-links-classic-outlook-bug-to-email-delivery-issues/
 https://www.ithome.com.tw/news/174861
 https://www.ithome.com.tw/news/174859
+https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html
+https://thehackernews.com/2026/04/threatsday-bulletin-pre-auth-chains.html
+https://www.bleepingcomputer.com/news/security/residential-proxies-evaded-ip-reputation-checks-in-78-percent-of-4b-sessions/
+https://www.ithome.com.tw/news/174860
