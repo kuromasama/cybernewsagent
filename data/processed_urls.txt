@@ -953,3 +953,9 @@ https://www.bleepingcomputer.com/news/security/apple-expands-ios-18-updates-to-m
 https://www.ithome.com.tw/news/174832
 https://www.ithome.com.tw/news/174852
 https://www.ithome.com.tw/news/174851
+https://thehackernews.com/2026/04/researchers-uncover-mining-operation.html
+https://thehackernews.com/2026/04/the-state-of-trusted-open-source-report.html
+https://www.bleepingcomputer.com/news/security/critical-cisco-imc-auth-bypass-gives-attackers-admin-access/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-links-classic-outlook-bug-to-email-delivery-issues/
+https://www.ithome.com.tw/news/174861
+https://www.ithome.com.tw/news/174859
