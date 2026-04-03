@@ -972,3 +972,6 @@ https://www.ithome.com.tw/news/174864
 https://thehackernews.com/2026/04/unc1069-social-engineering-of-axios.html
 https://thehackernews.com/2026/04/why-third-party-risk-is-biggest-gap-in.html
 https://www.bleepingcomputer.com/news/microsoft/microsoft-still-working-to-fix-exchange-online-mailbox-access-issues/
+https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html
+https://thehackernews.com/2026/04/microsoft-details-cookie-controlled-php.html
+https://www.bleepingcomputer.com/news/security/hims-and-hers-warns-of-data-breach-after-zendesk-support-ticket-breach/
