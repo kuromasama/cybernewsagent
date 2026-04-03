@@ -969,3 +969,6 @@ https://www.bleepingcomputer.com/news/security/drift-loses-280-million-as-hacker
 https://www.bleepingcomputer.com/news/security/cert-eu-european-commission-hack-exposes-data-of-30-eu-entities/
 https://www.ithome.com.tw/news/174865
 https://www.ithome.com.tw/news/174864
+https://thehackernews.com/2026/04/unc1069-social-engineering-of-axios.html
+https://thehackernews.com/2026/04/why-third-party-risk-is-biggest-gap-in.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-still-working-to-fix-exchange-online-mailbox-access-issues/
