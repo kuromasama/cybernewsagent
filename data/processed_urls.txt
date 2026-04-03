@@ -963,3 +963,6 @@ https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html
 https://thehackernews.com/2026/04/threatsday-bulletin-pre-auth-chains.html
 https://www.bleepingcomputer.com/news/security/residential-proxies-evaded-ip-reputation-checks-in-78-percent-of-4b-sessions/
 https://www.ithome.com.tw/news/174860
+https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html
+https://www.bleepingcomputer.com/news/security/claude-code-leak-used-to-push-infostealer-malware-on-github/
+https://www.bleepingcomputer.com/news/security/drift-loses-280-million-as-hackers-seize-security-council-powers/
