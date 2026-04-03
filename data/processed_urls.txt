@@ -966,3 +966,6 @@ https://www.ithome.com.tw/news/174860
 https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html
 https://www.bleepingcomputer.com/news/security/claude-code-leak-used-to-push-infostealer-malware-on-github/
 https://www.bleepingcomputer.com/news/security/drift-loses-280-million-as-hackers-seize-security-council-powers/
+https://www.bleepingcomputer.com/news/security/cert-eu-european-commission-hack-exposes-data-of-30-eu-entities/
+https://www.ithome.com.tw/news/174865
+https://www.ithome.com.tw/news/174864
