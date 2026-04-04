@@ -975,3 +975,6 @@ https://www.bleepingcomputer.com/news/microsoft/microsoft-still-working-to-fix-e
 https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html
 https://thehackernews.com/2026/04/microsoft-details-cookie-controlled-php.html
 https://www.bleepingcomputer.com/news/security/hims-and-hers-warns-of-data-breach-after-zendesk-support-ticket-breach/
+https://www.bleepingcomputer.com/news/security/linkedin-secretely-scans-for-6-000-plus-chrome-extensions-collects-data/
+https://www.ithome.com.tw/news/174858
+https://www.ithome.com.tw/news/174870
