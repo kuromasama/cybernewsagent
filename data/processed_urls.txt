@@ -984,3 +984,4 @@ https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-er
 https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html
 https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html
 https://www.ithome.com.tw/review/174871
+https://www.bleepingcomputer.com/news/security/hackers-exploit-react2shell-in-automated-credential-theft-campaign/
