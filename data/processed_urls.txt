@@ -981,3 +981,5 @@ https://www.ithome.com.tw/news/174870
 https://www.bleepingcomputer.com/news/security/device-code-phishing-attacks-surge-37x-as-new-kits-spread-online/
 https://www.bleepingcomputer.com/news/security/linkedin-secretly-scans-for-6-000-plus-chrome-extensions-collects-data/
 https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/
+https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html
+https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html
