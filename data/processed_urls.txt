@@ -985,3 +985,7 @@ https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html
 https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html
 https://www.ithome.com.tw/review/174871
 https://www.bleepingcomputer.com/news/security/hackers-exploit-react2shell-in-automated-credential-theft-campaign/
+https://thehackernews.com/2026/04/285-million-drift-hack-traced-to-six.html
+https://www.bleepingcomputer.com/news/security/traffic-violation-scams-switch-to-qr-codes-in-new-phishing-texts/
+https://www.bleepingcomputer.com/news/security/new-fortinet-forticlient-ems-flaw-cve-2026-35616-exploited-in-attacks/
+https://www.ithome.com.tw/news/174872
