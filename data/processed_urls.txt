@@ -989,3 +989,6 @@ https://thehackernews.com/2026/04/285-million-drift-hack-traced-to-six.html
 https://www.bleepingcomputer.com/news/security/traffic-violation-scams-switch-to-qr-codes-in-new-phishing-texts/
 https://www.bleepingcomputer.com/news/security/new-fortinet-forticlient-ems-flaw-cve-2026-35616-exploited-in-attacks/
 https://www.ithome.com.tw/news/174872
+https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html
+https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/
+https://www.ithome.com.tw/news/174873
