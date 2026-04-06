@@ -994,3 +994,7 @@ https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gan
 https://www.ithome.com.tw/news/174873
 https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html
 https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html
+https://thehackernews.com/2026/04/dprk-linked-hackers-use-github-as-c2-in.html
+https://thehackernews.com/2026/04/multi-os-cyberattacks-how-socs-close.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-support-and-recovery-assistant-from-windows/
+https://www.bleepingcomputer.com/news/security/microsoft-links-medusa-ransomware-affiliate-to-zero-day-attacks/
