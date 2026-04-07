@@ -1001,3 +1001,7 @@ https://www.bleepingcomputer.com/news/security/microsoft-links-medusa-ransomware
 https://thehackernews.com/2026/04/iran-linked-password-spraying-campaign.html
 https://www.bleepingcomputer.com/news/security/german-authorities-identify-revil-and-gangcrab-ransomware-bosses/
 https://www.bleepingcomputer.com/news/security/new-gpubreach-attack-enables-system-takeover-via-gpu-rowhammer/
+https://thehackernews.com/2026/04/flowise-ai-agent-builder-under-active.html
+https://cloud.google.com/blog/topics/threat-intelligence/vsphere-brickstorm-defender-guide/
+https://www.ithome.com.tw/news/174884
+https://www.ithome.com.tw/news/174880
