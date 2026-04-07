@@ -1009,3 +1009,7 @@ https://thehackernews.com/2026/04/webinar-how-to-close-identity-gaps-in.html
 https://thehackernews.com/2026/04/the-hidden-cost-of-recurring-credential.html
 https://www.ithome.com.tw/news/174892
 https://www.ithome.com.tw/news/174888
+https://thehackernews.com/2026/04/russian-state-linked-apt28-exploits.html
+https://www.bleepingcomputer.com/news/security/us-warns-of-iranian-hackers-targeting-critical-infrastructure/
+https://www.bleepingcomputer.com/news/security/max-severity-flowise-rce-vulnerability-now-exploited-in-attacks/
+https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/
