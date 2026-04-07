@@ -998,3 +998,6 @@ https://thehackernews.com/2026/04/dprk-linked-hackers-use-github-as-c2-in.html
 https://thehackernews.com/2026/04/multi-os-cyberattacks-how-socs-close.html
 https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-support-and-recovery-assistant-from-windows/
 https://www.bleepingcomputer.com/news/security/microsoft-links-medusa-ransomware-affiliate-to-zero-day-attacks/
+https://thehackernews.com/2026/04/iran-linked-password-spraying-campaign.html
+https://www.bleepingcomputer.com/news/security/german-authorities-identify-revil-and-gangcrab-ransomware-bosses/
+https://www.bleepingcomputer.com/news/security/new-gpubreach-attack-enables-system-takeover-via-gpu-rowhammer/
