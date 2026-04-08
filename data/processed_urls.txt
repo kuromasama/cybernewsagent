@@ -1020,3 +1020,7 @@ https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fix-for-brok
 https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a
 https://www.ithome.com.tw/news/174911
 https://www.ithome.com.tw/news/174906
+https://thehackernews.com/2026/04/shrinking-iam-attack-surface-through.html
+https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html
+https://www.ithome.com.tw/news/174920
+https://www.ithome.com.tw/news/174915
