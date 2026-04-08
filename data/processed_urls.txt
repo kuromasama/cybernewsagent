@@ -1024,3 +1024,8 @@ https://thehackernews.com/2026/04/shrinking-iam-attack-surface-through.html
 https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html
 https://www.ithome.com.tw/news/174920
 https://www.ithome.com.tw/news/174915
+https://thehackernews.com/2026/04/new-chaos-variant-targets-misconfigured.html
+https://thehackernews.com/2026/04/masjesu-botnet-emerges-as-ddos-for-hire.html
+https://www.bleepingcomputer.com/news/security/new-macos-stealer-campaign-uses-script-editor-in-clickfix-attack/
+https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-ivanti-epmm-flaw-by-sunday/
+https://redcanary.com/blog/security-operations/ai-in-cybersecurity/
