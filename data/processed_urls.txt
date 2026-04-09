@@ -1029,3 +1029,6 @@ https://thehackernews.com/2026/04/masjesu-botnet-emerges-as-ddos-for-hire.html
 https://www.bleepingcomputer.com/news/security/new-macos-stealer-campaign-uses-script-editor-in-clickfix-attack/
 https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-ivanti-epmm-flaw-by-sunday/
 https://redcanary.com/blog/security-operations/ai-in-cybersecurity/
+https://www.bleepingcomputer.com/news/security/hackers-use-pixel-large-svg-trick-to-hide-credit-card-stealer/
+https://www.bleepingcomputer.com/news/security/google-new-unc6783-hackers-steal-corporate-zendesk-support-tickets/
+https://www.ithome.com.tw/news/174924
