@@ -1032,3 +1032,6 @@ https://redcanary.com/blog/security-operations/ai-in-cybersecurity/
 https://www.bleepingcomputer.com/news/security/hackers-use-pixel-large-svg-trick-to-hide-credit-card-stealer/
 https://www.bleepingcomputer.com/news/security/google-new-unc6783-hackers-steal-corporate-zendesk-support-tickets/
 https://www.ithome.com.tw/news/174924
+https://www.bleepingcomputer.com/news/microsoft/microsoft-suspends-dev-accounts-for-high-profile-open-source-projects/
+https://www.ithome.com.tw/news/174939
+https://www.ithome.com.tw/news/174938
