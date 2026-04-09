@@ -1035,3 +1035,6 @@ https://www.ithome.com.tw/news/174924
 https://www.bleepingcomputer.com/news/microsoft/microsoft-suspends-dev-accounts-for-high-profile-open-source-projects/
 https://www.ithome.com.tw/news/174939
 https://www.ithome.com.tw/news/174938
+https://thehackernews.com/2026/04/the-hidden-security-risks-of-shadow-ai.html
+https://thehackernews.com/2026/04/adobe-reader-zero-day-exploited-via.html
+https://www.bleepingcomputer.com/news/security/webinar-from-noise-to-signal-what-threat-actors-are-targeting-next/
