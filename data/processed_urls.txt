@@ -1047,3 +1047,7 @@ https://www.bleepingcomputer.com/news/security/new-venom-phishing-attacks-steal-
 https://www.ithome.com.tw/news/174960
 https://www.ithome.com.tw/news/174987
 https://www.ithome.com.tw/news/174970
+https://thehackernews.com/2026/04/browser-extensions-are-new-ai.html
+https://thehackernews.com/2026/04/google-rolls-out-dbsc-in-chrome-146-to.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-canadian-employees-targeted-in-payroll-pirate-attacks/
+https://www.bleepingcomputer.com/news/google/google-rolls-out-gmail-end-to-end-encryption-on-mobile-devices/
