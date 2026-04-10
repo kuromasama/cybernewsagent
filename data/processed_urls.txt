@@ -1041,3 +1041,7 @@ https://www.bleepingcomputer.com/news/security/webinar-from-noise-to-signal-what
 https://thehackernews.com/2026/04/uat-10362-targets-taiwanese-ngos-with.html
 https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/
 https://www.bleepingcomputer.com/news/security/smart-slider-updates-hijacked-to-push-malicious-wordpress-joomla-versions/
+https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html
+https://www.bleepingcomputer.com/news/security/new-lucidrook-malware-used-in-targeted-attacks-on-ngos-universities/
+https://www.bleepingcomputer.com/news/security/new-venom-phishing-attacks-steal-senior-executives-microsoft-logins/
+https://www.ithome.com.tw/news/174960
