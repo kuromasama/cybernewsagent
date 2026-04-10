@@ -1051,3 +1051,6 @@ https://thehackernews.com/2026/04/browser-extensions-are-new-ai.html
 https://thehackernews.com/2026/04/google-rolls-out-dbsc-in-chrome-146-to.html
 https://www.bleepingcomputer.com/news/microsoft/microsoft-canadian-employees-targeted-in-payroll-pirate-attacks/
 https://www.bleepingcomputer.com/news/google/google-rolls-out-gmail-end-to-end-encryption-on-mobile-devices/
+https://thehackernews.com/2026/04/glassworm-campaign-uses-zig-dropper-to.html
+https://www.bleepingcomputer.com/news/security/nearly-4-000-us-industrial-devices-exposed-to-iranian-cyberattacks/
+https://www.bleepingcomputer.com/news/security/analysis-of-one-billion-cisa-kev-remediation-records-exposes-limits-of-human-scale-security/
