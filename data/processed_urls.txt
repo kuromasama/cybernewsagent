@@ -1045,3 +1045,5 @@ https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html
 https://www.bleepingcomputer.com/news/security/new-lucidrook-malware-used-in-targeted-attacks-on-ngos-universities/
 https://www.bleepingcomputer.com/news/security/new-venom-phishing-attacks-steal-senior-executives-microsoft-logins/
 https://www.ithome.com.tw/news/174960
+https://www.ithome.com.tw/news/174987
+https://www.ithome.com.tw/news/174970
