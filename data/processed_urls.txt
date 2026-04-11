@@ -1056,3 +1056,5 @@ https://www.bleepingcomputer.com/news/security/nearly-4-000-us-industrial-device
 https://www.bleepingcomputer.com/news/security/analysis-of-one-billion-cisa-kev-remediation-records-exposes-limits-of-human-scale-security/
 https://www.ithome.com.tw/news/174995
 https://www.ithome.com.tw/news/174996
+https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-rolls-out-new-100-pro-subscription-to-challenge-claude/
+https://www.ithome.com.tw/review/174894
