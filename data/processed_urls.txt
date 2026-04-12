@@ -1061,3 +1061,5 @@ https://www.ithome.com.tw/review/174894
 https://thehackernews.com/2026/04/citizen-lab-law-enforcement-used-webloc.html
 https://www.bleepingcomputer.com/news/security/police-identifies-20-000-victims-in-international-crypto-fraud-crackdown/
 https://www.ithome.com.tw/news/174998
+https://thehackernews.com/2026/04/cpuid-breach-distributes-stx-rat-via.html
+https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html
