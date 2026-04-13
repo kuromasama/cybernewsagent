@@ -1071,3 +1071,6 @@ https://www.ithome.com.tw/news/175009
 https://thehackernews.com/2026/04/your-mttd-looks-great-your-post-alert.html
 https://thehackernews.com/2026/04/north-koreas-apt37-uses-facebook-social.html
 https://www.ithome.com.tw/review/175024
+https://thehackernews.com/2026/04/fbi-and-indonesian-police-dismantle.html
+https://www.bleepingcomputer.com/news/security/fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest/
+https://www.bleepingcomputer.com/news/security/openai-rotates-macos-certs-after-axios-attack-hit-code-signing-workflow/
