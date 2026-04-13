@@ -1064,3 +1064,5 @@ https://www.ithome.com.tw/news/174998
 https://thehackernews.com/2026/04/cpuid-breach-distributes-stx-rat-via.html
 https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html
 https://www.bleepingcomputer.com/news/security/critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation/
+https://www.ithome.com.tw/news/175002
+https://www.ithome.com.tw/news/175001
