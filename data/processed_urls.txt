@@ -1088,3 +1088,8 @@ https://thehackernews.com/2026/04/analysis-of-216m-security-findings.html
 https://redcanary.com/blog/product-updates/zia-response-actions/
 https://www.ithome.com.tw/news/175050
 https://www.ithome.com.tw/news/175049
+https://thehackernews.com/2026/04/new-php-composer-flaws-enable-arbitrary.html
+https://thehackernews.com/2026/04/google-adds-rust-based-dns-parser-into.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5082200-extended-security-update/
+https://www.bleepingcomputer.com/news/security/mcgraw-hill-confirms-data-breach-following-extortion-threat/
+https://www.ithome.com.tw/news/175054
