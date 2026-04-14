@@ -1083,3 +1083,8 @@ https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html
 https://thehackernews.com/2026/04/cisa-adds-6-known-exploited-flaws-in.html
 https://www.ithome.com.tw/news/175040
 https://www.ithome.com.tw/news/175039
+https://thehackernews.com/2026/04/mirax-android-rat-turns-devices-into.html
+https://thehackernews.com/2026/04/analysis-of-216m-security-findings.html
+https://redcanary.com/blog/product-updates/zia-response-actions/
+https://www.ithome.com.tw/news/175050
+https://www.ithome.com.tw/news/175049
