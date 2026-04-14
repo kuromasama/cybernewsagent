@@ -1079,3 +1079,7 @@ https://www.bleepingcomputer.com/news/security/european-gym-giant-basic-fit-data
 https://www.bleepingcomputer.com/news/security/stolen-rockstar-games-analytics-data-leaked-by-extortion-gang/
 https://www.ithome.com.tw/news/175028
 https://www.ithome.com.tw/news/175027
+https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html
+https://thehackernews.com/2026/04/cisa-adds-6-known-exploited-flaws-in.html
+https://www.ithome.com.tw/news/175040
+https://www.ithome.com.tw/news/175039
