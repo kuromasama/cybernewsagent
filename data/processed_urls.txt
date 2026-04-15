@@ -1099,3 +1099,7 @@ https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/
 https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html
 https://www.ithome.com.tw/news/175087
 https://www.ithome.com.tw/news/175086
+https://thehackernews.com/2026/04/deterministic-agentic-ai-architecture.html
+https://thehackernews.com/2026/04/microsoft-issues-patches-for-sharepoint.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-some-windows-servers-ask-for-bitlocker-key-after-april-updates/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-behind-windows-server-2025-automatic-upgrades/
