@@ -1096,3 +1096,6 @@ https://www.ithome.com.tw/news/175054
 https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-windows-protections-for-malicious-remote-desktop-files/
 https://www.bleepingcomputer.com/news/security/crypto-exchange-kraken-extorted-by-hackers-after-insider-breach/
 https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/
+https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html
+https://www.ithome.com.tw/news/175087
+https://www.ithome.com.tw/news/175086
