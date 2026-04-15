@@ -1093,3 +1093,6 @@ https://thehackernews.com/2026/04/google-adds-rust-based-dns-parser-into.html
 https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5082200-extended-security-update/
 https://www.bleepingcomputer.com/news/security/mcgraw-hill-confirms-data-breach-following-extortion-threat/
 https://www.ithome.com.tw/news/175054
+https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-windows-protections-for-malicious-remote-desktop-files/
+https://www.bleepingcomputer.com/news/security/crypto-exchange-kraken-extorted-by-hackers-after-insider-breach/
+https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/
