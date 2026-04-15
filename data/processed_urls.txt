@@ -1103,3 +1103,6 @@ https://thehackernews.com/2026/04/deterministic-agentic-ai-architecture.html
 https://thehackernews.com/2026/04/microsoft-issues-patches-for-sharepoint.html
 https://www.bleepingcomputer.com/news/microsoft/microsoft-some-windows-servers-ask-for-bitlocker-key-after-april-updates/
 https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-behind-windows-server-2025-automatic-upgrades/
+https://thehackernews.com/2026/04/n8n-webhooks-abused-since-october-2025.html
+https://thehackernews.com/2026/04/critical-nginx-ui-vulnerability-cve.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-pays-23-million-for-cloud-and-ai-flaws-at-zero-day-quest/
