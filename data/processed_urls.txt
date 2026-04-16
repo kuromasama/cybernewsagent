@@ -1106,3 +1106,7 @@ https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-behind-windo
 https://thehackernews.com/2026/04/n8n-webhooks-abused-since-october-2025.html
 https://thehackernews.com/2026/04/critical-nginx-ui-vulnerability-cve.html
 https://www.bleepingcomputer.com/news/microsoft/microsoft-pays-23-million-for-cloud-and-ai-flaws-at-zero-day-quest/
+https://www.bleepingcomputer.com/news/security/critical-nginx-ui-auth-bypass-flaw-now-actively-exploited-in-the-wild/
+https://www.bleepingcomputer.com/news/security/new-agingfly-malware-used-in-attacks-on-ukraine-govt-hospitals/
+https://redcanary.com/blog/security-operations/tdr-secops-recap/
+https://www.ithome.com.tw/news/175089
