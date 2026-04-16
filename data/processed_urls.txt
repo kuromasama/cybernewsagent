@@ -1115,3 +1115,6 @@ https://cloud.google.com/blog/topics/threat-intelligence/europe-data-leak-landsc
 https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html
 https://thehackernews.com/2026/04/cisco-patches-four-critical-identity.html
 https://www.bleepingcomputer.com/news/security/data-breach-at-edtech-giant-mcgraw-hill-affects-135-million-accounts/
+https://thehackernews.com/2026/04/newly-discovered-powmix-botnet-hits.html
+https://www.bleepingcomputer.com/news/security/hackers-exploit-marimo-flaw-to-deploy-nkabuse-malware-from-hugging-face/
+https://www.ithome.com.tw/news/175122
