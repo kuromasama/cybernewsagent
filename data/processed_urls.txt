@@ -1123,3 +1123,7 @@ https://www.bleepingcomputer.com/news/security/zionsiphon-malware-designed-to-sa
 https://www.ithome.com.tw/news/175123
 https://thehackernews.com/2026/04/operation-poweroff-seizes-53-ddos.html
 https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html
+https://thehackernews.com/2026/04/google-blocks-83b-policy-violating-ads.html
+https://thehackernews.com/2026/04/nist-limits-cve-enrichment-after-263.html
+https://www.bleepingcomputer.com/news/security/webinar-from-phishing-to-fallout-why-msps-must-rethink-both-security-and-recovery/
+https://cloud.google.com/blog/topics/threat-intelligence/defending-enterprise-ai-vulnerabilities/
