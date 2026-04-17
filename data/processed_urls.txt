@@ -1121,3 +1121,5 @@ https://www.ithome.com.tw/news/175122
 https://www.bleepingcomputer.com/news/security/operation-poweroff-identifies-75k-ddos-users-takes-down-53-domains/
 https://www.bleepingcomputer.com/news/security/zionsiphon-malware-designed-to-sabotage-water-treatment-systems/
 https://www.ithome.com.tw/news/175123
+https://thehackernews.com/2026/04/operation-poweroff-seizes-53-ddos.html
+https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html
