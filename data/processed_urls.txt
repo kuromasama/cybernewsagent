@@ -1118,3 +1118,6 @@ https://www.bleepingcomputer.com/news/security/data-breach-at-edtech-giant-mcgra
 https://thehackernews.com/2026/04/newly-discovered-powmix-botnet-hits.html
 https://www.bleepingcomputer.com/news/security/hackers-exploit-marimo-flaw-to-deploy-nkabuse-malware-from-hugging-face/
 https://www.ithome.com.tw/news/175122
+https://www.bleepingcomputer.com/news/security/operation-poweroff-identifies-75k-ddos-users-takes-down-53-domains/
+https://www.bleepingcomputer.com/news/security/zionsiphon-malware-designed-to-sabotage-water-treatment-systems/
+https://www.ithome.com.tw/news/175123
