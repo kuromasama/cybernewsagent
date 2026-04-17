@@ -1127,3 +1127,5 @@ https://thehackernews.com/2026/04/google-blocks-83b-policy-violating-ads.html
 https://thehackernews.com/2026/04/nist-limits-cve-enrichment-after-263.html
 https://www.bleepingcomputer.com/news/security/webinar-from-phishing-to-fallout-why-msps-must-rethink-both-security-and-recovery/
 https://cloud.google.com/blog/topics/threat-intelligence/defending-enterprise-ai-vulnerabilities/
+https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html
+https://www.bleepingcomputer.com/news/security/grinex-exchange-blames-western-intelligence-for-137m-crypto-hack/
