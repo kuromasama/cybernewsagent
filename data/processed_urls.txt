@@ -1131,3 +1131,4 @@ https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html
 https://www.bleepingcomputer.com/news/security/grinex-exchange-blames-western-intelligence-for-137m-crypto-hack/
 https://www.bleepingcomputer.com/news/security/payouts-king-ransomware-uses-qemu-vms-to-bypass-endpoint-security/
 https://www.ithome.com.tw/news/175151
+https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html
