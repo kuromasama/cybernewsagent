@@ -1134,3 +1134,5 @@ https://www.ithome.com.tw/news/175151
 https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html
 https://thehackernews.com/2026/04/1374m-hack-shuts-down-sanctioned-grinex.html
 https://www.ithome.com.tw/review/174999
+https://www.bleepingcomputer.com/news/security/critical-flaw-in-protobuf-library-enables-javascript-code-execution/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-right-click-paste-broken-by-edge-update-bug/
