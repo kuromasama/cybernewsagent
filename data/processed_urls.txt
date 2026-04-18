@@ -1132,3 +1132,5 @@ https://www.bleepingcomputer.com/news/security/grinex-exchange-blames-western-in
 https://www.bleepingcomputer.com/news/security/payouts-king-ransomware-uses-qemu-vms-to-bypass-endpoint-security/
 https://www.ithome.com.tw/news/175151
 https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html
+https://thehackernews.com/2026/04/1374m-hack-shuts-down-sanctioned-grinex.html
+https://www.ithome.com.tw/review/174999
