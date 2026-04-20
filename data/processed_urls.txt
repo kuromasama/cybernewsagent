@@ -1143,3 +1143,9 @@ https://www.ithome.com.tw/news/175164
 https://thehackernews.com/2026/04/vercel-breach-tied-to-context-ai-hack.html
 https://www.ithome.com.tw/news/175178
 https://www.ithome.com.tw/news/175177
+https://thehackernews.com/2026/04/why-most-ai-deployments-stall-after-demo.html
+https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-file-explorer-speed-performance-improvements/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-client-launch-failures-caused-by-service-update/
+https://www.ithome.com.tw/news/175185
+https://www.ithome.com.tw/news/175184
