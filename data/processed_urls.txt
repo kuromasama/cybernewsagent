@@ -1138,3 +1138,5 @@ https://www.bleepingcomputer.com/news/security/critical-flaw-in-protobuf-library
 https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-right-click-paste-broken-by-edge-update-bug/
 https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/
 https://www.bleepingcomputer.com/news/security/apple-account-change-alerts-abused-to-send-phishing-emails/
+https://www.ithome.com.tw/news/175166
+https://www.ithome.com.tw/news/175164
