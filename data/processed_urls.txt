@@ -1159,3 +1159,8 @@ https://www.ithome.com.tw/news/175193
 https://thehackernews.com/2026/04/cisa-adds-8-exploited-flaws-to-kev-sets.html
 https://www.ithome.com.tw/news/175210
 https://www.ithome.com.tw/news/175213
+https://thehackernews.com/2026/04/no-exploit-needed-how-attackers-walk.html
+https://thehackernews.com/2026/04/ngate-campaign-targets-brazil.html
+https://www.bleepingcomputer.com/news/security/cisa-flags-new-sd-wan-flaw-as-actively-exploited-in-attacks/
+https://www.bleepingcomputer.com/news/security/actively-exploited-apache-activemq-flaw-impacts-6-400-servers/
+https://www.ithome.com.tw/news/175219
