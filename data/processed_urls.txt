@@ -1156,3 +1156,6 @@ https://www.bleepingcomputer.com/news/security/kelpdao-suffers-290-million-heist
 https://www.bleepingcomputer.com/news/security/chinas-apple-app-store-infiltrated-by-crypto-stealing-wallet-apps/
 https://www.ithome.com.tw/news/175194
 https://www.ithome.com.tw/news/175193
+https://thehackernews.com/2026/04/cisa-adds-8-exploited-flaws-to-kev-sets.html
+https://www.ithome.com.tw/news/175210
+https://www.ithome.com.tw/news/175213
