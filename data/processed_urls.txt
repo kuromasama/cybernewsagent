@@ -1171,3 +1171,6 @@ https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty
 https://thehackernews.com/2026/04/systembc-c2-server-reveals-1570-victims.html
 https://www.bleepingcomputer.com/news/security/french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data/
 https://www.ithome.com.tw/news/175221
+https://www.bleepingcomputer.com/news/security/over-1-300-microsoft-sharepoint-servers-vulnerable-to-ongoing-attacks/
+https://www.ithome.com.tw/news/175230
+https://www.ithome.com.tw/news/175233
