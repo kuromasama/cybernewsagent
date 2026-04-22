@@ -1177,3 +1177,5 @@ https://www.ithome.com.tw/news/175233
 https://thehackernews.com/2026/04/lotus-wiper-malware-targets-venezuelan.html
 https://thehackernews.com/2026/04/toxic-combinations-when-cross-app.html
 https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-gets-efficiency-mode-for-hardware-constrained-devices/
+https://thehackernews.com/2026/04/malicious-kics-docker-images-and-vs.html
+https://thehackernews.com/2026/04/self-propagating-supply-chain-worm.html
