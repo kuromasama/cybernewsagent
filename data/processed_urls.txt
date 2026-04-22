@@ -1174,3 +1174,6 @@ https://www.ithome.com.tw/news/175221
 https://www.bleepingcomputer.com/news/security/over-1-300-microsoft-sharepoint-servers-vulnerable-to-ongoing-attacks/
 https://www.ithome.com.tw/news/175230
 https://www.ithome.com.tw/news/175233
+https://thehackernews.com/2026/04/lotus-wiper-malware-targets-venezuelan.html
+https://thehackernews.com/2026/04/toxic-combinations-when-cross-app.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-gets-efficiency-mode-for-hardware-constrained-devices/
