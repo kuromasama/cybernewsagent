@@ -1168,3 +1168,6 @@ https://thehackernews.com/2026/04/22-bridgebreak-flaws-expose-20000.html
 https://thehackernews.com/2026/04/ransomware-negotiator-pleads-guilty-to.html
 https://www.bleepingcomputer.com/news/security/new-lotus-data-wiper-used-against-venezuelan-energy-utility-firms/
 https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/
+https://thehackernews.com/2026/04/systembc-c2-server-reveals-1570-victims.html
+https://www.bleepingcomputer.com/news/security/french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data/
+https://www.ithome.com.tw/news/175221
