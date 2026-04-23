@@ -1185,3 +1185,7 @@ https://www.ithome.com.tw/news/175239
 https://www.ithome.com.tw/news/175235
 https://www.ithome.com.tw/news/175243
 https://www.ithome.com.tw/news/175229
+https://thehackernews.com/2026/04/webinar-mythos-reality-check-beating.html
+https://thehackernews.com/2026/04/project-glasswing-proved-ai-can-find.html
+https://www.bleepingcomputer.com/news/security/uk-warns-of-chinese-hackers-using-botnets-of-hijacked-consumer-devices-to-evade-detection/
+https://www.bleepingcomputer.com/news/security/new-gopherwhisper-apt-group-abuses-outlook-slack-discord-for-comms/
