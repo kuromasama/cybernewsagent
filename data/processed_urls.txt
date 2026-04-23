@@ -1189,3 +1189,7 @@ https://thehackernews.com/2026/04/webinar-mythos-reality-check-beating.html
 https://thehackernews.com/2026/04/project-glasswing-proved-ai-can-find.html
 https://www.bleepingcomputer.com/news/security/uk-warns-of-chinese-hackers-using-botnets-of-hijacked-consumer-devices-to-evade-detection/
 https://www.bleepingcomputer.com/news/security/new-gopherwhisper-apt-group-abuses-outlook-slack-discord-for-comms/
+https://thehackernews.com/2026/04/unc6692-impersonates-it-helpdesk-via.html
+https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html
+https://www.bleepingcomputer.com/news/security/trigona-ransomware-attacks-use-custom-exfiltration-tool-to-steal-data/
+https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a
