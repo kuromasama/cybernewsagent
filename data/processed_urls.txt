@@ -1197,3 +1197,5 @@ https://www.bleepingcomputer.com/news/security/hackers-exploit-file-upload-bug-i
 https://www.bleepingcomputer.com/news/security/bitwarden-cli-npm-package-compromised-to-steal-developer-credentials/
 https://cloud.google.com/blog/topics/threat-intelligence/unc6692-social-engineering-custom-malware/
 https://www.ithome.com.tw/news/175266
+https://redcanary.com/blog/threat-intelligence/intelligence-insights-april-2026/
+https://www.ithome.com.tw/news/175276
