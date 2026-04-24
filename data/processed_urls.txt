@@ -1199,3 +1199,5 @@ https://cloud.google.com/blog/topics/threat-intelligence/unc6692-social-engineer
 https://www.ithome.com.tw/news/175266
 https://redcanary.com/blog/threat-intelligence/intelligence-insights-april-2026/
 https://www.ithome.com.tw/news/175276
+https://thehackernews.com/2026/04/bridging-ai-agent-authority-gap.html
+https://thehackernews.com/2026/04/26-fakewallet-apps-found-on-apple-app.html
