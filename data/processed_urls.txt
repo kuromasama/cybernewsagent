@@ -1201,3 +1201,6 @@ https://redcanary.com/blog/threat-intelligence/intelligence-insights-april-2026/
 https://www.ithome.com.tw/news/175276
 https://thehackernews.com/2026/04/bridging-ai-agent-authority-gap.html
 https://thehackernews.com/2026/04/26-fakewallet-apps-found-on-apple-app.html
+https://thehackernews.com/2026/04/firestarter-backdoor-hit-federal-cisco.html
+https://thehackernews.com/2026/04/nasa-employees-duped-in-chinese.html
+https://www.ithome.com.tw/news/175301
