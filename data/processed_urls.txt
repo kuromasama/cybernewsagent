@@ -1193,3 +1193,7 @@ https://thehackernews.com/2026/04/unc6692-impersonates-it-helpdesk-via.html
 https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html
 https://www.bleepingcomputer.com/news/security/trigona-ransomware-attacks-use-custom-exfiltration-tool-to-steal-data/
 https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a
+https://www.bleepingcomputer.com/news/security/hackers-exploit-file-upload-bug-in-breeze-cache-wordpress-plugin/
+https://www.bleepingcomputer.com/news/security/bitwarden-cli-npm-package-compromised-to-steal-developer-credentials/
+https://cloud.google.com/blog/topics/threat-intelligence/unc6692-social-engineering-custom-malware/
+https://www.ithome.com.tw/news/175266
