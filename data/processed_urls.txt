@@ -1204,3 +1204,6 @@ https://thehackernews.com/2026/04/26-fakewallet-apps-found-on-apple-app.html
 https://thehackernews.com/2026/04/firestarter-backdoor-hit-federal-cisco.html
 https://thehackernews.com/2026/04/nasa-employees-duped-in-chinese.html
 https://www.ithome.com.tw/news/175301
+https://www.bleepingcomputer.com/news/security/adt-confirms-data-breach-after-shinyhunters-leak-threat/
+https://www.bleepingcomputer.com/news/security/firestarter-malware-survives-cisco-firewall-updates-security-patches/
+https://www.ithome.com.tw/news/175277
