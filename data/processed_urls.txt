@@ -1209,3 +1209,5 @@ https://www.bleepingcomputer.com/news/security/firestarter-malware-survives-cisc
 https://www.ithome.com.tw/news/175277
 https://thehackernews.com/2026/04/cisa-adds-4-exploited-flaws-to-kev-sets.html
 https://www.ithome.com.tw/news/175287
+https://thehackernews.com/2026/04/researchers-uncover-pre-stuxnet-fast16.html
+https://www.ithome.com.tw/news/175308
