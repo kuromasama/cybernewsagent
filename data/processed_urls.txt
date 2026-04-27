@@ -1215,3 +1215,4 @@ https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-revamped-win
 https://www.bleepingcomputer.com/news/security/threat-actor-uses-microsoft-teams-to-deploy-new-snow-malware/
 https://www.ithome.com.tw/article/175255
 https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/
+https://www.ithome.com.tw/news/175324
