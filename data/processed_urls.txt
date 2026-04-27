@@ -1222,3 +1222,6 @@ https://www.bleepingcomputer.com/news/security/money-launderer-linked-to-230m-cr
 https://www.bleepingcomputer.com/news/security/deepfake-voice-attacks-are-outpacing-defenses-what-security-leaders-should-know/
 https://www.ithome.com.tw/article/175311
 https://www.ithome.com.tw/news/175332
+https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html
+https://www.bleepingcomputer.com/news/security/ftc-americans-lost-over-21-billion-to-social-media-scams-in-2025/
+https://www.bleepingcomputer.com/news/security/pypi-package-with-11m-monthly-downloads-hacked-to-push-infostealer/
