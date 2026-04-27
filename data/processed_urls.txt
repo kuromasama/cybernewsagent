@@ -1216,3 +1216,9 @@ https://www.bleepingcomputer.com/news/security/threat-actor-uses-microsoft-teams
 https://www.ithome.com.tw/article/175255
 https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/
 https://www.ithome.com.tw/news/175324
+https://thehackernews.com/2026/04/mythos-changed-math-on-vulnerability.html
+https://thehackernews.com/2026/04/phantomcore-exploits-trueconf.html
+https://www.bleepingcomputer.com/news/security/money-launderer-linked-to-230m-crypto-heist-gets-70-months-in-prison/
+https://www.bleepingcomputer.com/news/security/deepfake-voice-attacks-are-outpacing-defenses-what-security-leaders-should-know/
+https://www.ithome.com.tw/article/175311
+https://www.ithome.com.tw/news/175332
