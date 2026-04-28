@@ -1228,3 +1228,7 @@ https://www.bleepingcomputer.com/news/security/pypi-package-with-11m-monthly-dow
 https://www.bleepingcomputer.com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/
 https://www.bleepingcomputer.com/news/security/glassworm-malware-attacks-return-via-73-openvsx-sleeper-extensions/
 https://www.ithome.com.tw/news/175339
+https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html
+https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html
+https://www.ithome.com.tw/news/175373
+https://www.ithome.com.tw/news/175372
