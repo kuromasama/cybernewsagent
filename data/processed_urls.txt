@@ -1232,3 +1232,8 @@ https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html
 https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html
 https://www.ithome.com.tw/news/175373
 https://www.ithome.com.tw/news/175372
+https://thehackernews.com/2026/04/why-secure-data-movement-is-zero-trust.html
+https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-legacy-tls-in-exchange-online-starting-july/
+https://www.ithome.com.tw/news/175386
+https://www.ithome.com.tw/news/175333
