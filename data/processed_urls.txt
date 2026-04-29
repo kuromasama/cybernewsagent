@@ -1251,3 +1251,6 @@ https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html
 https://thehackernews.com/2026/04/what-to-look-for-in-exposure-management.html
 https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/
 https://www.ithome.com.tw/news/175428
+https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html
+https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html
+https://www.ithome.com.tw/news/175419
