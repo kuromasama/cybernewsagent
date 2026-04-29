@@ -1241,3 +1241,7 @@ https://thehackernews.com/2026/04/researchers-discover-critical-github.html
 https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html
 https://www.bleepingcomputer.com/news/security/video-service-vimeo-confirms-anodot-breach-exposed-user-data/
 https://www.bleepingcomputer.com/news/security/us-reportedly-charges-scattered-spider-hacker-arrested-in-finland/
+https://www.bleepingcomputer.com/news/security/broken-vect-20-ransomware-acts-as-a-data-wiper-for-large-files/
+https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/
+https://www.ithome.com.tw/news/175391
+https://www.ithome.com.tw/news/175390
