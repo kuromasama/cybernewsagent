@@ -1245,3 +1245,5 @@ https://www.bleepingcomputer.com/news/security/broken-vect-20-ransomware-acts-as
 https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/
 https://www.ithome.com.tw/news/175391
 https://www.ithome.com.tw/news/175390
+https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html
+https://www.ithome.com.tw/news/175414
