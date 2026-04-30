@@ -1254,3 +1254,6 @@ https://www.ithome.com.tw/news/175428
 https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html
 https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html
 https://www.ithome.com.tw/news/175419
+https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/
+https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin-hid-dormant-backdoor-for-years/
+https://redcanary.com/blog/testing-and-validation/ai-security-testing/
