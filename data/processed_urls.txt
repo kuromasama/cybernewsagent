@@ -1257,3 +1257,5 @@ https://www.ithome.com.tw/news/175419
 https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/
 https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin-hid-dormant-backdoor-for-years/
 https://redcanary.com/blog/testing-and-validation/ai-security-testing/
+https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html
+https://www.ithome.com.tw/article/175461
