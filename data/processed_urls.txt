@@ -1259,3 +1259,7 @@ https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin
 https://redcanary.com/blog/testing-and-validation/ai-security-testing/
 https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html
 https://www.ithome.com.tw/article/175461
+https://thehackernews.com/2026/04/new-python-backdoor-uses-tunneling.html
+https://www.bleepingcomputer.com/news/security/critical-cpanel-and-whm-bug-exploited-as-a-zero-day-poc-now-available/
+https://www.bleepingcomputer.com/news/security/police-dismantles-9-crypto-investment-scam-centers-arrests-276-suspects/
+https://www.ithome.com.tw/news/175467
