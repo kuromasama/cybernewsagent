@@ -1272,3 +1272,6 @@ https://www.ithome.com.tw/news/175468
 https://www.bleepingcomputer.com/news/security/us-ransomware-negotiators-get-4-years-in-prison-over-blackcat-attacks/
 https://www.ithome.com.tw/news/175478
 https://www.ithome.com.tw/news/175479
+https://thehackernews.com/2026/05/top-five-sales-challenges-costing-msps.html
+https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-warnings-displaying-incorrectly/
