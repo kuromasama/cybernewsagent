@@ -1275,3 +1275,7 @@ https://www.ithome.com.tw/news/175479
 https://thehackernews.com/2026/05/top-five-sales-challenges-costing-msps.html
 https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html
 https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-warnings-displaying-incorrectly/
+https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html
+https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html
+https://www.bleepingcomputer.com/news/security/15-year-old-detained-over-french-govt-agency-data-breach/
+https://www.ithome.com.tw/news/175482
