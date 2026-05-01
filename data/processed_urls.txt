@@ -1266,3 +1266,6 @@ https://www.ithome.com.tw/news/175467
 https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html
 https://www.bleepingcomputer.com/news/security/new-bluekit-phishing-service-includes-an-ai-assistant-40-templates/
 https://www.bleepingcomputer.com/news/security/romanian-leader-of-online-swatting-ring-gets-4-years-in-prison/
+https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/
+https://www.ithome.com.tw/news/175472
+https://www.ithome.com.tw/news/175468
