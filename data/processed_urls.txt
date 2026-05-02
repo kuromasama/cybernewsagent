@@ -1285,3 +1285,5 @@ https://www.bleepingcomputer.com/news/security/edu-tech-firm-instructure-disclos
 https://www.ithome.com.tw/news/175481
 https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html
 https://www.ithome.com.tw/news/175483
+https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/
+https://www.ithome.com.tw/news/175484
