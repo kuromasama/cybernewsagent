@@ -1279,3 +1279,7 @@ https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html
 https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html
 https://www.bleepingcomputer.com/news/security/15-year-old-detained-over-french-govt-agency-data-breach/
 https://www.ithome.com.tw/news/175482
+https://thehackernews.com/2026/05/30000-facebook-accounts-hacked-via.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-modern-windows-run-says-its-faster-than-legacy-dialog/
+https://www.bleepingcomputer.com/news/security/edu-tech-firm-instructure-discloses-cyber-incident-probes-impact/
+https://www.ithome.com.tw/news/175481
