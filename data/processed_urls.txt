@@ -1290,3 +1290,4 @@ https://www.ithome.com.tw/news/175484
 https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/
 https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html
 https://www.ithome.com.tw/article/175434
+https://www.ithome.com.tw/news/175485
