@@ -1291,3 +1291,7 @@ https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploi
 https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html
 https://www.ithome.com.tw/article/175434
 https://www.ithome.com.tw/news/175485
+https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/
+https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/
+https://www.ithome.com.tw/review/175388
+https://www.ithome.com.tw/article/175436
