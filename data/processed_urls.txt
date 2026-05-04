@@ -1301,3 +1301,9 @@ https://www.ithome.com.tw/article/175437
 https://thehackernews.com/2026/05/global-crackdown-arrests-276-shuts-9.html
 https://www.ithome.com.tw/news/175532
 https://www.ithome.com.tw/news/175500
+https://thehackernews.com/2026/05/2026-year-of-ai-assisted-attacks.html
+https://thehackernews.com/2026/05/silver-fox-deploys-abcdoor-malware-via.html
+https://www.bleepingcomputer.com/news/security/moveit-automation-customers-warned-to-patch-critical-auth-bypass-flaw/
+https://www.bleepingcomputer.com/news/security/webinar-why-msps-must-rethink-security-and-backup-strategies/
+https://www.ithome.com.tw/news/175543
+https://www.ithome.com.tw/news/175542
