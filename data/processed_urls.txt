@@ -1316,3 +1316,7 @@ https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-expl
 https://www.bleepingcomputer.com/news/security/amazon-ses-increasingly-abused-in-phishing-to-evade-detection/
 https://www.ithome.com.tw/article/175438
 https://www.ithome.com.tw/news/175537
+https://thehackernews.com/2026/05/weaver-e-cology-rce-flaw-cve-2026-22679.html
+https://thehackernews.com/2026/05/microsoft-details-phishing-campaign.html
+https://www.ithome.com.tw/news/175558
+https://www.ithome.com.tw/news/175557
