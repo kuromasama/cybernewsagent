@@ -1333,3 +1333,9 @@ https://www.ithome.com.tw/news/175545
 https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html
 https://www.ithome.com.tw/news/175588
 https://www.ithome.com.tw/news/175586
+https://thehackernews.com/2026/05/the-hacker-news-launches-cybersecurity.html
+https://thehackernews.com/2026/05/your-ai-agents-are-already-inside.html
+https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/
+https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-escalate-and-how-to-fix-response-gaps/
+https://www.ithome.com.tw/news/175593
+https://www.ithome.com.tw/news/175592
