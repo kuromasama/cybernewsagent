@@ -1330,3 +1330,6 @@ https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware
 https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/
 https://www.ithome.com.tw/news/175569
 https://www.ithome.com.tw/news/175545
+https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html
+https://www.ithome.com.tw/news/175588
+https://www.ithome.com.tw/news/175586
