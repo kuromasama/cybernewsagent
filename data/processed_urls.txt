@@ -1326,3 +1326,7 @@ https://www.bleepingcomputer.com/news/security/student-hacked-taiwan-high-speed-
 https://www.bleepingcomputer.com/news/security/ftc-to-ban-data-broker-kochava-from-selling-americans-location-data/
 https://www.ithome.com.tw/news/175566
 https://www.ithome.com.tw/news/175564
+https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/
+https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/
+https://www.ithome.com.tw/news/175569
+https://www.ithome.com.tw/news/175545
