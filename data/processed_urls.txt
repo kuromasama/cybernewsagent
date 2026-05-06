@@ -1339,3 +1339,7 @@ https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-rans
 https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-escalate-and-how-to-fix-response-gaps/
 https://www.ithome.com.tw/news/175593
 https://www.ithome.com.tw/news/175592
+https://thehackernews.com/2026/05/muddywater-uses-microsoft-teams-to.html
+https://www.bleepingcomputer.com/news/security/critical-vm2-sandbox-bug-lets-attackers-execute-code-on-hosts/
+https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/
+https://www.ithome.com.tw/news/175594
