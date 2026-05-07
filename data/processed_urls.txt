@@ -1349,3 +1349,7 @@ https://www.ithome.com.tw/news/175597
 https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html
 https://www.ithome.com.tw/news/175616
 https://www.ithome.com.tw/news/175614
+https://thehackernews.com/2026/05/pan-os-rce-exploit-under-active-use.html
+https://www.bleepingcomputer.com/news/security/americans-sentenced-for-running-laptop-farms-for-north-korea/
+https://www.bleepingcomputer.com/news/security/crypto-gang-member-gets-65-years-for-role-in-230-million-heist/
+https://www.ithome.com.tw/news/175621
