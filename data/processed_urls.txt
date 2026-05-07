@@ -1353,3 +1353,5 @@ https://thehackernews.com/2026/05/pan-os-rce-exploit-under-active-use.html
 https://www.bleepingcomputer.com/news/security/americans-sentenced-for-running-laptop-farms-for-north-korea/
 https://www.bleepingcomputer.com/news/security/crypto-gang-member-gets-65-years-for-role-in-230-million-heist/
 https://www.ithome.com.tw/news/175621
+https://thehackernews.com/2026/05/ivanti-epmm-cve-2026-6973-rce-under.html
+https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html
