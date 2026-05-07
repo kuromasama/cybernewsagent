@@ -1346,3 +1346,6 @@ https://www.ithome.com.tw/news/175594
 https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html
 https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/
 https://www.ithome.com.tw/news/175597
+https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html
+https://www.ithome.com.tw/news/175616
+https://www.ithome.com.tw/news/175614
