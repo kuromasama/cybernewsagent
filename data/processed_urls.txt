@@ -1365,3 +1365,5 @@ https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nati
 https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html
 https://thehackernews.com/2026/05/one-missed-threat-per-week-what-25m.html
 https://www.bleepingcomputer.com/news/security/zara-data-breach-exposed-personal-information-of-197-000-people/
+https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html
+https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html
