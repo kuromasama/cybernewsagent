@@ -1360,3 +1360,5 @@ https://www.bleepingcomputer.com/news/security/new-tclbanker-malware-self-spread
 https://redcanary.com/blog/security-operations/spring-cleaning-your-browser/
 https://www.ithome.com.tw/news/175636
 https://www.ithome.com.tw/news/175622
+https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html
+https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/
