@@ -1355,3 +1355,8 @@ https://www.bleepingcomputer.com/news/security/crypto-gang-member-gets-65-years-
 https://www.ithome.com.tw/news/175621
 https://thehackernews.com/2026/05/ivanti-epmm-cve-2026-6973-rce-under.html
 https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html
+https://www.bleepingcomputer.com/news/security/canvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign/
+https://www.bleepingcomputer.com/news/security/new-tclbanker-malware-self-spreads-over-whatsapp-and-outlook/
+https://redcanary.com/blog/security-operations/spring-cleaning-your-browser/
+https://www.ithome.com.tw/news/175636
+https://www.ithome.com.tw/news/175622
