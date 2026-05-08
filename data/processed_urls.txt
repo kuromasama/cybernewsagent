@@ -1362,3 +1362,6 @@ https://www.ithome.com.tw/news/175636
 https://www.ithome.com.tw/news/175622
 https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html
 https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/
+https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html
+https://thehackernews.com/2026/05/one-missed-threat-per-week-what-25m.html
+https://www.bleepingcomputer.com/news/security/zara-data-breach-exposed-personal-information-of-197-000-people/
