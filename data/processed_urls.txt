@@ -1370,3 +1370,5 @@ https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html
 https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/
 https://www.ithome.com.tw/news/175665
 https://www.ithome.com.tw/news/175668
+https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html
+https://www.ithome.com.tw/news/175672
