@@ -1367,3 +1367,6 @@ https://thehackernews.com/2026/05/one-missed-threat-per-week-what-25m.html
 https://www.bleepingcomputer.com/news/security/zara-data-breach-exposed-personal-information-of-197-000-people/
 https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html
 https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html
+https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/
+https://www.ithome.com.tw/news/175665
+https://www.ithome.com.tw/news/175668
