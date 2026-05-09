@@ -1372,3 +1372,5 @@ https://www.ithome.com.tw/news/175665
 https://www.ithome.com.tw/news/175668
 https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html
 https://www.ithome.com.tw/news/175672
+https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/
+https://www.ithome.com.tw/news/175673
