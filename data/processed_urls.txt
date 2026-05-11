@@ -1390,3 +1390,6 @@ https://www.bleepingcomputer.com/news/security/why-changing-passwords-doesnt-end
 https://www.bleepingcomputer.com/news/security/google-hackers-used-ai-to-develop-zero-day-exploit-for-web-admin-tool/
 https://www.ithome.com.tw/news/175707
 https://www.ithome.com.tw/news/175701
+https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html
+https://thehackernews.com/2026/05/cpanel-cve-2026-41940-under-active.html
+https://www.bleepingcomputer.com/news/security/instructure-confirms-hackers-used-canvas-flaw-to-deface-portals/
