@@ -1385,3 +1385,8 @@ https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html
 https://www.bleepingcomputer.com/news/security/trickmo-android-banker-adopts-ton-blockchain-for-covert-comms/
 https://www.ithome.com.tw/news/175703
 https://www.ithome.com.tw/news/175700
+https://thehackernews.com/2026/05/your-purple-team-isnt-purple-its-just.html
+https://www.bleepingcomputer.com/news/security/why-changing-passwords-doesnt-end-an-active-directory-breach/
+https://www.bleepingcomputer.com/news/security/google-hackers-used-ai-to-develop-zero-day-exploit-for-web-admin-tool/
+https://www.ithome.com.tw/news/175707
+https://www.ithome.com.tw/news/175701
