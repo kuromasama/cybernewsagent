@@ -1381,3 +1381,7 @@ https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai
 https://www.bleepingcomputer.com/news/security/police-shut-down-reboot-of-crimenetwork-marketplace-arrest-admin/
 https://www.ithome.com.tw/news/175678
 https://www.ithome.com.tw/news/175666
+https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html
+https://www.bleepingcomputer.com/news/security/trickmo-android-banker-adopts-ton-blockchain-for-covert-comms/
+https://www.ithome.com.tw/news/175703
+https://www.ithome.com.tw/news/175700
