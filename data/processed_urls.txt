@@ -1379,3 +1379,5 @@ https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html
 https://www.ithome.com.tw/news/175674
 https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/
 https://www.bleepingcomputer.com/news/security/police-shut-down-reboot-of-crimenetwork-marketplace-arrest-admin/
+https://www.ithome.com.tw/news/175678
+https://www.ithome.com.tw/news/175666
