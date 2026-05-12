@@ -1406,3 +1406,7 @@ https://www.bleepingcomputer.com/news/security/shai-hulud-attack-ships-signed-ma
 https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/
 https://www.ithome.com.tw/news/175742
 https://www.ithome.com.tw/review/175733
+https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html
+https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html
+https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5087544-extended-security-update/
