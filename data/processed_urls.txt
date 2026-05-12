@@ -1400,3 +1400,9 @@ https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html
 https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html
 https://www.ithome.com.tw/news/175704
 https://www.ithome.com.tw/news/175732
+https://thehackernews.com/2026/05/new-trickmo-variant-uses-ton-c2-and.html
+https://thehackernews.com/2026/05/webinar-what-riskiest-soc-alerts-go.html
+https://www.bleepingcomputer.com/news/security/shai-hulud-attack-ships-signed-malicious-tanstack-mistral-npm-packages/
+https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/
+https://www.ithome.com.tw/news/175742
+https://www.ithome.com.tw/review/175733
