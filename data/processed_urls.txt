@@ -1396,3 +1396,7 @@ https://www.bleepingcomputer.com/news/security/instructure-confirms-hackers-used
 https://www.bleepingcomputer.com/news/legal/gm-agrees-to-1275m-california-settlement-over-sale-of-drivers-data/
 https://www.bleepingcomputer.com/news/security/official-checkmarx-jenkins-package-compromised-with-infostealer/
 https://www.ithome.com.tw/news/175711
+https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html
+https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html
+https://www.ithome.com.tw/news/175704
+https://www.ithome.com.tw/news/175732
