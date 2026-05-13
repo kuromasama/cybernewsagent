@@ -1425,3 +1425,5 @@ https://www.bleepingcomputer.com/news/security/electronics-giant-foxconn-confirm
 https://www.bleepingcomputer.com/news/security/73-seconds-to-breach-24-hours-to-patch-the-case-for-autonomous-validation/
 https://redcanary.com/blog/threat-detection/linux-cgroups/
 https://www.ithome.com.tw/news/175773
+https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/
+https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-security-alone-wont-stop-modern-attacks/
