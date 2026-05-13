@@ -1410,3 +1410,9 @@ https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html
 https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html
 https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/
 https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5087544-extended-security-update/
+https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/
+https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/
+https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/
+https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access/
+https://www.ithome.com.tw/news/175749
+https://www.ithome.com.tw/news/175746
