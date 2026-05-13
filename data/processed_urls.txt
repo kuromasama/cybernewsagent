@@ -1416,3 +1416,6 @@ https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/
 https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access/
 https://www.ithome.com.tw/news/175749
 https://www.ithome.com.tw/news/175746
+https://thehackernews.com/2026/05/android-adds-intrusion-logging-for.html
+https://www.ithome.com.tw/news/175769
+https://www.ithome.com.tw/news/175772
