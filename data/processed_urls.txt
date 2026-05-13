@@ -1419,3 +1419,9 @@ https://www.ithome.com.tw/news/175746
 https://thehackernews.com/2026/05/android-adds-intrusion-logging-for.html
 https://www.ithome.com.tw/news/175769
 https://www.ithome.com.tw/news/175772
+https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html
+https://thehackernews.com/2026/05/azerbaijani-energy-firm-hit-by-repeated.html
+https://www.bleepingcomputer.com/news/security/electronics-giant-foxconn-confirms-cyberattack-on-north-american-factories/
+https://www.bleepingcomputer.com/news/security/73-seconds-to-breach-24-hours-to-patch-the-case-for-autonomous-validation/
+https://redcanary.com/blog/threat-detection/linux-cgroups/
+https://www.ithome.com.tw/news/175773
