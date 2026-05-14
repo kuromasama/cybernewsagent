@@ -1436,3 +1436,7 @@ https://www.ithome.com.tw/news/175808
 https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html
 https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html
 https://www.bleepingcomputer.com/news/software/dell-confirms-its-supportassist-software-causes-windows-bsod-crashes/
+https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html
+https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html
+https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/
+https://www.ithome.com.tw/news/175818
