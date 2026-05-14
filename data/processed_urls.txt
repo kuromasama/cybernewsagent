@@ -1427,3 +1427,6 @@ https://redcanary.com/blog/threat-detection/linux-cgroups/
 https://www.ithome.com.tw/news/175773
 https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/
 https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-security-alone-wont-stop-modern-attacks/
+https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/
+https://www.bleepingcomputer.com/news/security/iranian-hackers-targeted-major-south-korean-electronics-maker/
+https://projectzero.google/2026/05/pixel-10-exploit.html
