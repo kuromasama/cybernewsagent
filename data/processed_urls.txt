@@ -1433,3 +1433,6 @@ https://projectzero.google/2026/05/pixel-10-exploit.html
 https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html
 https://thehackernews.com/2026/05/18-year-old-nginx-rewrite-module-flaw.html
 https://www.ithome.com.tw/news/175808
+https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html
+https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html
+https://www.bleepingcomputer.com/news/software/dell-confirms-its-supportassist-software-causes-windows-bsod-crashes/
