@@ -1444,3 +1444,6 @@ https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral
 https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/
 https://www.ithome.com.tw/news/175836
 https://www.ithome.com.tw/news/175829
+https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html
+https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html
+https://www.ithome.com.tw/news/175855
