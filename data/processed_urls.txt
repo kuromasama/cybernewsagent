@@ -1447,3 +1447,6 @@ https://www.ithome.com.tw/news/175829
 https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html
 https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html
 https://www.ithome.com.tw/news/175855
+https://thehackernews.com/2026/05/what-45-days-of-watching-your-own-tools.html
+https://thehackernews.com/2026/05/tanstack-supply-chain-attack-hits-two.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/
