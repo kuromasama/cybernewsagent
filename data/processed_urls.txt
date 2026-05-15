@@ -1440,3 +1440,7 @@ https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html
 https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html
 https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/
 https://www.ithome.com.tw/news/175818
+https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/
+https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/
+https://www.ithome.com.tw/news/175836
+https://www.ithome.com.tw/news/175829
