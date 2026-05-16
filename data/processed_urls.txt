@@ -1458,3 +1458,6 @@ https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-micr
 https://www.ithome.com.tw/news/175864
 https://www.ithome.com.tw/news/175862
 https://www.ithome.com.tw/news/175873
+https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html
+https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/
+https://www.ithome.com.tw/news/175877
