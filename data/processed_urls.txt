@@ -1457,3 +1457,4 @@ https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-b
 https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/
 https://www.ithome.com.tw/news/175864
 https://www.ithome.com.tw/news/175862
+https://www.ithome.com.tw/news/175873
