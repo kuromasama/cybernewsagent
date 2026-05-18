@@ -1466,3 +1466,6 @@ https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html
 https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html
 https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/
 https://www.ithome.com.tw/news/175878
+https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/
+https://www.ithome.com.tw/news/175883
+https://www.ithome.com.tw/news/175874
