@@ -1469,3 +1469,9 @@ https://www.ithome.com.tw/news/175878
 https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/
 https://www.ithome.com.tw/news/175883
 https://www.ithome.com.tw/news/175874
+https://thehackernews.com/2026/05/pre-stuxnet-fast16-malware-tampered.html
+https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5089549-windows-11-security-update-install-issues/
+https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/
+https://www.ithome.com.tw/news/175909
+https://www.ithome.com.tw/news/175905
