@@ -1475,3 +1475,8 @@ https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5089549-win
 https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/
 https://www.ithome.com.tw/news/175909
 https://www.ithome.com.tw/news/175905
+https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html
+https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html
+https://www.bleepingcomputer.com/news/security/grafana-says-stolen-github-token-let-hackers-steal-codebase/
+https://www.bleepingcomputer.com/news/microsoft/windows-11-finally-gets-a-resizable-taskbar-and-start-menu/
+https://www.ithome.com.tw/news/175910
