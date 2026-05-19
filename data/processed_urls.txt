@@ -1497,3 +1497,6 @@ https://thehackernews.com/2026/05/drupal-to-release-urgent-core-security.html
 https://www.bleepingcomputer.com/news/security/new-shai-hulud-malware-wave-compromises-600-npm-packages/
 https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/
 https://www.ithome.com.tw/news/175941
+https://thehackernews.com/2026/05/trapdoor-android-ad-fraud-scheme-hit.html
+https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html
+https://www.bleepingcomputer.com/news/security/microsoft-self-service-password-reset-abused-in-azure-data-theft-attacks/
