@@ -1492,3 +1492,8 @@ https://www.ithome.com.tw/news/175914
 https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html
 https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html
 https://www.ithome.com.tw/news/175938
+https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html
+https://thehackernews.com/2026/05/drupal-to-release-urgent-core-security.html
+https://www.bleepingcomputer.com/news/security/new-shai-hulud-malware-wave-compromises-600-npm-packages/
+https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/
+https://www.ithome.com.tw/news/175941
