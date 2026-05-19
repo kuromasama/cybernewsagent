@@ -1483,3 +1483,9 @@ https://www.ithome.com.tw/news/175910
 https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html
 https://www.bleepingcomputer.com/news/security/5-steps-to-managing-shadow-ai-tools-without-slowing-down-employees/
 https://www.bleepingcomputer.com/news/security/leaked-shai-hulud-malware-fuels-new-npm-infostealer-campaign/
+https://www.bleepingcomputer.com/news/security/interpol-operation-ramz-seizes-53-malware-phishing-servers/
+https://www.bleepingcomputer.com/news/security/shub-macos-infostealer-variant-spoofs-apple-security-updates/
+https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/
+https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/
+https://www.ithome.com.tw/news/175913
+https://www.ithome.com.tw/news/175914
