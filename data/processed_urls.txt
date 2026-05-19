@@ -1489,3 +1489,6 @@ https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-githu
 https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/
 https://www.ithome.com.tw/news/175913
 https://www.ithome.com.tw/news/175914
+https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html
+https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html
+https://www.ithome.com.tw/news/175938
