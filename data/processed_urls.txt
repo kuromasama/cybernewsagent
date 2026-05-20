@@ -1506,3 +1506,7 @@ https://www.ithome.com.tw/news/175950
 https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html
 https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html
 https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/
+https://thehackernews.com/2026/05/webworm-deploys-echocreep-and-graphworm.html
+https://thehackernews.com/2026/05/agent-ai-is-coming-are-you-ready.html
+https://www.bleepingcomputer.com/news/security/identity-alone-isnt-enough-why-device-security-has-to-share-the-load/
+https://www.bleepingcomputer.com/news/security/drupal-critical-update-to-fix-bug-with-high-exploitation-risk/
