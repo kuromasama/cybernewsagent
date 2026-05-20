@@ -1500,3 +1500,6 @@ https://www.ithome.com.tw/news/175941
 https://thehackernews.com/2026/05/trapdoor-android-ad-fraud-scheme-hit.html
 https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html
 https://www.bleepingcomputer.com/news/security/microsoft-self-service-password-reset-abused-in-azure-data-theft-attacks/
+https://www.bleepingcomputer.com/news/security/max-severity-flaw-in-chromadb-for-ai-apps-allows-server-hijacking/
+https://www.bleepingcomputer.com/news/security/cybercrime-service-disrupted-for-abusing-microsoft-platform-to-sign-malware/
+https://www.ithome.com.tw/news/175950
