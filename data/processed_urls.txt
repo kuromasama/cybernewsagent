@@ -1512,3 +1512,6 @@ https://www.bleepingcomputer.com/news/security/identity-alone-isnt-enough-why-de
 https://www.bleepingcomputer.com/news/security/drupal-critical-update-to-fix-bug-with-high-exploitation-risk/
 https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html
 https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html
+https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/
+https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/
+https://www.ithome.com.tw/news/176003
