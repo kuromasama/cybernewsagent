@@ -1523,3 +1523,5 @@ https://www.ithome.com.tw/news/176021
 https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html
 https://www.bleepingcomputer.com/news/security/inside-a-crypto-drainer-how-to-spot-it-before-it-empties-your-wallet/
 https://www.bleepingcomputer.com/news/security/chinese-hackers-target-telcos-with-new-linux-windows-malware/
+https://thehackernews.com/2026/05/showboat-linux-malware-hits-middle-east.html
+https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/
