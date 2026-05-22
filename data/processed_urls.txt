@@ -1536,3 +1536,6 @@ https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html
 https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/
 https://www.bleepingcomputer.com/news/security/drupal-critical-sql-injection-flaw-now-targeted-in-attacks/
 https://www.ithome.com.tw/news/176064
+https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html
+https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html
+https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/
