@@ -1528,3 +1528,7 @@ https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-detai
 https://www.bleepingcomputer.com/news/apple/apple-blocked-22-billion-in-fraudulent-app-store-transactions-in-2025/
 https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/
 https://www.ithome.com.tw/news/176034
+https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html
+https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html
+https://www.ithome.com.tw/news/176047
+https://www.ithome.com.tw/news/176044
