@@ -1541,3 +1541,6 @@ https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html
 https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/
 https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/
 https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/
+https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html
+https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html
+https://www.ithome.com.tw/news/176065
