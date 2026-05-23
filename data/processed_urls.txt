@@ -1539,3 +1539,5 @@ https://www.ithome.com.tw/news/176064
 https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html
 https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html
 https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/
+https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/
+https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/
