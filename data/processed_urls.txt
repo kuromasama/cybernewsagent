@@ -1544,3 +1544,5 @@ https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-a
 https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html
 https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html
 https://www.ithome.com.tw/news/176065
+https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html
+https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html
