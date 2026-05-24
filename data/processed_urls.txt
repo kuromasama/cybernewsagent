@@ -1552,3 +1552,5 @@ https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app
 https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/
 https://www.ithome.com.tw/news/176072
 https://www.ithome.com.tw/news/176070
+https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/
+https://www.ithome.com.tw/news/176073
