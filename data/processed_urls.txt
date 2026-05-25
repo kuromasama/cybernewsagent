@@ -1554,3 +1554,5 @@ https://www.ithome.com.tw/news/176072
 https://www.ithome.com.tw/news/176070
 https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/
 https://www.ithome.com.tw/news/176073
+https://www.ithome.com.tw/news/176075
+https://www.ithome.com.tw/news/176074
