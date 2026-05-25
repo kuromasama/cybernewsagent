@@ -1556,3 +1556,7 @@ https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-expl
 https://www.ithome.com.tw/news/176073
 https://www.ithome.com.tw/news/176075
 https://www.ithome.com.tw/news/176074
+https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html
+https://cloud.google.com/blog/topics/threat-intelligence/chinese-language-phishing-services/
+https://cloud.google.com/blog/topics/threat-intelligence/knowledgedeliver-viewstate-deserialization-vulnerability/
+https://www.ithome.com.tw/news/176082
