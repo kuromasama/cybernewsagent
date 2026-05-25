@@ -1566,3 +1566,4 @@ https://www.bleepingcomputer.com/news/security/fbi-warns-of-kali365-phishing-ser
 https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/
 https://www.ithome.com.tw/news/176103
 https://www.ithome.com.tw/news/176093
+https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/
