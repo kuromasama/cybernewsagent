@@ -1580,3 +1580,6 @@ https://www.bleepingcomputer.com/news/security/how-varonis-atlas-integrates-clau
 https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-can-now-automatically-isolate-hacked-endpoints/
 https://redcanary.com/blog/threat-intelligence/intelligence-insights-may-2026/
 https://www.ithome.com.tw/news/176140
+https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html
+https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/
+https://www.ithome.com.tw/news/176143
