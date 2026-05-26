@@ -1574,3 +1574,9 @@ https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-activel
 https://www.bleepingcomputer.com/news/microsoft/microsoft-domain-controller-lookup-may-fail-on-windows-server-2016/
 https://www.ithome.com.tw/news/176133
 https://www.ithome.com.tw/news/176130
+https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html
+https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html
+https://www.bleepingcomputer.com/news/security/how-varonis-atlas-integrates-claude-compliance-api-for-ai-governance/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-can-now-automatically-isolate-hacked-endpoints/
+https://redcanary.com/blog/threat-intelligence/intelligence-insights-may-2026/
+https://www.ithome.com.tw/news/176140
