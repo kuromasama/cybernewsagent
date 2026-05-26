@@ -1568,3 +1568,9 @@ https://www.ithome.com.tw/news/176103
 https://www.ithome.com.tw/news/176093
 https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/
 https://www.ithome.com.tw/news/176111
+https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html
+https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html
+https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-drupal-vulnerability/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-domain-controller-lookup-may-fail-on-windows-server-2016/
+https://www.ithome.com.tw/news/176133
+https://www.ithome.com.tw/news/176130
