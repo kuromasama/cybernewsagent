@@ -1588,3 +1588,9 @@ https://thehackernews.com/2026/05/ai-chatbot-recommendations-redirect.html
 https://www.bleepingcomputer.com/news/security/dutch-police-arrests-suspect-linked-to-ajax-football-club-hack/
 https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5089573-update-released-with-performance-improvements/
 https://www.ithome.com.tw/news/176164
+https://thehackernews.com/2026/05/5-steps-to-managing-shadow-ai-tools.html
+https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html
+https://www.bleepingcomputer.com/news/security/can-you-enforce-strong-active-directory-password-rules-without-frustrating-users/
+https://www.bleepingcomputer.com/news/security/glassworm-botnet-disrupted-after-resilient-c2-infrastructure-takedown/
+https://www.ithome.com.tw/news/176166
+https://www.ithome.com.tw/news/176165
