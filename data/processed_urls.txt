@@ -1594,3 +1594,7 @@ https://www.bleepingcomputer.com/news/security/can-you-enforce-strong-active-dir
 https://www.bleepingcomputer.com/news/security/glassworm-botnet-disrupted-after-resilient-c2-infrastructure-takedown/
 https://www.ithome.com.tw/news/176166
 https://www.ithome.com.tw/news/176165
+https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html
+https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html
+https://www.ithome.com.tw/review/176173
+https://www.ithome.com.tw/news/176171
