@@ -1610,3 +1610,6 @@ https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html
 https://www.bleepingcomputer.com/news/security/new-gogs-zero-day-flaw-lets-hackers-get-remote-code-execution/
 https://www.bleepingcomputer.com/news/security/how-siem-helps-msps-reduce-noise-and-stop-threats-faster/
 https://www.ithome.com.tw/news/176199
+https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html
+https://thehackernews.com/2026/05/threat-actors-exploit-critical.html
+https://www.bleepingcomputer.com/news/security/hackers-exploit-forticlient-ems-flaw-to-push-infostealer-malware/
