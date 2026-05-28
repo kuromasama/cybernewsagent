@@ -1601,3 +1601,8 @@ https://www.ithome.com.tw/news/176171
 https://www.bleepingcomputer.com/news/security/gpu-mining-malware-spreads-via-seo-poisoning-ai-chatbots/
 https://www.ithome.com.tw/news/176174
 https://www.ithome.com.tw/news/176172
+https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html
+https://www.bleepingcomputer.com/news/security/sextortionist-sentenced-to-33-years-for-targeting-145-children/
+https://redcanary.com/blog/threat-detection/entra-id-ai-workflows/
+https://www.ithome.com.tw/news/176198
+https://www.ithome.com.tw/news/176193
