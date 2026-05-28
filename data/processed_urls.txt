@@ -1606,3 +1606,7 @@ https://www.bleepingcomputer.com/news/security/sextortionist-sentenced-to-33-yea
 https://redcanary.com/blog/threat-detection/entra-id-ai-workflows/
 https://www.ithome.com.tw/news/176198
 https://www.ithome.com.tw/news/176193
+https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html
+https://www.bleepingcomputer.com/news/security/new-gogs-zero-day-flaw-lets-hackers-get-remote-code-execution/
+https://www.bleepingcomputer.com/news/security/how-siem-helps-msps-reduce-noise-and-stop-threats-faster/
+https://www.ithome.com.tw/news/176199
