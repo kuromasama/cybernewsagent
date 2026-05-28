@@ -1598,3 +1598,6 @@ https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html
 https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html
 https://www.ithome.com.tw/review/176173
 https://www.ithome.com.tw/news/176171
+https://www.bleepingcomputer.com/news/security/gpu-mining-malware-spreads-via-seo-poisoning-ai-chatbots/
+https://www.ithome.com.tw/news/176174
+https://www.ithome.com.tw/news/176172
