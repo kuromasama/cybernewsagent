@@ -1613,3 +1613,6 @@ https://www.ithome.com.tw/news/176199
 https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html
 https://thehackernews.com/2026/05/threat-actors-exploit-critical.html
 https://www.bleepingcomputer.com/news/security/hackers-exploit-forticlient-ems-flaw-to-push-infostealer-malware/
+https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-mythos-class-models-will-roll-out-to-the-public/
+https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/
+https://redcanary.com/blog/testing-and-validation/pentesting/
