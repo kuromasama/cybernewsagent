@@ -1616,3 +1616,6 @@ https://www.bleepingcomputer.com/news/security/hackers-exploit-forticlient-ems-f
 https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-mythos-class-models-will-roll-out-to-the-public/
 https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/
 https://redcanary.com/blog/testing-and-validation/pentesting/
+https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html
+https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/
+https://www.ithome.com.tw/news/176225
