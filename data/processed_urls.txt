@@ -1619,3 +1619,5 @@ https://redcanary.com/blog/testing-and-validation/pentesting/
 https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html
 https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/
 https://www.ithome.com.tw/news/176225
+https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html
+https://thehackernews.com/2026/05/what-2000-exposed-vibe-coded-apps.html
