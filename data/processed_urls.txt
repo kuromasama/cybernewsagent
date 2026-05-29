@@ -1621,3 +1621,6 @@ https://www.bleepingcomputer.com/news/security/charter-communications-data-breac
 https://www.ithome.com.tw/news/176225
 https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html
 https://thehackernews.com/2026/05/what-2000-exposed-vibe-coded-apps.html
+https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html
+https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html
+https://www.bleepingcomputer.com/news/security/california-ag-sues-23andme-over-2023-breach-exposing-health-data/
