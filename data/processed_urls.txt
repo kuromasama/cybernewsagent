@@ -1624,3 +1624,4 @@ https://thehackernews.com/2026/05/what-2000-exposed-vibe-coded-apps.html
 https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html
 https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html
 https://www.bleepingcomputer.com/news/security/california-ag-sues-23andme-over-2023-breach-exposing-health-data/
+https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/
