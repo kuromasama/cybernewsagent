@@ -1640,3 +1640,8 @@ https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html
 https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-kb5089549-windows-security-update-install-issues/
 https://www.ithome.com.tw/news/176272
 https://www.ithome.com.tw/news/176271
+https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html
+https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-office-apps-teams-file-access-issues/
+https://redcanary.com/blog/threat-detection/entra-id-ai-workflows-teams/
+https://www.ithome.com.tw/news/176273
