@@ -1635,3 +1635,8 @@ https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-crea
 https://www.ithome.com.tw/news/176248
 https://www.ithome.com.tw/news/176245
 https://www.ithome.com.tw/voice/175368
+https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html
+https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-kb5089549-windows-security-update-install-issues/
+https://www.ithome.com.tw/news/176272
+https://www.ithome.com.tw/news/176271
