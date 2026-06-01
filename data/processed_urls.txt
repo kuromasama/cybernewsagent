@@ -1633,3 +1633,5 @@ https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html
 https://www.ithome.com.tw/news/176246
 https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/
 https://www.ithome.com.tw/news/176248
+https://www.ithome.com.tw/news/176245
+https://www.ithome.com.tw/voice/175368
