@@ -1653,3 +1653,6 @@ https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites
 https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/
 https://www.ithome.com.tw/news/176280
 https://www.ithome.com.tw/news/176279
+https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html
+https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html
+https://www.ithome.com.tw/news/176298
