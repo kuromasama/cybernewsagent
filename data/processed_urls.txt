@@ -1662,3 +1662,6 @@ https://www.bleepingcomputer.com/news/security/instagram-users-locked-out-after-
 https://www.bleepingcomputer.com/news/security/why-the-browser-is-now-the-front-line-for-ai-security/
 https://www.ithome.com.tw/news/176301
 https://www.ithome.com.tw/news/176302
+https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html
+https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html
+https://www.bleepingcomputer.com/news/security/ai-built-ransomware-toolkit-automates-edr-evasion-ad-discovery/
