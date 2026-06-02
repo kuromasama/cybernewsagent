@@ -1656,3 +1656,9 @@ https://www.ithome.com.tw/news/176279
 https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html
 https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html
 https://www.ithome.com.tw/news/176298
+https://thehackernews.com/2026/06/ai-driven-exploitation-is-destroying.html
+https://thehackernews.com/2026/06/how-leading-organizations-are-turning.html
+https://www.bleepingcomputer.com/news/security/instagram-users-locked-out-after-meta-ai-abused-to-steal-accounts/
+https://www.bleepingcomputer.com/news/security/why-the-browser-is-now-the-front-line-for-ai-security/
+https://www.ithome.com.tw/news/176301
+https://www.ithome.com.tw/news/176302
