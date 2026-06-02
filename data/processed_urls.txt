@@ -1649,3 +1649,7 @@ https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html
 https://www.bleepingcomputer.com/news/security/dashlane-password-manager-users-locked-out-by-brute-force-attacks/
 https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/
 https://redcanary.com/blog/news-events/red-canary-cfp-tracker-june-2026/
+https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/
+https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/
+https://www.ithome.com.tw/news/176280
+https://www.ithome.com.tw/news/176279
