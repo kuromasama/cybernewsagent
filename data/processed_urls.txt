@@ -1677,3 +1677,6 @@ https://www.ithome.com.tw/news/176337
 https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html
 https://thehackernews.com/2026/06/shrinking-iam-attack-surface-through.html
 https://www.bleepingcomputer.com/news/security/cisa-warns-of-active-attacks-exploiting-android-linux-bugs/
+https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html
+https://thehackernews.com/2026/06/google-doubleclick-abused-in-new.html
+https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-targeting-fuel-tank-monitoring-systems/
