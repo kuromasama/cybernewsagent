@@ -1669,3 +1669,8 @@ https://www.bleepingcomputer.com/news/microsoft/microsofts-coreutils-project-bri
 https://www.bleepingcomputer.com/news/artificial-intelligence/openai-upgrades-gpt-55-as-it-plans-to-retire-legacy-chatgpt-models/
 https://www.ithome.com.tw/news/176315
 https://www.ithome.com.tw/news/176313
+https://thehackernews.com/2026/06/unpatched-windows-search-uri.html
+https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html
+https://www.bleepingcomputer.com/news/security/police-dismantles-9-crime-groups-in-illegal-streaming-crackdown/
+https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/
+https://www.ithome.com.tw/news/176337
