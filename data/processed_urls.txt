@@ -1674,3 +1674,6 @@ https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html
 https://www.bleepingcomputer.com/news/security/police-dismantles-9-crime-groups-in-illegal-streaming-crackdown/
 https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/
 https://www.ithome.com.tw/news/176337
+https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html
+https://thehackernews.com/2026/06/shrinking-iam-attack-surface-through.html
+https://www.bleepingcomputer.com/news/security/cisa-warns-of-active-attacks-exploiting-android-linux-bugs/
