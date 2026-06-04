@@ -1686,3 +1686,6 @@ https://www.ithome.com.tw/news/176352
 https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html
 https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html
 https://www.ithome.com.tw/news/176373
+https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html
+https://www.bleepingcomputer.com/news/security/hackers-are-after-the-gaps-in-your-vulnerability-program-heres-their-playbook/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-unexpected-windows-driver-updates-on-caching-issue/
