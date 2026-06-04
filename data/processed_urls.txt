@@ -1680,3 +1680,6 @@ https://www.bleepingcomputer.com/news/security/cisa-warns-of-active-attacks-expl
 https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html
 https://thehackernews.com/2026/06/google-doubleclick-abused-in-new.html
 https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-targeting-fuel-tank-monitoring-systems/
+https://www.bleepingcomputer.com/news/security/chinese-hackers-use-new-atlas-rat-malware-in-european-cyberattacks/
+https://www.bleepingcomputer.com/news/security/the-us-sanctions-nobitex-crypto-exchange-used-by-ransomware/
+https://www.ithome.com.tw/news/176352
