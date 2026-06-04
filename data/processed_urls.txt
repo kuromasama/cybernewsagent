@@ -1689,3 +1689,6 @@ https://www.ithome.com.tw/news/176373
 https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html
 https://www.bleepingcomputer.com/news/security/hackers-are-after-the-gaps-in-your-vulnerability-program-heres-their-playbook/
 https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-unexpected-windows-driver-updates-on-caching-issue/
+https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html
+https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html
+https://www.bleepingcomputer.com/news/security/un-world-food-programme-breach-affects-600-000-gaza-households/
