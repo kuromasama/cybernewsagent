@@ -1699,3 +1699,5 @@ https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html
 https://thehackernews.com/2026/06/fifa-world-cup-2026-scams-are-already.html
 https://www.bleepingcomputer.com/news/security/new-cisco-sd-wan-flaw-exploited-in-zero-day-attacks-to-gain-root/
 https://www.ithome.com.tw/news/176410
+https://thehackernews.com/2026/06/new-threat-cluster-op-512-targets.html
+https://www.bleepingcomputer.com/news/security/what-2026-dbir-confirms-attacks-are-living-in-the-browser/
