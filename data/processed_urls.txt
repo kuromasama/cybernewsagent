@@ -1692,3 +1692,6 @@ https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-unexpected-wind
 https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html
 https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html
 https://www.bleepingcomputer.com/news/security/un-world-food-programme-breach-affects-600-000-gaza-households/
+https://www.bleepingcomputer.com/news/software/brave-software-releases-origin-for-a-paid-bloat-free-browsing-experience/
+https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/
+https://www.ithome.com.tw/news/176384
