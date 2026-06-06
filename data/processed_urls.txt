@@ -1707,3 +1707,6 @@ https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwin
 https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/
 https://www.bleepingcomputer.com/news/security/suspicious-polyfill-login-prompts-pop-up-on-toshiba-muji-websites/
 https://www.ithome.com.tw/news/176411
+https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html
+https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html
+https://cloud.google.com/blog/topics/threat-intelligence/targeted-campaign-us-law-firms/
