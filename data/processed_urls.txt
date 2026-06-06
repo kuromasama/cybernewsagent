@@ -1712,3 +1712,5 @@ https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html
 https://cloud.google.com/blog/topics/threat-intelligence/targeted-campaign-us-law-firms/
 https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html
 https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html
+https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html
+https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/
