@@ -1724,3 +1724,9 @@ https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html
 https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/
 https://www.ithome.com.tw/news/176433
 https://www.ithome.com.tw/news/176437
+https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html
+https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html
+https://www.bleepingcomputer.com/news/security/reducing-security-operations-complexity-with-wazuh-cloud/
+https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/
+https://www.ithome.com.tw/news/176440
+https://www.ithome.com.tw/news/176446
