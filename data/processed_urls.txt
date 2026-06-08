@@ -1719,3 +1719,8 @@ https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-f
 https://www.bleepingcomputer.com/news/microsoft/hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal/
 https://www.ithome.com.tw/news/176417
 https://www.ithome.com.tw/news/176420
+https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html
+https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html
+https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/
+https://www.ithome.com.tw/news/176433
+https://www.ithome.com.tw/news/176437
