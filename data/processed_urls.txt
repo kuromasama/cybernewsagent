@@ -1716,3 +1716,6 @@ https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html
 https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/
 https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/
 https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/
+https://www.bleepingcomputer.com/news/microsoft/hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal/
+https://www.ithome.com.tw/news/176417
+https://www.ithome.com.tw/news/176420
