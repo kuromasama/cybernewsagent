@@ -1730,3 +1730,6 @@ https://www.bleepingcomputer.com/news/security/reducing-security-operations-comp
 https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/
 https://www.ithome.com.tw/news/176440
 https://www.ithome.com.tw/news/176446
+https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html
+https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/
+https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/
