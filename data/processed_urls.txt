@@ -1739,3 +1739,8 @@ https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-br
 https://redcanary.com/blog/threat-detection/entra-id-ai-workflows-assistive-agents/
 https://www.ithome.com.tw/news/176450
 https://www.ithome.com.tw/news/176449
+https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html
+https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/
+https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/
+https://www.ithome.com.tw/news/176474
+https://www.ithome.com.tw/news/176472
