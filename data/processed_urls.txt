@@ -1733,3 +1733,9 @@ https://www.ithome.com.tw/news/176446
 https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html
 https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/
 https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/
+https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html
+https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/
+https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/
+https://redcanary.com/blog/threat-detection/entra-id-ai-workflows-assistive-agents/
+https://www.ithome.com.tw/news/176450
+https://www.ithome.com.tw/news/176449
