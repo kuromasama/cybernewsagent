@@ -1749,3 +1749,6 @@ https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html
 https://www.bleepingcomputer.com/news/security/new-veeam-vulnerability-exposes-backup-servers-to-rce-attacks/
 https://www.ithome.com.tw/news/176495
 https://www.ithome.com.tw/news/176494
+https://thehackernews.com/2026/06/meta-to-use-off-site-business-data-for.html
+https://thehackernews.com/2026/06/veeam-backup-replication-rce-flaw-lets.html
+https://www.bleepingcomputer.com/news/security/sap-fixes-critical-flaws-in-netweaver-and-commerce-cloud/
