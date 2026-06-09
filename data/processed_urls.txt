@@ -1744,3 +1744,8 @@ https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-p
 https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/
 https://www.ithome.com.tw/news/176474
 https://www.ithome.com.tw/news/176472
+https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html
+https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html
+https://www.bleepingcomputer.com/news/security/new-veeam-vulnerability-exposes-backup-servers-to-rce-attacks/
+https://www.ithome.com.tw/news/176495
+https://www.ithome.com.tw/news/176494
