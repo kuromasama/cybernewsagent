@@ -1763,3 +1763,7 @@ https://www.ithome.com.tw/news/176522
 https://thehackernews.com/2026/06/your-automated-pentest-looks-clean-see.html
 https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html
 https://www.bleepingcomputer.com/news/security/the-5-best-practices-for-secure-identity-verification/
+https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html
+https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html
+https://www.bleepingcomputer.com/news/security/github-announces-npm-security-changes-to-tackle-supply-chain-attacks/
+https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/
