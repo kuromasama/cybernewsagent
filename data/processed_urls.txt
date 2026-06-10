@@ -1760,3 +1760,6 @@ https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html
 https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html
 https://www.bleepingcomputer.com/news/security/new-max-severity-ivanti-sentry-flaw-allows-code-execution-as-root/
 https://www.ithome.com.tw/news/176522
+https://thehackernews.com/2026/06/your-automated-pentest-looks-clean-see.html
+https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html
+https://www.bleepingcomputer.com/news/security/the-5-best-practices-for-secure-identity-verification/
