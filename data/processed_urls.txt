@@ -1767,3 +1767,6 @@ https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html
 https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html
 https://www.bleepingcomputer.com/news/security/github-announces-npm-security-changes-to-tackle-supply-chain-attacks/
 https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/
+https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/
+https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/
+https://www.ithome.com.tw/news/176533
