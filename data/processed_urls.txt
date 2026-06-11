@@ -1774,3 +1774,5 @@ https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html
 https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-bug-on-windows-server-2025/
 https://www.bleepingcomputer.com/news/security/nottingham-university-data-breach-affects-over-450-000-students/
 https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/
+https://thehackernews.com/2026/06/cybersecurity-stars-awards-2026-winners.html
+https://www.bleepingcomputer.com/news/security/why-ai-driven-threats-are-exposing-the-limits-of-msp-security-stacks/
