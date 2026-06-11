@@ -1770,3 +1770,7 @@ https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-
 https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/
 https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/
 https://www.ithome.com.tw/news/176533
+https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-bug-on-windows-server-2025/
+https://www.bleepingcomputer.com/news/security/nottingham-university-data-breach-affects-over-450-000-students/
+https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/
