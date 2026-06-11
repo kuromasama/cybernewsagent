@@ -1776,3 +1776,5 @@ https://www.bleepingcomputer.com/news/security/nottingham-university-data-breach
 https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/
 https://thehackernews.com/2026/06/cybersecurity-stars-awards-2026-winners.html
 https://www.bleepingcomputer.com/news/security/why-ai-driven-threats-are-exposing-the-limits-of-msp-security-stacks/
+https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html
+https://www.ithome.com.tw/news/176550
