@@ -1788,3 +1788,6 @@ https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-aff
 https://redcanary.com/blog/threat-detection/threat-hunting-scaled/
 https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html
 https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/
+https://thehackernews.com/2026/06/400-arch-linux-aur-packages-hijacked-to.html
+https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html
+https://www.ithome.com.tw/news/176578
