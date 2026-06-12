@@ -1778,3 +1778,6 @@ https://thehackernews.com/2026/06/cybersecurity-stars-awards-2026-winners.html
 https://www.bleepingcomputer.com/news/security/why-ai-driven-threats-are-exposing-the-limits-of-msp-security-stacks/
 https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html
 https://www.ithome.com.tw/news/176550
+https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html
+https://www.bleepingcomputer.com/news/security/japanese-energy-firm-loses-drive-with-data-of-109-million-clients/
+https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/
