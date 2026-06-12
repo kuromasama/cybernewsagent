@@ -1786,3 +1786,5 @@ https://thehackernews.com/2026/06/interpol-takes-down-sniper-dz-phishing.html
 https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/
 https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-affected-over-73-000-accounts/
 https://redcanary.com/blog/threat-detection/threat-hunting-scaled/
+https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html
+https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/
