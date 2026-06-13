@@ -1796,3 +1796,5 @@ https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notifi
 https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/
 https://www.ithome.com.tw/news/176583
 https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html
+https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html
+https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/
