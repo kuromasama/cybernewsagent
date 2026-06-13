@@ -1791,3 +1791,7 @@ https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-ed
 https://thehackernews.com/2026/06/400-arch-linux-aur-packages-hijacked-to.html
 https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html
 https://www.ithome.com.tw/news/176578
+https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html
+https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/
+https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/
+https://www.ithome.com.tw/news/176583
