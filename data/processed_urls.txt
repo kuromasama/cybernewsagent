@@ -1795,3 +1795,4 @@ https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html
 https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/
 https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/
 https://www.ithome.com.tw/news/176583
+https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html
