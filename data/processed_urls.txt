@@ -1810,3 +1810,8 @@ https://www.ithome.com.tw/news/176627
 https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html
 https://www.bleepingcomputer.com/news/security/council-of-europe-investigates-shinyhunters-data-breach-claims/
 https://www.bleepingcomputer.com/news/security/fbi-fraudsters-use-couriers-to-steal-money-in-crypto-scams/
+https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html
+https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html
+https://www.bleepingcomputer.com/news/security/simplehelp-bug-lets-hackers-create-rogue-remote-support-accounts/
+https://www.bleepingcomputer.com/news/security/optinmonster-wordpress-plugin-hacked-in-cdn-supply-chain-attack/
+https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/
