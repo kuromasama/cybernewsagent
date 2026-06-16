@@ -1815,3 +1815,7 @@ https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html
 https://www.bleepingcomputer.com/news/security/simplehelp-bug-lets-hackers-create-rogue-remote-support-accounts/
 https://www.bleepingcomputer.com/news/security/optinmonster-wordpress-plugin-hacked-in-cdn-supply-chain-attack/
 https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/
+https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html
+https://www.bleepingcomputer.com/news/security/doj-seizes-cfake-socfake-deepfake-nude-sites-under-take-it-down-act/
+https://www.ithome.com.tw/news/176643
+https://www.ithome.com.tw/news/176642
