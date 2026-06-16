@@ -1827,3 +1827,5 @@ https://www.ithome.com.tw/news/176667
 https://www.ithome.com.tw/news/176662
 https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html
 https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html
+https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html
+https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html
