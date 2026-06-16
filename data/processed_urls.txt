@@ -1825,3 +1825,5 @@ https://www.bleepingcomputer.com/news/security/cisa-warns-of-another-actively-ex
 https://www.bleepingcomputer.com/news/security/ransomware-gang-abuses-microsoft-teams-relays-to-hide-malicious-traffic/
 https://www.ithome.com.tw/news/176667
 https://www.ithome.com.tw/news/176662
+https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html
+https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html
