@@ -1819,3 +1819,9 @@ https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html
 https://www.bleepingcomputer.com/news/security/doj-seizes-cfake-socfake-deepfake-nude-sites-under-take-it-down-act/
 https://www.ithome.com.tw/news/176643
 https://www.ithome.com.tw/news/176642
+https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html
+https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html
+https://www.bleepingcomputer.com/news/security/cisa-warns-of-another-actively-exploited-cpanel-plugin-flaw/
+https://www.bleepingcomputer.com/news/security/ransomware-gang-abuses-microsoft-teams-relays-to-hide-malicious-traffic/
+https://www.ithome.com.tw/news/176667
+https://www.ithome.com.tw/news/176662
