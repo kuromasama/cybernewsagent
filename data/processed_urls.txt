@@ -1836,3 +1836,5 @@ https://www.ithome.com.tw/news/176675
 https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html
 https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html
 https://www.ithome.com.tw/news/176706
+https://thehackernews.com/2026/06/adversarial-exposure-validation-turns.html
+https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/
