@@ -1833,3 +1833,6 @@ https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-p
 https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/
 https://www.ithome.com.tw/news/176676
 https://www.ithome.com.tw/news/176675
+https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html
+https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html
+https://www.ithome.com.tw/news/176706
