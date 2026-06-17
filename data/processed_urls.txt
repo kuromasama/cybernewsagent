@@ -1829,3 +1829,7 @@ https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html
 https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html
 https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html
 https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html
+https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/
+https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/
+https://www.ithome.com.tw/news/176676
+https://www.ithome.com.tw/news/176675
