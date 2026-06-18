@@ -1846,3 +1846,6 @@ https://www.bleepingcomputer.com/news/security/google-to-use-uk-and-eu-user-ip-a
 https://www.ithome.com.tw/news/176710
 https://www.ithome.com.tw/news/176733
 https://www.ithome.com.tw/news/176732
+https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html
+https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html
+https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/
