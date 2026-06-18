@@ -1849,3 +1849,8 @@ https://www.ithome.com.tw/news/176732
 https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html
 https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html
 https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/
+https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html
+https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html
+https://www.bleepingcomputer.com/news/security/nintendo-confirms-data-stolen-in-webmd-subsidiary-cyberattack/
+https://www.bleepingcomputer.com/news/security/usb-worm-spreads-crypto-stealing-malware-via-windows-shortcut-files/
+https://redcanary.com/blog/threat-intelligence/intelligence-insights-june-2026/
