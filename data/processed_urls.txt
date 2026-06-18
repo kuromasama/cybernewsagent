@@ -1841,3 +1841,6 @@ https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-
 https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html
 https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html
 https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/
+https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-testing-a-chatgpt-for-science-subscription/
+https://www.bleepingcomputer.com/news/security/google-to-use-uk-and-eu-user-ip-addresses-for-ad-personalization/
+https://www.ithome.com.tw/news/176710
