@@ -1857,3 +1857,9 @@ https://redcanary.com/blog/threat-intelligence/intelligence-insights-june-2026/
 https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/
 https://www.ithome.com.tw/news/176737
 https://www.ithome.com.tw/news/176735
+https://thehackernews.com/2026/06/salesforce-disables-klue-app.html
+https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html
+https://www.bleepingcomputer.com/news/security/new-york-man-faces-cyberstalking-charge-after-sharing-ai-generated-nudes-online/
+https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/
+https://www.ithome.com.tw/news/176740
+https://www.ithome.com.tw/news/176739
