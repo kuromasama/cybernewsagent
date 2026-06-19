@@ -1854,3 +1854,6 @@ https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html
 https://www.bleepingcomputer.com/news/security/nintendo-confirms-data-stolen-in-webmd-subsidiary-cyberattack/
 https://www.bleepingcomputer.com/news/security/usb-worm-spreads-crypto-stealing-malware-via-windows-shortcut-files/
 https://redcanary.com/blog/threat-intelligence/intelligence-insights-june-2026/
+https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/
+https://www.ithome.com.tw/news/176737
+https://www.ithome.com.tw/news/176735
