@@ -1864,3 +1864,5 @@ https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secu
 https://www.ithome.com.tw/news/176740
 https://www.ithome.com.tw/news/176739
 https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html
+https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html
+https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html
