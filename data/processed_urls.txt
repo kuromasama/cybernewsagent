@@ -1866,3 +1866,7 @@ https://www.ithome.com.tw/news/176739
 https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html
 https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html
 https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html
+https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/
+https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/
+https://www.ithome.com.tw/news/176743
+https://www.ithome.com.tw/news/176742
