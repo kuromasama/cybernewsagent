@@ -1882,3 +1882,7 @@ https://thehackernews.com/2026/06/canadas-spy-agency-used-first-of-its.html
 https://thehackernews.com/2026/06/arystinger-malware-infects-4300-legacy.html
 https://www.ithome.com.tw/news/176785
 https://www.ithome.com.tw/news/176777
+https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html
+https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html
+https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/
+https://redcanary.com/blog/security-operations/rmm-detection/
