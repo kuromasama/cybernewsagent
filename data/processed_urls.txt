@@ -1886,3 +1886,7 @@ https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html
 https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html
 https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/
 https://redcanary.com/blog/security-operations/rmm-detection/
+https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html
+https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html
+https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-says-windows-11-26h2-is-coming-soon-details-upgrade-process/
