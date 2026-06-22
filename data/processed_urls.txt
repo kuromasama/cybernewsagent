@@ -1876,3 +1876,5 @@ https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-priori
 https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/
 https://www.ithome.com.tw/news/176744
 https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/
+https://www.ithome.com.tw/news/176758
+https://www.ithome.com.tw/news/176756
