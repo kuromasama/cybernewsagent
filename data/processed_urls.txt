@@ -1904,3 +1904,7 @@ https://www.bleepingcomputer.com/news/security/the-exploit-doesnt-exist-you-can-
 https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/
 https://www.ithome.com.tw/news/176813
 https://www.ithome.com.tw/news/176812
+https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html
+https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html
+https://www.bleepingcomputer.com/news/security/new-macos-clickfix-attack-silently-mounts-dmgs-to-push-infostealer/
+https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/
