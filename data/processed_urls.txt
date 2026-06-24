@@ -1919,3 +1919,6 @@ https://www.ithome.com.tw/news/176856
 https://www.ithome.com.tw/news/176855
 https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html
 https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html
+https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html
+https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html
+https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/
