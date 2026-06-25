@@ -1926,3 +1926,6 @@ https://www.bleepingcomputer.com/news/google/google-releases-new-privacy-control
 https://www.bleepingcomputer.com/news/security/draftkings-hacker-snoopy-sentenced-to-18-months-in-prison/
 https://www.ithome.com.tw/news/176863
 https://www.ithome.com.tw/news/176862
+https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
+https://www.ithome.com.tw/news/176877
+https://www.ithome.com.tw/news/176876
