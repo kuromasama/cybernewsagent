@@ -1933,3 +1933,6 @@ https://thehackernews.com/2026/06/surviving-mythos-era-richard-bejtlich.html
 https://www.bleepingcomputer.com/news/security/the-four-elevations-of-effective-fraud-prevention/
 https://www.bleepingcomputer.com/news/security/webinar-why-account-takeovers-remain-one-of-the-hardest-threats-to-stop/
 https://www.ithome.com.tw/news/176881
+https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html
+https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/
