@@ -1929,3 +1929,7 @@ https://www.ithome.com.tw/news/176862
 https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
 https://www.ithome.com.tw/news/176877
 https://www.ithome.com.tw/news/176876
+https://thehackernews.com/2026/06/surviving-mythos-era-richard-bejtlich.html
+https://www.bleepingcomputer.com/news/security/the-four-elevations-of-effective-fraud-prevention/
+https://www.bleepingcomputer.com/news/security/webinar-why-account-takeovers-remain-one-of-the-hardest-threats-to-stop/
+https://www.ithome.com.tw/news/176881
