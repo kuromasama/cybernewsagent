@@ -1942,3 +1942,7 @@ https://www.ithome.com.tw/news/176888
 https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html
 https://www.ithome.com.tw/news/176903
 https://www.ithome.com.tw/news/176907
+https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html
+https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html
+https://www.ithome.com.tw/news/176910
+https://www.ithome.com.tw/news/176909
