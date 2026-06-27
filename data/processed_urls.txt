@@ -1952,3 +1952,4 @@ https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html
 https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/
 https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/
 https://www.ithome.com.tw/news/176911
+https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html
