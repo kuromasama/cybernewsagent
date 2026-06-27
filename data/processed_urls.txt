@@ -1953,3 +1953,6 @@ https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-si
 https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/
 https://www.ithome.com.tw/news/176911
 https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html
+https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html
+https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/
+https://www.ithome.com.tw/news/176912
