@@ -1950,3 +1950,5 @@ https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html
 https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html
 https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html
 https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/
+https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/
+https://www.ithome.com.tw/news/176911
