@@ -1960,3 +1960,7 @@ https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-mil
 https://www.ithome.com.tw/news/176913
 https://www.ithome.com.tw/news/176915
 https://www.ithome.com.tw/news/176914
+https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html
+https://thehackernews.com/2026/06/public-poc-released-for-critical.html
+https://www.ithome.com.tw/news/176944
+https://www.ithome.com.tw/news/176942
