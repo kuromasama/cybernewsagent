@@ -1964,3 +1964,8 @@ https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html
 https://thehackernews.com/2026/06/public-poc-released-for-critical.html
 https://www.ithome.com.tw/news/176944
 https://www.ithome.com.tw/news/176942
+https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html
+https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/
+https://www.bleepingcomputer.com/news/security/agentic-ai-has-an-identity-problem-and-attackers-know-it/
+https://www.ithome.com.tw/news/176945
+https://www.ithome.com.tw/news/176955
