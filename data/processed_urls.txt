@@ -1973,3 +1973,7 @@ https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html
 https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html
 https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/
 https://www.bleepingcomputer.com/news/microsoft/microsoft-extends-windows-server-2022-hotpatching-until-october-2027/
+https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/
+https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/
+https://www.ithome.com.tw/news/176959
+https://www.ithome.com.tw/news/176958
