@@ -1988,3 +1988,6 @@ https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-
 https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/
 https://redcanary.com/blog/threat-detection/phishing-ai-agent/
 https://www.ithome.com.tw/news/176991
+https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
+https://thehackernews.com/2026/06/rustduck-botnet-rebuilds-in-rust-to.html
+https://www.ithome.com.tw/news/176993
