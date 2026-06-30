@@ -1982,3 +1982,9 @@ https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html
 https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/
 https://www.ithome.com.tw/news/176981
 https://www.ithome.com.tw/news/176978
+https://thehackernews.com/2026/06/what-numbers-say-about-fifa-2026-cyber.html
+https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html
+https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-to-combat-business-email-compromise/
+https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/
+https://redcanary.com/blog/threat-detection/phishing-ai-agent/
+https://www.ithome.com.tw/news/176991
