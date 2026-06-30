@@ -1977,3 +1977,8 @@ https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-br
 https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/
 https://www.ithome.com.tw/news/176959
 https://www.ithome.com.tw/news/176958
+https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html
+https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html
+https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/
+https://www.ithome.com.tw/news/176981
+https://www.ithome.com.tw/news/176978
