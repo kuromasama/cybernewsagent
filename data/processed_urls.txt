@@ -1991,3 +1991,6 @@ https://www.ithome.com.tw/news/176991
 https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
 https://thehackernews.com/2026/06/rustduck-botnet-rebuilds-in-rust-to.html
 https://www.ithome.com.tw/news/176993
+https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-restore-claude-fable-access-on-wednesday/
+https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-sonnet-5-with-near-opus-48-performance-at-a-lower-price/
+https://www.ithome.com.tw/news/176996
