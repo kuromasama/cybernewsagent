@@ -1994,3 +1994,8 @@ https://www.ithome.com.tw/news/176993
 https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-restore-claude-fable-access-on-wednesday/
 https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-sonnet-5-with-near-opus-48-performance-at-a-lower-price/
 https://www.ithome.com.tw/news/176996
+https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
+https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html
+https://www.bleepingcomputer.com/news/security/adobe-patches-seven-max-severity-coldfusion-campaign-flaws/
+https://www.ithome.com.tw/news/177021
+https://www.ithome.com.tw/news/177020
