@@ -2009,3 +2009,7 @@ https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-sec
 https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html
 https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html
 https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/
+https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html
+https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html
+https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/
+https://www.ithome.com.tw/news/177045
