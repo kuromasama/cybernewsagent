@@ -2006,3 +2006,6 @@ https://www.ithome.com.tw/news/177023
 https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html
 https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html
 https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-security-is-no-longer-enough/
+https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html
+https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html
+https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/
