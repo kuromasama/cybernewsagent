@@ -2016,3 +2016,6 @@ https://www.ithome.com.tw/news/177045
 https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html
 https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-removed-copilot-button-in-outlook/
 https://www.ithome.com.tw/news/177049
+https://www.bleepingcomputer.com/news/legal/google-loses-final-appeal-to-overturn-41-billion-eu-fine/
+https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/
+https://www.ithome.com.tw/news/177046
