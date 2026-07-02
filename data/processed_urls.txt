@@ -2013,3 +2013,6 @@ https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html
 https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html
 https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/
 https://www.ithome.com.tw/news/177045
+https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-removed-copilot-button-in-outlook/
+https://www.ithome.com.tw/news/177049
