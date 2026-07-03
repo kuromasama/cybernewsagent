@@ -2019,3 +2019,6 @@ https://www.ithome.com.tw/news/177049
 https://www.bleepingcomputer.com/news/legal/google-loses-final-appeal-to-overturn-41-billion-eu-fine/
 https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/
 https://www.ithome.com.tw/news/177046
+https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html
+https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html
+https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/
