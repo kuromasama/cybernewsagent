@@ -2029,3 +2029,5 @@ https://www.ithome.com.tw/news/177073
 https://thehackernews.com/2026/07/european-parliament-member.html
 https://www.ithome.com.tw/news/177079
 https://www.ithome.com.tw/news/177080
+https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html
+https://thehackernews.com/2026/07/armored-likho-targets-government.html
