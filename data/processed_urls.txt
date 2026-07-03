@@ -2022,3 +2022,7 @@ https://www.ithome.com.tw/news/177046
 https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html
 https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html
 https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/
+https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html
+https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-relaunch-disappoints-users-with-nerfed-performance/
+https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/
+https://www.ithome.com.tw/news/177073
