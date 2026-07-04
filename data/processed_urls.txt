@@ -2031,3 +2031,5 @@ https://www.ithome.com.tw/news/177079
 https://www.ithome.com.tw/news/177080
 https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html
 https://thehackernews.com/2026/07/armored-likho-targets-government.html
+https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html
+https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html
