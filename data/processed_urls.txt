@@ -2038,3 +2038,5 @@ https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-
 https://www.ithome.com.tw/review/176974
 https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html
 https://www.ithome.com.tw/news/177087
+https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html
+https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/
