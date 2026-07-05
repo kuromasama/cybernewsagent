@@ -2041,3 +2041,5 @@ https://www.ithome.com.tw/news/177087
 https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html
 https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/
 https://www.ithome.com.tw/news/177088
+https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/
+https://www.ithome.com.tw/news/177089
