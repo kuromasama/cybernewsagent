@@ -2047,3 +2047,8 @@ https://www.ithome.com.tw/news/177091
 https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html
 https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html
 https://www.ithome.com.tw/news/177113
+https://thehackernews.com/2026/07/how-to-evaluate-ai-soc-platform-in-2026.html
+https://www.bleepingcomputer.com/news/security/software-is-now-written-at-the-speed-of-thought-security-isnt/
+https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/
+https://www.ithome.com.tw/news/177116
+https://www.ithome.com.tw/news/177127
