@@ -2069,3 +2069,7 @@ https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern
 https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/
 https://www.ithome.com.tw/news/177150
 https://www.ithome.com.tw/news/177153
+https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html
+https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html
+https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/
+https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/
