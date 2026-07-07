@@ -2063,3 +2063,9 @@ https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-fla
 https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-new-cloud-rebuild-windows-11-recovery-feature/
 https://www.ithome.com.tw/news/177147
 https://www.ithome.com.tw/news/177146
+https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html
+https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html
+https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/
+https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/
+https://www.ithome.com.tw/news/177150
+https://www.ithome.com.tw/news/177153
