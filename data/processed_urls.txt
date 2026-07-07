@@ -2055,3 +2055,5 @@ https://www.ithome.com.tw/news/177127
 https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html
 https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html
 https://www.bleepingcomputer.com/news/security/vietnam-arrests-suspects-behind-hianime-anime-piracy-service/
+https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/
+https://www.bleepingcomputer.com/news/security/fake-it-support-calls-on-microsoft-teams-push-etherrat-malware/
