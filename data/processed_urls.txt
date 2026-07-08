@@ -2075,3 +2075,7 @@ https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash
 https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/
 https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/
 https://www.ithome.com.tw/news/177155
+https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html
+https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html
+https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/
+https://www.ithome.com.tw/news/177177
