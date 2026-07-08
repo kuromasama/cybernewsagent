@@ -2079,3 +2079,7 @@ https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html
 https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html
 https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/
 https://www.ithome.com.tw/news/177177
+https://thehackernews.com/2026/07/github-verified-commits-can-be.html
+https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html
+https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
+https://www.ithome.com.tw/news/177181
