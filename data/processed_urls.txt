@@ -2094,3 +2094,5 @@ https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html
 https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/
 https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/
 https://www.ithome.com.tw/news/177208
+https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html
+https://www.bleepingcomputer.com/news/security/the-hidden-security-risks-of-reduced-summer-it-coverage/
