@@ -2085,3 +2085,7 @@ https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecuri
 https://www.ithome.com.tw/news/177181
 https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html
 https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html
+https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/
+https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/
+https://www.ithome.com.tw/news/177189
+https://www.ithome.com.tw/news/177188
