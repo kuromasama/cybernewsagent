@@ -2101,3 +2101,8 @@ https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html
 https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/
 https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/
 https://www.ithome.com.tw/news/177223
+https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html
+https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html
+https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/
+https://www.ithome.com.tw/news/177233
+https://www.ithome.com.tw/news/177231
