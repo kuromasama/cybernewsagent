@@ -2109,3 +2109,5 @@ https://www.ithome.com.tw/news/177231
 https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html
 https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html
 https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/
+https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html
+https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html
