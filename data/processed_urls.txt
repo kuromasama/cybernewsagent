@@ -2098,3 +2098,6 @@ https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html
 https://www.bleepingcomputer.com/news/security/the-hidden-security-risks-of-reduced-summer-it-coverage/
 https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html
 https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html
+https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/
+https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/
+https://www.ithome.com.tw/news/177223
