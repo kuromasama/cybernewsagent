@@ -2126,3 +2126,7 @@ https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-
 https://www.bleepingcomputer.com/news/artificial-intelligence/openai-temporarily-relaxes-gpt-56-sol-usage-limits/
 https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/
 https://www.ithome.com.tw/news/177241
+https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html
+https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html
+https://www.ithome.com.tw/news/177265
+https://www.ithome.com.tw/news/177264
