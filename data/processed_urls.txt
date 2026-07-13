@@ -2130,3 +2130,9 @@ https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html
 https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html
 https://www.ithome.com.tw/news/177265
 https://www.ithome.com.tw/news/177264
+https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html
+https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html
+https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf/
+https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/
+https://www.ithome.com.tw/news/177186
+https://www.ithome.com.tw/news/177185
