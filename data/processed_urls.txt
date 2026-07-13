@@ -2136,3 +2136,8 @@ https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ulti
 https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/
 https://www.ithome.com.tw/news/177186
 https://www.ithome.com.tw/news/177185
+https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html
+https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html
+https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/
+https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/
+https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
