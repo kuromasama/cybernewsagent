@@ -2153,3 +2153,8 @@ https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-id-gets-passkeys
 https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/
 https://www.ithome.com.tw/news/177307
 https://www.ithome.com.tw/news/177306
+https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html
+https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/
+https://www.ithome.com.tw/news/177317
