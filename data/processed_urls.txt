@@ -2144,3 +2144,6 @@ https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-lea
 https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/
 https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/
 https://www.ithome.com.tw/news/177271
+https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html
+https://www.ithome.com.tw/news/177296
+https://www.ithome.com.tw/news/177301
