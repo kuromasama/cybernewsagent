@@ -2147,3 +2147,9 @@ https://www.ithome.com.tw/news/177271
 https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html
 https://www.ithome.com.tw/news/177296
 https://www.ithome.com.tw/news/177301
+https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html
+https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html
+https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-id-gets-passkeys-default-authentication-starting-september/
+https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/
+https://www.ithome.com.tw/news/177307
+https://www.ithome.com.tw/news/177306
