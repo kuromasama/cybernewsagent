@@ -2141,3 +2141,6 @@ https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html
 https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/
 https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/
 https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
+https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/
+https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/
+https://www.ithome.com.tw/news/177271
