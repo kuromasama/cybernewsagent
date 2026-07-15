@@ -2162,3 +2162,7 @@ https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html
 https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
 https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/
 https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/
+https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html
+https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/
+https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/
+https://www.ithome.com.tw/news/177340
