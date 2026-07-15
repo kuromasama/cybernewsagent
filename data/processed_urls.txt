@@ -2169,3 +2169,6 @@ https://www.ithome.com.tw/news/177340
 https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html
 https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html
 https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-patch-actively-exploited-sharepoint-flaws/
+https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html
+https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html
+https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/
