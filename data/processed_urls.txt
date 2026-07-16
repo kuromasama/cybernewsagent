@@ -2182,3 +2182,5 @@ https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html
 https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html
 https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-90-days/
 https://www.ithome.com.tw/news/177373
+https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html
+https://www.bleepingcomputer.com/news/security/ai-agents-broke-the-security-playbook-heres-what-replaces-it/
