@@ -2194,3 +2194,5 @@ https://www.ithome.com.tw/news/177393
 https://www.ithome.com.tw/news/177394
 https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html
 https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html
+https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html
+https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html
