@@ -2184,3 +2184,7 @@ https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-rea
 https://www.ithome.com.tw/news/177373
 https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html
 https://www.bleepingcomputer.com/news/security/ai-agents-broke-the-security-playbook-heres-what-replaces-it/
+https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/
+https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/
+https://www.ithome.com.tw/news/177374
+https://www.ithome.com.tw/news/177369
