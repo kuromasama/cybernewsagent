@@ -2188,3 +2188,7 @@ https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps
 https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/
 https://www.ithome.com.tw/news/177374
 https://www.ithome.com.tw/news/177369
+https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html
+https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/
+https://www.ithome.com.tw/news/177393
+https://www.ithome.com.tw/news/177394
