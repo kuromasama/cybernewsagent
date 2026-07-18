@@ -2196,3 +2196,6 @@ https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html
 https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html
 https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html
 https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html
+https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html
+https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html
+https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/
