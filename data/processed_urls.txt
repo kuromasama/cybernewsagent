@@ -2202,3 +2202,5 @@ https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-opens
 https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/
 https://www.ithome.com.tw/news/177407
 https://www.ithome.com.tw/news/177420
+https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/
+https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/
