@@ -2216,3 +2216,8 @@ https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html
 https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html
 https://www.ithome.com.tw/news/177452
 https://www.ithome.com.tw/news/177451
+https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html
+https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-wsus-server-sync-delays-and-timeouts/
+https://www.ithome.com.tw/news/177461
+https://www.ithome.com.tw/news/177455
