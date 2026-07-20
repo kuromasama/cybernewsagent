@@ -2212,3 +2212,7 @@ https://www.ithome.com.tw/news/177421
 https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html
 https://www.ithome.com.tw/news/177432
 https://www.ithome.com.tw/news/177431
+https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html
+https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html
+https://www.ithome.com.tw/news/177452
+https://www.ithome.com.tw/news/177451
