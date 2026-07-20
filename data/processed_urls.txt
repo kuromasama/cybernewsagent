@@ -2221,3 +2221,7 @@ https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai
 https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-wsus-server-sync-delays-and-timeouts/
 https://www.ithome.com.tw/news/177461
 https://www.ithome.com.tw/news/177455
+https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html
+https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html
+https://www.bleepingcomputer.com/news/security/new-hollowgraph-malware-uses-microsoft-graph-for-stealthy-c2-comms/
+https://www.bleepingcomputer.com/news/security/an-ai-soc-evaluation-guide-for-security-leaders/
