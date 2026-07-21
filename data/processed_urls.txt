@@ -2234,3 +2234,8 @@ https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html
 https://www.bleepingcomputer.com/news/security/windows-legacyhive-zero-day-flaw-gets-free-unofficial-patches/
 https://www.ithome.com.tw/news/177486
 https://www.ithome.com.tw/news/177485
+https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html
+https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html
+https://www.bleepingcomputer.com/news/security/us-seizes-over-1-000-fifa-world-cup-illegal-streaming-domains/
+https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/
+https://www.ithome.com.tw/news/177493
