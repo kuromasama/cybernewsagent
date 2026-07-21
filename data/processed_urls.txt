@@ -2239,3 +2239,5 @@ https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html
 https://www.bleepingcomputer.com/news/security/us-seizes-over-1-000-fifa-world-cup-illegal-streaming-domains/
 https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/
 https://www.ithome.com.tw/news/177493
+https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html
+https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html
