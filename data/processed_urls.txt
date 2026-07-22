@@ -2249,3 +2249,6 @@ https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html
 https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html
 https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/
 https://www.ithome.com.tw/news/177527
+https://thehackernews.com/2026/07/why-modern-socs-need-multi-layered.html
+https://www.bleepingcomputer.com/news/security/adobe-chrome-extension-flaw-let-sites-access-private-whatsapp-chats/
+https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-langflow-rce-flaw/
