@@ -2241,3 +2241,7 @@ https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-no
 https://www.ithome.com.tw/news/177493
 https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html
 https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html
+https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html
+https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/
+https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/
+https://www.ithome.com.tw/news/177498
