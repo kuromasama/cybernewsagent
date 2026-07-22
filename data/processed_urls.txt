@@ -2245,3 +2245,7 @@ https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html
 https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/
 https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/
 https://www.ithome.com.tw/news/177498
+https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html
+https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html
+https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/
+https://www.ithome.com.tw/news/177527
