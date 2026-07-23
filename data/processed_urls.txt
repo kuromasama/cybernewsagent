@@ -2257,3 +2257,7 @@ https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html
 https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html
 https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/
 https://www.bleepingcomputer.com/news/security/south-korea-discloses-data-breach-impacting-diplomats-worldwide/
+https://thehackernews.com/2026/07/check-point-patches-exploited.html
+https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/
+https://www.ithome.com.tw/news/177578
+https://www.ithome.com.tw/news/177551
