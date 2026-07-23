@@ -2261,3 +2261,6 @@ https://thehackernews.com/2026/07/check-point-patches-exploited.html
 https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/
 https://www.ithome.com.tw/news/177578
 https://www.ithome.com.tw/news/177551
+https://thehackernews.com/2026/07/how-synthetic-identity-fraud-is-coming.html
+https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html
+https://www.bleepingcomputer.com/news/google/eu-fines-google-1-billion-for-digital-markets-act-breaches-in-search-and-play-store/
