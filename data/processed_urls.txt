@@ -2264,3 +2264,5 @@ https://www.ithome.com.tw/news/177551
 https://thehackernews.com/2026/07/how-synthetic-identity-fraud-is-coming.html
 https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html
 https://www.bleepingcomputer.com/news/google/eu-fines-google-1-billion-for-digital-markets-act-breaches-in-search-and-play-store/
+https://thehackernews.com/2026/07/russian-espionage-group-exploited.html
+https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html
