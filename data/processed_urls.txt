@@ -2254,3 +2254,6 @@ https://www.bleepingcomputer.com/news/security/adobe-chrome-extension-flaw-let-s
 https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-langflow-rce-flaw/
 https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html
 https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html
+https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html
+https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/
+https://www.bleepingcomputer.com/news/security/south-korea-discloses-data-breach-impacting-diplomats-worldwide/
