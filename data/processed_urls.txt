@@ -2272,3 +2272,6 @@ https://redcanary.com/blog/threat-intelligence/intelligence-insights-july-2026/
 https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html
 https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/
 https://www.ithome.com.tw/news/177613
+https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html
+https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html
+https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown/
