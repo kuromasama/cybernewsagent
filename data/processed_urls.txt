@@ -2269,3 +2269,6 @@ https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html
 https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/
 https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/
 https://redcanary.com/blog/threat-intelligence/intelligence-insights-july-2026/
+https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html
+https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/
+https://www.ithome.com.tw/news/177613
