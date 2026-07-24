@@ -2266,3 +2266,6 @@ https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html
 https://www.bleepingcomputer.com/news/google/eu-fines-google-1-billion-for-digital-markets-act-breaches-in-search-and-play-store/
 https://thehackernews.com/2026/07/russian-espionage-group-exploited.html
 https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html
+https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/
+https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/
+https://redcanary.com/blog/threat-intelligence/intelligence-insights-july-2026/
