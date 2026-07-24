@@ -2275,3 +2275,5 @@ https://www.ithome.com.tw/news/177613
 https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html
 https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html
 https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown/
+https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html
+https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html
