@@ -2277,3 +2277,5 @@ https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html
 https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown/
 https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html
 https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html
+https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/
+https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/
