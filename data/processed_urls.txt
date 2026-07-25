@@ -2283,3 +2283,6 @@ https://www.ithome.com.tw/news/177624
 https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html
 https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html
 https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/
+https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html
+https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/
+https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/
