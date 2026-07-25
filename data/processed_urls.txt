@@ -2280,3 +2280,6 @@ https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html
 https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/
 https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/
 https://www.ithome.com.tw/news/177624
+https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html
+https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html
+https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/
