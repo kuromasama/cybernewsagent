@@ -2290,3 +2290,6 @@ https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html
 https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/
 https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/
 https://www.ithome.com.tw/news/177623
+https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html
+https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html
+https://www.ithome.com.tw/news/177651
