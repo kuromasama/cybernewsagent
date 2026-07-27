@@ -2293,3 +2293,8 @@ https://www.ithome.com.tw/news/177623
 https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html
 https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html
 https://www.ithome.com.tw/news/177651
+https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html
+https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html
+https://www.bleepingcomputer.com/news/security/shadow-ai-agents-are-multiplying-heres-how-to-find-and-secure-them/
+https://www.ithome.com.tw/news/177665
+https://www.ithome.com.tw/news/177666
