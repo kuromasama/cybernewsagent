@@ -2311,3 +2311,8 @@ https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html
 https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html
 https://www.ithome.com.tw/news/177687
 https://www.ithome.com.tw/news/177692
+https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html
+https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html
+https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/
+https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/
+https://www.ithome.com.tw/news/177694
