@@ -2307,3 +2307,7 @@ https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjs
 https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/
 https://www.ithome.com.tw/news/177670
 https://www.ithome.com.tw/news/177669
+https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html
+https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html
+https://www.ithome.com.tw/news/177687
+https://www.ithome.com.tw/news/177692
