@@ -2330,3 +2330,5 @@ https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html
 https://thehackernews.com/2026/07/researchers-show-single-malicious.html
 https://www.bleepingcomputer.com/news/security/these-near-mint-asus-chromebook-refurbs-are-only-145/
 https://www.ithome.com.tw/news/177733
+https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html
+https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html
