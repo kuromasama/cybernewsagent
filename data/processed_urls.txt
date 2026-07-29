@@ -2323,3 +2323,6 @@ https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html
 https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/
 https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/
 https://www.ithome.com.tw/news/177701
+https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html
+https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html
+https://www.ithome.com.tw/news/177720
