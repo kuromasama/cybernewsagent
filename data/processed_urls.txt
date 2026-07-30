@@ -2341,3 +2341,5 @@ https://www.ithome.com.tw/news/177758
 https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html
 https://thehackernews.com/2026/07/the-network-has-become-control-plane.html
 https://www.ithome.com.tw/news/177767
+https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html
+https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/
