@@ -2338,3 +2338,6 @@ https://www.ithome.com.tw/news/177737
 https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html
 https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html
 https://www.ithome.com.tw/news/177758
+https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html
+https://thehackernews.com/2026/07/the-network-has-become-control-plane.html
+https://www.ithome.com.tw/news/177767
