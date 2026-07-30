@@ -2332,3 +2332,6 @@ https://www.bleepingcomputer.com/news/security/these-near-mint-asus-chromebook-r
 https://www.ithome.com.tw/news/177733
 https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html
 https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html
+https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/
+https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/
+https://www.ithome.com.tw/news/177737
