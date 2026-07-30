@@ -2335,3 +2335,6 @@ https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html
 https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/
 https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/
 https://www.ithome.com.tw/news/177737
+https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html
+https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html
+https://www.ithome.com.tw/news/177758
