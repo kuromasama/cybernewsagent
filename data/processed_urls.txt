@@ -2343,3 +2343,6 @@ https://thehackernews.com/2026/07/the-network-has-become-control-plane.html
 https://www.ithome.com.tw/news/177767
 https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html
 https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/
+https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html
+https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/
+https://www.ithome.com.tw/news/177768
