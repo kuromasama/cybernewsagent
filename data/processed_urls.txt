@@ -2353,3 +2353,5 @@ https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html
 https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html
 https://www.ithome.com.tw/news/177799
 https://www.ithome.com.tw/news/177797
+https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html
+https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html
