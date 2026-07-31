@@ -2346,3 +2346,6 @@ https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supp
 https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html
 https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/
 https://www.ithome.com.tw/news/177768
+https://www.bleepingcomputer.com/news/security/south-korea-fines-telco-giant-kt-39-million-for-customer-data-breach/
+https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/
+https://www.ithome.com.tw/news/177789
