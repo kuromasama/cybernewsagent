@@ -2362,3 +2362,4 @@ https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html
 https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html
 https://www.ithome.com.tw/news/177798
 https://www.ithome.com.tw/news/177795
+https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html
