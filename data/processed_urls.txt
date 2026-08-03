@@ -2376,3 +2376,7 @@ https://www.ithome.com.tw/news/177832
 https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html
 https://www.ithome.com.tw/news/177836
 https://www.ithome.com.tw/news/177835
+https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html
+https://thehackernews.com/2026/08/google-password-manager-attacks-could.html
+https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/
+https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/
