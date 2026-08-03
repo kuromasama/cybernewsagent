@@ -2370,3 +2370,6 @@ https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astr
 https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/
 https://www.ithome.com.tw/news/177806
 https://www.ithome.com.tw/news/177805
+https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html
+https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html
+https://www.ithome.com.tw/news/177832
