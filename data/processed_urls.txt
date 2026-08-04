@@ -2390,3 +2390,7 @@ https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html
 https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html
 https://www.ithome.com.tw/news/177865
 https://www.ithome.com.tw/news/177869
+https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html
+https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html
+https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/
+https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/
