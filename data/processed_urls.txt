@@ -2394,3 +2394,7 @@ https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html
 https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html
 https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/
 https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/
+https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/
+https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/
+https://www.ithome.com.tw/news/177871
+https://www.ithome.com.tw/news/177870
