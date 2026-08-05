@@ -2405,3 +2405,7 @@ https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html
 https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html
 https://www.ithome.com.tw/news/177900
 https://www.ithome.com.tw/news/177898
+https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html
+https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html
+https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/
+https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/
