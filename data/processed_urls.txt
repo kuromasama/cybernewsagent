@@ -2401,3 +2401,7 @@ https://www.ithome.com.tw/news/177870
 https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html
 https://www.ithome.com.tw/news/177892
 https://www.ithome.com.tw/news/177890
+https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html
+https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html
+https://www.ithome.com.tw/news/177900
+https://www.ithome.com.tw/news/177898
