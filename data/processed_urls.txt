@@ -2398,3 +2398,6 @@ https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-target
 https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/
 https://www.ithome.com.tw/news/177871
 https://www.ithome.com.tw/news/177870
+https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html
+https://www.ithome.com.tw/news/177892
+https://www.ithome.com.tw/news/177890
