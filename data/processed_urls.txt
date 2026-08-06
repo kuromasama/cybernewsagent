@@ -2420,3 +2420,7 @@ https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html
 https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html
 https://www.ithome.com.tw/news/177941
 https://www.ithome.com.tw/news/177940
+https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html
+https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html
+https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/
+https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/
