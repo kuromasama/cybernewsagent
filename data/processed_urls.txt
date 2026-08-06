@@ -2416,3 +2416,7 @@ https://www.ithome.com.tw/news/177902
 https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html
 https://www.ithome.com.tw/news/177937
 https://www.ithome.com.tw/news/177936
+https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html
+https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html
+https://www.ithome.com.tw/news/177941
+https://www.ithome.com.tw/news/177940
