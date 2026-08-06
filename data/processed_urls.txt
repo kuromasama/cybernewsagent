@@ -2409,3 +2409,7 @@ https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html
 https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html
 https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/
 https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/
+https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/
+https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/
+https://www.ithome.com.tw/news/177903
+https://www.ithome.com.tw/news/177902
