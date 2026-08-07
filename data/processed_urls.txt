@@ -2427,3 +2427,6 @@ https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-info
 https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/
 https://www.ithome.com.tw/news/177957
 https://www.ithome.com.tw/news/177955
+https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html
+https://www.ithome.com.tw/news/177976
+https://www.ithome.com.tw/news/177964
