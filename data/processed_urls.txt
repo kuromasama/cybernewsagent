@@ -2425,3 +2425,5 @@ https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html
 https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/
 https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/
 https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/
+https://www.ithome.com.tw/news/177957
+https://www.ithome.com.tw/news/177955
