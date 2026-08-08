@@ -2439,3 +2439,5 @@ https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase
 https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/
 https://www.ithome.com.tw/news/177979
 https://www.ithome.com.tw/news/177977
+https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html
+https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html
