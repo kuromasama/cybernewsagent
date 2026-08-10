@@ -2443,3 +2443,6 @@ https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html
 https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html
 https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/
 https://www.ithome.com.tw/review/177980
+https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html
+https://www.ithome.com.tw/news/177996
+https://www.ithome.com.tw/news/177995
