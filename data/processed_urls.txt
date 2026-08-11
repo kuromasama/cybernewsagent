@@ -2466,3 +2466,9 @@ https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-no
 https://www.bleepingcomputer.com/news/security/cisco-warns-of-high-severity-clamav-flaws-with-public-exploits/
 https://www.ithome.com.tw/news/178049
 https://www.ithome.com.tw/news/178046
+https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html
+https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html
+https://www.bleepingcomputer.com/news/security/delta-probes-wi-fi-deauth-attack-on-flight-carrying-def-con-attendees/
+https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5120249-cumulative-update-released-with-fixes/
+https://www.ithome.com.tw/news/178048
+https://www.ithome.com.tw/news/178044
