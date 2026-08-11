@@ -2460,3 +2460,9 @@ https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hac
 https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html
 https://www.ithome.com.tw/news/178030
 https://www.ithome.com.tw/news/178028
+https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html
+https://thehackernews.com/2026/08/mozilla-revokes-firefox-and-thunderbird.html
+https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/
+https://www.bleepingcomputer.com/news/security/cisco-warns-of-high-severity-clamav-flaws-with-public-exploits/
+https://www.ithome.com.tw/news/178049
+https://www.ithome.com.tw/news/178046
