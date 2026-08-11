@@ -2457,3 +2457,6 @@ https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-use
 https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/
 https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/
 https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/
+https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html
+https://www.ithome.com.tw/news/178030
+https://www.ithome.com.tw/news/178028
