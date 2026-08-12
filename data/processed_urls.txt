@@ -2484,3 +2484,6 @@ https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html
 https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html
 https://www.bleepingcomputer.com/news/microsoft/hackers-leverage-new-microsoft-sharepoint-exploit-in-attacks/
 https://www.ithome.com.tw/news/178087
+https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html
+https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html
+https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/
