@@ -2472,3 +2472,9 @@ https://www.bleepingcomputer.com/news/security/delta-probes-wi-fi-deauth-attack-
 https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5120249-cumulative-update-released-with-fixes/
 https://www.ithome.com.tw/news/178048
 https://www.ithome.com.tw/news/178044
+https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html
+https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html
+https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/
+https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/
+https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/
+https://www.ithome.com.tw/news/178050
