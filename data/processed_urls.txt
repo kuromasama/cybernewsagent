@@ -2478,3 +2478,5 @@ https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion
 https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/
 https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/
 https://www.ithome.com.tw/news/178050
+https://www.ithome.com.tw/news/178076
+https://www.ithome.com.tw/news/178047
