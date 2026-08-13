@@ -2493,3 +2493,5 @@ https://www.ithome.com.tw/news/178085
 https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html
 https://www.ithome.com.tw/news/178107
 https://www.ithome.com.tw/news/178106
+https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/
+https://www.ithome.com.tw/news/178117
