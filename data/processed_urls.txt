@@ -2495,3 +2495,6 @@ https://www.ithome.com.tw/news/178107
 https://www.ithome.com.tw/news/178106
 https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/
 https://www.ithome.com.tw/news/178117
+https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/
+https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/
+https://www.ithome.com.tw/news/178119
