@@ -2490,3 +2490,6 @@ https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb
 https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/
 https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/
 https://www.ithome.com.tw/news/178085
+https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html
+https://www.ithome.com.tw/news/178107
+https://www.ithome.com.tw/news/178106
