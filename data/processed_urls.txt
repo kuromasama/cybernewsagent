@@ -2487,3 +2487,6 @@ https://www.ithome.com.tw/news/178087
 https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html
 https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html
 https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/
+https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/
+https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/
+https://www.ithome.com.tw/news/178085
