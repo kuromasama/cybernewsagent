@@ -2507,3 +2507,5 @@ https://www.bleepingcomputer.com/news/security/shell-investigates-potential-inci
 https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/
 https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/
 https://www.ithome.com.tw/news/178146
+https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/
+https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/
