@@ -2500,3 +2500,6 @@ https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-win
 https://www.ithome.com.tw/news/178119
 https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/
 https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/
+https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/
+https://www.ithome.com.tw/news/178141
+https://www.ithome.com.tw/news/178133
