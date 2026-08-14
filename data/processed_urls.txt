@@ -2503,3 +2503,7 @@ https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-sa
 https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/
 https://www.ithome.com.tw/news/178141
 https://www.ithome.com.tw/news/178133
+https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/
+https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/
+https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/
+https://www.ithome.com.tw/news/178146
