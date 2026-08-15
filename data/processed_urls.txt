@@ -2509,3 +2509,4 @@ https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-fi
 https://www.ithome.com.tw/news/178146
 https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/
 https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/
+https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/
